@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": "gb_choyakusen_2026",
+    "artistId": "golden_bomber",
+    "title": "ファンクラブ限定ライブツアー2026 ～超厄年祭～",
+    "startDate": "2026-07-30T00:00:00+09:00",
+    "endDate": "2026-09-25T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  }
+]

@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "golden_bomber",
+    "name": "ゴールデンボンバー",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://pc.goldenbomber.jp/",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  }
+]

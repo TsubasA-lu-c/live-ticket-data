@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "id": "gb_choyakusen_2026_fc_5th",
+    "tourId": "gb_choyakusen_2026",
+    "type": "FC抽選（5次受付）",
+    "entryStartAt": "2026-05-14T15:00:00+09:00",
+    "entryEndAt": "2026-05-19T23:59:00+09:00",
+    "resultAt": "2026-05-28T15:00:00+09:00",
+    "paymentStartAt": "2026-05-28T15:00:00+09:00",
+    "paymentEndAt": "2026-06-02T23:00:00+09:00",
+    "performanceIds": [
+      "gb_choyakusen_tokyo_0730",
+      "gb_choyakusen_tokyo_0731",
+      "gb_choyakusen_niigata_0811",
+      "gb_choyakusen_hokkaido_0821",
+      "gb_choyakusen_hokkaido_0822",
+      "gb_choyakusen_osaka_0911",
+      "gb_choyakusen_osaka_0912",
+      "gb_choyakusen_aichi_0915",
+      "gb_choyakusen_aichi_0916",
+      "gb_choyakusen_miyagi_0920",
+      "gb_choyakusen_fukuoka_0925"
+    ],
+    "source": "system",
+    "sourceUrl": "https://gbmarukin.com/contents/2488",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  }
+]
