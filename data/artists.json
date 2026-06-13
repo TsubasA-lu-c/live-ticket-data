@@ -54,5 +54,85 @@
     "source": "system",
     "sourceUrl": "https://www.mrchildren.jp/",
     "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism",
+    "name": "Official髭男dism",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "back_number",
+    "name": "back number",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "ado",
+    "name": "Ado",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi",
+    "name": "YOASOBI",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46",
+    "name": "乃木坂46",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "hinatazaka46",
+    "name": "日向坂46",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "aimyon",
+    "name": "あいみょん",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim",
+    "name": "LE SSERAFIM",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "creepy_nuts",
+    "name": "Creepy Nuts",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://creepynuts.com/",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "uesaka_sumire",
+    "name": "上坂すみれ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
   }
 ]

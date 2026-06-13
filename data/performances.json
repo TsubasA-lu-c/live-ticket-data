@@ -768,5 +768,575 @@
     "source": "system",
     "sourceUrl": "https://tour.mrchildren.jp/",
     "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_hokkaido_0620",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "札幌文化芸術劇場 hitaru",
+    "performanceAt": "2026-06-20T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_hokkaido_0621",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "札幌文化芸術劇場 hitaru",
+    "performanceAt": "2026-06-21T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_aichi_0703",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+    "performanceAt": "2026-07-03T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_aichi_0704",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+    "performanceAt": "2026-07-04T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_tokyo_0711",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "SGC HALL ARIAKE",
+    "performanceAt": "2026-07-11T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_tokyo_0712",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "SGC HALL ARIAKE",
+    "performanceAt": "2026-07-12T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_osaka_0718",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "大阪城ホール",
+    "performanceAt": "2026-07-18T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_osaka_0719",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "大阪城ホール",
+    "performanceAt": "2026-07-19T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_kanagawa_0725",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "Kアリーナ横浜",
+    "performanceAt": "2026-07-25T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026_kanagawa_0726",
+    "tourId": "official_hige_dandism_tour_2026",
+    "venue": "Kアリーナ横浜",
+    "performanceAt": "2026-07-26T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "back_number_grateful_yesterdays_2026_kumamoto_0627",
+    "tourId": "back_number_grateful_yesterdays_2026",
+    "venue": "熊本えがお健康スタジアム",
+    "performanceAt": "2026-06-27T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "back_number_grateful_yesterdays_2026_kumamoto_0628",
+    "tourId": "back_number_grateful_yesterdays_2026",
+    "venue": "熊本えがお健康スタジアム",
+    "performanceAt": "2026-06-28T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "ado_stadium_ao_2026_kanagawa_0704",
+    "tourId": "ado_stadium_ao_2026",
+    "venue": "日産スタジアム",
+    "performanceAt": "2026-07-04T18:00:00+09:00",
+    "doorOpenAt": "2026-07-04T16:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "ado_stadium_ao_2026_kanagawa_0705",
+    "tourId": "ado_stadium_ao_2026",
+    "venue": "日産スタジアム",
+    "performanceAt": "2026-07-05T18:00:00+09:00",
+    "doorOpenAt": "2026-07-05T16:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_osaka_1024",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "京セラドーム大阪",
+    "performanceAt": "2026-10-24T18:00:00+09:00",
+    "doorOpenAt": "2026-10-24T15:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_osaka_1025",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "京セラドーム大阪",
+    "performanceAt": "2026-10-25T17:00:00+09:00",
+    "doorOpenAt": "2026-10-25T14:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_aichi_1107",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "バンテリンドームナゴヤ",
+    "performanceAt": "2026-11-07T18:00:00+09:00",
+    "doorOpenAt": "2026-11-07T15:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_aichi_1108",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "バンテリンドームナゴヤ",
+    "performanceAt": "2026-11-08T17:00:00+09:00",
+    "doorOpenAt": "2026-11-08T14:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_hokkaido_1114",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "大和ハウスプレミストドーム",
+    "performanceAt": "2026-11-14T18:00:00+09:00",
+    "doorOpenAt": "2026-11-14T15:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_hokkaido_1115",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "大和ハウスプレミストドーム",
+    "performanceAt": "2026-11-15T17:00:00+09:00",
+    "doorOpenAt": "2026-11-15T14:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_fukuoka_1128",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "みずほPayPayドーム福岡",
+    "performanceAt": "2026-11-28T18:00:00+09:00",
+    "doorOpenAt": "2026-11-28T15:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_fukuoka_1129",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "みずほPayPayドーム福岡",
+    "performanceAt": "2026-11-29T17:00:00+09:00",
+    "doorOpenAt": "2026-11-29T14:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_tokyo_1205",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "東京ドーム",
+    "performanceAt": "2026-12-05T18:00:00+09:00",
+    "doorOpenAt": "2026-12-05T15:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026_tokyo_1206",
+    "tourId": "yoasobi_asia_dome_2026",
+    "venue": "東京ドーム",
+    "performanceAt": "2026-12-06T17:00:00+09:00",
+    "doorOpenAt": "2026-12-06T14:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_kanagawa_0624",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "横浜アリーナ",
+    "performanceAt": "2026-06-24T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_kanagawa_0625",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "横浜アリーナ",
+    "performanceAt": "2026-06-25T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_hokkaido_0704",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "真駒内セキスイハイムアイスアリーナ",
+    "performanceAt": "2026-07-04T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_hokkaido_0705",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "真駒内セキスイハイムアイスアリーナ",
+    "performanceAt": "2026-07-05T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_hiroshima_0711",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "広島グリーンアリーナ",
+    "performanceAt": "2026-07-11T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_hiroshima_0712",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "広島グリーンアリーナ",
+    "performanceAt": "2026-07-12T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_osaka_0715",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "大阪城ホール",
+    "performanceAt": "2026-07-15T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_osaka_0716",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "大阪城ホール",
+    "performanceAt": "2026-07-16T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_miyagi_0725",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "セキスイハイムスーパーアリーナ",
+    "performanceAt": "2026-07-25T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_miyagi_0726",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "セキスイハイムスーパーアリーナ",
+    "performanceAt": "2026-07-26T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_fukuoka_0808",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "マリンメッセ福岡A館",
+    "performanceAt": "2026-08-08T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_fukuoka_0809",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "マリンメッセ福岡A館",
+    "performanceAt": "2026-08-09T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_tokyo_0820",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "明治神宮野球場",
+    "performanceAt": "2026-08-20T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_tokyo_0821",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "明治神宮野球場",
+    "performanceAt": "2026-08-21T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_tokyo_0822",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "明治神宮野球場",
+    "performanceAt": "2026-08-22T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026_tokyo_0823",
+    "tourId": "nogizaka46_manatsu_2026",
+    "venue": "明治神宮野球場",
+    "performanceAt": "2026-08-23T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "hinatazaka46_hinata_fes_2026_miyazaki_0905",
+    "tourId": "hinatazaka46_hinata_fes_2026",
+    "venue": "ひなたサンマリンスタジアム宮崎",
+    "performanceAt": "2026-09-05T16:30:00+09:00",
+    "doorOpenAt": "2026-09-05T14:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "hinatazaka46_hinata_fes_2026_miyazaki_0906",
+    "tourId": "hinatazaka46_hinata_fes_2026",
+    "venue": "ひなたサンマリンスタジアム宮崎",
+    "performanceAt": "2026-09-06T16:30:00+09:00",
+    "doorOpenAt": "2026-09-06T14:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "aimyon_10th_koshien_2026_hyogo_0714",
+    "tourId": "aimyon_10th_koshien_2026",
+    "venue": "阪神甲子園球場",
+    "performanceAt": "2026-07-14T18:30:00+09:00",
+    "doorOpenAt": "2026-07-14T16:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "aimyon_10th_koshien_2026_hyogo_0715",
+    "tourId": "aimyon_10th_koshien_2026",
+    "venue": "阪神甲子園球場",
+    "performanceAt": "2026-07-15T18:30:00+09:00",
+    "doorOpenAt": "2026-07-15T16:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_osaka_0725",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "大阪城ホール",
+    "performanceAt": "2026-07-25T18:00:00+09:00",
+    "doorOpenAt": "2026-07-25T16:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_osaka_0726",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "大阪城ホール",
+    "performanceAt": "2026-07-26T16:00:00+09:00",
+    "doorOpenAt": "2026-07-26T14:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_kanagawa_0730",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "Kアリーナ横浜",
+    "performanceAt": "2026-07-30T18:30:00+09:00",
+    "doorOpenAt": "2026-07-30T16:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_kanagawa_0801",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "Kアリーナ横浜",
+    "performanceAt": "2026-08-01T18:00:00+09:00",
+    "doorOpenAt": "2026-08-01T16:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_kanagawa_0802",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "Kアリーナ横浜",
+    "performanceAt": "2026-08-02T16:00:00+09:00",
+    "doorOpenAt": "2026-08-02T14:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_shizuoka_0808",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "エコパアリーナ",
+    "performanceAt": "2026-08-08T18:00:00+09:00",
+    "doorOpenAt": "2026-08-08T16:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_shizuoka_0809",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "エコパアリーナ",
+    "performanceAt": "2026-08-09T16:00:00+09:00",
+    "doorOpenAt": "2026-08-09T14:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_miyagi_0818",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "セキスイハイムスーパーアリーナ",
+    "performanceAt": "2026-08-18T18:00:00+09:00",
+    "doorOpenAt": "2026-08-18T16:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_miyagi_0819",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "セキスイハイムスーパーアリーナ",
+    "performanceAt": "2026-08-19T18:00:00+09:00",
+    "doorOpenAt": "2026-08-19T16:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_fukuoka_0902",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "マリンメッセ福岡A館",
+    "performanceAt": "2026-09-02T18:30:00+09:00",
+    "doorOpenAt": "2026-09-02T16:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026_fukuoka_0903",
+    "tourId": "le_sserafim_pureflow_japan_2026",
+    "venue": "マリンメッセ福岡A館",
+    "performanceAt": "2026-09-03T18:30:00+09:00",
+    "doorOpenAt": "2026-09-03T16:30:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "uesaka_sumire_twilight_rouge_2026_tokyo_0718",
+    "tourId": "uesaka_sumire_twilight_rouge_2026",
+    "venue": "Twilight Rouge（東京都台東区上野）",
+    "performanceAt": "2026-07-18T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "uesaka_sumire_twilight_rouge_2026_tokyo_1024",
+    "tourId": "uesaka_sumire_twilight_rouge_2026",
+    "venue": "Twilight Rouge（東京都台東区上野）",
+    "performanceAt": "2026-10-24T00:00:00+09:00",
+    "doorOpenAt": null,
+    "source": "system",
+    "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
   }
 ]

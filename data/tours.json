@@ -68,5 +68,95 @@
     "source": "system",
     "sourceUrl": "https://tour.mrchildren.jp/",
     "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "official_hige_dandism_tour_2026",
+    "artistId": "official_hige_dandism",
+    "title": "OFFICIAL HIGE DANDISM one-man tour 2026",
+    "startDate": "2026-04-04T00:00:00+09:00",
+    "endDate": "2026-07-26T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "back_number_grateful_yesterdays_2026",
+    "artistId": "back_number",
+    "title": "back number \"Grateful Yesterdays Tour 2026\"",
+    "startDate": "2026-05-02T00:00:00+09:00",
+    "endDate": "2026-06-28T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "ado_stadium_ao_2026",
+    "artistId": "ado",
+    "title": "Ado STADIUM LIVE 2026「Ao」",
+    "startDate": "2026-07-04T00:00:00+09:00",
+    "endDate": "2026-07-05T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "yoasobi_asia_dome_2026",
+    "artistId": "yoasobi",
+    "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027",
+    "startDate": "2026-10-24T00:00:00+09:00",
+    "endDate": "2026-12-06T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "nogizaka46_manatsu_2026",
+    "artistId": "nogizaka46",
+    "title": "乃木坂46 真夏の全国ツアー2026",
+    "startDate": "2026-06-13T00:00:00+09:00",
+    "endDate": "2026-08-23T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "hinatazaka46_hinata_fes_2026",
+    "artistId": "hinatazaka46",
+    "title": "ひなたフェス 2026",
+    "startDate": "2026-09-05T00:00:00+09:00",
+    "endDate": "2026-09-06T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "aimyon_10th_koshien_2026",
+    "artistId": "aimyon",
+    "title": "AIMYON 10th anniversary LIVE 2026「、、、」IN 阪神甲子園球場",
+    "startDate": "2026-07-14T00:00:00+09:00",
+    "endDate": "2026-07-15T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim_pureflow_japan_2026",
+    "artistId": "le_sserafim",
+    "title": "2026 LE SSERAFIM TOUR 'PUREFLOW' IN JAPAN",
+    "startDate": "2026-07-25T00:00:00+09:00",
+    "endDate": "2026-09-03T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "uesaka_sumire_twilight_rouge_2026",
+    "artistId": "uesaka_sumire",
+    "title": "すみぺれんぽう × Twilight Rouge コラボイベント 2026",
+    "startDate": "2026-07-18T00:00:00+09:00",
+    "endDate": "2026-10-24T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
   }
 ]
