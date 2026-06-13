@@ -58,5 +58,15 @@
     "source": "system",
     "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
     "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "mr_children_saturday_park_2026",
+    "artistId": "mr_children",
+    "title": "Mr.Children Tour 2026 \"Saturday in the park\"",
+    "startDate": "2026-04-04T00:00:00+09:00",
+    "endDate": "2026-12-03T00:00:00+09:00",
+    "source": "system",
+    "sourceUrl": "https://tour.mrchildren.jp/",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
   }
 ]
