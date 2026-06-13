@@ -6,5 +6,45 @@
     "source": "system",
     "sourceUrl": "https://pc.goldenbomber.jp/",
     "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "yonezu_kenshi",
+    "name": "米津玄師",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "mizuki_nana",
+    "name": "水樹奈々",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.mizukinana.jp/schedule/",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "babymonster",
+    "name": "BABYMONSTER",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "iris",
+    "name": "i☆Ris",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://iris.dive2ent.com/",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "enhypen",
+    "name": "ENHYPEN",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
   }
 ]

@@ -24,5 +24,103 @@
     "source": "system",
     "sourceUrl": "https://gbmarukin.com/contents/2488",
     "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "yonezu_kenshi_ghost_2026_cd_1st",
+    "tourId": "yonezu_kenshi_ghost_2026",
+    "type": "最速先行（シングル「Plazma / BOW AND ARROW」封入）",
+    "entryStartAt": "2025-06-10T12:00:00+09:00",
+    "entryEndAt": "2025-06-15T23:59:00+09:00",
+    "resultAt": "2025-07-04T12:00:00+09:00",
+    "paymentStartAt": "2025-07-04T12:00:00+09:00",
+    "paymentEndAt": "2025-07-09T23:59:00+09:00",
+    "performanceIds": [
+      "yonezu_kenshi_ghost_2026_nagano_1106",
+      "yonezu_kenshi_ghost_2026_nagano_1107",
+      "yonezu_kenshi_ghost_2026_kanagawa_1111",
+      "yonezu_kenshi_ghost_2026_kanagawa_1112",
+      "yonezu_kenshi_ghost_2026_osaka_1118",
+      "yonezu_kenshi_ghost_2026_osaka_1119",
+      "yonezu_kenshi_ghost_2026_fukuoka_1127",
+      "yonezu_kenshi_ghost_2026_fukuoka_1128",
+      "yonezu_kenshi_ghost_2026_miyagi_1203",
+      "yonezu_kenshi_ghost_2026_miyagi_1204",
+      "yonezu_kenshi_ghost_2026_aichi_1208",
+      "yonezu_kenshi_ghost_2026_aichi_1209",
+      "yonezu_kenshi_ghost_2026_kanagawa_1216",
+      "yonezu_kenshi_ghost_2026_kanagawa_1217"
+    ],
+    "source": "system",
+    "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "yonezu_kenshi_ghost_2026_cd_2nd",
+    "tourId": "yonezu_kenshi_ghost_2026",
+    "type": "2次先行（シングル「IRIS OUT / JANE DOE」封入）",
+    "entryStartAt": "2025-09-22T12:00:00+09:00",
+    "entryEndAt": "2025-09-28T23:59:00+09:00",
+    "resultAt": "2025-10-17T12:00:00+09:00",
+    "paymentStartAt": "2025-10-17T12:00:00+09:00",
+    "paymentEndAt": "2025-10-26T23:59:00+09:00",
+    "performanceIds": [
+      "yonezu_kenshi_ghost_2026_nagano_1106",
+      "yonezu_kenshi_ghost_2026_nagano_1107",
+      "yonezu_kenshi_ghost_2026_kanagawa_1111",
+      "yonezu_kenshi_ghost_2026_kanagawa_1112",
+      "yonezu_kenshi_ghost_2026_osaka_1118",
+      "yonezu_kenshi_ghost_2026_osaka_1119",
+      "yonezu_kenshi_ghost_2026_fukuoka_1127",
+      "yonezu_kenshi_ghost_2026_fukuoka_1128",
+      "yonezu_kenshi_ghost_2026_miyagi_1203",
+      "yonezu_kenshi_ghost_2026_miyagi_1204",
+      "yonezu_kenshi_ghost_2026_aichi_1208",
+      "yonezu_kenshi_ghost_2026_aichi_1209",
+      "yonezu_kenshi_ghost_2026_kanagawa_1216",
+      "yonezu_kenshi_ghost_2026_kanagawa_1217"
+    ],
+    "source": "system",
+    "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "mizuki_nana_live_grace_2026_fc_1st",
+    "tourId": "mizuki_nana_live_grace_2026",
+    "type": "FC先行（S.C. NANA NET会員）",
+    "entryStartAt": null,
+    "entryEndAt": "2026-06-15T15:00:00+09:00",
+    "resultAt": null,
+    "paymentStartAt": null,
+    "paymentEndAt": null,
+    "performanceIds": [
+      "mizuki_nana_live_grace_2026_tokyo_0922",
+      "mizuki_nana_live_grace_2026_tokyo_0923"
+    ],
+    "source": "system",
+    "sourceUrl": "https://www.mizukinana.jp/schedule/",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+  },
+  {
+    "id": "enhypen_blood_saga_japan_2026_fc_2nd",
+    "tourId": "enhypen_blood_saga_japan_2026",
+    "type": "2次先行（ENGENE Membership JP会員）",
+    "entryStartAt": null,
+    "entryEndAt": "2026-07-06T23:59:00+09:00",
+    "resultAt": null,
+    "paymentStartAt": null,
+    "paymentEndAt": null,
+    "performanceIds": [
+      "enhypen_blood_saga_japan_2026_tokyo_1201",
+      "enhypen_blood_saga_japan_2026_tokyo_1202",
+      "enhypen_blood_saga_japan_2026_aichi_1226",
+      "enhypen_blood_saga_japan_2026_aichi_1227",
+      "enhypen_blood_saga_japan_2026_fukuoka_0206",
+      "enhypen_blood_saga_japan_2026_fukuoka_0207",
+      "enhypen_blood_saga_japan_2026_osaka_0219",
+      "enhypen_blood_saga_japan_2026_osaka_0220"
+    ],
+    "source": "system",
+    "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
   }
 ]
