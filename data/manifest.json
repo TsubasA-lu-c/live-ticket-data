@@ -1,6 +1,6 @@
 {
-  "version": 18,
-  "updatedAt": "2026-06-15T05:32:27+09:00",
+  "version": 19,
+  "updatedAt": "2026-06-15T05:53:25+09:00",
   "files": {
     "artists": {
       "hash": "3b666765ce889fad"
@@ -8,7 +8,7 @@
   },
   "artists": {
     "golden_bomber": {
-      "hash": "0812934cea7592a8"
+      "hash": "fc3cfdccd65d7612"
     },
     "yonezu_kenshi": {
       "hash": "b3b393d142d8a5ce"
@@ -44,7 +44,7 @@
       "hash": "3248c7496d67e9e7"
     },
     "hinatazaka46": {
-      "hash": "9d37594ca382377d"
+      "hash": "40789f55ac2fe8bb"
     },
     "aimyon": {
       "hash": "e4c7877ad37a5cd4"

@@ -44,5 +44,23 @@
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "hinatazaka46_hinata_fes_2026_fc_1st",
+      "tourId": "hinatazaka46_hinata_fes_2026",
+      "type": "FC先行（1次）",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinata_fes_2026_miyazaki_0905",
+        "hinatazaka46_hinata_fes_2026_miyazaki_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ]
 }

@@ -226,7 +226,7 @@ def check_g_lottery_required(artist_files_data):
     # フィールドが存在しないこと自体がエラー（null は許容: 未発表情報があるため）
     REQUIRED_EXIST = ["id", "tourId", "type", "entryStartAt", "entryEndAt", "resultAt", "source"]
     # null 不可（ID・親参照・受付終了日・種別はnull禁止）
-    REQUIRED_NONNULL = ["id", "tourId", "type", "entryEndAt", "source"]
+    REQUIRED_NONNULL = ["id", "tourId", "type", "source"]
 
     if artist_files_data is None:
         return
