@@ -14,7 +14,7 @@
   {
     "id": "yonezu_kenshi",
     "name": "米津玄師",
-    "aliases": null,
+    "aliases": ["ヨネズケンシ"],
     "genre": "ソロ",
     "imageUrl": null,
     "source": "system",
@@ -24,7 +24,7 @@
   {
     "id": "mizuki_nana",
     "name": "水樹奈々",
-    "aliases": null,
+    "aliases": ["ミズキナナ"],
     "genre": "声優",
     "imageUrl": null,
     "source": "system",
@@ -34,7 +34,7 @@
   {
     "id": "babymonster",
     "name": "BABYMONSTER",
-    "aliases": null,
+    "aliases": ["ベイビーモンスター"],
     "genre": "K-POP",
     "imageUrl": null,
     "source": "system",
@@ -44,7 +44,7 @@
   {
     "id": "iris",
     "name": "i☆Ris",
-    "aliases": null,
+    "aliases": ["アイリス"],
     "genre": "アイドル",
     "imageUrl": null,
     "source": "system",
@@ -54,7 +54,7 @@
   {
     "id": "enhypen",
     "name": "ENHYPEN",
-    "aliases": null,
+    "aliases": ["エンハイプン"],
     "genre": "K-POP",
     "imageUrl": null,
     "source": "system",
@@ -64,9 +64,7 @@
   {
     "id": "mr_children",
     "name": "Mr.Children",
-    "aliases": [
-      "ミスチル"
-    ],
+    "aliases": ["ミスチル", "ミスターチルドレン"],
     "genre": "バンド",
     "imageUrl": null,
     "source": "system",
@@ -76,7 +74,7 @@
   {
     "id": "official_hige_dandism",
     "name": "Official髭男dism",
-    "aliases": null,
+    "aliases": ["ヒゲダン", "オフィシャルヒゲダンディズム"],
     "genre": "バンド",
     "imageUrl": null,
     "source": "system",
@@ -86,7 +84,7 @@
   {
     "id": "back_number",
     "name": "back number",
-    "aliases": null,
+    "aliases": ["バックナンバー"],
     "genre": "バンド",
     "imageUrl": null,
     "source": "system",
@@ -96,7 +94,7 @@
   {
     "id": "ado",
     "name": "Ado",
-    "aliases": null,
+    "aliases": ["アド"],
     "genre": "ソロ",
     "imageUrl": null,
     "source": "system",
@@ -106,7 +104,7 @@
   {
     "id": "yoasobi",
     "name": "YOASOBI",
-    "aliases": null,
+    "aliases": ["ヨアソビ"],
     "genre": "ユニット",
     "imageUrl": null,
     "source": "system",
@@ -116,7 +114,7 @@
   {
     "id": "nogizaka46",
     "name": "乃木坂46",
-    "aliases": null,
+    "aliases": ["ノギザカ", "ノギザカフォーティーシックス"],
     "genre": "アイドル",
     "imageUrl": null,
     "source": "system",
@@ -126,7 +124,7 @@
   {
     "id": "hinatazaka46",
     "name": "日向坂46",
-    "aliases": null,
+    "aliases": ["ヒナタザカ", "ヒナタザカフォーティーシックス"],
     "genre": "アイドル",
     "imageUrl": null,
     "source": "system",
@@ -136,7 +134,7 @@
   {
     "id": "aimyon",
     "name": "あいみょん",
-    "aliases": null,
+    "aliases": ["アイミョン"],
     "genre": "ソロ",
     "imageUrl": null,
     "source": "system",
@@ -146,7 +144,7 @@
   {
     "id": "le_sserafim",
     "name": "LE SSERAFIM",
-    "aliases": null,
+    "aliases": ["ルセラフィム"],
     "genre": "K-POP",
     "imageUrl": null,
     "source": "system",
@@ -156,7 +154,7 @@
   {
     "id": "creepy_nuts",
     "name": "Creepy Nuts",
-    "aliases": null,
+    "aliases": ["クリーピーナッツ"],
     "genre": "ヒップホップ",
     "imageUrl": null,
     "source": "system",
@@ -166,7 +164,7 @@
   {
     "id": "uesaka_sumire",
     "name": "上坂すみれ",
-    "aliases": null,
+    "aliases": ["ウエサカスミレ", "スミペ"],
     "genre": "声優",
     "imageUrl": null,
     "source": "system",
@@ -206,7 +204,7 @@
   {
     "id": "hoshino_gen",
     "name": "星野源",
-    "aliases": [],
+    "aliases": ["ホシノゲン"],
     "genre": "ソロ",
     "imageUrl": null,
     "source": "system",
