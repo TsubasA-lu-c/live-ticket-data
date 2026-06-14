@@ -172,5 +172,45 @@
     "source": "system",
     "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
     "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "sakanaction",
+    "name": "サカナクション",
+    "aliases": [],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "larc_en_ciel",
+    "name": "L'Arc~en~Ciel",
+    "aliases": ["ラルク", "ラルクアンシエル"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "king_gnu",
+    "name": "King Gnu",
+    "aliases": ["キングヌー"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/577778",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+  },
+  {
+    "id": "hoshino_gen",
+    "name": "星野源",
+    "aliases": [],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.hoshinogen.com/",
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
   }
 ]

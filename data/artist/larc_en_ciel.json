@@ -1,0 +1,211 @@
+{
+  "artistId": "larc_en_ciel",
+  "tours": [
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026",
+      "artistId": "larc_en_ciel",
+      "title": "35th L'Anniversary TOUR",
+      "startDate": "2026-10-09T00:00:00+09:00",
+      "endDate": "2026-12-27T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_yoyogi_1009",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "国立代々木競技場第一体育館",
+      "performanceAt": "2026-10-09T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_yoyogi_1011",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "国立代々木競技場第一体育館",
+      "performanceAt": "2026-10-11T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_yoyogi_1012",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "国立代々木競技場第一体育館",
+      "performanceAt": "2026-10-12T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_fukuoka_1031",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-10-31T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_fukuoka_1101",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-11-01T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_nagoya_1121",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-11-21T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_nagoya_1122",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-11-22T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_yokohama_1128",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-11-28T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_yokohama_1129",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-11-29T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_chiba_1212",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "ららアリーナ東京ベイ",
+      "performanceAt": "2026-12-12T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_chiba_1213",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "ららアリーナ東京ベイ",
+      "performanceAt": "2026-12-13T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_osaka_1216",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-12-16T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_osaka_1217",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-12-17T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_ariake_1224",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-12-24T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_ariake_1226",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-12-26T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_35th_lanniversary_2026_ariake_1227",
+      "tourId": "larc_en_ciel_35th_lanniversary_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-12-27T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}
