@@ -1,6 +1,6 @@
 {
-  "version": 13,
-  "updatedAt": "2026-06-14T22:21:26+09:00",
+  "version": 15,
+  "updatedAt": "2026-06-14T22:38:39+09:00",
   "files": {
     "artists": {
       "hash": "3b666765ce889fad"
@@ -68,7 +68,7 @@
       "hash": "2fd97680dcf74760"
     },
     "sakanaction": {
-      "hash": "85c858c0405c9001"
+      "hash": "8912afda40a43dee"
     }
   }
 }

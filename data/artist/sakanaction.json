@@ -216,55 +216,5 @@
       "sourceUrl": "https://sakanaction.jp/faq/detail/173",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
     },
-    {
-      "id": "sakanaction_sakanaquarium_2026_eplus_1st",
-      "tourId": "sakanaction_sakanaquarium_2026",
-      "type": "イープラス 一次抽選",
-      "entryStartAt": "2026-05-23T18:00:00+09:00",
-      "entryEndAt": "2026-05-31T23:59:00+09:00",
-      "resultAt": "2026-06-06T13:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": "2026-06-08T21:00:00+09:00",
-      "performanceIds": [
-        "sakanaction_sakanaquarium_2026_budokan_0908",
-        "sakanaction_sakanaquarium_2026_budokan_0909",
-        "sakanaction_sakanaquarium_2026_osakajyo_0912",
-        "sakanaction_sakanaquarium_2026_osakajyo_0913",
-        "sakanaction_sakanaquarium_2026_budokan_0918",
-        "sakanaction_sakanaquarium_2026_budokan_0919",
-        "sakanaction_sakanaquarium_2026_kobe_0929",
-        "sakanaction_sakanaquarium_2026_kobe_0930",
-        "sakanaction_sakanaquarium_2026_budokan_1003",
-        "sakanaction_sakanaquarium_2026_budokan_1004"
-      ],
-      "source": "system",
-      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
-    },
-    {
-      "id": "sakanaction_sakanaquarium_2026_eplus_2nd",
-      "tourId": "sakanaction_sakanaquarium_2026",
-      "type": "イープラス 二次抽選",
-      "entryStartAt": "2026-06-06T18:00:00+09:00",
-      "entryEndAt": "2026-06-14T23:59:00+09:00",
-      "resultAt": "2026-06-20T13:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": "2026-06-22T21:00:00+09:00",
-      "performanceIds": [
-        "sakanaction_sakanaquarium_2026_budokan_0908",
-        "sakanaction_sakanaquarium_2026_budokan_0909",
-        "sakanaction_sakanaquarium_2026_osakajyo_0912",
-        "sakanaction_sakanaquarium_2026_osakajyo_0913",
-        "sakanaction_sakanaquarium_2026_budokan_0918",
-        "sakanaction_sakanaquarium_2026_budokan_0919",
-        "sakanaction_sakanaquarium_2026_kobe_0929",
-        "sakanaction_sakanaquarium_2026_kobe_0930",
-        "sakanaction_sakanaquarium_2026_budokan_1003",
-        "sakanaction_sakanaquarium_2026_budokan_1004"
-      ],
-      "source": "system",
-      "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
-    }
   ]
 }
