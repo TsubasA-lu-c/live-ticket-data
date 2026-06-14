@@ -1,0 +1,38 @@
+{
+  "artistId": "ado",
+  "tours": [
+    {
+      "id": "ado_stadium_ao_2026",
+      "artistId": "ado",
+      "title": "Ado STADIUM LIVE 2026「Ao」",
+      "startDate": "2026-07-04T00:00:00+09:00",
+      "endDate": "2026-07-05T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ado_stadium_ao_2026_kanagawa_0704",
+      "tourId": "ado_stadium_ao_2026",
+      "venue": "日産スタジアム",
+      "performanceAt": "2026-07-04T18:00:00+09:00",
+      "doorOpenAt": "2026-07-04T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "ado_stadium_ao_2026_kanagawa_0705",
+      "tourId": "ado_stadium_ao_2026",
+      "venue": "日産スタジアム",
+      "performanceAt": "2026-07-05T18:00:00+09:00",
+      "doorOpenAt": "2026-07-05T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

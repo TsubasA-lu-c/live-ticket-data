@@ -1,0 +1,118 @@
+{
+  "artistId": "official_hige_dandism",
+  "tours": [
+    {
+      "id": "official_hige_dandism_tour_2026",
+      "artistId": "official_hige_dandism",
+      "title": "OFFICIAL HIGE DANDISM one-man tour 2026",
+      "startDate": "2026-04-04T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "official_hige_dandism_tour_2026_hokkaido_0620",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "札幌文化芸術劇場 hitaru",
+      "performanceAt": "2026-06-20T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_tour_2026_hokkaido_0621",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "札幌文化芸術劇場 hitaru",
+      "performanceAt": "2026-06-21T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_tour_2026_aichi_0703",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-07-03T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_tour_2026_aichi_0704",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-07-04T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_tour_2026_tokyo_0711",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-07-11T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_tour_2026_tokyo_0712",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "SGC HALL ARIAKE",
+      "performanceAt": "2026-07-12T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_tour_2026_osaka_0718",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-18T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_tour_2026_osaka_0719",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-07-19T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_tour_2026_kanagawa_0725",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-07-25T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_tour_2026_kanagawa_0726",
+      "tourId": "official_hige_dandism_tour_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-07-26T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

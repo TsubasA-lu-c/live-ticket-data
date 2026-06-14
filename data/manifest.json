@@ -1,10 +1,62 @@
 {
-  "version": 7,
+  "version": 8,
   "updatedAt": "2026-06-14T00:00:00+09:00",
   "files": {
-    "artists":      { "hash": "8e096c3ff9f23343" },
-    "tours":        { "hash": "da55e18ec633cf9e" },
-    "performances": { "hash": "b9dd1061fa37a6b9" },
-    "lotteries":    { "hash": "4e62849f39b26b88" }
+    "artists": {
+      "hash": "f51eef60659b49e5"
+    }
+  },
+  "artists": {
+    "golden_bomber": {
+      "hash": "0812934cea7592a8"
+    },
+    "yonezu_kenshi": {
+      "hash": "5ce915419037c796"
+    },
+    "mizuki_nana": {
+      "hash": "6e898badce5a465b"
+    },
+    "babymonster": {
+      "hash": "2f97d99877e956e7"
+    },
+    "iris": {
+      "hash": "837f3586fbd97c80"
+    },
+    "enhypen": {
+      "hash": "61897a190f3c379c"
+    },
+    "mr_children": {
+      "hash": "46b49d0e062773d4"
+    },
+    "official_hige_dandism": {
+      "hash": "5a1185260ef8086e"
+    },
+    "back_number": {
+      "hash": "598f89c7b663656b"
+    },
+    "ado": {
+      "hash": "e8b69c1be598a89c"
+    },
+    "yoasobi": {
+      "hash": "3d945dc281124f63"
+    },
+    "nogizaka46": {
+      "hash": "4e2c28b98a69cee2"
+    },
+    "hinatazaka46": {
+      "hash": "aa073869ea9e7a2a"
+    },
+    "aimyon": {
+      "hash": "8f8085fda7f593b4"
+    },
+    "le_sserafim": {
+      "hash": "4f93ee107927ae11"
+    },
+    "creepy_nuts": {
+      "hash": "aa056097c3993eef"
+    },
+    "uesaka_sumire": {
+      "hash": "337c1d3037ca848a"
+    }
   }
 }

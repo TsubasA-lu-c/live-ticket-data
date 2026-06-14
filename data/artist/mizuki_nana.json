@@ -1,0 +1,56 @@
+{
+  "artistId": "mizuki_nana",
+  "tours": [
+    {
+      "id": "mizuki_nana_live_grace_2026",
+      "artistId": "mizuki_nana",
+      "title": "NANA MIZUKI LIVE GRACE 2026 -OPUS Ⅳ-",
+      "startDate": "2026-09-22T00:00:00+09:00",
+      "endDate": "2026-09-23T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/schedule/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "mizuki_nana_live_grace_2026_tokyo_0922",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "venue": null,
+      "performanceAt": "2026-09-22T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/schedule/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "mizuki_nana_live_grace_2026_tokyo_0923",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "venue": null,
+      "performanceAt": "2026-09-23T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/schedule/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "mizuki_nana_live_grace_2026_fc_1st",
+      "tourId": "mizuki_nana_live_grace_2026",
+      "type": "FC先行（S.C. NANA NET会員）",
+      "entryStartAt": null,
+      "entryEndAt": "2026-06-15T15:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "mizuki_nana_live_grace_2026_tokyo_0922",
+        "mizuki_nana_live_grace_2026_tokyo_0923"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.mizukinana.jp/schedule/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    }
+  ]
+}

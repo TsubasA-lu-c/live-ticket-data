@@ -1,0 +1,38 @@
+{
+  "artistId": "aimyon",
+  "tours": [
+    {
+      "id": "aimyon_10th_koshien_2026",
+      "artistId": "aimyon",
+      "title": "AIMYON 10th anniversary LIVE 2026「、、、」IN 阪神甲子園球場",
+      "startDate": "2026-07-14T00:00:00+09:00",
+      "endDate": "2026-07-15T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "aimyon_10th_koshien_2026_hyogo_0714",
+      "tourId": "aimyon_10th_koshien_2026",
+      "venue": "阪神甲子園球場",
+      "performanceAt": "2026-07-14T18:30:00+09:00",
+      "doorOpenAt": "2026-07-14T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_10th_koshien_2026_hyogo_0715",
+      "tourId": "aimyon_10th_koshien_2026",
+      "venue": "阪神甲子園球場",
+      "performanceAt": "2026-07-15T18:30:00+09:00",
+      "doorOpenAt": "2026-07-15T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

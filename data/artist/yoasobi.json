@@ -1,0 +1,118 @@
+{
+  "artistId": "yoasobi",
+  "tours": [
+    {
+      "id": "yoasobi_asia_dome_2026",
+      "artistId": "yoasobi",
+      "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027",
+      "startDate": "2026-10-24T00:00:00+09:00",
+      "endDate": "2026-12-06T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "yoasobi_asia_dome_2026_osaka_1024",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-10-24T18:00:00+09:00",
+      "doorOpenAt": "2026-10-24T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_osaka_1025",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-10-25T17:00:00+09:00",
+      "doorOpenAt": "2026-10-25T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_aichi_1107",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "バンテリンドームナゴヤ",
+      "performanceAt": "2026-11-07T18:00:00+09:00",
+      "doorOpenAt": "2026-11-07T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_aichi_1108",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "バンテリンドームナゴヤ",
+      "performanceAt": "2026-11-08T17:00:00+09:00",
+      "doorOpenAt": "2026-11-08T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_hokkaido_1114",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "大和ハウスプレミストドーム",
+      "performanceAt": "2026-11-14T18:00:00+09:00",
+      "doorOpenAt": "2026-11-14T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_hokkaido_1115",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "大和ハウスプレミストドーム",
+      "performanceAt": "2026-11-15T17:00:00+09:00",
+      "doorOpenAt": "2026-11-15T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_fukuoka_1128",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-11-28T18:00:00+09:00",
+      "doorOpenAt": "2026-11-28T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_fukuoka_1129",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2026-11-29T17:00:00+09:00",
+      "doorOpenAt": "2026-11-29T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_tokyo_1205",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-05T18:00:00+09:00",
+      "doorOpenAt": "2026-12-05T15:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_tokyo_1206",
+      "tourId": "yoasobi_asia_dome_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-12-06T17:00:00+09:00",
+      "doorOpenAt": "2026-12-06T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

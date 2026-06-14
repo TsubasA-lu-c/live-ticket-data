@@ -1,0 +1,38 @@
+{
+  "artistId": "uesaka_sumire",
+  "tours": [
+    {
+      "id": "uesaka_sumire_twilight_rouge_2026",
+      "artistId": "uesaka_sumire",
+      "title": "すみぺれんぽう × Twilight Rouge コラボイベント 2026",
+      "startDate": "2026-07-18T00:00:00+09:00",
+      "endDate": "2026-10-24T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "uesaka_sumire_twilight_rouge_2026_tokyo_0718",
+      "tourId": "uesaka_sumire_twilight_rouge_2026",
+      "venue": "Twilight Rouge（東京都台東区上野）",
+      "performanceAt": "2026-07-18T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "uesaka_sumire_twilight_rouge_2026_tokyo_1024",
+      "tourId": "uesaka_sumire_twilight_rouge_2026",
+      "venue": "Twilight Rouge（東京都台東区上野）",
+      "performanceAt": "2026-10-24T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

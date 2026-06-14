@@ -1,0 +1,128 @@
+{
+  "artistId": "babymonster",
+  "tours": [
+    {
+      "id": "babymonster_choom_japan_2026",
+      "artistId": "babymonster",
+      "title": "2026-27 BABYMONSTER WORLD TOUR [춤(CHOOM)] IN JAPAN",
+      "startDate": "2026-07-08T00:00:00+09:00",
+      "endDate": "2026-09-23T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "babymonster_choom_japan_2026_kobe_0708",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-07-08T18:00:00+09:00",
+      "doorOpenAt": "2026-07-08T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_kobe_0709",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-07-09T18:00:00+09:00",
+      "doorOpenAt": "2026-07-09T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_fukuoka_0728",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-07-28T18:00:00+09:00",
+      "doorOpenAt": "2026-07-28T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_fukuoka_0729",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-07-29T18:00:00+09:00",
+      "doorOpenAt": "2026-07-29T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_kanagawa_0801",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-08-01T18:00:00+09:00",
+      "doorOpenAt": "2026-08-01T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_kanagawa_0802",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "ぴあアリーナMM",
+      "performanceAt": "2026-08-02T18:00:00+09:00",
+      "doorOpenAt": "2026-08-02T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_chiba_0811",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-08-11T18:00:00+09:00",
+      "doorOpenAt": "2026-08-11T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_chiba_0812",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "LaLa arena TOKYO-BAY",
+      "performanceAt": "2026-08-12T18:00:00+09:00",
+      "doorOpenAt": "2026-08-12T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_aichi_0816",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-08-16T18:00:00+09:00",
+      "doorOpenAt": "2026-08-16T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_osaka_0922",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-09-22T18:00:00+09:00",
+      "doorOpenAt": "2026-09-22T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "babymonster_choom_japan_2026_osaka_0923",
+      "tourId": "babymonster_choom_japan_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-09-23T18:00:00+09:00",
+      "doorOpenAt": "2026-09-23T17:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
+      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

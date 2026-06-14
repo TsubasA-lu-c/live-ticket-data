@@ -1,0 +1,38 @@
+{
+  "artistId": "hinatazaka46",
+  "tours": [
+    {
+      "id": "hinatazaka46_hinata_fes_2026",
+      "artistId": "hinatazaka46",
+      "title": "ひなたフェス 2026",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "hinatazaka46_hinata_fes_2026_miyazaki_0905",
+      "tourId": "hinatazaka46_hinata_fes_2026",
+      "venue": "ひなたサンマリンスタジアム宮崎",
+      "performanceAt": "2026-09-05T16:30:00+09:00",
+      "doorOpenAt": "2026-09-05T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinata_fes_2026_miyazaki_0906",
+      "tourId": "hinatazaka46_hinata_fes_2026",
+      "venue": "ひなたサンマリンスタジアム宮崎",
+      "performanceAt": "2026-09-06T16:30:00+09:00",
+      "doorOpenAt": "2026-09-06T14:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

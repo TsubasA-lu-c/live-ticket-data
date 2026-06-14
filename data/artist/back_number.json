@@ -1,0 +1,38 @@
+{
+  "artistId": "back_number",
+  "tours": [
+    {
+      "id": "back_number_grateful_yesterdays_2026",
+      "artistId": "back_number",
+      "title": "back number \"Grateful Yesterdays Tour 2026\"",
+      "startDate": "2026-05-02T00:00:00+09:00",
+      "endDate": "2026-06-28T00:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "back_number_grateful_yesterdays_2026_kumamoto_0627",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "熊本えがお健康スタジアム",
+      "performanceAt": "2026-06-27T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "back_number_grateful_yesterdays_2026_kumamoto_0628",
+      "tourId": "back_number_grateful_yesterdays_2026",
+      "venue": "熊本えがお健康スタジアム",
+      "performanceAt": "2026-06-28T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}
