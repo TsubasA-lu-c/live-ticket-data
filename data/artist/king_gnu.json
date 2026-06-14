@@ -271,5 +271,78 @@
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "king_gnu_central_2026_club_gnu_1st",
+      "tourId": "king_gnu_central_2026",
+      "type": "CLUB GNU会員 1次先行",
+      "entryStartAt": "2025-10-13T18:00:00+09:00",
+      "entryEndAt": "2025-10-26T23:59:00+09:00",
+      "resultAt": "2025-11-07T15:00:00+09:00",
+      "paymentStartAt": "2025-11-07T15:00:00+09:00",
+      "paymentEndAt": "2025-11-11T23:00:00+09:00",
+      "performanceIds": [
+        "king_gnu_central_2026_miyagi_0221",
+        "king_gnu_central_2026_miyagi_0222",
+        "king_gnu_central_2026_osaka_0303",
+        "king_gnu_central_2026_osaka_0304",
+        "king_gnu_central_2026_kagawa_0311",
+        "king_gnu_central_2026_kagawa_0312",
+        "king_gnu_central_2026_ariake_0318",
+        "king_gnu_central_2026_ariake_0319",
+        "king_gnu_central_2026_nagoya_0328",
+        "king_gnu_central_2026_nagoya_0329",
+        "king_gnu_central_2026_hiroshima_0404",
+        "king_gnu_central_2026_hiroshima_0405",
+        "king_gnu_central_2026_chiba_0414",
+        "king_gnu_central_2026_chiba_0415",
+        "king_gnu_central_2026_fukuoka_0421",
+        "king_gnu_central_2026_fukuoka_0422",
+        "king_gnu_central_2026_sapporo_0501",
+        "king_gnu_central_2026_sapporo_0502",
+        "king_gnu_central_2026_niigata_0509",
+        "king_gnu_central_2026_niigata_0510",
+        "king_gnu_central_2026_yokohama_0715"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/577778",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
+      "id": "king_gnu_central_2026_club_gnu_2nd",
+      "tourId": "king_gnu_central_2026",
+      "type": "CLUB GNU会員 2次先行",
+      "entryStartAt": "2025-11-13T18:00:00+09:00",
+      "entryEndAt": "2025-11-24T23:59:00+09:00",
+      "resultAt": "2025-12-03T15:00:00+09:00",
+      "paymentStartAt": "2025-12-03T15:00:00+09:00",
+      "paymentEndAt": "2025-12-07T23:00:00+09:00",
+      "performanceIds": [
+        "king_gnu_central_2026_miyagi_0221",
+        "king_gnu_central_2026_miyagi_0222",
+        "king_gnu_central_2026_osaka_0303",
+        "king_gnu_central_2026_osaka_0304",
+        "king_gnu_central_2026_kagawa_0311",
+        "king_gnu_central_2026_kagawa_0312",
+        "king_gnu_central_2026_ariake_0318",
+        "king_gnu_central_2026_ariake_0319",
+        "king_gnu_central_2026_nagoya_0328",
+        "king_gnu_central_2026_nagoya_0329",
+        "king_gnu_central_2026_hiroshima_0404",
+        "king_gnu_central_2026_hiroshima_0405",
+        "king_gnu_central_2026_chiba_0414",
+        "king_gnu_central_2026_chiba_0415",
+        "king_gnu_central_2026_fukuoka_0421",
+        "king_gnu_central_2026_fukuoka_0422",
+        "king_gnu_central_2026_sapporo_0501",
+        "king_gnu_central_2026_sapporo_0502",
+        "king_gnu_central_2026_niigata_0509",
+        "king_gnu_central_2026_niigata_0510",
+        "king_gnu_central_2026_yokohama_0715"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sonymusic.co.jp/artist/kinggnu/info/577778",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ]
 }

@@ -128,5 +128,32 @@
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "le_sserafim_pureflow_japan_2026_fearnot_1st",
+      "tourId": "le_sserafim_pureflow_japan_2026",
+      "type": "FEARNOT Membership(JP) 会員先行抽選",
+      "entryStartAt": "2026-04-28T13:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": "2026-05-15T19:00:00+09:00",
+      "paymentStartAt": "2026-05-15T19:00:00+09:00",
+      "paymentEndAt": "2026-05-20T23:00:00+09:00",
+      "performanceIds": [
+        "le_sserafim_pureflow_japan_2026_osaka_0725",
+        "le_sserafim_pureflow_japan_2026_osaka_0726",
+        "le_sserafim_pureflow_japan_2026_kanagawa_0730",
+        "le_sserafim_pureflow_japan_2026_kanagawa_0801",
+        "le_sserafim_pureflow_japan_2026_kanagawa_0802",
+        "le_sserafim_pureflow_japan_2026_shizuoka_0808",
+        "le_sserafim_pureflow_japan_2026_shizuoka_0809",
+        "le_sserafim_pureflow_japan_2026_miyagi_0818",
+        "le_sserafim_pureflow_japan_2026_miyagi_0819",
+        "le_sserafim_pureflow_japan_2026_fukuoka_0902",
+        "le_sserafim_pureflow_japan_2026_fukuoka_0903"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    }
+  ]
 }

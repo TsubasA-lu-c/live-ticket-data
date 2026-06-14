@@ -8,11 +8,25 @@
       "startDate": "2026-05-02T00:00:00+09:00",
       "endDate": "2026-07-19T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 9200}
+        {
+          "label": "全席指定",
+          "amount": 9200
+        }
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
       "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "iris_14th_anniversary_live_2026",
+      "artistId": "iris",
+      "title": "i☆Ris 14th Anniversary Live",
+      "startDate": "2026-11-03T00:00:00+09:00",
+      "endDate": "2026-11-03T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
+      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -105,7 +119,68 @@
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
       "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    },
+    {
+      "id": "iris_14th_anniversary_live_2026_yokohama_1103",
+      "tourId": "iris_14th_anniversary_live_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-11-03T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
+      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "iris_14th_anniversary_live_2026_fc_1st",
+      "tourId": "iris_14th_anniversary_live_2026",
+      "type": "虹会FC & オフィシャルHP先行（1次）",
+      "entryStartAt": "2026-05-02T00:00:00+09:00",
+      "entryEndAt": "2026-05-17T23:59:00+09:00",
+      "resultAt": "2026-05-20T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-05-24T23:59:00+09:00",
+      "performanceIds": [
+        "iris_14th_anniversary_live_2026_yokohama_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
+      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+    },
+    {
+      "id": "iris_14th_anniversary_live_2026_fc_2nd",
+      "tourId": "iris_14th_anniversary_live_2026",
+      "type": "FC & オフィシャル2次抽選先行",
+      "entryStartAt": "2026-05-20T15:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-03T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-06T23:00:00+09:00",
+      "performanceIds": [
+        "iris_14th_anniversary_live_2026_yokohama_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133505",
+      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+    },
+    {
+      "id": "iris_14th_anniversary_live_2026_playguide",
+      "tourId": "iris_14th_anniversary_live_2026",
+      "type": "プレイガイド先行",
+      "entryStartAt": "2026-06-03T15:00:00+09:00",
+      "entryEndAt": "2026-06-16T23:59:00+09:00",
+      "resultAt": "2026-06-19T13:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-22T23:00:00+09:00",
+      "performanceIds": [
+        "iris_14th_anniversary_live_2026_yokohama_1103"
+      ],
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133855",
+      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+    }
+  ]
 }

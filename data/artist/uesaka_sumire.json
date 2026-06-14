@@ -37,5 +37,40 @@
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "uesaka_sumire_twilight_rouge_2026_lottery_1st",
+      "tourId": "uesaka_sumire_twilight_rouge_2026",
+      "type": "先行抽選第1回",
+      "entryStartAt": "2026-04-01T15:00:00+09:00",
+      "entryEndAt": "2026-04-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "uesaka_sumire_twilight_rouge_2026_tokyo_0718",
+        "uesaka_sumire_twilight_rouge_2026_tokyo_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
+      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+    },
+    {
+      "id": "uesaka_sumire_twilight_rouge_2026_lottery_2nd",
+      "tourId": "uesaka_sumire_twilight_rouge_2026",
+      "type": "先行抽選第2回",
+      "entryStartAt": "2026-05-26T18:00:00+09:00",
+      "entryEndAt": "2026-06-01T23:59:00+09:00",
+      "resultAt": "2026-06-04T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-08T23:59:00+09:00",
+      "performanceIds": [
+        "uesaka_sumire_twilight_rouge_2026_tokyo_0718",
+        "uesaka_sumire_twilight_rouge_2026_tokyo_1024"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.sumipe-federation.com/news/2026/0526180000.html",
+      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+    }
+  ]
 }

@@ -99,6 +99,29 @@
   ],
   "lotteries": [
     {
+      "id": "enhypen_blood_saga_japan_2026_fc_1st",
+      "tourId": "enhypen_blood_saga_japan_2026",
+      "type": "1次先行（ENGENE Membership JP会員）最速",
+      "entryStartAt": "2026-04-23T16:00:00+09:00",
+      "entryEndAt": "2026-05-14T23:59:00+09:00",
+      "resultAt": "2026-05-26T11:00:00+09:00",
+      "paymentStartAt": "2026-05-26T11:00:00+09:00",
+      "paymentEndAt": "2026-06-01T23:00:00+09:00",
+      "performanceIds": [
+        "enhypen_blood_saga_japan_2026_tokyo_1201",
+        "enhypen_blood_saga_japan_2026_tokyo_1202",
+        "enhypen_blood_saga_japan_2026_aichi_1226",
+        "enhypen_blood_saga_japan_2026_aichi_1227",
+        "enhypen_blood_saga_japan_2026_fukuoka_0206",
+        "enhypen_blood_saga_japan_2026_fukuoka_0207",
+        "enhypen_blood_saga_japan_2026_osaka_0219",
+        "enhypen_blood_saga_japan_2026_osaka_0220"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+    },
+    {
       "id": "enhypen_blood_saga_japan_2026_fc_2nd",
       "tourId": "enhypen_blood_saga_japan_2026",
       "type": "2次先行（ENGENE Membership JP会員）",
