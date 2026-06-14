@@ -7,6 +7,10 @@
       "title": "米津玄師 2026 TOUR / GHOST",
       "startDate": "2026-11-06T00:00:00+09:00",
       "endDate": "2026-12-17T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 9900},
+        {"label": "ファミリー席（お子様）", "amount": 7500}
+      ],
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
       "lastVerifiedAt": "2026-06-13T00:00:00+09:00"

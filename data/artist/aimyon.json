@@ -7,6 +7,9 @@
       "title": "AIMYON 10th anniversary LIVE 2026「、、、」IN 阪神甲子園球場",
       "startDate": "2026-07-14T00:00:00+09:00",
       "endDate": "2026-07-15T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 12000}
+      ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

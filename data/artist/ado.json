@@ -7,6 +7,13 @@
       "title": "Ado STADIUM LIVE 2026「Ao」",
       "startDate": "2026-07-04T00:00:00+09:00",
       "endDate": "2026-07-05T00:00:00+09:00",
+      "prices": [
+        {"label": "VIP席", "amount": 30000},
+        {"label": "SS席", "amount": 20000},
+        {"label": "S席", "amount": 15000},
+        {"label": "A席", "amount": 10000},
+        {"label": "B席", "amount": 7000}
+      ],
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

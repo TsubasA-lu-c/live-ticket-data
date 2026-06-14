@@ -7,6 +7,10 @@
       "title": "OFFICIAL HIGE DANDISM one-man tour 2026",
       "startDate": "2026-04-04T00:00:00+09:00",
       "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 9900},
+        {"label": "指定親子席（こども）", "amount": 4950}
+      ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

@@ -7,6 +7,10 @@
       "title": "2026 LE SSERAFIM TOUR 'PUREFLOW' IN JAPAN",
       "startDate": "2026-07-25T00:00:00+09:00",
       "endDate": "2026-09-03T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 16500},
+        {"label": "VIP席", "amount": 27500}
+      ],
       "source": "system",
       "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

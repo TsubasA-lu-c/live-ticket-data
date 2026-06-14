@@ -7,6 +7,9 @@
       "title": "すみぺれんぽう × Twilight Rouge コラボイベント 2026",
       "startDate": "2026-07-18T00:00:00+09:00",
       "endDate": "2026-10-24T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席（ドリンク・グッズ込み）", "amount": 12000}
+      ],
       "source": "system",
       "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

@@ -7,7 +7,12 @@
       "title": "SAKANAQUARIUM 2026 \"透明\"",
       "startDate": "2026-09-08T00:00:00+09:00",
       "endDate": "2026-10-04T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {"label": "アリーナSS指定", "amount": 16500},
+        {"label": "S指定", "amount": 13200},
+        {"label": "A指定", "amount": 8800},
+        {"label": "B指定", "amount": 6000}
+      ],
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

@@ -7,6 +7,9 @@
       "title": "back number \"Grateful Yesterdays Tour 2026\"",
       "startDate": "2026-05-02T00:00:00+09:00",
       "endDate": "2026-06-28T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 12800}
+      ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

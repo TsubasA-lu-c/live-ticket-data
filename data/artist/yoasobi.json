@@ -7,6 +7,9 @@
       "title": "YOASOBI ASIA 10-CITY DOME & STADIUM TOUR 2026-2027",
       "startDate": "2026-10-24T00:00:00+09:00",
       "endDate": "2026-12-06T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 14000}
+      ],
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

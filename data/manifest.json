@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "updatedAt": "2026-06-14T21:31:48+09:00",
+  "version": 11,
+  "updatedAt": "2026-06-14T22:09:33+09:00",
   "files": {
     "artists": {
       "hash": "07adbbb72c225b27"
@@ -11,52 +11,52 @@
       "hash": "d7d0e6c3c3c0a8e0"
     },
     "yonezu_kenshi": {
-      "hash": "39dc2ca1ab638a70"
+      "hash": "b3b393d142d8a5ce"
     },
     "mizuki_nana": {
-      "hash": "14c4275716081c0f"
+      "hash": "ec68b5ab611aabd2"
     },
     "babymonster": {
-      "hash": "06a1a04050bbaf20"
+      "hash": "750b960ca26d83b6"
     },
     "iris": {
-      "hash": "11a6a990d8fe2b86"
+      "hash": "e7d1f1d0060b81fd"
     },
     "enhypen": {
-      "hash": "21255b1fae4ce215"
+      "hash": "02e685feb94f61ec"
     },
     "mr_children": {
-      "hash": "eb4431a5262fabec"
+      "hash": "cd71d82478fc9c35"
     },
     "official_hige_dandism": {
-      "hash": "1f27c1eee1a1ab34"
+      "hash": "8f9724590588b418"
     },
     "back_number": {
-      "hash": "42c22ea938404730"
+      "hash": "61c8f256d0d92b37"
     },
     "ado": {
-      "hash": "0c5c49fe8af7e6b6"
+      "hash": "282f75c5ababeca1"
     },
     "yoasobi": {
-      "hash": "a4f0e121424a1dca"
+      "hash": "b3813461e1e1584d"
     },
     "nogizaka46": {
-      "hash": "31eb6868317f7e8d"
+      "hash": "3248c7496d67e9e7"
     },
     "hinatazaka46": {
-      "hash": "bd6c99a3f2eef202"
+      "hash": "b1987ab69da2e010"
     },
     "aimyon": {
-      "hash": "67eceb040cb9bee3"
+      "hash": "870b440ff468d376"
     },
     "le_sserafim": {
-      "hash": "4e0be124eee01a21"
+      "hash": "2f5d808ae55fb0b3"
     },
     "creepy_nuts": {
       "hash": "4bd1d77a62e28064"
     },
     "uesaka_sumire": {
-      "hash": "0f923c40367aaeda"
+      "hash": "bd10984e5c9f1559"
     },
     "hoshino_gen": {
       "hash": "847fbf3e08c170a9"
@@ -65,10 +65,10 @@
       "hash": "8b5ef7bd6403491d"
     },
     "larc_en_ciel": {
-      "hash": "02d047456372d732"
+      "hash": "2fd97680dcf74760"
     },
     "sakanaction": {
-      "hash": "ef821389d940cace"
+      "hash": "cecdcf7f2f031454"
     }
   }
 }

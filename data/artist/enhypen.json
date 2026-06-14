@@ -7,6 +7,9 @@
       "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA' IN JAPAN",
       "startDate": "2026-12-01T00:00:00+09:00",
       "endDate": "2027-02-20T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 17000}
+      ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
       "lastVerifiedAt": "2026-06-13T00:00:00+09:00"

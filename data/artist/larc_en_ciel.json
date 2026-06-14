@@ -7,7 +7,10 @@
       "title": "35th L'Anniversary TOUR",
       "startDate": "2026-10-09T00:00:00+09:00",
       "endDate": "2026-12-27T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {"label": "一般チケット", "amount": 15000},
+        {"label": "プレミアムチケット", "amount": 25000}
+      ],
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

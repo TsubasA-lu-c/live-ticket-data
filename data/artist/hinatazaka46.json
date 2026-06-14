@@ -7,6 +7,10 @@
       "title": "ひなたフェス 2026",
       "startDate": "2026-09-05T00:00:00+09:00",
       "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券", "amount": 12000},
+        {"label": "2日通し券", "amount": 22000}
+      ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"

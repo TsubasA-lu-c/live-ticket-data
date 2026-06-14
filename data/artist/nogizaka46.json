@@ -7,6 +7,10 @@
       "title": "乃木坂46 真夏の全国ツアー2026",
       "startDate": "2026-06-13T00:00:00+09:00",
       "endDate": "2026-08-23T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 11000},
+        {"label": "注釈付指定席", "amount": 10000}
+      ],
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
       "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
