@@ -5,9 +5,13 @@
     "title": "ファンクラブ限定ライブツアー2026 ～超厄年祭～",
     "startDate": "2026-07-30T00:00:00+09:00",
     "endDate": "2026-09-25T00:00:00+09:00",
+    "prices": [
+      {"label": "指定席", "amount": 8800},
+      {"label": "着席指定席", "amount": 9900}
+    ],
     "source": "system",
     "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
   },
   {
     "id": "yonezu_kenshi_ghost_2026",
@@ -65,9 +69,14 @@
     "title": "Mr.Children Tour 2026 \"Saturday in the park\"",
     "startDate": "2026-04-04T00:00:00+09:00",
     "endDate": "2026-12-03T00:00:00+09:00",
+    "prices": [
+      {"label": "指定席", "amount": 14300},
+      {"label": "注釈付指定席", "amount": 12100},
+      {"label": "後方立見", "amount": 11000}
+    ],
     "source": "system",
     "sourceUrl": "https://tour.mrchildren.jp/",
-    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
   },
   {
     "id": "official_hige_dandism_tour_2026",

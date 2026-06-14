@@ -2,10 +2,11 @@
   {
     "id": "golden_bomber",
     "name": "ゴールデンボンバー",
+    "aliases": ["金爆"],
     "imageUrl": null,
     "source": "system",
     "sourceUrl": "https://pc.goldenbomber.jp/",
-    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
   },
   {
     "id": "yonezu_kenshi",
@@ -50,10 +51,11 @@
   {
     "id": "mr_children",
     "name": "Mr.Children",
+    "aliases": ["ミスチル"],
     "imageUrl": null,
     "source": "system",
     "sourceUrl": "https://www.mrchildren.jp/",
-    "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+    "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
   },
   {
     "id": "official_hige_dandism",

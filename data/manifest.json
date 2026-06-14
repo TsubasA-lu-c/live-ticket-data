@@ -1,10 +1,10 @@
 {
-  "version": 6,
+  "version": 7,
   "updatedAt": "2026-06-14T00:00:00+09:00",
   "files": {
-    "artists":      { "hash": "5755eb14145805e3" },
-    "tours":        { "hash": "d9ca9db13acd9162" },
+    "artists":      { "hash": "8e096c3ff9f23343" },
+    "tours":        { "hash": "da55e18ec633cf9e" },
     "performances": { "hash": "b9dd1061fa37a6b9" },
-    "lotteries":    { "hash": "541fac5af2522234" }
+    "lotteries":    { "hash": "4e62849f39b26b88" }
   }
 }
