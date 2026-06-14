@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "updatedAt": "2026-06-15T05:23:51+09:00",
+  "version": 18,
+  "updatedAt": "2026-06-15T05:32:27+09:00",
   "files": {
     "artists": {
       "hash": "3b666765ce889fad"
@@ -65,7 +65,7 @@
       "hash": "32d373818a2627c3"
     },
     "larc_en_ciel": {
-      "hash": "2fd97680dcf74760"
+      "hash": "29eb34848e5bee1d"
     },
     "sakanaction": {
       "hash": "c4b346dc6d325968"
