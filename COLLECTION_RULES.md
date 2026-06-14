@@ -184,14 +184,32 @@
 
 ## 7. 品質チェック（push前）
 
-- [ ] 全 `*.json` が正しいJSON（パースエラーなし）
-- [ ] `data/artist/{artistId}.json` が存在するか（全フォロー中アーティスト分）
-- [ ] manifest の `artists.{artistId}.hash` が全フォロー中アーティスト分揃っているか
-- [ ] artistId / tourId の参照が全て存在する（孤児なし）
-- [ ] 日時が全てISO8601＋JST
-- [ ] sourceUrl と lastVerifiedAt が全レコードにある
-- [ ] manifest version を上げた
+**必ず以下を実行すること：**
+
+```bash
+python3 tools/validate.py
+```
+
+✅ が表示されたら push OK。エラーがあれば修正して再実行。
+
+---
+
+### validate.py がチェックする項目（参考）
+- 全 JSON ファイルがパース可能
+- artists.json の必須フィールド（id/name/source/sourceUrl/lastVerifiedAt）
+- artists.json の ID と artist/ ディレクトリのファイルが一致
+- Tour / Performance / Lottery の必須フィールド
+- ID参照整合性（performance.tourId が存在するか等）
+- 日時フォーマット（ISO8601）
+- グローバルID一意性
+- manifest hash 整合性（不一致は WARNING・push 前に update_manifest.py を実行）
+
+---
+
+### validate.py がチェックできない項目（目視確認）
 - [ ] 推測で埋めた値がない（不明は null）
+- [ ] sourceUrl が有効な公式URL
+- [ ] lastVerifiedAt が今日の日付
 
 ---
 
