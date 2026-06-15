@@ -260,5 +260,15 @@
     "source": "system",
     "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
     "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+  },
+  {
+    "id": "hana",
+    "name": "HANA",
+    "aliases": ["ハナ"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://hana.b-rave.tokyo/",
+    "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
   }
 ]

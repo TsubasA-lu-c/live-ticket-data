@@ -1,9 +1,9 @@
 {
-  "version": 21,
-  "updatedAt": "2026-06-15T12:13:10+09:00",
+  "version": 22,
+  "updatedAt": "2026-06-15T15:46:28+09:00",
   "files": {
     "artists": {
-      "hash": "495cf42a6fbeb4fa"
+      "hash": "f5b312ad1e5e1cd5"
     }
   },
   "artists": {
@@ -84,6 +84,9 @@
     },
     "vaundy": {
       "hash": "39b54ede6b8ede5d"
+    },
+    "hana": {
+      "hash": "612074a384e0aee8"
     }
   }
 }
