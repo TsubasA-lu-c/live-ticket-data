@@ -1,6 +1,6 @@
 {
-  "version": 20,
-  "updatedAt": "2026-06-15T10:49:15+09:00",
+  "version": 21,
+  "updatedAt": "2026-06-15T12:13:10+09:00",
   "files": {
     "artists": {
       "hash": "495cf42a6fbeb4fa"
@@ -83,7 +83,7 @@
       "hash": "c3a96bfd8ddea1dd"
     },
     "vaundy": {
-      "hash": "7ba847a967a265e1"
+      "hash": "39b54ede6b8ede5d"
     }
   }
 }

@@ -299,6 +299,58 @@ def check_h_id_references(artists_data, artist_files_data):
         print(f"[FAIL] ID参照整合性 — {err_count}件のエラー")
 
 
+# ===== チェック H2: Lottery.performanceIds 整合性 =====
+def check_h2_lottery_performance_ids(artist_files_data):
+    """
+    performanceIds の整合性チェック。
+    - フィールド未定義: エラー
+    - 存在しない performanceId の参照: エラー
+    - 空配列 []: 警告（アプリ側でツアー全公演扱いになるが、明示を推奨）
+    """
+    if artist_files_data is None:
+        return
+
+    err_count = 0
+    total = 0
+
+    for aid, data in artist_files_data.items():
+        if data is None:
+            continue
+
+        perf_ids = {p.get("id") for p in data.get("performances", []) if p.get("id")}
+
+        for lottery in data.get("lotteries", []):
+            total += 1
+            lid = lottery.get("id", "???")
+            pids = lottery.get("performanceIds")
+
+            if pids is None:
+                add_error(f"performanceIds: lottery '{lid}' に performanceIds フィールドがありません ({aid})")
+                err_count += 1
+                continue
+
+            if not isinstance(pids, list):
+                add_error(f"performanceIds: lottery '{lid}' の performanceIds が配列ではありません ({aid})")
+                err_count += 1
+                continue
+
+            if len(pids) == 0:
+                # 空 = アプリ側でツアー全公演フォールバックになるが、明示すべき
+                add_warning(f"lottery '{lid}' の performanceIds が空です。対象公演を明示してください ({aid})")
+
+            for pid in pids:
+                if pid not in perf_ids:
+                    add_error(
+                        f"performanceIds: lottery '{lid}' の performanceId '{pid}' が performances に存在しません ({aid})"
+                    )
+                    err_count += 1
+
+    if err_count == 0:
+        print(f"[OK] Lottery.performanceIds 整合性 ({total}件)")
+    else:
+        print(f"[FAIL] Lottery.performanceIds 整合性 — {err_count}件のエラー")
+
+
 # ===== チェック I: 日時フォーマット =====
 def check_i_datetime_format(artist_files_data):
     # 日時フィールドの対象
@@ -463,6 +515,9 @@ def main():
 
     # H: ID参照整合性
     check_h_id_references(artists_data, artist_files_data)
+
+    # H2: Lottery.performanceIds 整合性
+    check_h2_lottery_performance_ids(artist_files_data)
 
     # I: 日時フォーマット
     check_i_datetime_format(artist_files_data)
