@@ -270,5 +270,25 @@
     "source": "system",
     "sourceUrl": "https://hana.b-rave.tokyo/",
     "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+  },
+  {
+    "id": "snow_man",
+    "name": "Snow Man",
+    "aliases": ["スノーマン"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://mentrecording.jp/snowman/",
+    "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+  },
+  {
+    "id": "sixtones",
+    "name": "SixTONES",
+    "aliases": ["ストーンズ"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.sixtones.jp/",
+    "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
   }
 ]

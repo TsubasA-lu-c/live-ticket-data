@@ -1,9 +1,9 @@
 {
-  "version": 22,
-  "updatedAt": "2026-06-15T15:46:28+09:00",
+  "version": 23,
+  "updatedAt": "2026-06-15T17:05:25+09:00",
   "files": {
     "artists": {
-      "hash": "f5b312ad1e5e1cd5"
+      "hash": "12bdad12b3c97876"
     }
   },
   "artists": {
@@ -87,6 +87,12 @@
     },
     "hana": {
       "hash": "612074a384e0aee8"
+    },
+    "sixtones": {
+      "hash": "054fc6889276748f"
+    },
+    "snow_man": {
+      "hash": "54955d698ae44677"
     }
   }
 }
