@@ -1,9 +1,9 @@
 {
-  "version": 19,
-  "updatedAt": "2026-06-15T05:53:25+09:00",
+  "version": 20,
+  "updatedAt": "2026-06-15T10:49:15+09:00",
   "files": {
     "artists": {
-      "hash": "3b666765ce889fad"
+      "hash": "495cf42a6fbeb4fa"
     }
   },
   "artists": {
@@ -69,6 +69,21 @@
     },
     "sakanaction": {
       "hash": "c4b346dc6d325968"
+    },
+    "fujii_kaze": {
+      "hash": "84bce6c3bde3a13f"
+    },
+    "lisa": {
+      "hash": "7f0492caf0a4cfed"
+    },
+    "spitz": {
+      "hash": "6a7b693eba19a560"
+    },
+    "stray_kids": {
+      "hash": "c3a96bfd8ddea1dd"
+    },
+    "vaundy": {
+      "hash": "7ba847a967a265e1"
     }
   }
 }
