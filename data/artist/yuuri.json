@@ -1,0 +1,46 @@
+{
+  "artistId": "yuuri",
+  "tours": [
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026",
+      "artistId": "yuuri",
+      "title": "一富士二鷹三優里 -せめて茄子にはならせてくれよ-",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 8500},
+        {"label": "ゆーりんちの席（FC限定）", "amount": 12000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_fujikyu_0905",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "venue": "富士急ハイランド・コニファーフォレスト",
+      "performanceAt": "2026-09-05T17:30:00+09:00",
+      "doorOpenAt": "2026-09-05T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_ichifuji_nikatagi_2026_fujikyu_0906",
+      "tourId": "yuuri_ichifuji_nikatagi_2026",
+      "venue": "富士急ハイランド・コニファーフォレスト",
+      "performanceAt": "2026-09-06T17:30:00+09:00",
+      "doorOpenAt": "2026-09-06T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

@@ -290,5 +290,215 @@
     "source": "system",
     "sourceUrl": "https://www.sixtones.jp/",
     "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+  },
+  {
+    "id": "one_ok_rock",
+    "name": "ONE OK ROCK",
+    "aliases": ["ワンオク", "ワンオクロック"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "radwimps",
+    "name": "RADWIMPS",
+    "aliases": ["ラッドウィンプス"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://radwimps.jp/yurinchi/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "ryokuoushoku_shakai",
+    "name": "緑黄色社会",
+    "aliases": ["リョクシャカ", "緑黄色社会"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.ryokushaka.com/daiyasai2026/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "aimer",
+    "name": "Aimer",
+    "aliases": ["エメ"],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.aimer-web.jp/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "yuuri",
+    "name": "優里",
+    "aliases": ["ユウリ"],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "naniwa_danshi",
+    "name": "なにわ男子",
+    "aliases": ["ナニワダンシ"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://fan.books.rakuten.co.jp/articles/6966",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "hey_say_jump",
+    "name": "Hey! Say! JUMP",
+    "aliases": ["ヘイセイジャンプ", "HSJ"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://live-events.a-jp.org/soko/a/30.html",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "travis_japan",
+    "name": "Travis Japan",
+    "aliases": ["トラジャ", "トラビスジャパン"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://fan.books.rakuten.co.jp/articles/3892",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "twice",
+    "name": "TWICE",
+    "aliases": ["トゥワイス"],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "aespa",
+    "name": "aespa",
+    "aliases": ["エスパ"],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://aespa-official.jp/news/synkaexisline-dometour/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "ive",
+    "name": "IVE",
+    "aliases": ["アイヴ"],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10360&aff=ROBO004",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "seventeen",
+    "name": "SEVENTEEN",
+    "aliases": ["セブンティーン", "セブチ"],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.seventeen-17.jp/statics/2026_yakusoku",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "tamura_yukari",
+    "name": "田村ゆかり",
+    "aliases": ["タムラユカリ", "ゆかりん"],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.tamurayukari.com/live/list.php",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "hanazawa_kana",
+    "name": "花澤香菜",
+    "aliases": ["ハナザワカナ"],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://hanazawa-kana.com/live/20260912_clematis/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "uchida_maaya",
+    "name": "内田真礼",
+    "aliases": ["ウチダマアヤ", "まあや"],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "http://uchidamaaya.jp/live/20260906_live2026_statice/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "sky_hi",
+    "name": "SKY-HI",
+    "aliases": ["スカイハイ", "日高光啓"],
+    "genre": "ヒップホップ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "aqours",
+    "name": "Aqours",
+    "aliases": ["アクア", "ラブライブサンシャイン"],
+    "genre": "アニメ・2.5次元",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.lovelive-anime.jp/uranohoshi/live.php",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "tennimu",
+    "name": "テニスの王子様 Musical",
+    "aliases": ["テニミュ", "ミュージカルテニスの王子様"],
+    "genre": "アニメ・2.5次元",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "touken_ranbu_musical",
+    "name": "刀剣男士（刀ミュ）",
+    "aliases": ["刀ミュ", "ミュージカル刀剣乱舞", "とうけんだんし"],
+    "genre": "アニメ・2.5次元",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "zutomayo",
+    "name": "ずっと真夜中でいいのに。",
+    "aliases": ["ずとまよ", "ZUTOMAYO"],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://zutomayo.net/intense2/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "hoshimachi_suisei",
+    "name": "星街すいせい",
+    "aliases": ["ホシマチスイセイ", "すいちゃん"],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://hololive-tsuushin.com/schedule/suisei-69/",
+    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   }
 ]

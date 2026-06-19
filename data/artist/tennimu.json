@@ -1,0 +1,165 @@
+{
+  "artistId": "tennimu",
+  "tours": [
+    {
+      "id": "tennimu_4th_rikkai_1_2026",
+      "artistId": "tennimu",
+      "title": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "startDate": "2026-07-04T00:00:00+09:00",
+      "endDate": "2026-08-30T00:00:00+09:00",
+      "prices": [
+        {"label": "全席指定", "amount": 7800}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "tennimu_4th_rikkai_1_2026_tokyo_0704",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "日本青年館ホール",
+      "performanceAt": "2026-07-04T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_tokyo_0712",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "日本青年館ホール",
+      "performanceAt": "2026-07-12T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_osaka_0718",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "東京建物 Brillia HALL 箕面 大ホール",
+      "performanceAt": "2026-07-18T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_osaka_0726",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "東京建物 Brillia HALL 箕面 大ホール",
+      "performanceAt": "2026-07-26T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_hiroshima_0731",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "呉信用金庫ホール",
+      "performanceAt": "2026-07-31T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_hiroshima_0802",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "呉信用金庫ホール",
+      "performanceAt": "2026-08-02T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_aichi_0807",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "刈谷市総合文化センター アイリス 大ホール",
+      "performanceAt": "2026-08-07T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_aichi_0809",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "刈谷市総合文化センター アイリス 大ホール",
+      "performanceAt": "2026-08-09T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_fukuoka_0814",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "福岡市民ホール 大ホール",
+      "performanceAt": "2026-08-14T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_fukuoka_0816",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "福岡市民ホール 大ホール",
+      "performanceAt": "2026-08-16T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_tokyo2_0822",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "TACHIKAWA STAGE GARDEN",
+      "performanceAt": "2026-08-22T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_4th_rikkai_1_2026_tokyo2_0830",
+      "tourId": "tennimu_4th_rikkai_1_2026",
+      "venue": "TACHIKAWA STAGE GARDEN",
+      "performanceAt": "2026-08-30T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

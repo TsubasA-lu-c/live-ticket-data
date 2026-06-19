@@ -1,0 +1,167 @@
+{
+  "artistId": "zutomayo",
+  "tours": [
+    {
+      "id": "zutomayo_intense_2_2026",
+      "artistId": "zutomayo",
+      "title": "JAPAN & ASIA TOUR ZUTOMAYO INTENSE II「坐・ZOMBIE CRAB LABO」",
+      "startDate": "2026-02-28T00:00:00+09:00",
+      "endDate": "2026-06-18T00:00:00+09:00",
+      "prices": [
+        {"label": "プレミアム席", "amount": 11000},
+        {"label": "指定席", "amount": 9900},
+        {"label": "立見席", "amount": 8800}
+      ],
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "zutomayo_intense_2_2026_budokan_0228",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-02-28T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_budokan_0301",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-03-01T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_fukuoka_0328",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "マリンメッセ福岡B館",
+      "performanceAt": "2026-03-28T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_fukuoka_0329",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "マリンメッセ福岡B館",
+      "performanceAt": "2026-03-29T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_yokohama_0404",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-04-04T18:30:00+09:00",
+      "doorOpenAt": "2026-04-04T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_yokohama_0405",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-04-05T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_osaka_0424",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-04-24T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_osaka_0425",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-04-25T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_k_arena_0602",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-06-02T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_k_arena_0603",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-06-03T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_kobe_0617",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-06-17T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "zutomayo_intense_2_2026_kobe_0618",
+      "tourId": "zutomayo_intense_2_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-06-18T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://zutomayo.net/intense2/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

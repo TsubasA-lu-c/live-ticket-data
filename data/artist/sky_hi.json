@@ -1,0 +1,146 @@
+{
+  "artistId": "sky_hi",
+  "tours": [
+    {
+      "id": "sky_hi_success_is_2026",
+      "artistId": "sky_hi",
+      "title": "SKY-HI TOUR 2026 -Success is-",
+      "startDate": "2026-05-04T00:00:00+09:00",
+      "endDate": "2026-05-31T00:00:00+09:00",
+      "prices": [
+        {"label": "一般指定席", "amount": 13000},
+        {"label": "着席指定席", "amount": 13000},
+        {"label": "ロイヤル（アップグレード）", "amount": 18000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_the_best_revenge_2026",
+      "artistId": "sky_hi",
+      "title": "SKY-HI TOUR 2026 -Success Is The Best Revenge-",
+      "startDate": "2026-06-17T00:00:00+09:00",
+      "endDate": "2026-06-18T00:00:00+09:00",
+      "prices": [
+        {"label": "一般指定席", "amount": 13000},
+        {"label": "着席指定席", "amount": 13000},
+        {"label": "ロイヤル（アップグレード）", "amount": 18000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "sky_hi_success_is_2026_nagoya_0504",
+      "tourId": "sky_hi_success_is_2026",
+      "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
+      "performanceAt": "2026-05-04T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_2026_osaka_0511",
+      "tourId": "sky_hi_success_is_2026",
+      "venue": "フェニーチェ堺 大ホール",
+      "performanceAt": "2026-05-11T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_2026_osaka_0512",
+      "tourId": "sky_hi_success_is_2026",
+      "venue": "フェニーチェ堺 大ホール",
+      "performanceAt": "2026-05-12T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_2026_hokkaido_0525",
+      "tourId": "sky_hi_success_is_2026",
+      "venue": "カナモトホール（札幌市民ホール）",
+      "performanceAt": "2026-05-25T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_2026_miyagi_0527",
+      "tourId": "sky_hi_success_is_2026",
+      "venue": "仙台サンプラザホール",
+      "performanceAt": "2026-05-27T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_2026_fukuoka_0530",
+      "tourId": "sky_hi_success_is_2026",
+      "venue": "福岡サンパレス",
+      "performanceAt": "2026-05-30T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_2026_hiroshima_0531",
+      "tourId": "sky_hi_success_is_2026",
+      "venue": "広島上野学園ホール",
+      "performanceAt": "2026-05-31T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_the_best_revenge_2026_budokan_0617",
+      "tourId": "sky_hi_success_is_the_best_revenge_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-06-17T18:30:00+09:00",
+      "doorOpenAt": "2026-06-17T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "sky_hi_success_is_the_best_revenge_2026_budokan_0618",
+      "tourId": "sky_hi_success_is_the_best_revenge_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-06-18T18:30:00+09:00",
+      "doorOpenAt": "2026-06-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

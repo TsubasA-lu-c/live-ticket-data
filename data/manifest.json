@@ -1,9 +1,9 @@
 {
-  "version": 23,
-  "updatedAt": "2026-06-15T17:05:25+09:00",
+  "version": 24,
+  "updatedAt": "2026-06-19T22:43:11+09:00",
   "files": {
     "artists": {
-      "hash": "12bdad12b3c97876"
+      "hash": "bb6f743d26d069bf"
     }
   },
   "artists": {
@@ -93,6 +93,69 @@
     },
     "snow_man": {
       "hash": "54955d698ae44677"
+    },
+    "aespa": {
+      "hash": "27ef5e7ebff1b54a"
+    },
+    "aimer": {
+      "hash": "03bf4fb7b0701061"
+    },
+    "aqours": {
+      "hash": "bad257f156f5dd8a"
+    },
+    "hanazawa_kana": {
+      "hash": "0d1bf7e87db7dfe7"
+    },
+    "hey_say_jump": {
+      "hash": "d4b61f863f4526ad"
+    },
+    "hoshimachi_suisei": {
+      "hash": "6e5453fd44dcafe9"
+    },
+    "ive": {
+      "hash": "73578b0079b9a49d"
+    },
+    "naniwa_danshi": {
+      "hash": "4561357b9ffaf514"
+    },
+    "one_ok_rock": {
+      "hash": "e5b88a5f2bef44a9"
+    },
+    "radwimps": {
+      "hash": "40893c3f8ee5e534"
+    },
+    "ryokuoushoku_shakai": {
+      "hash": "ffdcc4342fdaefc7"
+    },
+    "seventeen": {
+      "hash": "6bdfa1e84c9a4c35"
+    },
+    "sky_hi": {
+      "hash": "7df63f5f5e5bd411"
+    },
+    "tamura_yukari": {
+      "hash": "b51f68d9351f7210"
+    },
+    "tennimu": {
+      "hash": "5f8da77e129419db"
+    },
+    "touken_ranbu_musical": {
+      "hash": "a4290fadc87fe589"
+    },
+    "travis_japan": {
+      "hash": "899898f7da06696d"
+    },
+    "twice": {
+      "hash": "ba357bab3787b2b6"
+    },
+    "uchida_maaya": {
+      "hash": "03841aff781761b5"
+    },
+    "yuuri": {
+      "hash": "53f57b001420b5de"
+    },
+    "zutomayo": {
+      "hash": "12ede7047074b56f"
     }
   }
 }

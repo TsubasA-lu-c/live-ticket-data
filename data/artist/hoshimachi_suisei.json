@@ -1,0 +1,81 @@
+{
+  "artistId": "hoshimachi_suisei",
+  "tours": [
+    {
+      "id": "hoshimachi_suisei_once_upon_a_stellar_2026",
+      "artistId": "hoshimachi_suisei",
+      "title": "HOSHIMACHI SUISEI ARENA TOUR 2026 『Once Upon a Stellar』",
+      "startDate": "2026-09-08T00:00:00+09:00",
+      "endDate": "2026-11-12T00:00:00+09:00",
+      "prices": [
+        {"label": "全席指定", "amount": 11000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://hololive-tsuushin.com/schedule/suisei-69/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "hoshimachi_suisei_once_upon_a_stellar_2026_yokohama_0908",
+      "tourId": "hoshimachi_suisei_once_upon_a_stellar_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-09-08T19:00:00+09:00",
+      "doorOpenAt": "2026-09-08T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hololive-tsuushin.com/schedule/suisei-69/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "hoshimachi_suisei_once_upon_a_stellar_2026_yokohama_0909",
+      "tourId": "hoshimachi_suisei_once_upon_a_stellar_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-09-09T19:00:00+09:00",
+      "doorOpenAt": "2026-09-09T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hololive-tsuushin.com/schedule/suisei-69/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "hoshimachi_suisei_once_upon_a_stellar_2026_kobe_1021",
+      "tourId": "hoshimachi_suisei_once_upon_a_stellar_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-10-21T19:00:00+09:00",
+      "doorOpenAt": "2026-10-21T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hololive-tsuushin.com/schedule/suisei-69/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "hoshimachi_suisei_once_upon_a_stellar_2026_aichi_1107",
+      "tourId": "hoshimachi_suisei_once_upon_a_stellar_2026",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-11-07T18:00:00+09:00",
+      "doorOpenAt": "2026-11-07T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hololive-tsuushin.com/schedule/suisei-69/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "hoshimachi_suisei_once_upon_a_stellar_2026_fukuoka_1112",
+      "tourId": "hoshimachi_suisei_once_upon_a_stellar_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-11-12T19:00:00+09:00",
+      "doorOpenAt": "2026-11-12T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hololive-tsuushin.com/schedule/suisei-69/",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}
