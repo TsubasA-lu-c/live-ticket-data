@@ -13,7 +13,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -25,7 +25,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_hokkaido_0621",
@@ -35,7 +35,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_aichi_0703",
@@ -45,7 +45,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_aichi_0704",
@@ -55,7 +55,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_tokyo_0711",
@@ -65,7 +65,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_tokyo_0712",
@@ -75,7 +75,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_osaka_0718",
@@ -85,7 +85,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_osaka_0719",
@@ -95,7 +95,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_kanagawa_0725",
@@ -105,7 +105,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_kanagawa_0726",
@@ -115,7 +115,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -142,7 +142,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_annual_member",
@@ -167,7 +167,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_official_hp",
@@ -192,7 +192,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_lawson_1st",
@@ -217,7 +217,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_lawson_2nd",
@@ -242,7 +242,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "official_hige_dandism_tour_2026_additional",
@@ -267,7 +267,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://event.higedan.com/feature/zepp2025_hall2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ]
 }

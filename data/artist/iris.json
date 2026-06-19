@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_14th_anniversary_live_2026",
@@ -26,7 +26,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -38,7 +38,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_11th_live_tour_2026_fukuoka_0504",
@@ -48,7 +48,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_11th_live_tour_2026_aichi_0509",
@@ -58,7 +58,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_11th_live_tour_2026_hokkaido_0516",
@@ -68,7 +68,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_11th_live_tour_2026_osaka_0524",
@@ -78,7 +78,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_11th_live_tour_2026_miyagi_0530",
@@ -88,7 +88,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_11th_live_tour_2026_kanagawa_0531",
@@ -98,7 +98,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_11th_live_tour_2026_tokyo_0719_day",
@@ -108,7 +108,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_11th_live_tour_2026_tokyo_0719_night",
@@ -118,7 +118,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_14th_anniversary_live_2026_yokohama_1103",
@@ -130,7 +130,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -148,7 +148,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_14th_anniversary_live_2026_fc_2nd",
@@ -164,7 +164,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133505",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "iris_14th_anniversary_live_2026_playguide",
@@ -180,7 +180,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133855",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ]
 }

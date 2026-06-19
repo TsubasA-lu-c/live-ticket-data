@@ -10,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://spitz-web.com/live/",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -24,7 +24,7 @@
       "eventName": "ロックのほそ道2026 〜15th Anniversary Special〜",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/live/2026others/",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo_0902",
@@ -36,7 +36,7 @@
       "eventName": "Spitz × VINTAGE ROCK std. presents 有明サンセット 2026",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/live/2026others/",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_osaka_0917",
@@ -48,7 +48,7 @@
       "eventName": "ロックロックこんにちは！Ver.28 〜にゃーロック！ホームズ〜",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/live/2026others/",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "spitz_events_2026_tokyo_0922",
@@ -60,7 +60,7 @@
       "eventName": "ロク漫祭 ～SPITZ 草野マサムネのロック大陸漫遊祭り～",
       "source": "system",
       "sourceUrl": "https://spitz-web.com/live/2026others/",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "lotteries": []

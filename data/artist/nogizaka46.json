@@ -13,10 +13,30 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "nogizaka46_manatsu_2026_fukui_0613",
+      "tourId": "nogizaka46_manatsu_2026",
+      "venue": "サンドーム福井",
+      "performanceAt": "2026-06-13T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/101747",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_fukui_0614",
+      "tourId": "nogizaka46_manatsu_2026",
+      "venue": "サンドーム福井",
+      "performanceAt": "2026-06-14T00:00:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/101747",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
     {
       "id": "nogizaka46_manatsu_2026_kanagawa_0624",
       "tourId": "nogizaka46_manatsu_2026",
@@ -25,7 +45,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_kanagawa_0625",
@@ -35,7 +55,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_hokkaido_0704",
@@ -45,7 +65,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_hokkaido_0705",
@@ -55,7 +75,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_hiroshima_0711",
@@ -65,7 +85,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_hiroshima_0712",
@@ -75,7 +95,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_osaka_0715",
@@ -85,7 +105,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_osaka_0716",
@@ -95,7 +115,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_miyagi_0725",
@@ -105,7 +125,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_miyagi_0726",
@@ -115,7 +135,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_fukuoka_0808",
@@ -125,7 +145,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_fukuoka_0809",
@@ -135,7 +155,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_tokyo_0820",
@@ -145,7 +165,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_tokyo_0821",
@@ -155,7 +175,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_tokyo_0822",
@@ -165,7 +185,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_tokyo_0823",
@@ -175,8 +195,51 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "nogizaka46_manatsu_2026_mobile_1st",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "モバイル会員先行（1次）",
+      "entryStartAt": "2026-03-01T00:00:00+09:00",
+      "entryEndAt": "2026-03-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://sp.nogizaka46.com/p/tickets/1174170702723416064",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_mobile_2nd",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "モバイル会員先行（2次）",
+      "entryStartAt": "2026-03-15T00:00:00+09:00",
+      "entryEndAt": "2026-03-22T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://sp.nogizaka46.com/p/tickets/1190101583111651328",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_mobile_3rd",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "モバイル会員先行（3次）",
+      "entryStartAt": "2026-03-29T12:00:00+09:00",
+      "entryEndAt": "2026-04-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+    }
+  ]
 }

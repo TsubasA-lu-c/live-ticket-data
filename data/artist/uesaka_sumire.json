@@ -12,7 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -24,7 +24,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "uesaka_sumire_twilight_rouge_2026_tokyo_1024",
@@ -34,7 +34,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -53,7 +53,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "uesaka_sumire_twilight_rouge_2026_lottery_2nd",
@@ -70,7 +70,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.sumipe-federation.com/news/2026/0526180000.html",
-      "lastVerifiedAt": "2026-06-15T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ]
 }

@@ -1,95 +1,95 @@
 {
-  "version": 24,
-  "updatedAt": "2026-06-19T22:43:11+09:00",
+  "version": 25,
+  "updatedAt": "2026-06-19T23:08:40+09:00",
   "files": {
     "artists": {
-      "hash": "bb6f743d26d069bf"
+      "hash": "d9d17d824569203b"
     }
   },
   "artists": {
     "golden_bomber": {
-      "hash": "fc3cfdccd65d7612"
+      "hash": "47866cbebd4f6114"
     },
     "yonezu_kenshi": {
-      "hash": "b3b393d142d8a5ce"
+      "hash": "0499c680632b61c3"
     },
     "mizuki_nana": {
-      "hash": "ec68b5ab611aabd2"
+      "hash": "f9c4c255d1b8b295"
     },
     "babymonster": {
-      "hash": "513d456fbd8d5e95"
+      "hash": "4dca58ba7fd872d6"
     },
     "iris": {
-      "hash": "041da55e8f7a7694"
+      "hash": "23dea86f8cf228cd"
     },
     "enhypen": {
-      "hash": "38c76fff8a0c51f2"
+      "hash": "a585f9155e05a2a4"
     },
     "mr_children": {
-      "hash": "cd71d82478fc9c35"
+      "hash": "eaa56cb19a13b564"
     },
     "official_hige_dandism": {
-      "hash": "418ebf28bf8492d6"
+      "hash": "bac653b7691baf33"
     },
     "back_number": {
-      "hash": "d61a9e45947d1a92"
+      "hash": "032c7bf270522067"
     },
     "ado": {
-      "hash": "282f75c5ababeca1"
+      "hash": "282a4b483b895c9d"
     },
     "yoasobi": {
-      "hash": "b3813461e1e1584d"
+      "hash": "aab742d5d2316821"
     },
     "nogizaka46": {
-      "hash": "3248c7496d67e9e7"
+      "hash": "e790e865d74569e0"
     },
     "hinatazaka46": {
-      "hash": "40789f55ac2fe8bb"
+      "hash": "3eddd923c302ed5a"
     },
     "aimyon": {
-      "hash": "e4c7877ad37a5cd4"
+      "hash": "c913e9e034521ac3"
     },
     "le_sserafim": {
-      "hash": "8a710beeffeddad3"
+      "hash": "64ff717b8b34f844"
     },
     "creepy_nuts": {
       "hash": "4bd1d77a62e28064"
     },
     "uesaka_sumire": {
-      "hash": "6a55f28cfd2be031"
+      "hash": "659f0f6cf8b4d5aa"
     },
     "hoshino_gen": {
       "hash": "847fbf3e08c170a9"
     },
     "king_gnu": {
-      "hash": "32d373818a2627c3"
+      "hash": "c122d03c45627290"
     },
     "larc_en_ciel": {
-      "hash": "29eb34848e5bee1d"
+      "hash": "62161b2f833057ca"
     },
     "sakanaction": {
-      "hash": "c4b346dc6d325968"
+      "hash": "734fb094cc954c7c"
     },
     "fujii_kaze": {
-      "hash": "84bce6c3bde3a13f"
+      "hash": "9e3f7b4d9f250bd4"
     },
     "lisa": {
-      "hash": "7f0492caf0a4cfed"
+      "hash": "e7ed4cebae341ea6"
     },
     "spitz": {
-      "hash": "6a7b693eba19a560"
+      "hash": "8355d049a9ec8d2e"
     },
     "stray_kids": {
       "hash": "c3a96bfd8ddea1dd"
     },
     "vaundy": {
-      "hash": "39b54ede6b8ede5d"
+      "hash": "b070fa5f067b456b"
     },
     "hana": {
-      "hash": "612074a384e0aee8"
+      "hash": "d036c090b20132d5"
     },
     "sixtones": {
-      "hash": "054fc6889276748f"
+      "hash": "110aae00a005ecd3"
     },
     "snow_man": {
       "hash": "54955d698ae44677"

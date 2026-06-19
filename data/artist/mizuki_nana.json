@@ -9,7 +9,7 @@
       "endDate": "2026-09-23T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/schedule/",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -21,7 +21,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/schedule/",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "mizuki_nana_live_grace_2026_tokyo_0923",
@@ -31,7 +31,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/schedule/",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -39,7 +39,7 @@
       "id": "mizuki_nana_live_grace_2026_fc_1st",
       "tourId": "mizuki_nana_live_grace_2026",
       "type": "FC先行（S.C. NANA NET会員）",
-      "entryStartAt": null,
+      "entryStartAt": "2026-05-29T18:00:00+09:00",
       "entryEndAt": "2026-06-15T15:00:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
@@ -50,7 +50,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/schedule/",
-      "lastVerifiedAt": "2026-06-13T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ]
 }

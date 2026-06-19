@@ -12,7 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -24,7 +24,7 @@
       "doorOpenAt": "2026-07-14T16:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "aimyon_10th_koshien_2026_hyogo_0715",
@@ -34,7 +34,7 @@
       "doorOpenAt": "2026-07-15T16:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -53,7 +53,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "aimyon_10th_koshien_2026_aim_2nd",
@@ -70,7 +70,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "aimyon_10th_koshien_2026_official_hp",
@@ -87,7 +87,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     },
     {
       "id": "aimyon_10th_koshien_2026_lawson",
@@ -104,7 +104,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
     }
   ]
 }
