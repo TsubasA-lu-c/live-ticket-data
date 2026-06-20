@@ -9,7 +9,7 @@
       "endDate": "2026-09-23T00:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.mizukinana.jp/schedule/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -17,21 +17,21 @@
       "id": "mizuki_nana_live_grace_2026_tokyo_0922",
       "tourId": "mizuki_nana_live_grace_2026",
       "venue": "国立代々木競技場第一体育館",
-      "performanceAt": "2026-09-22T00:00:00+09:00",
+      "performanceAt": "2026-09-22T18:00:00+09:00",
       "doorOpenAt": null,
       "source": "system",
-      "sourceUrl": "https://www.mizukinana.jp/schedule/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "sourceUrl": "https://www.livefans.jp/groups/271085",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "mizuki_nana_live_grace_2026_tokyo_0923",
       "tourId": "mizuki_nana_live_grace_2026",
       "venue": "国立代々木競技場第一体育館",
-      "performanceAt": "2026-09-23T00:00:00+09:00",
+      "performanceAt": "2026-09-23T16:00:00+09:00",
       "doorOpenAt": null,
       "source": "system",
-      "sourceUrl": "https://www.mizukinana.jp/schedule/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "sourceUrl": "https://www.livefans.jp/groups/271085",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -49,8 +49,8 @@
         "mizuki_nana_live_grace_2026_tokyo_0923"
       ],
       "source": "system",
-      "sourceUrl": "https://www.mizukinana.jp/schedule/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "sourceUrl": "https://fanclub.mizukinana.jp/info/6410",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ]
 }

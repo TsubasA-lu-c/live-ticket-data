@@ -2,6 +2,17 @@
   "artistId": "golden_bomber",
   "tours": [
     {
+      "id": "golden_bomber_fes_2026",
+      "artistId": "golden_bomber",
+      "title": "2026年フェス出演",
+      "startDate": "2026-06-06T00:00:00+09:00",
+      "endDate": "2026-06-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.livefans.jp/events/1935635",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
       "id": "gb_choyakusen_2026",
       "artistId": "golden_bomber",
       "title": "ファンクラブ限定ライブツアー2026 ～超厄年祭～",
@@ -19,19 +30,33 @@
       ],
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "golden_bomber_chagu_chagu_2026",
+      "tourId": "golden_bomber_fes_2026",
+      "venue": "ツガワ未来館アピオ 岩手産業文化センター 野外特設会場",
+      "performanceAt": "2026-06-06T18:00:00+09:00",
+      "doorOpenAt": "2026-06-06T12:00:00+09:00",
+      "kind": "festival",
+      "eventName": "CHAGU CHAGU ROCK FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://www.livefans.jp/events/1935635",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
     {
       "id": "gb_choyakusen_tokyo_0730",
       "tourId": "gb_choyakusen_2026",
       "venue": "LINE CUBE SHIBUYA（渋谷公会堂）",
       "performanceAt": "2026-07-30T18:30:00+09:00",
       "doorOpenAt": "2026-07-30T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_tokyo_0731",
@@ -39,9 +64,11 @@
       "venue": "LINE CUBE SHIBUYA（渋谷公会堂）",
       "performanceAt": "2026-07-31T18:30:00+09:00",
       "doorOpenAt": "2026-07-31T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_niigata_0811",
@@ -49,9 +76,11 @@
       "venue": "新潟県民会館",
       "performanceAt": "2026-08-11T17:00:00+09:00",
       "doorOpenAt": "2026-08-11T16:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_hokkaido_0821",
@@ -59,9 +88,11 @@
       "venue": "カナモトホール（札幌市民ホール）",
       "performanceAt": "2026-08-21T18:30:00+09:00",
       "doorOpenAt": "2026-08-21T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1020270",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_hokkaido_0822",
@@ -69,9 +100,11 @@
       "venue": "カナモトホール（札幌市民ホール）",
       "performanceAt": "2026-08-22T16:00:00+09:00",
       "doorOpenAt": "2026-08-22T15:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1020270",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_osaka_0911",
@@ -79,9 +112,11 @@
       "venue": "グランキューブ大阪（大阪国際会議場）",
       "performanceAt": "2026-09-11T18:30:00+09:00",
       "doorOpenAt": "2026-09-11T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_osaka_0912",
@@ -89,9 +124,11 @@
       "venue": "グランキューブ大阪（大阪国際会議場）",
       "performanceAt": "2026-09-12T17:00:00+09:00",
       "doorOpenAt": "2026-09-12T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_aichi_0915",
@@ -99,9 +136,11 @@
       "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
       "performanceAt": "2026-09-15T18:30:00+09:00",
       "doorOpenAt": "2026-09-15T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_aichi_0916",
@@ -109,9 +148,11 @@
       "venue": "Niterra日本特殊陶業市民会館 フォレストホール",
       "performanceAt": "2026-09-16T18:30:00+09:00",
       "doorOpenAt": "2026-09-16T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_miyagi_0920",
@@ -119,9 +160,11 @@
       "venue": "東京エレクトロンホール宮城",
       "performanceAt": "2026-09-20T17:00:00+09:00",
       "doorOpenAt": "2026-09-20T16:15:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1020282",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_fukuoka_0925",
@@ -129,9 +172,11 @@
       "venue": "福岡市民ホール 大ホール",
       "performanceAt": "2026-09-25T18:30:00+09:00",
       "doorOpenAt": "2026-09-25T17:45:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://pc.goldenbomber.jp/contents/1018840",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -159,7 +204,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_2nd",
@@ -185,7 +230,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_3rd",
@@ -211,7 +256,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_4th",
@@ -237,7 +282,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_5th",
@@ -263,7 +308,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026_fc_6th",
@@ -286,7 +331,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://gbmarukin.com/contents/2488",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ]
 }
