@@ -2,6 +2,17 @@
   "artistId": "momoiro_clover_z",
   "tours": [
     {
+      "id": "momoiro_clover_z_fes_2026",
+      "artistId": "momoiro_clover_z",
+      "title": "2026年フェス出演",
+      "startDate": "2026-06-06T00:00:00+09:00",
+      "endDate": "2026-06-06T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260320_01",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
       "id": "momoiro_clover_z_momocloland_2026",
       "artistId": "momoiro_clover_z",
       "title": "ももクロ結成18周年記念イベント 東京ももクロランド",
@@ -13,7 +24,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/momocloland/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_akimonoshinsai_2026",
@@ -24,7 +35,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260503_01",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026",
@@ -35,7 +46,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_utagassen_10th",
@@ -46,10 +57,22 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "momoiro_clover_z_fes_2026_osaka_0606",
+      "tourId": "momoiro_clover_z_fes_2026",
+      "venue": "万博記念公園 東の広場",
+      "performanceAt": "2026-06-06T15:20:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "ごぶごぶフェス 2026",
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/archives/news/260320_01",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
     {
       "id": "momoiro_clover_z_momocloland_2026_tokyo_0503_hiru",
       "tourId": "momoiro_clover_z_momocloland_2026",
@@ -60,7 +83,7 @@
       "eventName": "お昼のハイテンションショー",
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/momocloland/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_momocloland_2026_tokyo_0503_yoru",
@@ -72,7 +95,7 @@
       "eventName": "MCZ THE LIVE 2026春",
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/momocloland/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_akimonoshinsai_2026_chiba_1017",
@@ -84,7 +107,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260503_01",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_akimonoshinsai_2026_chiba_1018",
@@ -96,7 +119,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260503_01",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1212",
@@ -108,7 +131,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1213",
@@ -120,7 +143,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_utagassen_10th_tokyo_1231",
@@ -132,7 +155,7 @@
       "eventName": "第10回 ももいろ歌合戦",
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -151,7 +174,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260503_01",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }
