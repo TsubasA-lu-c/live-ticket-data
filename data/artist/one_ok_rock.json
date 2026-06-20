@@ -7,10 +7,14 @@
       "title": "ONE OK ROCK DETOX JAPAN TOUR FINAL 2026",
       "startDate": "2026-08-11T00:00:00+09:00",
       "endDate": "2026-09-06T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {"label": "アリーナスタンディングブロック指定", "amount": 14000},
+        {"label": "スタンド指定席", "amount": 14000},
+        {"label": "スタンド注釈付き指定席", "amount": 14000}
+      ],
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -24,7 +28,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_ig_arena_0812",
@@ -36,7 +40,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0818",
@@ -48,7 +52,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_marine_messe_0819",
@@ -60,7 +64,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_miyagi_0825",
@@ -72,7 +76,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_miyagi_0826",
@@ -84,7 +88,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_zozo_0905",
@@ -96,7 +100,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_zozo_0906",
@@ -108,7 +112,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -124,7 +128,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "one_ok_rock_detox_japan_tour_final_2026_eplus_review_demo",
@@ -138,7 +142,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }
