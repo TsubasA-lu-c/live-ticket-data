@@ -1,0 +1,119 @@
+{
+  "artistId": "mrs_green_apple",
+  "tours": [
+    {
+      "id": "mrs_green_apple_zenjinmito_2026",
+      "artistId": "mrs_green_apple",
+      "title": "Mrs. GREEN APPLE ≪ゼンジン未到とイ/ミュータブル〜間奏編〜≫",
+      "startDate": "2026-04-18T00:00:00+09:00",
+      "endDate": "2026-07-05T00:00:00+09:00",
+      "prices": [
+        {"label": "フロントエリア", "amount": 20000},
+        {"label": "アリーナエリア", "amount": 17000},
+        {"label": "スタンドエリア", "amount": 17000},
+        {"label": "パノラマエリア", "amount": 15000},
+        {"label": "指定席", "amount": 17000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "mrs_green_apple_zenjinmito_2026_tokyo_0418",
+      "tourId": "mrs_green_apple_zenjinmito_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-04-18T18:30:00+09:00",
+      "doorOpenAt": "2026-04-18T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_zenjinmito_2026_tokyo_0419",
+      "tourId": "mrs_green_apple_zenjinmito_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-04-19T18:30:00+09:00",
+      "doorOpenAt": "2026-04-19T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_zenjinmito_2026_osaka_0504",
+      "tourId": "mrs_green_apple_zenjinmito_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-05-04T18:00:00+09:00",
+      "doorOpenAt": "2026-05-04T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_zenjinmito_2026_osaka_0505",
+      "tourId": "mrs_green_apple_zenjinmito_2026",
+      "venue": "ヤンマースタジアム長居",
+      "performanceAt": "2026-05-05T18:00:00+09:00",
+      "doorOpenAt": "2026-05-05T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_zenjinmito_2026_tokyo_0704",
+      "tourId": "mrs_green_apple_zenjinmito_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-07-04T18:30:00+09:00",
+      "doorOpenAt": "2026-07-04T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "mrs_green_apple_zenjinmito_2026_tokyo_0705",
+      "tourId": "mrs_green_apple_zenjinmito_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-07-05T18:30:00+09:00",
+      "doorOpenAt": "2026-07-05T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "mrs_green_apple_zenjinmito_2026_fc",
+      "tourId": "mrs_green_apple_zenjinmito_2026",
+      "type": "FC先行（Ringo Jam年会員）",
+      "entryStartAt": "2026-01-15T00:00:00+09:00",
+      "entryEndAt": "2026-01-25T23:59:00+09:00",
+      "resultAt": "2026-02-05T00:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-02-09T23:59:00+09:00",
+      "performanceIds": [
+        "mrs_green_apple_zenjinmito_2026_tokyo_0418",
+        "mrs_green_apple_zenjinmito_2026_tokyo_0419",
+        "mrs_green_apple_zenjinmito_2026_osaka_0504",
+        "mrs_green_apple_zenjinmito_2026_osaka_0505",
+        "mrs_green_apple_zenjinmito_2026_tokyo_0704",
+        "mrs_green_apple_zenjinmito_2026_tokyo_0705"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e.usen.com/news/news-event/mrs-green-apple-mufg4days-official-fan-clubringo-jam.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ]
+}

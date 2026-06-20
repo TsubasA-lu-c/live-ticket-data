@@ -1,0 +1,136 @@
+{
+  "artistId": "yuzu",
+  "tours": [
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026",
+      "artistId": "yuzu",
+      "title": "ゆず 弾き語りアリーナツアー 2026 心音",
+      "startDate": "2026-05-04T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": [
+        {"label": "S席", "amount": 18800},
+        {"label": "着席指定席", "amount": 15000},
+        {"label": "指定席", "amount": 11000},
+        {"label": "アリーナサイド席", "amount": 12800},
+        {"label": "ステージサイド席", "amount": 11000},
+        {"label": "親子席", "amount": 9900},
+        {"label": "U-18席", "amount": 7700},
+        {"label": "車椅子席", "amount": 11000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026_osaka_0623",
+      "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-06-23T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026_osaka_0624",
+      "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-06-24T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026_fukuoka_0711",
+      "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-07-11T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026_fukuoka_0712",
+      "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-07-12T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026_fukui_0718",
+      "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
+      "venue": "サンドーム福井",
+      "performanceAt": "2026-07-18T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026_fukui_0719",
+      "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
+      "venue": "サンドーム福井",
+      "performanceAt": "2026-07-19T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026_yokohama_0724",
+      "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-24T18:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026_yokohama_0725",
+      "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-25T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_kokoro_no_ne_arenatour_2026_yokohama_0726",
+      "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-26T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

@@ -1,0 +1,221 @@
+{
+  "artistId": "macaroni_empitsu",
+  "tours": [
+    {
+      "id": "macaroni_empitsu_vol21_2026",
+      "artistId": "macaroni_empitsu",
+      "title": "マカロックツアーvol.21 〜心を覗いてシラけるより、ことばのシワだけ増やしてゆけ篇〜",
+      "startDate": "2026-01-17T00:00:00+09:00",
+      "endDate": "2026-04-04T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 7500},
+        {"label": "立見", "amount": 7000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/18387.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026",
+      "artistId": "macaroni_empitsu",
+      "title": "マカロックツアーvol.22 〜いま、きみがすき！篇〜",
+      "startDate": "2026-10-03T00:00:00+09:00",
+      "endDate": "2026-12-26T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 8900},
+        {"label": "車椅子席", "amount": 8900}
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "macaroni_empitsu_vol22_2026_osaka_1003",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-03T18:00:00+09:00",
+      "doorOpenAt": "2026-10-03T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_osaka_1004",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "大阪城ホール",
+      "performanceAt": "2026-10-04T16:00:00+09:00",
+      "doorOpenAt": "2026-10-04T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_fukuoka_1024",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-10-24T18:00:00+09:00",
+      "doorOpenAt": "2026-10-24T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_fukuoka_1025",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "マリンメッセ福岡A館",
+      "performanceAt": "2026-10-25T16:00:00+09:00",
+      "doorOpenAt": "2026-10-25T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_hokkaido_1031",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "真駒内セキスイハイムアイスアリーナ",
+      "performanceAt": "2026-10-31T17:00:00+09:00",
+      "doorOpenAt": "2026-10-31T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_tokyo_1103",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "国立代々木競技場第一体育館",
+      "performanceAt": "2026-11-03T17:00:00+09:00",
+      "doorOpenAt": "2026-11-03T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_miyagi_1121",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "仙台セキスイハイムスーパーアリーナ",
+      "performanceAt": "2026-11-21T17:00:00+09:00",
+      "doorOpenAt": "2026-11-21T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_hyogo_1129",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "GLION ARENA KOBE",
+      "performanceAt": "2026-11-29T17:00:00+09:00",
+      "doorOpenAt": "2026-11-29T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_tokyo_1205",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-12-05T17:00:00+09:00",
+      "doorOpenAt": "2026-12-05T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_tokyo_1206",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "有明アリーナ",
+      "performanceAt": "2026-12-06T16:30:00+09:00",
+      "doorOpenAt": "2026-12-06T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_aichi_1226",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "venue": "日本ガイシホール",
+      "performanceAt": "2026-12-26T17:00:00+09:00",
+      "doorOpenAt": "2026-12-26T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/live/19676.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "macaroni_empitsu_vol22_2026_fc_1st",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "OKKAKE最速先行",
+      "entryStartAt": null,
+      "entryEndAt": "2026-04-13T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_osaka_1003",
+        "macaroni_empitsu_vol22_2026_osaka_1004",
+        "macaroni_empitsu_vol22_2026_fukuoka_1024",
+        "macaroni_empitsu_vol22_2026_fukuoka_1025",
+        "macaroni_empitsu_vol22_2026_hokkaido_1031",
+        "macaroni_empitsu_vol22_2026_tokyo_1103",
+        "macaroni_empitsu_vol22_2026_miyagi_1121",
+        "macaroni_empitsu_vol22_2026_hyogo_1129",
+        "macaroni_empitsu_vol22_2026_tokyo_1205",
+        "macaroni_empitsu_vol22_2026_tokyo_1206",
+        "macaroni_empitsu_vol22_2026_aichi_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/19709.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_vol22_2026_official",
+      "tourId": "macaroni_empitsu_vol22_2026",
+      "type": "オフィシャル先行",
+      "entryStartAt": "2026-05-08T21:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_vol22_2026_osaka_1003",
+        "macaroni_empitsu_vol22_2026_osaka_1004",
+        "macaroni_empitsu_vol22_2026_fukuoka_1024",
+        "macaroni_empitsu_vol22_2026_fukuoka_1025",
+        "macaroni_empitsu_vol22_2026_hokkaido_1031",
+        "macaroni_empitsu_vol22_2026_tokyo_1103",
+        "macaroni_empitsu_vol22_2026_miyagi_1121",
+        "macaroni_empitsu_vol22_2026_hyogo_1129",
+        "macaroni_empitsu_vol22_2026_tokyo_1205",
+        "macaroni_empitsu_vol22_2026_tokyo_1206",
+        "macaroni_empitsu_vol22_2026_aichi_1226"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/19709.html",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ]
+}

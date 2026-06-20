@@ -380,5 +380,135 @@
     "source": "system",
     "sourceUrl": "https://zutomayo.net/intense2/",
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+  },
+  {
+    "id": "momoiro_clover_z",
+    "name": "ももいろクローバーZ",
+    "aliases": ["ももクロ", "モモクロ"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.momoclo.net/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "macaroni_empitsu",
+    "name": "マカロニえんぴつ",
+    "aliases": ["マカえん"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://macaroniempitsu.com/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "sakurazaka46",
+    "name": "櫻坂46",
+    "aliases": ["サクラザカ", "サクラザカフォーティーシックス"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://sakurazaka46.com/s/s46/page/nationaltour2026",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "babymetal",
+    "name": "BABYMETAL",
+    "aliases": ["ベビーメタル"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://babymetal.com/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "mrs_green_apple",
+    "name": "Mrs. GREEN APPLE",
+    "aliases": ["ミセス", "ミセスグリーンアップル"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "be_first",
+    "name": "BE:FIRST",
+    "aliases": ["ビーファースト"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://befirst.tokyo/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "glay",
+    "name": "GLAY",
+    "aliases": [],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "yuzu",
+    "name": "ゆず",
+    "aliases": [],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "koda_kumi",
+    "name": "倖田來未",
+    "aliases": ["こうだくみ", "コウダクミ"],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://rhythmzone.net/koda/news/detail.php?id=1131127",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "kobukuro",
+    "name": "コブクロ",
+    "aliases": [],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://kobukuro.com/feature/kobukuro_tour2026",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "number_i",
+    "name": "Number_i",
+    "aliases": ["ナンバーアイ"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://tobe-official.jp/artists/number_i",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "king_and_prince",
+    "name": "King & Prince",
+    "aliases": ["キングアンドプリンス", "キンプリ"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://kingandprince7th.jp/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "timelesz",
+    "name": "timelesz",
+    "aliases": ["タイムレス", "旧Sexy Zone"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ovtp.jp/timelesz/live-stage",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
   }
 ]

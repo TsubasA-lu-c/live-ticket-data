@@ -1,9 +1,9 @@
 {
-  "version": 27,
-  "updatedAt": "2026-06-20T19:16:14+09:00",
+  "version": 28,
+  "updatedAt": "2026-06-20T20:37:48+09:00",
   "files": {
     "artists": {
-      "hash": "6b377501e4ac5918"
+      "hash": "8e540db35ff7d018"
     }
   },
   "artists": {
@@ -120,6 +120,45 @@
     },
     "zutomayo": {
       "hash": "12ede7047074b56f"
+    },
+    "babymetal": {
+      "hash": "f668c59d375ddc3b"
+    },
+    "be_first": {
+      "hash": "1793e4e6db0c1cb9"
+    },
+    "glay": {
+      "hash": "40b1be722f11fb9f"
+    },
+    "king_and_prince": {
+      "hash": "f65d13e3b35695fb"
+    },
+    "kobukuro": {
+      "hash": "47b60b27c6bce165"
+    },
+    "koda_kumi": {
+      "hash": "a30b2706f1f4f010"
+    },
+    "macaroni_empitsu": {
+      "hash": "27ddf489e5c3c17c"
+    },
+    "momoiro_clover_z": {
+      "hash": "d39741050f150e36"
+    },
+    "mrs_green_apple": {
+      "hash": "1ab07d440e3a6634"
+    },
+    "number_i": {
+      "hash": "121a6a73c0d88267"
+    },
+    "sakurazaka46": {
+      "hash": "93113fd4a99a376e"
+    },
+    "timelesz": {
+      "hash": "5f2c1fbb5b276fc6"
+    },
+    "yuzu": {
+      "hash": "40a0ef56ff58b72a"
     }
   }
 }

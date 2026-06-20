@@ -1,0 +1,66 @@
+{
+  "artistId": "be_first",
+  "tours": [
+    {
+      "id": "be_first_stadium_live_2026",
+      "artistId": "be_first",
+      "title": "BE:FIRST Stadium Live 2026 We are the \"BE:ST\"",
+      "startDate": "2026-05-16T00:00:00+09:00",
+      "endDate": "2026-05-17T00:00:00+09:00",
+      "prices": [
+        {"label": "SS指定席（特典付きプレミアム席）", "amount": 30000},
+        {"label": "一般指定席", "amount": 15000},
+        {"label": "着席指定席", "amount": 15000},
+        {"label": "注釈付き指定席", "amount": 14000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "be_first_stadium_live_2026_tokyo_0516",
+      "tourId": "be_first_stadium_live_2026",
+      "venue": "味の素スタジアム",
+      "performanceAt": "2026-05-16T17:30:00+09:00",
+      "doorOpenAt": "2026-05-16T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_stadium_live_2026_tokyo_0517",
+      "tourId": "be_first_stadium_live_2026",
+      "venue": "味の素スタジアム",
+      "performanceAt": "2026-05-17T17:30:00+09:00",
+      "doorOpenAt": "2026-05-17T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "be_first_stadium_live_2026_besty_1st",
+      "tourId": "be_first_stadium_live_2026",
+      "type": "BESTY会員／B-Town〈Architect〉会員先行",
+      "entryStartAt": "2025-11-16T19:00:00+09:00",
+      "entryEndAt": "2025-11-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_stadium_live_2026_tokyo_0516",
+        "be_first_stadium_live_2026_tokyo_0517"
+      ],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ]
+}
