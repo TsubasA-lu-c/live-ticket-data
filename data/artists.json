@@ -32,16 +32,6 @@
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   },
   {
-    "id": "babymonster",
-    "name": "BABYMONSTER",
-    "aliases": ["ベイビーモンスター"],
-    "genre": "K-POP",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://yg-babymonster-official.jp/live/2026-2027_worldtour_in_japan/",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
     "id": "iris",
     "name": "i☆Ris",
     "aliases": ["アイリス"],
@@ -49,16 +39,6 @@
     "imageUrl": null,
     "source": "system",
     "sourceUrl": "https://iris.dive2ent.com/",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
-    "id": "enhypen",
-    "name": "ENHYPEN",
-    "aliases": ["エンハイプン"],
-    "genre": "K-POP",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   },
   {
@@ -142,16 +122,6 @@
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   },
   {
-    "id": "le_sserafim",
-    "name": "LE SSERAFIM",
-    "aliases": ["ルセラフィム"],
-    "genre": "K-POP",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://www.le-sserafim.jp/ticket/0b525b11937b",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
     "id": "creepy_nuts",
     "name": "Creepy Nuts",
     "aliases": ["クリーピーナッツ"],
@@ -159,16 +129,6 @@
     "imageUrl": null,
     "source": "system",
     "sourceUrl": "https://creepynuts.com/",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
-    "id": "uesaka_sumire",
-    "name": "上坂すみれ",
-    "aliases": ["ウエサカスミレ", "スミペ"],
-    "genre": "声優",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://www.sumipe-federation.com/news/2026/0331180000.html",
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   },
   {
@@ -229,16 +189,6 @@
     "imageUrl": null,
     "source": "system",
     "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
-    "id": "stray_kids",
-    "name": "Stray Kids",
-    "aliases": ["ストレイキッズ", "スキズ"],
-    "genre": "K-POP",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://www.straykidsjapan.com/",
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   },
   {
@@ -382,26 +332,6 @@
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   },
   {
-    "id": "aespa",
-    "name": "aespa",
-    "aliases": ["エスパ"],
-    "genre": "K-POP",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://aespa-official.jp/news/synkaexisline-dometour/",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
-    "id": "ive",
-    "name": "IVE",
-    "aliases": ["アイヴ"],
-    "genre": "K-POP",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10360&aff=ROBO004",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
     "id": "seventeen",
     "name": "SEVENTEEN",
     "aliases": ["セブンティーン", "セブチ"],
@@ -412,36 +342,6 @@
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   },
   {
-    "id": "tamura_yukari",
-    "name": "田村ゆかり",
-    "aliases": ["タムラユカリ", "ゆかりん"],
-    "genre": "声優",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://www.tamurayukari.com/live/list.php",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
-    "id": "hanazawa_kana",
-    "name": "花澤香菜",
-    "aliases": ["ハナザワカナ"],
-    "genre": "声優",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://hanazawa-kana.com/live/20260912_clematis/",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
-    "id": "uchida_maaya",
-    "name": "内田真礼",
-    "aliases": ["ウチダマアヤ", "まあや"],
-    "genre": "声優",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "http://uchidamaaya.jp/live/20260906_live2026_statice/",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
     "id": "sky_hi",
     "name": "SKY-HI",
     "aliases": ["スカイハイ", "日高光啓"],
@@ -449,16 +349,6 @@
     "imageUrl": null,
     "source": "system",
     "sourceUrl": "https://bmsg.tokyo/live/skyhi-tour2026/",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
-    "id": "aqours",
-    "name": "Aqours",
-    "aliases": ["アクア", "ラブライブサンシャイン"],
-    "genre": "アニメ・2.5次元",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://www.lovelive-anime.jp/uranohoshi/live.php",
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   },
   {
@@ -489,16 +379,6 @@
     "imageUrl": null,
     "source": "system",
     "sourceUrl": "https://zutomayo.net/intense2/",
-    "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-  },
-  {
-    "id": "hoshimachi_suisei",
-    "name": "星街すいせい",
-    "aliases": ["ホシマチスイセイ", "すいちゃん"],
-    "genre": "ユニット",
-    "imageUrl": null,
-    "source": "system",
-    "sourceUrl": "https://hololive-tsuushin.com/schedule/suisei-69/",
     "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
   }
 ]

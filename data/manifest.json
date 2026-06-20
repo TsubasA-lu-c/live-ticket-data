@@ -1,9 +1,9 @@
 {
-  "version": 26,
-  "updatedAt": "2026-06-20T15:38:32+09:00",
+  "version": 27,
+  "updatedAt": "2026-06-20T19:16:14+09:00",
   "files": {
     "artists": {
-      "hash": "d9d17d824569203b"
+      "hash": "6b377501e4ac5918"
     }
   },
   "artists": {
@@ -16,14 +16,8 @@
     "mizuki_nana": {
       "hash": "f9c4c255d1b8b295"
     },
-    "babymonster": {
-      "hash": "4dca58ba7fd872d6"
-    },
     "iris": {
       "hash": "23dea86f8cf228cd"
-    },
-    "enhypen": {
-      "hash": "a585f9155e05a2a4"
     },
     "mr_children": {
       "hash": "eaa56cb19a13b564"
@@ -49,14 +43,8 @@
     "aimyon": {
       "hash": "c913e9e034521ac3"
     },
-    "le_sserafim": {
-      "hash": "64ff717b8b34f844"
-    },
     "creepy_nuts": {
       "hash": "4bd1d77a62e28064"
-    },
-    "uesaka_sumire": {
-      "hash": "659f0f6cf8b4d5aa"
     },
     "hoshino_gen": {
       "hash": "847fbf3e08c170a9"
@@ -79,9 +67,6 @@
     "spitz": {
       "hash": "8355d049a9ec8d2e"
     },
-    "stray_kids": {
-      "hash": "c3a96bfd8ddea1dd"
-    },
     "vaundy": {
       "hash": "b070fa5f067b456b"
     },
@@ -94,26 +79,11 @@
     "snow_man": {
       "hash": "54955d698ae44677"
     },
-    "aespa": {
-      "hash": "27ef5e7ebff1b54a"
-    },
     "aimer": {
       "hash": "03bf4fb7b0701061"
     },
-    "aqours": {
-      "hash": "bad257f156f5dd8a"
-    },
-    "hanazawa_kana": {
-      "hash": "0d1bf7e87db7dfe7"
-    },
     "hey_say_jump": {
       "hash": "d4b61f863f4526ad"
-    },
-    "hoshimachi_suisei": {
-      "hash": "6e5453fd44dcafe9"
-    },
-    "ive": {
-      "hash": "73578b0079b9a49d"
     },
     "naniwa_danshi": {
       "hash": "4561357b9ffaf514"
@@ -133,9 +103,6 @@
     "sky_hi": {
       "hash": "7df63f5f5e5bd411"
     },
-    "tamura_yukari": {
-      "hash": "b51f68d9351f7210"
-    },
     "tennimu": {
       "hash": "5f8da77e129419db"
     },
@@ -147,9 +114,6 @@
     },
     "twice": {
       "hash": "ba357bab3787b2b6"
-    },
-    "uchida_maaya": {
-      "hash": "03841aff781761b5"
     },
     "yuuri": {
       "hash": "53f57b001420b5de"
