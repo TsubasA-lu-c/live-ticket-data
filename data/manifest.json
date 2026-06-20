@@ -1,6 +1,6 @@
 {
-  "version": 25,
-  "updatedAt": "2026-06-19T23:08:40+09:00",
+  "version": 26,
+  "updatedAt": "2026-06-20T15:38:32+09:00",
   "files": {
     "artists": {
       "hash": "d9d17d824569203b"
@@ -35,7 +35,7 @@
       "hash": "032c7bf270522067"
     },
     "ado": {
-      "hash": "282a4b483b895c9d"
+      "hash": "0173bbc125e5f5b6"
     },
     "yoasobi": {
       "hash": "aab742d5d2316821"
@@ -119,7 +119,7 @@
       "hash": "4561357b9ffaf514"
     },
     "one_ok_rock": {
-      "hash": "e5b88a5f2bef44a9"
+      "hash": "024db3d26263cb94"
     },
     "radwimps": {
       "hash": "40893c3f8ee5e534"
