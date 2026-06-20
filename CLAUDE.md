@@ -60,10 +60,10 @@
 
 ---
 
-## 並列実行の原則（C・D・E 共通）
+## 直列5件刻み実行の原則（C・D・E 共通）
 
-複数アーティストを処理する場合は**バッチサブエージェントを並列起動**して高速化する。
-ファイル競合を避けるため、以下の役割分担を厳守すること。
+複数アーティストを処理する場合は**5組ずつ直列に処理しcommitを積む**。
+途中でセッションリミットに達しても完了済み分はpush済みのため、再実行時は残りのアーティストからのみ再開できる。
 
 ### 役割分担（違反厳禁）
 
@@ -72,22 +72,30 @@
 | **バッチサブエージェント** | `data/artist/{担当id}.json` のみ | `data/artists.json` / `data/manifest.json` / 他アーティストのファイル |
 | **メインエージェント** | `data/artists.json` / `data/manifest.json` | （バッチ完了後のみ操作） |
 
-### 並列実行フロー
+### 直列実行フロー
 
 ```
-メイン: 対象アーティストを6組ずつのバッチに分割
+メイン: 対象アーティストを5組ずつのバッチに分割
   ↓
-バッチサブ①②③… を同時起動（background）
-  ↓ 全サブ完了を待つ
-メイン: data/artists.json の lastVerifiedAt を一括更新
+【バッチ①】サブエージェントを foreground で起動（5組・完了を待つ）
+  ↓ 完了
+メイン: data/artists.json を更新 → validate.py → commit & push
   ↓
-python3 tools/validate.py → python3 tools/update_manifest.py → push
+【バッチ②】サブエージェントを foreground で起動（次の5組・完了を待つ）
+  ↓ 完了
+メイン: data/artists.json を更新 → validate.py → commit & push
+  ↓ …繰り返し…
+全バッチ完了後: update_manifest.py → commit & push
 ```
+
+- サブエージェントは `run_in_background: false`（foreground）で起動する
+- 各バッチ完了後に必ず `validate.py` を通してから commit & push する
+- manifest 更新（`update_manifest.py`）は**全バッチ完了後に1回だけ**行う
 
 ### バッチサブエージェントへの指示テンプレート
 
 各サブエージェントには以下を伝える:
-- 担当アーティストIDの一覧（6組以内）
+- 担当アーティストIDの一覧（5組以内）
 - 実施内容（追加 or 更新 or 更新+終了掃除）
 - **`data/artist/{id}.json` のみ書くこと（artists.json/manifest.json は触らない）**
 - 完了後に担当アーティストの `lastVerifiedAt`（更新日時）を報告すること
@@ -97,49 +105,45 @@ python3 tools/validate.py → python3 tools/update_manifest.py → push
 
 ### C. 毎週の鮮度更新（/refresh-hot）
 
-Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを並列更新する。
+Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを更新する。
 
 1. 全 `data/artist/*.json` を読み込み、Hot tier を抽出
    - 判定: `lotteries[].entryEndAt` が今日から90日以内かつ未来のものが1件以上あるか
-2. 抽出したアーティストを6組ずつのバッチに分割
-3. バッチごとにサブエージェントを**同時起動**（並列実行の原則に従う）
-   - 各サブ: B の手順 1〜3 を実施、`data/artist/{id}.json` のみ書く
-4. 全サブ完了後、メインが `data/artists.json` の `lastVerifiedAt` を更新
-5. `python3 tools/validate.py`（エラーがあれば修正）
-6. `python3 tools/update_manifest.py`
-7. `git add data/ && git commit -m "refresh: Hot tier 鮮度更新" && git push origin main`
+2. 抽出したアーティストを5組ずつのバッチに分割
+3. 直列5件刻み実行の原則に従い、バッチごとに順番に処理:
+   - サブエージェント（haiku）をforegroundで起動 → 完了を待つ
+   - `data/artists.json` の `lastVerifiedAt` を更新
+   - `python3 tools/validate.py`（エラーがあれば修正）
+   - `git add data/artist/... data/artists.json && git commit -m "refresh: Hot tier {アーティスト名}など" && git push origin main`
+4. 全バッチ完了後: `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
 
 ---
 
 ### D. 月次の全件更新（/refresh-all）
 
-全アーティストを並列更新 + 終了ツアーの掃除を行う。
+全アーティストを更新 + 終了ツアーの掃除を行う。
 
 1. `data/artists.json` を読んで全 id を取得
-2. 全アーティストを6組ずつのバッチに分割
-3. バッチごとにサブエージェントを**同時起動**（並列実行の原則に従う）
-   - 各サブ: B の手順 1〜3 を実施 + 終了ツアーの掃除（COLLECTION_RULES.md §5.1）
-   - `data/artist/{id}.json` のみ書く
-4. 全サブ完了後、メインが `data/artists.json` の `lastVerifiedAt` を更新
-5. `python3 tools/validate.py`（エラーがあれば修正）
-6. `python3 tools/update_manifest.py`
-7. `git add data/ && git commit -m "refresh: 全件更新 + 終了ツアー掃除" && git push origin main`
+2. 全アーティストを5組ずつのバッチに分割
+3. 直列5件刻み実行の原則に従い、バッチごとに順番に処理:
+   - サブエージェント（haiku）をforegroundで起動 → 完了を待つ（終了ツアーの掃除も実施）
+   - `data/artists.json` の `lastVerifiedAt` を更新
+   - `python3 tools/validate.py`（エラーがあれば修正）
+   - `git add data/artist/... data/artists.json && git commit -m "refresh: {アーティスト名}など更新" && git push origin main`
+4. 全バッチ完了後: `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
 
 ---
 
 ### E. 新規アーティスト追加バッチ（/add-artists）
 
-月次で20〜30組を並列追加する。
-
 1. 追加対象リストを確認（ジャンルバランスを考慮）
-2. 対象を6組ずつのバッチに分割
-3. バッチごとにサブエージェントを**同時起動**（並列実行の原則に従う）
-   - 各サブ: A の手順 1〜3 を実施（正規名称解決・情報収集・ファイル作成）
-   - `data/artist/{id}.json` のみ書く
-4. 全サブ完了後、メインが `data/artists.json` に全追加アーティストのエントリを追記
-5. `python3 tools/validate.py`（エラーがあれば修正）
-6. `python3 tools/update_manifest.py`
-7. `git add data/ && git commit -m "add: {月}月追加バッチ ({N}組)" && git push origin main`
+2. 対象を5組ずつのバッチに分割
+3. 直列5件刻み実行の原則に従い、バッチごとに順番に処理:
+   - サブエージェント（sonnet）をforegroundで起動 → 完了を待つ
+   - `data/artists.json` に追加5組のエントリを追記
+   - `python3 tools/validate.py`（エラーがあれば修正）
+   - `git add data/artist/... data/artists.json && git commit -m "add: {アーティスト名}など" && git push origin main`
+4. 全バッチ完了後: `python3 tools/update_manifest.py` → `git add data/manifest.json && git commit -m "update: manifest" && git push origin main`
 
 ---
 
