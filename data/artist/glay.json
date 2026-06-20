@@ -2,6 +2,17 @@
   "artistId": "glay",
   "tours": [
     {
+      "id": "glay_hc_2026",
+      "artistId": "glay",
+      "title": "HIGHCOMMUNICATIONS TOUR 2026 \"GLAY-complete BEST\"",
+      "startDate": "2026-03-17T00:00:00+09:00",
+      "endDate": "2026-05-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
       "id": "glay_happy_swing_festa_2026",
       "artistId": "glay",
       "title": "HAPPY SWING FESTA 2026",
@@ -12,7 +23,18 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_fes_2026",
+      "artistId": "glay",
+      "title": "2026年フェス出演",
+      "startDate": "2026-07-20T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10119",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026",
@@ -27,10 +49,214 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "glay_hc_2026_tokyo_0317",
+      "tourId": "glay_hc_2026",
+      "venue": "Zepp DiverCity",
+      "performanceAt": "2026-03-17T18:00:00+09:00",
+      "doorOpenAt": "2026-03-17T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_tochigi_0320",
+      "tourId": "glay_hc_2026",
+      "venue": "宇都宮市文化会館",
+      "performanceAt": "2026-03-20T17:00:00+09:00",
+      "doorOpenAt": "2026-03-20T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_ishikawa_0327",
+      "tourId": "glay_hc_2026",
+      "venue": "金沢歌劇座",
+      "performanceAt": "2026-03-27T18:00:00+09:00",
+      "doorOpenAt": "2026-03-27T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_shiga_0329",
+      "tourId": "glay_hc_2026",
+      "venue": "滋賀県芸術劇場びわ湖ホール 大ホール",
+      "performanceAt": "2026-03-29T17:00:00+09:00",
+      "doorOpenAt": "2026-03-29T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_yamaguchi_0403",
+      "tourId": "glay_hc_2026",
+      "venue": "KDDI維新ホール",
+      "performanceAt": "2026-04-03T18:00:00+09:00",
+      "doorOpenAt": "2026-04-03T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_nagasaki_0405",
+      "tourId": "glay_hc_2026",
+      "venue": "ベネックス長崎ブリックホール",
+      "performanceAt": "2026-04-05T17:00:00+09:00",
+      "doorOpenAt": "2026-04-05T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_nara_0410",
+      "tourId": "glay_hc_2026",
+      "venue": "なら100年会館 大ホール",
+      "performanceAt": "2026-04-10T18:00:00+09:00",
+      "doorOpenAt": "2026-04-10T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_kagawa_0412",
+      "tourId": "glay_hc_2026",
+      "venue": "レクザムホール（香川県県民ホール）",
+      "performanceAt": "2026-04-12T17:00:00+09:00",
+      "doorOpenAt": "2026-04-12T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_okayama_0417",
+      "tourId": "glay_hc_2026",
+      "venue": "倉敷市民会館",
+      "performanceAt": "2026-04-17T18:00:00+09:00",
+      "doorOpenAt": "2026-04-17T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_tottori_0419",
+      "tourId": "glay_hc_2026",
+      "venue": "米子コンベンションセンター BiG SHiP",
+      "performanceAt": "2026-04-19T17:00:00+09:00",
+      "doorOpenAt": "2026-04-19T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_miyazaki_0423",
+      "tourId": "glay_hc_2026",
+      "venue": "都城市総合文化ホール 大ホール",
+      "performanceAt": "2026-04-23T18:00:00+09:00",
+      "doorOpenAt": "2026-04-23T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_kumamoto_0425",
+      "tourId": "glay_hc_2026",
+      "venue": "熊本城ホール メインホール",
+      "performanceAt": "2026-04-25T17:00:00+09:00",
+      "doorOpenAt": "2026-04-25T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_iwate_0514",
+      "tourId": "glay_hc_2026",
+      "venue": "トーサイクラシックホール岩手（岩手県民会館）大ホール",
+      "performanceAt": "2026-05-14T18:00:00+09:00",
+      "doorOpenAt": "2026-05-14T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_aomori_0516",
+      "tourId": "glay_hc_2026",
+      "venue": "リンクステーションホール青森",
+      "performanceAt": "2026-05-16T17:00:00+09:00",
+      "doorOpenAt": "2026-05-16T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_gunma_0518",
+      "tourId": "glay_hc_2026",
+      "venue": "高崎芸術劇場 大劇場",
+      "performanceAt": "2026-05-18T18:00:00+09:00",
+      "doorOpenAt": "2026-05-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_tokyo_0525",
+      "tourId": "glay_hc_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-05-25T18:00:00+09:00",
+      "doorOpenAt": "2026-05-25T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_hc_2026_tokyo_0526",
+      "tourId": "glay_hc_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-05-26T18:00:00+09:00",
+      "doorOpenAt": "2026-05-26T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/hc2026_cb",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
     {
       "id": "glay_happy_swing_festa_2026_makuhari_0731",
       "tourId": "glay_happy_swing_festa_2026",
@@ -41,7 +267,7 @@
       "eventName": "HAPPY SWING FESTA 2026",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "glay_happy_swing_festa_2026_makuhari_0801",
@@ -53,7 +279,31 @@
       "eventName": "HAPPY SWING FESTA 2026",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_fes_2026_puffy_pfes_0720",
+      "tourId": "glay_fes_2026",
+      "venue": "東急ドレッセとどろきアリーナ",
+      "performanceAt": "2026-07-20T13:00:00+09:00",
+      "doorOpenAt": "2026-07-20T11:30:00+09:00",
+      "kind": "festival",
+      "eventName": "PUFFYの\"P\"FES",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10119",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_fes_2026_otohige_0829",
+      "tourId": "glay_fes_2026",
+      "venue": "HARD OFF ECO スタジアム新潟",
+      "performanceAt": "2026-08-29T12:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
+      "kind": "festival",
+      "eventName": "音楽と髭達2026-TIME MACHINE",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10087",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_osaka_1107",
@@ -204,7 +454,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_lawson_fastest",
@@ -230,7 +480,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }
