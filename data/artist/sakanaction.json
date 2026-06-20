@@ -2,6 +2,17 @@
   "artistId": "sakanaction",
   "tours": [
     {
+      "id": "sakanaction_fes_2026",
+      "artistId": "sakanaction",
+      "title": "2026年フェス出演",
+      "startDate": "2026-07-19T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
       "id": "sakanaction_sakanaquarium_2026",
       "artistId": "sakanaction",
       "title": "SAKANAQUARIUM 2026 \"透明\"",
@@ -15,10 +26,46 @@
       ],
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "sakanaction_fes_2026_joinalive_0719",
+      "tourId": "sakanaction_fes_2026",
+      "venue": "いわみざわ公園",
+      "performanceAt": "2026-07-19T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "JOIN ALIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_fes_2026_summersonic_tokyo_0815",
+      "tourId": "sakanaction_fes_2026",
+      "venue": "ZOZOマリンスタジアム / 幕張メッセ",
+      "performanceAt": "2026-08-15T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "sakanaction_fes_2026_summersonic_osaka_0816",
+      "tourId": "sakanaction_fes_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://sakanaction.jp/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
     {
       "id": "sakanaction_sakanaquarium_2026_budokan_0908",
       "tourId": "sakanaction_sakanaquarium_2026",
@@ -29,7 +76,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_budokan_0909",
@@ -41,7 +88,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_osakajyo_0912",
@@ -53,7 +100,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_osakajyo_0913",
@@ -65,7 +112,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_budokan_0918",
@@ -77,7 +124,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_budokan_0919",
@@ -89,7 +136,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_kobe_0929",
@@ -101,7 +148,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_kobe_0930",
@@ -113,7 +160,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_budokan_1003",
@@ -125,7 +172,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_budokan_1004",
@@ -137,7 +184,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -164,7 +211,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/faq/detail/173",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_nf_1st",
@@ -189,7 +236,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/faq/detail/173",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_nf_2nd",
@@ -214,7 +261,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/faq/detail/173",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "sakanaction_sakanaquarium_2026_eplus_general",
@@ -228,7 +275,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://sakanaction.jp/feature/tour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }

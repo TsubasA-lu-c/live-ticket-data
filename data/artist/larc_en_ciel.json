@@ -2,6 +2,17 @@
   "artistId": "larc_en_ciel",
   "tours": [
     {
+      "id": "larc_en_ciel_fes_2026",
+      "artistId": "larc_en_ciel",
+      "title": "2026年フェス出演",
+      "startDate": "2026-08-14T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://barks.jp/news/1043028/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
       "id": "larc_en_ciel_35th_lanniversary_2026",
       "artistId": "larc_en_ciel",
       "title": "35th L'Anniversary TOUR",
@@ -19,10 +30,34 @@
       ],
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "larc_en_ciel_fes_2026_osaka_0814",
+      "tourId": "larc_en_ciel_fes_2026",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-14T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://barks.jp/news/1043028/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "larc_en_ciel_fes_2026_tokyo_0816",
+      "tourId": "larc_en_ciel_fes_2026",
+      "venue": "ZOZOマリンスタジアム & 幕張メッセ",
+      "performanceAt": "2026-08-16T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://barks.jp/news/1043028/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yoyogi_1009",
       "tourId": "larc_en_ciel_35th_lanniversary_2026",
@@ -33,7 +68,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yoyogi_1011",
@@ -45,7 +80,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yoyogi_1012",
@@ -57,7 +92,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_fukuoka_1031",
@@ -69,7 +104,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_fukuoka_1101",
@@ -81,7 +116,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_nagoya_1121",
@@ -93,7 +128,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_nagoya_1122",
@@ -105,7 +140,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yokohama_1128",
@@ -117,7 +152,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_yokohama_1129",
@@ -129,7 +164,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_chiba_1212",
@@ -141,7 +176,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_chiba_1213",
@@ -153,7 +188,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_osaka_1216",
@@ -165,7 +200,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_osaka_1217",
@@ -177,7 +212,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_ariake_1224",
@@ -189,7 +224,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_ariake_1226",
@@ -201,7 +236,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_ariake_1227",
@@ -213,7 +248,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13399",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -246,7 +281,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13433",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_fc_2nd",
@@ -277,7 +312,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13433",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "larc_en_ciel_35th_lanniversary_2026_fc_3rd",
@@ -308,7 +343,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://larc-en-ciel.com/s/n137/news/detail/13433",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }

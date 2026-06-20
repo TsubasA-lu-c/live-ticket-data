@@ -19,7 +19,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -31,7 +31,7 @@
       "doorOpenAt": "2026-09-05T14:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "hinatazaka46_hinata_fes_2026_miyazaki_0906",
@@ -41,7 +41,7 @@
       "doorOpenAt": "2026-09-06T14:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -49,9 +49,9 @@
       "id": "hinatazaka46_hinata_fes_2026_fc_1st",
       "tourId": "hinatazaka46_hinata_fes_2026",
       "type": "FC先行（1次）",
-      "entryStartAt": null,
-      "entryEndAt": null,
-      "resultAt": null,
+      "entryStartAt": "2026-04-25T12:00:00+09:00",
+      "entryEndAt": "2026-05-17T23:59:00+09:00",
+      "resultAt": "2026-05-23T17:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
@@ -59,8 +59,8 @@
         "hinatazaka46_hinata_fes_2026_miyazaki_0906"
       ],
       "source": "system",
-      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00824",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }
