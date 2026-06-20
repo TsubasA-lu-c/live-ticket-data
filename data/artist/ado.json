@@ -16,7 +16,18 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ado_fes_2026",
+      "artistId": "ado",
+      "title": "2026年フェス出演",
+      "startDate": "2026-08-15T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/en/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -26,9 +37,11 @@
       "venue": "日産スタジアム",
       "performanceAt": "2026-07-04T18:00:00+09:00",
       "doorOpenAt": "2026-07-04T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
-      "lastVerifiedAt": "2026-06-14T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "ado_stadium_ao_2026_kanagawa_0705",
@@ -36,114 +49,38 @@
       "venue": "日産スタジアム",
       "performanceAt": "2026-07-05T18:00:00+09:00",
       "doorOpenAt": "2026-07-05T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ado_summer_sonic_tokyo_2026",
+      "tourId": "ado_fes_2026",
+      "venue": "Summer Sonic Tokyo",
+      "performanceAt": "2026-08-15T11:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "Summer Sonic 2026",
+      "source": "system",
+      "sourceUrl": "https://www.summersonic.com/en/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan_2026",
+      "tourId": "ado_fes_2026",
+      "venue": "Chiba Soga Sports Park",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "Rock in Japan Festival 2026",
+      "source": "system",
+      "sourceUrl": "https://www.rockinjapan.com/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
   "lotteries": [
-    {
-      "id": "ado_stadium_ao_2026_fc_1st",
-      "tourId": "ado_stadium_ao_2026",
-      "type": "FC最速先行（Adoのドキドキ秘密基地）",
-      "entryStartAt": "2025-11-23T20:00:00+09:00",
-      "entryEndAt": "2025-12-05T23:59:00+09:00",
-      "resultAt": "2025-12-17T00:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ado_stadium_ao_2026_kanagawa_0704",
-        "ado_stadium_ao_2026_kanagawa_0705"
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-    },
-    {
-      "id": "ado_stadium_ao_2026_cloud9_1st",
-      "tourId": "ado_stadium_ao_2026",
-      "type": "クラウドナイン先行（1次）",
-      "entryStartAt": "2026-01-19T00:00:00+09:00",
-      "entryEndAt": "2026-01-25T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ado_stadium_ao_2026_kanagawa_0704",
-        "ado_stadium_ao_2026_kanagawa_0705"
-      ],
-      "source": "system",
-      "sourceUrl": "https://lignea.co.jp/ado-ticket/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-    },
-    {
-      "id": "ado_stadium_ao_2026_cloud9_2nd",
-      "tourId": "ado_stadium_ao_2026",
-      "type": "クラウドナイン先行（2次）",
-      "entryStartAt": "2026-02-02T00:00:00+09:00",
-      "entryEndAt": "2026-02-10T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ado_stadium_ao_2026_kanagawa_0704",
-        "ado_stadium_ao_2026_kanagawa_0705"
-      ],
-      "source": "system",
-      "sourceUrl": "https://lignea.co.jp/ado-ticket/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-    },
-    {
-      "id": "ado_stadium_ao_2026_playguide_1st",
-      "tourId": "ado_stadium_ao_2026",
-      "type": "プレイガイド先行（ローソンチケット）",
-      "entryStartAt": "2026-05-08T18:00:00+09:00",
-      "entryEndAt": "2026-05-17T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ado_stadium_ao_2026_kanagawa_0704",
-        "ado_stadium_ao_2026_kanagawa_0705"
-      ],
-      "source": "system",
-      "sourceUrl": "https://lignea.co.jp/ado-ticket/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-    },
-    {
-      "id": "ado_stadium_ao_2026_playguide_2nd",
-      "tourId": "ado_stadium_ao_2026",
-      "type": "プレイガイド先行（2次）",
-      "entryStartAt": "2026-05-18T12:00:00+09:00",
-      "entryEndAt": "2026-05-24T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ado_stadium_ao_2026_kanagawa_0704",
-        "ado_stadium_ao_2026_kanagawa_0705"
-      ],
-      "source": "system",
-      "sourceUrl": "https://lignea.co.jp/ado-ticket/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-    },
-    {
-      "id": "ado_stadium_ao_2026_playguide_3rd",
-      "tourId": "ado_stadium_ao_2026",
-      "type": "プレイガイド先行（3次）",
-      "entryStartAt": "2026-05-25T12:00:00+09:00",
-      "entryEndAt": "2026-05-31T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ado_stadium_ao_2026_kanagawa_0704",
-        "ado_stadium_ao_2026_kanagawa_0705"
-      ],
-      "source": "system",
-      "sourceUrl": "https://lignea.co.jp/ado-ticket/",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
-    },
     {
       "id": "ado_stadium_ao_2026_eplus_review_demo",
       "tourId": "ado_stadium_ao_2026",

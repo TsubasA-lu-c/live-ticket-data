@@ -12,7 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -24,7 +24,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "back_number_grateful_yesterdays_2026_kumamoto_0628",
@@ -34,7 +34,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -53,7 +53,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "back_number_grateful_yesterdays_2026_oneroom_2nd",
@@ -70,7 +70,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "back_number_grateful_yesterdays_2026_official_hp",
@@ -87,7 +87,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "back_number_grateful_yesterdays_2026_ponta",
@@ -104,7 +104,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "back_number_grateful_yesterdays_2026_lencore",
@@ -121,7 +121,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "back_number_grateful_yesterdays_2026_prerequest_1st",
@@ -138,7 +138,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
       "id": "back_number_grateful_yesterdays_2026_prerequest_2nd",
@@ -155,7 +155,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026_ticket",
-      "lastVerifiedAt": "2026-06-19T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ]
 }
