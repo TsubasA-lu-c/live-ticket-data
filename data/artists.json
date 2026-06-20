@@ -600,5 +600,25 @@
     "source": "system",
     "sourceUrl": "https://cutiestreet.asobisystem.com/",
     "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "monaki",
+    "name": "モナキ",
+    "aliases": ["MONAKI"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://monaki.fanpla.jp/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "equal_love",
+    "name": "=LOVE",
+    "aliases": ["イコールラブ", "イコラブ"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://equal-love.jp/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
   }
 ]

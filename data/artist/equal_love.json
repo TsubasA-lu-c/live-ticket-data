@@ -1,0 +1,102 @@
+{
+  "artistId": "equal_love",
+  "tours": [
+    {
+      "id": "equal_love_stadium_live_2026",
+      "artistId": "equal_love",
+      "title": "=LOVE STADIUM LIVE「Beyond \"KYUN\"♡」",
+      "startDate": "2026-06-20T00:00:00+09:00",
+      "endDate": "2026-06-21T00:00:00+09:00",
+      "prices": [
+        {"label": "VIPプレミアムチケット", "amount": 33000},
+        {"label": "プレミアムチケット", "amount": 22000},
+        {"label": "通常チケット", "amount": 13000},
+        {"label": "注釈付き一般席", "amount": 13000},
+        {"label": "ステージ見切れ席", "amount": 11000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/feature/specialsite_stadiumlive",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_9th_anniversary_2026",
+      "artistId": "equal_love",
+      "title": "=LOVE 9th ANNIVERSARY PREMIUM CONCERT",
+      "startDate": "2026-10-15T00:00:00+09:00",
+      "endDate": "2026-10-16T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/list/6",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "equal_love_stadium_live_2026_mufg_0620",
+      "tourId": "equal_love_stadium_live_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-06-20T17:30:00+09:00",
+      "doorOpenAt": "2026-06-20T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/feature/specialsite_stadiumlive",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_stadium_live_2026_mufg_0621",
+      "tourId": "equal_love_stadium_live_2026",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "performanceAt": "2026-06-21T17:30:00+09:00",
+      "doorOpenAt": "2026-06-21T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/feature/specialsite_stadiumlive",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_9th_anniversary_2026_toyota_1015",
+      "tourId": "equal_love_9th_anniversary_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-10-15T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://news.joysound.com/article/677115",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_9th_anniversary_2026_toyota_1016",
+      "tourId": "equal_love_9th_anniversary_2026",
+      "venue": "TOYOTA ARENA TOKYO",
+      "performanceAt": "2026-10-16T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://news.joysound.com/article/677115",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "equal_love_9th_anniversary_2026_fc_choki",
+      "tourId": "equal_love_9th_anniversary_2026",
+      "type": "FC長期会員先行",
+      "entryStartAt": "2026-07-21T00:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_9th_anniversary_2026_toyota_1015",
+        "equal_love_9th_anniversary_2026_toyota_1016"
+      ],
+      "source": "system",
+      "sourceUrl": "https://news.joysound.com/article/677115",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ]
+}

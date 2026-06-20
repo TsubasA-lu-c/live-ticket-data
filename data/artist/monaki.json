@@ -1,0 +1,77 @@
+{
+  "artistId": "monaki",
+  "tours": [
+    {
+      "id": "monaki_1st_tour_2026",
+      "artistId": "monaki",
+      "title": "MONAKI 1st Tour 2026「モナキやで☆しらんけど」",
+      "startDate": "2026-08-18T00:00:00+09:00",
+      "endDate": "2026-08-24T00:00:00+09:00",
+      "prices": [
+        {"label": "1階スタンディング", "amount": 6600},
+        {"label": "2階指定", "amount": 7700}
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "monaki_1st_tour_2026_zeppnamba_0818",
+      "tourId": "monaki_1st_tour_2026",
+      "venue": "Zepp Namba（OSAKA）",
+      "performanceAt": "2026-08-18T18:30:00+09:00",
+      "doorOpenAt": "2026-08-18T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_zeppnagoya_0819",
+      "tourId": "monaki_1st_tour_2026",
+      "venue": "Zepp Nagoya",
+      "performanceAt": "2026-08-19T19:00:00+09:00",
+      "doorOpenAt": "2026-08-19T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_1st_tour_2026_zepphaneda_0824",
+      "tourId": "monaki_1st_tour_2026",
+      "venue": "Zepp Haneda（TOKYO）",
+      "performanceAt": "2026-08-24T19:00:00+09:00",
+      "doorOpenAt": "2026-08-24T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "monaki_1st_tour_2026_fc先行",
+      "tourId": "monaki_1st_tour_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-05-12T12:00:00+09:00",
+      "entryEndAt": "2026-05-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_1st_tour_2026_zeppnamba_0818",
+        "monaki_1st_tour_2026_zeppnagoya_0819",
+        "monaki_1st_tour_2026_zepphaneda_0824"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ]
+}
