@@ -10,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -24,7 +24,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_osaka_0722_1st",
@@ -36,7 +36,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_osaka_0722_2nd",
@@ -48,7 +48,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0825_1st",
@@ -60,7 +60,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0825_2nd",
@@ -72,7 +72,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0826",
@@ -84,7 +84,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0827_1st",
@@ -96,7 +96,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0827_2nd",
@@ -108,7 +108,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -133,7 +133,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }
