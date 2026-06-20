@@ -2,6 +2,7 @@
 
 > このリポジトリでの作業は sonnet が担当。
 > 詳細ルールは COLLECTION_RULES.md を参照。
+> **作業前に必ず `git pull origin main` を実行してから作業を開始すること。**
 > **必ず validate.py を通過してから push すること。**
 
 ---
@@ -57,15 +58,88 @@
 
 ---
 
-### C. 複数アーティスト一括更新（/refresh-artists）
+---
 
-上記 B を登録済み全アーティストに適用する。
+## 並列実行の原則（C・D・E 共通）
+
+複数アーティストを処理する場合は**バッチサブエージェントを並列起動**して高速化する。
+ファイル競合を避けるため、以下の役割分担を厳守すること。
+
+### 役割分担（違反厳禁）
+
+| 役割 | 書いてよいファイル | 触ってはいけないファイル |
+|---|---|---|
+| **バッチサブエージェント** | `data/artist/{担当id}.json` のみ | `data/artists.json` / `data/manifest.json` / 他アーティストのファイル |
+| **メインエージェント** | `data/artists.json` / `data/manifest.json` | （バッチ完了後のみ操作） |
+
+### 並列実行フロー
+
+```
+メイン: 対象アーティストを6組ずつのバッチに分割
+  ↓
+バッチサブ①②③… を同時起動（background）
+  ↓ 全サブ完了を待つ
+メイン: data/artists.json の lastVerifiedAt を一括更新
+  ↓
+python3 tools/validate.py → python3 tools/update_manifest.py → push
+```
+
+### バッチサブエージェントへの指示テンプレート
+
+各サブエージェントには以下を伝える:
+- 担当アーティストIDの一覧（6組以内）
+- 実施内容（追加 or 更新 or 更新+終了掃除）
+- **`data/artist/{id}.json` のみ書くこと（artists.json/manifest.json は触らない）**
+- 完了後に担当アーティストの `lastVerifiedAt`（更新日時）を報告すること
+- validate.py は**実行しない**（メインが一括で行う）
+
+---
+
+### C. 毎週の鮮度更新（/refresh-hot）
+
+Hot tier（3ヶ月以内に抽選締切があるアーティスト）のみを並列更新する。
+
+1. 全 `data/artist/*.json` を読み込み、Hot tier を抽出
+   - 判定: `lotteries[].entryEndAt` が今日から90日以内かつ未来のものが1件以上あるか
+2. 抽出したアーティストを6組ずつのバッチに分割
+3. バッチごとにサブエージェントを**同時起動**（並列実行の原則に従う）
+   - 各サブ: B の手順 1〜3 を実施、`data/artist/{id}.json` のみ書く
+4. 全サブ完了後、メインが `data/artists.json` の `lastVerifiedAt` を更新
+5. `python3 tools/validate.py`（エラーがあれば修正）
+6. `python3 tools/update_manifest.py`
+7. `git add data/ && git commit -m "refresh: Hot tier 鮮度更新" && git push origin main`
+
+---
+
+### D. 月次の全件更新（/refresh-all）
+
+全アーティストを並列更新 + 終了ツアーの掃除を行う。
 
 1. `data/artists.json` を読んで全 id を取得
-2. 各アーティストについて B の手順 1〜3 を実施
-3. 全て完了後に `python3 tools/validate.py`
-4. `python3 tools/update_manifest.py`
-5. まとめて commit & push
+2. 全アーティストを6組ずつのバッチに分割
+3. バッチごとにサブエージェントを**同時起動**（並列実行の原則に従う）
+   - 各サブ: B の手順 1〜3 を実施 + 終了ツアーの掃除（COLLECTION_RULES.md §5.1）
+   - `data/artist/{id}.json` のみ書く
+4. 全サブ完了後、メインが `data/artists.json` の `lastVerifiedAt` を更新
+5. `python3 tools/validate.py`（エラーがあれば修正）
+6. `python3 tools/update_manifest.py`
+7. `git add data/ && git commit -m "refresh: 全件更新 + 終了ツアー掃除" && git push origin main`
+
+---
+
+### E. 新規アーティスト追加バッチ（/add-artists）
+
+月次で20〜30組を並列追加する。
+
+1. 追加対象リストを確認（ジャンルバランスを考慮）
+2. 対象を6組ずつのバッチに分割
+3. バッチごとにサブエージェントを**同時起動**（並列実行の原則に従う）
+   - 各サブ: A の手順 1〜3 を実施（正規名称解決・情報収集・ファイル作成）
+   - `data/artist/{id}.json` のみ書く
+4. 全サブ完了後、メインが `data/artists.json` に全追加アーティストのエントリを追記
+5. `python3 tools/validate.py`（エラーがあれば修正）
+6. `python3 tools/update_manifest.py`
+7. `git add data/ && git commit -m "add: {月}月追加バッチ ({N}組)" && git push origin main`
 
 ---
 
@@ -136,6 +210,20 @@
   ]
 }
 ```
+
+---
+
+## モデル運用ルール（サブエージェント）
+
+バッチサブエージェントを起動する際は、作業種別に応じてモデルを使い分ける。
+
+| 作業 | モデル | 理由 |
+|------|--------|------|
+| `/add-artists`（新規追加） | `sonnet` | WebFetchした生HTMLから情報を正確に抽出する必要がある。質が重要で後からのリカバリーが面倒 |
+| `/refresh-hot`（鮮度更新） | `haiku` | 既存データがあり差分チェックが主体。単純な構造化タスクなのでhaikuで十分 |
+| `/refresh-all`（全件更新） | `haiku` | 同上 |
+
+Agent呼び出し時に `model: "sonnet"` または `model: "haiku"` を明示すること。
 
 ---
 
