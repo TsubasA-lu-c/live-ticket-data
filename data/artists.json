@@ -510,5 +510,95 @@
     "source": "system",
     "sourceUrl": "https://ovtp.jp/timelesz/live-stage",
     "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "milk",
+    "name": "M!LK",
+    "aliases": ["ミルク"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://sd-milk.com/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "bump_of_chicken",
+    "name": "BUMP OF CHICKEN",
+    "aliases": ["バンプ", "バンプオブチキン"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.bumpofchicken.com/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "bz",
+    "name": "B'z",
+    "aliases": ["ビーズ"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://bz-vermillion.com/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "ae_group",
+    "name": "Aぇ! group",
+    "aliases": ["エーグループ", "えーぐるーぷ"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://starto.jp/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "novelbright",
+    "name": "Novelbright",
+    "aliases": ["ノーベルブライト"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://novelbright.jp/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "04_limited_sazabys",
+    "name": "04 Limited Sazabys",
+    "aliases": ["フォーリミ", "フォーリミテッドサザビーズ"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.04limitedsazabys.com/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "frederic",
+    "name": "フレデリック",
+    "aliases": ["FREDERIC"],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://frederic-official.com/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "fruits_zipper",
+    "name": "FRUITS ZIPPER",
+    "aliases": ["フルーツジッパー"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://fruitszipper.asobisystem.com/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+  },
+  {
+    "id": "cutie_street",
+    "name": "CUTIE STREET",
+    "aliases": ["きゅーすと", "キューティーストリート"],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://cutiestreet.asobisystem.com/",
+    "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
   }
 ]

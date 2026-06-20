@@ -1,0 +1,130 @@
+{
+  "artistId": "ae_group",
+  "tours": [
+    {
+      "id": "ae_group_runway_2026",
+      "artistId": "ae_group",
+      "title": "Aぇ! group LIVE TOUR 2026 Runway",
+      "startDate": "2026-03-07T00:00:00+09:00",
+      "endDate": "2026-07-12T00:00:00+09:00",
+      "prices": [
+        {"label": "ファミリークラブ会員チケット", "amount": 9800},
+        {"label": "一般チケット", "amount": 10300}
+      ],
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10403",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ae_group_runway_2026_kanagawa_0704",
+      "tourId": "ae_group_runway_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.yokohama-arena.co.jp/event/detail/a%E3%81%87-group-live-tour-2026-runway",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_runway_2026_kanagawa_0705a",
+      "tourId": "ae_group_runway_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-05T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.yokohama-arena.co.jp/event/detail/a%E3%81%87-group-live-tour-2026-runway",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_runway_2026_kanagawa_0705b",
+      "tourId": "ae_group_runway_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-05T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.yokohama-arena.co.jp/event/detail/a%E3%81%87-group-live-tour-2026-runway",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_runway_2026_kanagawa_0706",
+      "tourId": "ae_group_runway_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-06T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.yokohama-arena.co.jp/event/detail/a%E3%81%87-group-live-tour-2026-runway",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_runway_2026_kanagawa_0707a",
+      "tourId": "ae_group_runway_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-07T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.yokohama-arena.co.jp/event/detail/a%E3%81%87-group-live-tour-2026-runway",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_runway_2026_kanagawa_0707b",
+      "tourId": "ae_group_runway_2026",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-07-07T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://www.yokohama-arena.co.jp/event/detail/a%E3%81%87-group-live-tour-2026-runway",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_runway_2026_shizuoka_0711",
+      "tourId": "ae_group_runway_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-07-11T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10403",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_runway_2026_shizuoka_0712a",
+      "tourId": "ae_group_runway_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-07-12T12:30:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10403",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ae_group_runway_2026_shizuoka_0712b",
+      "tourId": "ae_group_runway_2026",
+      "venue": "エコパアリーナ",
+      "performanceAt": "2026-07-12T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://starto.jp/s/p/live/10403",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

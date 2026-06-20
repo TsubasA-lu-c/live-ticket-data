@@ -1,9 +1,9 @@
 {
-  "version": 28,
-  "updatedAt": "2026-06-20T20:37:48+09:00",
+  "version": 29,
+  "updatedAt": "2026-06-20T21:08:20+09:00",
   "files": {
     "artists": {
-      "hash": "8e540db35ff7d018"
+      "hash": "f802a48a57fa9a02"
     }
   },
   "artists": {
@@ -159,6 +159,33 @@
     },
     "yuzu": {
       "hash": "40a0ef56ff58b72a"
+    },
+    "04_limited_sazabys": {
+      "hash": "d3b0ca51c7eee4ca"
+    },
+    "ae_group": {
+      "hash": "35f0402720e00d5f"
+    },
+    "bump_of_chicken": {
+      "hash": "9c7c533ae1a88f30"
+    },
+    "bz": {
+      "hash": "72c12415d4876a2a"
+    },
+    "cutie_street": {
+      "hash": "4cb591711a7e7d78"
+    },
+    "frederic": {
+      "hash": "e1f7430e839ec11b"
+    },
+    "fruits_zipper": {
+      "hash": "86649e7c016237b8"
+    },
+    "milk": {
+      "hash": "07b0592bafb1b121"
+    },
+    "novelbright": {
+      "hash": "a2c172c0edb8a1dc"
     }
   }
 }
