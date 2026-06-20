@@ -1,9 +1,9 @@
 {
-  "version": 29,
-  "updatedAt": "2026-06-20T21:08:20+09:00",
+  "version": 30,
+  "updatedAt": "2026-06-20T21:27:32+09:00",
   "files": {
     "artists": {
-      "hash": "f802a48a57fa9a02"
+      "hash": "6ec5674211a0c0d8"
     }
   },
   "artists": {
@@ -186,6 +186,12 @@
     },
     "novelbright": {
       "hash": "a2c172c0edb8a1dc"
+    },
+    "equal_love": {
+      "hash": "a5d5d4265130ac60"
+    },
+    "monaki": {
+      "hash": "f7ded38e19919eda"
     }
   }
 }
