@@ -2,5 +2,8 @@
   "artistId": "hey_say_jump",
   "tours": [],
   "performances": [],
-  "lotteries": []
+  "lotteries": [],
+  "lastVerifiedAt": "2026-06-21T00:00:00+09:00",
+  "source": "system",
+  "sourceUrl": "https://starto.jp/s/p/artist/15"
 }
