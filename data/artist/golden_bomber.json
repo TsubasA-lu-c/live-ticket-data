@@ -2,6 +2,17 @@
   "artistId": "golden_bomber",
   "tours": [
     {
+      "id": "golden_bomber_asuto_music_park_2026",
+      "artistId": "golden_bomber",
+      "title": "ASUTO MUSIC PARK 2026",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1084237",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
       "id": "gb_choyakusen_2026",
       "artistId": "golden_bomber",
       "title": "ファンクラブ限定ライブツアー2026 ～超厄年祭～",
@@ -23,6 +34,18 @@
     }
   ],
   "performances": [
+    {
+      "id": "golden_bomber_asuto_music_park_2026_sendai_0905",
+      "tourId": "golden_bomber_asuto_music_park_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-09-05T11:00:00+09:00",
+      "doorOpenAt": "2026-09-05T10:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ASUTO MUSIC PARK 2026",
+      "source": "system",
+      "sourceUrl": "https://pc.goldenbomber.jp/contents/1084237",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
     {
       "id": "gb_choyakusen_tokyo_0730",
       "tourId": "gb_choyakusen_2026",
@@ -157,6 +180,29 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "golden_bomber_choyakusen_2026_fc_senten",
+      "tourId": "gb_choyakusen_2026",
+      "type": "FC先着販売",
+      "entryStartAt": null,
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "gb_choyakusen_niigata_0811",
+        "gb_choyakusen_hokkaido_0821",
+        "gb_choyakusen_hokkaido_0822",
+        "gb_choyakusen_osaka_0911",
+        "gb_choyakusen_osaka_0912",
+        "gb_choyakusen_aichi_0915",
+        "gb_choyakusen_aichi_0916",
+        "gb_choyakusen_miyagi_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://gbmarukin.com/contents/2488",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
     {
       "id": "gb_choyakusen_2026_fc_1st",
       "tourId": "gb_choyakusen_2026",
