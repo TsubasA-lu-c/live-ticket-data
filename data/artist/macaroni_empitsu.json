@@ -174,6 +174,22 @@
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/live",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_okkake5th_2026",
+      "artistId": "macaroni_empitsu",
+      "title": "OKKAKE設立5周年記念ワンマン",
+      "startDate": "2026-07-23T00:00:00+09:00",
+      "endDate": "2026-07-23T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全自由",
+          "amount": 5555
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/20177.html",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -476,6 +492,18 @@
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/live",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_okkake5th_2026_shinjuku_0723",
+      "tourId": "macaroni_empitsu_okkake5th_2026",
+      "venue": "新宿LOFT",
+      "performanceAt": "2026-07-23T19:00:00+09:00",
+      "doorOpenAt": "2026-07-23T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/20177.html",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -529,6 +557,22 @@
       ],
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/news/19709.html",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "macaroni_empitsu_okkake5th_2026_okkake",
+      "tourId": "macaroni_empitsu_okkake5th_2026",
+      "type": "OKKAKE会員限定抽選",
+      "entryStartAt": "2026-05-28T20:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "macaroni_empitsu_okkake5th_2026_shinjuku_0723"
+      ],
+      "source": "system",
+      "sourceUrl": "https://macaroniempitsu.com/news/20177.html",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]

@@ -13,6 +13,20 @@
       "source": "system",
       "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026",
+      "artistId": "tennimu",
+      "title": "ミュージカル『新テニスの王子様』The Final Stage",
+      "startDate": "2026-10-02T00:00:00+09:00",
+      "endDate": "2026-11-15T00:00:00+09:00",
+      "prices": [
+        {"label": "S席", "amount": 9500},
+        {"label": "A席", "amount": 7500}
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -158,6 +172,102 @@
       "eventName": "ミュージカル『テニスの王子様』4thシーズン 全国大会 青学vs立海 前編",
       "source": "system",
       "sourceUrl": "https://www.tennimu.com/4th_2026rikkai_1/ticket/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_tokyo_1002",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-10-02T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『新テニスの王子様』The Final Stage",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_tokyo_1012",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-10-12T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『新テニスの王子様』The Final Stage",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_osaka_1017",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "SkyシアターMBS",
+      "performanceAt": "2026-10-17T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『新テニスの王子様』The Final Stage",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_osaka_1025",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "SkyシアターMBS",
+      "performanceAt": "2026-10-25T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『新テニスの王子様』The Final Stage",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_gifu_1030",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "土岐市文化プラザ サンホール",
+      "performanceAt": "2026-10-30T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『新テニスの王子様』The Final Stage",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_gifu_1101",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "土岐市文化プラザ サンホール",
+      "performanceAt": "2026-11-01T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『新テニスの王子様』The Final Stage",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_tokyo2_1106",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-11-06T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『新テニスの王子様』The Final Stage",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "tennimu_tennimu2_finalstage_2026_tokyo2_1115",
+      "tourId": "tennimu_tennimu2_finalstage_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-11-15T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "ミュージカル『新テニスの王子様』The Final Stage",
+      "source": "system",
+      "sourceUrl": "https://www.tennimu.com/tennimu2_2026/ticket/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
