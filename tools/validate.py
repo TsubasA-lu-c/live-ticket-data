@@ -232,20 +232,26 @@ def check_g_lottery_required(artist_files_data):
         return
 
     err_count = 0
+    warn_count = 0
     total = 0
     for aid, data in artist_files_data.items():
         if data is None:
             continue
         for lottery in data.get("lotteries", []):
             total += 1
+            lid = lottery.get("id", "???")
             for field in REQUIRED_EXIST:
                 if field not in lottery:
-                    add_error(f"Lottery 必須フィールド: lottery id='{lottery.get('id', '???')}' に '{field}' が存在しません ({aid})")
+                    add_error(f"Lottery 必須フィールド: lottery id='{lid}' に '{field}' が存在しません ({aid})")
                     err_count += 1
             for field in REQUIRED_NONNULL:
                 if lottery.get(field) is None:
-                    add_error(f"Lottery 必須フィールド: lottery id='{lottery.get('id', '???')}' の '{field}' が null です ({aid})")
+                    add_error(f"Lottery 必須フィールド: lottery id='{lid}' の '{field}' が null です ({aid})")
                     err_count += 1
+            # sourceUrl がない場合は警告（チケットサイト確認の根拠として必要）
+            if not lottery.get("sourceUrl"):
+                add_warning(f"lottery '{lid}' に sourceUrl がありません。チケットサイトURLを記録してください ({aid})")
+                warn_count += 1
 
     if err_count == 0:
         print(f"[OK] Lottery 必須フィールド ({total}件)")
@@ -304,12 +310,14 @@ def check_h2_lottery_performance_ids(artist_files_data):
     """
     performanceIds の整合性チェック。
     - フィールド未定義: エラー
+    - null: OK（ツアー全公演を対象とする意図的な指定）
+    - 空配列 []: エラー（null か 対象ID列挙を使うこと）
     - 存在しない performanceId の参照: エラー
-    - 空配列 []: 警告（アプリ側でツアー全公演扱いになるが、明示を推奨）
     """
     if artist_files_data is None:
         return
 
+    _MISSING = object()
     err_count = 0
     total = 0
 
@@ -322,11 +330,15 @@ def check_h2_lottery_performance_ids(artist_files_data):
         for lottery in data.get("lotteries", []):
             total += 1
             lid = lottery.get("id", "???")
-            pids = lottery.get("performanceIds")
+            pids = lottery.get("performanceIds", _MISSING)
 
-            if pids is None:
+            if pids is _MISSING:
                 add_error(f"performanceIds: lottery '{lid}' に performanceIds フィールドがありません ({aid})")
                 err_count += 1
+                continue
+
+            if pids is None:
+                # null = ツアー全公演を対象とする意図的な指定（OK）
                 continue
 
             if not isinstance(pids, list):
@@ -335,8 +347,13 @@ def check_h2_lottery_performance_ids(artist_files_data):
                 continue
 
             if len(pids) == 0:
-                # 空 = アプリ側でツアー全公演フォールバックになるが、明示すべき
-                add_warning(f"lottery '{lid}' の performanceIds が空です。対象公演を明示してください ({aid})")
+                # 空配列は禁止。null（全公演）か 対象IDの列挙を使うこと
+                add_error(
+                    f"performanceIds: lottery '{lid}' の performanceIds が空配列です。"
+                    f"ツアー全公演対象なら null を、対象が限定されるなら公演IDを列挙してください ({aid})"
+                )
+                err_count += 1
+                continue
 
             for pid in pids:
                 if pid not in perf_ids:
@@ -486,6 +503,70 @@ def check_k_manifest_hash(artist_files_data):
         print(f"[WARNING] manifest hash 整合性 — {warn_count}件の不一致 (push 前に update_manifest.py を実行してください)")
 
 
+# ===== チェック L: データ鮮度チェック =====
+def check_l_data_freshness(artist_files_data):
+    """
+    lastVerifiedAt が古いレコードを警告する。
+    - Lottery: 60日以上前 → WARNING（抽選情報は変化が早い）
+    - Tour/Performance: 90日以上前 → WARNING
+    """
+    if artist_files_data is None:
+        return
+
+    now = datetime.now().astimezone()
+    LOTTERY_THRESHOLD_DAYS = 60
+    TOUR_PERF_THRESHOLD_DAYS = 90
+    warn_count = 0
+
+    for aid, data in artist_files_data.items():
+        if data is None:
+            continue
+
+        for tour in data.get("tours", []):
+            val = tour.get("lastVerifiedAt")
+            if val:
+                try:
+                    verified = datetime.fromisoformat(val)
+                    if (now - verified).days > TOUR_PERF_THRESHOLD_DAYS:
+                        add_warning(
+                            f"鮮度: tour '{tour.get('id', '???')}' の lastVerifiedAt が {(now - verified).days}日前です。公式サイトで再確認してください ({aid})"
+                        )
+                        warn_count += 1
+                except ValueError:
+                    pass
+
+        for perf in data.get("performances", []):
+            val = perf.get("lastVerifiedAt")
+            if val:
+                try:
+                    verified = datetime.fromisoformat(val)
+                    if (now - verified).days > TOUR_PERF_THRESHOLD_DAYS:
+                        add_warning(
+                            f"鮮度: performance '{perf.get('id', '???')}' の lastVerifiedAt が {(now - verified).days}日前です ({aid})"
+                        )
+                        warn_count += 1
+                except ValueError:
+                    pass
+
+        for lottery in data.get("lotteries", []):
+            val = lottery.get("lastVerifiedAt")
+            if val:
+                try:
+                    verified = datetime.fromisoformat(val)
+                    if (now - verified).days > LOTTERY_THRESHOLD_DAYS:
+                        add_warning(
+                            f"鮮度: lottery '{lottery.get('id', '???')}' の lastVerifiedAt が {(now - verified).days}日前です。チケットサイトで再確認してください ({aid})"
+                        )
+                        warn_count += 1
+                except ValueError:
+                    pass
+
+    if warn_count == 0:
+        print("[OK] データ鮮度 (lastVerifiedAt)")
+    else:
+        print(f"[WARNING] データ鮮度 — {warn_count}件が古くなっています")
+
+
 # ===== メイン =====
 def main():
     print("=== validate.py ===")
@@ -527,6 +608,9 @@ def main():
 
     # K: manifest hash 整合性
     check_k_manifest_hash(artist_files_data)
+
+    # L: データ鮮度チェック
+    check_l_data_freshness(artist_files_data)
 
     print()
 

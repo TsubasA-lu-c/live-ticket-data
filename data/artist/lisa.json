@@ -13,17 +13,6 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "lisa_fes_2026_blare",
-      "artistId": "lisa",
-      "title": "BLARE FEST. 2026",
-      "startDate": "2026-02-08T12:00:00+09:00",
-      "endDate": "2026-02-08T12:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://search.yahoo.co.jp/search?p=LiSA+2026+フェス",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
       "id": "lisa_fes_2026_monster",
       "artistId": "lisa",
       "title": "MONSTER baSH 2026",
@@ -273,18 +262,6 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_fes_2026_blare_0208",
-      "tourId": "lisa_fes_2026_blare",
-      "venue": "ポートメッセなごや",
-      "performanceAt": "2026-02-08T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "BLARE FEST. 2026",
-      "source": "system",
-      "sourceUrl": "https://search.yahoo.co.jp/search?p=LiSA+2026+フェス",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {

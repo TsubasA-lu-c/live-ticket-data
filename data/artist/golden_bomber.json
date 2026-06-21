@@ -2,17 +2,6 @@
   "artistId": "golden_bomber",
   "tours": [
     {
-      "id": "golden_bomber_fes_2026",
-      "artistId": "golden_bomber",
-      "title": "CHAGU CHAGU ROCK FESTIVAL 2026",
-      "startDate": "2026-06-06T00:00:00+09:00",
-      "endDate": "2026-06-06T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://www.livefans.jp/events/1935635",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    },
-    {
       "id": "gb_choyakusen_2026",
       "artistId": "golden_bomber",
       "title": "ファンクラブ限定ライブツアー2026 ～超厄年祭～",
@@ -34,18 +23,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "golden_bomber_chagu_chagu_2026",
-      "tourId": "golden_bomber_fes_2026",
-      "venue": "ツガワ未来館アピオ 岩手産業文化センター 野外特設会場",
-      "performanceAt": "2026-06-06T18:00:00+09:00",
-      "doorOpenAt": "2026-06-06T12:00:00+09:00",
-      "kind": "fes",
-      "eventName": "CHAGU CHAGU ROCK FESTIVAL 2026",
-      "source": "system",
-      "sourceUrl": "https://www.livefans.jp/events/1935635",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    },
     {
       "id": "gb_choyakusen_tokyo_0730",
       "tourId": "gb_choyakusen_2026",

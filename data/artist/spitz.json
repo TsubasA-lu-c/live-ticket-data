@@ -2,17 +2,6 @@
   "artistId": "spitz",
   "tours": [
     {
-      "id": "spitz_spitzbergen_2026",
-      "artistId": "spitz",
-      "title": "Spitzbergen tour 2026 \"GO!GO!スカンジナビア vol.9\"",
-      "startDate": "2026-03-14T00:00:00+09:00",
-      "endDate": "2026-05-13T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://spitz-web.com/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
       "id": "spitz_events_2026_miyagi",
       "artistId": "spitz",
       "title": "ロックのほそ道2026 〜15th Anniversary Special〜",

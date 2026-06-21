@@ -2,26 +2,6 @@
   "artistId": "macaroni_empitsu",
   "tours": [
     {
-      "id": "macaroni_empitsu_vol21_2026",
-      "artistId": "macaroni_empitsu",
-      "title": "マカロックツアーvol.21 〜心を覗いてシラけるより、ことばのシワだけ増やしてゆけ篇〜",
-      "startDate": "2026-01-17T00:00:00+09:00",
-      "endDate": "2026-04-04T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "指定席",
-          "amount": 7500
-        },
-        {
-          "label": "立見",
-          "amount": 7000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/news/18387.html",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
       "id": "macaroni_empitsu_vol22_2026",
       "artistId": "macaroni_empitsu",
       "title": "マカロックツアーvol.22 〜いま、きみがすき！篇〜",

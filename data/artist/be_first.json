@@ -2,34 +2,6 @@
   "artistId": "be_first",
   "tours": [
     {
-      "id": "be_first_stadium_live_2026",
-      "artistId": "be_first",
-      "title": "BE:FIRST Stadium Live 2026 We are the \"BE:ST\"",
-      "startDate": "2026-05-16T00:00:00+09:00",
-      "endDate": "2026-05-17T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "SS指定席（特典付きプレミアム席）",
-          "amount": 30000
-        },
-        {
-          "label": "一般指定席",
-          "amount": 15000
-        },
-        {
-          "label": "着席指定席",
-          "amount": 15000
-        },
-        {
-          "label": "注釈付き指定席",
-          "amount": 14000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
       "id": "be_first_world_showcase_2026",
       "artistId": "be_first",
       "title": "BE:FIRST WORLD SHOWCASE 2026",
@@ -38,61 +10,6 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/global2026/showcase",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_fes_dunk_showcase",
-      "artistId": "be_first",
-      "title": "D.U.N.K. Showcase",
-      "startDate": "2026-03-15T12:00:00+09:00",
-      "endDate": "2026-03-15T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_fes_head_in_the_clouds",
-      "artistId": "be_first",
-      "title": "HEAD IN THE CLOUDS 2026",
-      "startDate": "2026-03-28T12:00:00+09:00",
-      "endDate": "2026-03-28T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_fes_jal_sapporo",
-      "artistId": "be_first",
-      "title": "JAL SAPPORO MUSIC EXPERIENCE 2026",
-      "startDate": "2026-04-19T12:00:00+09:00",
-      "endDate": "2026-04-19T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_fes_ryokushoku",
-      "artistId": "be_first",
-      "title": "緑黄色大夜祭2026",
-      "startDate": "2026-04-26T12:00:00+09:00",
-      "endDate": "2026-04-26T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_fes_meet_the_world_beat",
-      "artistId": "be_first",
-      "title": "FM802 MEET THE WORLD BEAT 2026",
-      "startDate": "2026-05-23T12:00:00+09:00",
-      "endDate": "2026-05-23T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
@@ -127,66 +44,9 @@
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/category/live/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_special_mtv_unplugged",
-      "artistId": "be_first",
-      "title": "MTV Unplugged: BE:FIRST",
-      "startDate": "2026-03-03T18:00:00+09:00",
-      "endDate": "2026-03-03T18:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_special_heian_shrine",
-      "artistId": "be_first",
-      "title": "平安神宮奉納Special Live",
-      "startDate": "2026-03-20T18:00:00+09:00",
-      "endDate": "2026-03-20T18:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_special_janet_jackson",
-      "artistId": "be_first",
-      "title": "JANET JACKSON JAPAN 2026 (ゲスト出演)",
-      "startDate": "2026-06-14T12:00:00+09:00",
-      "endDate": "2026-06-14T12:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
-    {
-      "id": "be_first_stadium_live_2026_tokyo_0516",
-      "tourId": "be_first_stadium_live_2026",
-      "venue": "味の素スタジアム",
-      "performanceAt": "2026-05-16T17:30:00+09:00",
-      "doorOpenAt": "2026-05-16T15:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_stadium_live_2026_tokyo_0517",
-      "tourId": "be_first_stadium_live_2026",
-      "venue": "味の素スタジアム",
-      "performanceAt": "2026-05-17T17:30:00+09:00",
-      "doorOpenAt": "2026-05-17T15:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
     {
       "id": "be_first_world_showcase_bangkok_0925",
       "tourId": "be_first_world_showcase_2026",
@@ -236,102 +96,6 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "be_first_fes_dunk_showcase_0315",
-      "tourId": "be_first_fes_dunk_showcase",
-      "venue": "K-Arena Yokohama",
-      "performanceAt": "2026-03-15T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "D.U.N.K. Showcase",
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_special_mtv_unplugged_0303",
-      "tourId": "be_first_special_mtv_unplugged",
-      "venue": "ぴあアリーナMM",
-      "performanceAt": "2026-03-03T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "MTV Unplugged: BE:FIRST",
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_fes_head_in_the_clouds_0328",
-      "tourId": "be_first_fes_head_in_the_clouds",
-      "venue": "幕張メッセ",
-      "performanceAt": "2026-03-28T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "HEAD IN THE CLOUDS 2026",
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_fes_jal_sapporo_0419",
-      "tourId": "be_first_fes_jal_sapporo",
-      "venue": "大和ハウス プレミストドーム",
-      "performanceAt": "2026-04-19T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "JAL SAPPORO MUSIC EXPERIENCE 2026",
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_fes_ryokushoku_0426",
-      "tourId": "be_first_fes_ryokushoku",
-      "venue": "Aichi Sky Expo",
-      "performanceAt": "2026-04-26T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "緑黄色大夜祭2026",
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_fes_meet_the_world_beat_0523",
-      "tourId": "be_first_fes_meet_the_world_beat",
-      "venue": "万博記念公園",
-      "performanceAt": "2026-05-23T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "FM802 MEET THE WORLD BEAT 2026",
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_special_heian_shrine_0320",
-      "tourId": "be_first_special_heian_shrine",
-      "venue": "平安神宮",
-      "performanceAt": "2026-03-20T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "平安神宮奉納Special Live",
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_special_janet_jackson_0614",
-      "tourId": "be_first_special_janet_jackson",
-      "venue": "K-Arena Yokohama",
-      "performanceAt": "2026-06-14T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "JANET JACKSON JAPAN 2026 (ゲスト出演)",
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/category/live/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
       "id": "be_first_fes_summer_sonic_0815",
       "tourId": "be_first_fes_summer_sonic",
       "venue": "ZOZOマリンスタジアム＆幕張メッセ",
@@ -368,91 +132,5 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
-  "lotteries": [
-    {
-      "id": "be_first_stadium_live_2026_besty_1st",
-      "tourId": "be_first_stadium_live_2026",
-      "type": "BESTY会員／B-Town〈Architect〉会員先行",
-      "entryStartAt": "2025-11-16T19:00:00+09:00",
-      "entryEndAt": "2025-11-24T23:59:00+09:00",
-      "resultAt": "2025-11-29T17:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "be_first_stadium_live_2026_tokyo_0516",
-        "be_first_stadium_live_2026_tokyo_0517"
-      ],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_stadium_live_2026_btown_resident",
-      "tourId": "be_first_stadium_live_2026",
-      "type": "B-Town〈Resident〉会員先行",
-      "entryStartAt": "2025-11-29T00:00:00+09:00",
-      "entryEndAt": "2025-12-07T23:59:00+09:00",
-      "resultAt": "2025-12-12T17:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "be_first_stadium_live_2026_tokyo_0516",
-        "be_first_stadium_live_2026_tokyo_0517"
-      ],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_stadium_live_2026_cd_advance",
-      "tourId": "be_first_stadium_live_2026",
-      "type": "CD封入先行",
-      "entryStartAt": "2025-12-08T00:00:00+09:00",
-      "entryEndAt": "2025-12-15T23:59:00+09:00",
-      "resultAt": "2025-12-20T17:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "be_first_stadium_live_2026_tokyo_0516",
-        "be_first_stadium_live_2026_tokyo_0517"
-      ],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_stadium_live_2026_lawson_1st",
-      "tourId": "be_first_stadium_live_2026",
-      "type": "ローソンチケット先行",
-      "entryStartAt": "2025-12-16T00:00:00+09:00",
-      "entryEndAt": "2025-12-24T23:59:00+09:00",
-      "resultAt": "2025-12-27T17:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "be_first_stadium_live_2026_tokyo_0516",
-        "be_first_stadium_live_2026_tokyo_0517"
-      ],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "be_first_stadium_live_2026_lawson_2nd",
-      "tourId": "be_first_stadium_live_2026",
-      "type": "ローソンチケット2次先行",
-      "entryStartAt": "2025-12-25T00:00:00+09:00",
-      "entryEndAt": "2026-01-05T23:59:00+09:00",
-      "resultAt": "2026-01-10T17:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "be_first_stadium_live_2026_tokyo_0516",
-        "be_first_stadium_live_2026_tokyo_0517"
-      ],
-      "source": "system",
-      "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    }
-  ]
+  "lotteries": []
 }

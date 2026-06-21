@@ -2,28 +2,6 @@
   "artistId": "creepy_nuts",
   "tours": [
     {
-      "id": "creepy_nuts_northamerica_2026",
-      "artistId": "creepy_nuts",
-      "title": "NORTH AMERICA TOUR 2026",
-      "startDate": "2026-04-10T00:00:00+09:00",
-      "endDate": "2026-04-19T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://creepynuts.com/northamericatour2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "creepy_nuts_fes_2026_coachella",
-      "artistId": "creepy_nuts",
-      "title": "Coachella Valley Music and Arts Festival 2026",
-      "startDate": "2026-04-10T12:00:00+09:00",
-      "endDate": "2026-04-10T12:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/word/0000081866",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
       "id": "creepy_nuts_fes_2026_ogmf",
       "artistId": "creepy_nuts",
       "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
@@ -36,78 +14,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "creepy_nuts_northamerica_2026_coachella_0410",
-      "tourId": "creepy_nuts_northamerica_2026",
-      "venue": "Coachella Valley Music and Arts Festival",
-      "performanceAt": "2026-04-11T15:05:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://creepynuts.com/northamericatour2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "creepy_nuts_northamerica_2026_newyork_0413",
-      "tourId": "creepy_nuts_northamerica_2026",
-      "venue": "Hammerstein Ballroom",
-      "performanceAt": "2026-04-13T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://creepynuts.com/northamericatour2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "creepy_nuts_northamerica_2026_chicago_0415",
-      "tourId": "creepy_nuts_northamerica_2026",
-      "venue": "The Auditorium",
-      "performanceAt": "2026-04-15T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://creepynuts.com/northamericatour2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "creepy_nuts_northamerica_2026_coachella_0417",
-      "tourId": "creepy_nuts_northamerica_2026",
-      "venue": "Coachella Valley Music and Arts Festival",
-      "performanceAt": "2026-04-18T15:05:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://creepynuts.com/northamericatour2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "creepy_nuts_northamerica_2026_mexicocity_0419",
-      "tourId": "creepy_nuts_northamerica_2026",
-      "venue": "Pabellón Oeste",
-      "performanceAt": "2026-04-19T18:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://creepynuts.com/northamericatour2026/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "creepy_nuts_fes_2026_coachella",
-      "tourId": "creepy_nuts_fes_2026_coachella",
-      "venue": "Coachella Valley Music and Arts Festival",
-      "performanceAt": "2026-04-10T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "Coachella Valley Music and Arts Festival 2026",
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/sf/word/0000081866",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
     {
       "id": "creepy_nuts_fes_2026_ogmf",
       "tourId": "creepy_nuts_fes_2026_ogmf",

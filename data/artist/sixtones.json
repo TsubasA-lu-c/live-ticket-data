@@ -11,17 +11,6 @@
       "source": "system",
       "sourceUrl": "https://www.sixtones.jp/live",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "sixtones_fes_2026",
-      "artistId": "sixtones",
-      "title": "COUNTDOWN JAPAN 25/26",
-      "startDate": "2025-12-31T00:00:00+09:00",
-      "endDate": "2025-12-31T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://countdownjapan.jp/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -95,18 +84,6 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sixtones.jp/live",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "sixtones_fes_2026_countdown_1231",
-      "tourId": "sixtones_fes_2026",
-      "venue": "幕張メッセ",
-      "performanceAt": "2025-12-31T16:50:00+09:00",
-      "doorOpenAt": "2025-12-31T12:30:00+09:00",
-      "kind": "fes",
-      "eventName": "COUNTDOWN JAPAN 25/26",
-      "source": "system",
-      "sourceUrl": "https://countdownjapan.jp/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],

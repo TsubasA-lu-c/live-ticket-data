@@ -2,28 +2,6 @@
   "artistId": "nogizaka46",
   "tours": [
     {
-      "id": "nogizaka46_irc_2026",
-      "artistId": "nogizaka46",
-      "title": "CREATEs presents IDOL RUNWAY COLLECTION 2026 Supported by TGC",
-      "startDate": "2026-03-15T00:00:00+09:00",
-      "endDate": "2026-03-15T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/101570",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    },
-    {
-      "id": "nogizaka46_central_fest_2026",
-      "artistId": "nogizaka46",
-      "title": "CENTRAL MUSIC & ENTERTAINMENT FESTIVAL 2026",
-      "startDate": "2026-04-03T00:00:00+09:00",
-      "endDate": "2026-04-05T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/101621",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    },
-    {
       "id": "nogizaka46_manatsu_2026",
       "artistId": "nogizaka46",
       "title": "乃木坂46 真夏の全国ツアー2026",
@@ -56,30 +34,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "nogizaka46_irc_2026_yoyogi",
-      "tourId": "nogizaka46_irc_2026",
-      "venue": "国立代々木競技場第一体育館",
-      "performanceAt": "2026-03-15T12:00:00+09:00",
-      "doorOpenAt": "2026-03-15T11:00:00+09:00",
-      "kind": "fes",
-      "eventName": "CREATEs presents IDOL RUNWAY COLLECTION 2026 Supported by TGC",
-      "source": "system",
-      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/101570",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    },
-    {
-      "id": "nogizaka46_central_fest_2026_yokohama",
-      "tourId": "nogizaka46_central_fest_2026",
-      "venue": "Kアリーナ横浜",
-      "performanceAt": "2026-04-03T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "CENTRAL MUSIC & ENTERTAINMENT FESTIVAL 2026",
-      "source": "system",
-      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/101621",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    },
     {
       "id": "nogizaka46_manatsu_2026_fukui_0613",
       "tourId": "nogizaka46_manatsu_2026",
