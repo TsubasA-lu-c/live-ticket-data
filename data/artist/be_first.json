@@ -35,6 +35,21 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
+      "id": "be_first_dome_tour_2027",
+      "artistId": "be_first",
+      "title": "BE:FIRST 5th Anniversary DOME TOUR 2027",
+      "startDate": "2027-01-11T00:00:00+09:00",
+      "endDate": "2027-03-07T00:00:00+09:00",
+      "prices": [
+        {"label": "SS席", "amount": 31500},
+        {"label": "一般指定席", "amount": 16500},
+        {"label": "着席指定席", "amount": 16500}
+      ],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
       "id": "be_first_fes_music_and_beards",
       "artistId": "be_first",
       "title": "音楽と髭達2026",
@@ -96,6 +111,78 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
+      "id": "be_first_dome_tour_2027_tokyodome_0111",
+      "tourId": "be_first_dome_tour_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-01-11T17:00:00+09:00",
+      "doorOpenAt": "2027-01-11T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_dome_tour_2027_tokyodome_0112",
+      "tourId": "be_first_dome_tour_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-01-12T17:00:00+09:00",
+      "doorOpenAt": "2027-01-12T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_dome_tour_2027_fukuoka_0213",
+      "tourId": "be_first_dome_tour_2027",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-02-13T17:00:00+09:00",
+      "doorOpenAt": "2027-02-13T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_dome_tour_2027_fukuoka_0214",
+      "tourId": "be_first_dome_tour_2027",
+      "venue": "みずほPayPayドーム福岡",
+      "performanceAt": "2027-02-14T17:00:00+09:00",
+      "doorOpenAt": "2027-02-14T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_dome_tour_2027_belluna_0306",
+      "tourId": "be_first_dome_tour_2027",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2027-03-06T17:00:00+09:00",
+      "doorOpenAt": "2027-03-06T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_dome_tour_2027_belluna_0307",
+      "tourId": "be_first_dome_tour_2027",
+      "venue": "ベルーナドーム",
+      "performanceAt": "2027-03-07T17:00:00+09:00",
+      "doorOpenAt": "2027-03-07T14:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
       "id": "be_first_fes_summer_sonic_0815",
       "tourId": "be_first_fes_summer_sonic",
       "venue": "ZOZOマリンスタジアム＆幕張メッセ",
@@ -132,5 +219,48 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "be_first_dome_tour_2027_besty_fc",
+      "tourId": "be_first_dome_tour_2027",
+      "type": "FC先行（BESTY・B-Town Architect）",
+      "entryStartAt": "2026-05-22T18:00:00+09:00",
+      "entryEndAt": "2026-05-31T23:59:00+09:00",
+      "resultAt": "2026-06-06T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_dome_tour_2027_tokyodome_0111",
+        "be_first_dome_tour_2027_tokyodome_0112",
+        "be_first_dome_tour_2027_fukuoka_0213",
+        "be_first_dome_tour_2027_fukuoka_0214",
+        "be_first_dome_tour_2027_belluna_0306",
+        "be_first_dome_tour_2027_belluna_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_dome_tour_2027_btown_resident",
+      "tourId": "be_first_dome_tour_2027",
+      "type": "B-Town先行（Resident）",
+      "entryStartAt": "2026-06-06T18:00:00+09:00",
+      "entryEndAt": "2026-06-11T23:59:00+09:00",
+      "resultAt": "2026-06-18T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_dome_tour_2027_tokyodome_0111",
+        "be_first_dome_tour_2027_tokyodome_0112",
+        "be_first_dome_tour_2027_fukuoka_0213",
+        "be_first_dome_tour_2027_fukuoka_0214",
+        "be_first_dome_tour_2027_belluna_0306",
+        "be_first_dome_tour_2027_belluna_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    }
+  ]
 }
