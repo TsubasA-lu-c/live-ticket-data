@@ -302,13 +302,13 @@
     {
       "id": "lisa_fes_2026_treasure_0906",
       "tourId": "lisa_fes_2026_treasure",
-      "venue": null,
+      "venue": "蒲郡ラグーナビーチ",
       "performanceAt": "2026-09-06T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
       "eventName": "TREASURE05X 2026",
       "source": "system",
-      "sourceUrl": "https://search.yahoo.co.jp/search?p=LiSA+2026+フェス",
+      "sourceUrl": "https://treasure05x.jp/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
