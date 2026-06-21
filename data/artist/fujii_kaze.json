@@ -180,6 +180,42 @@
       "source": "system",
       "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_kaohsiung_1031",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "Kaohsiung National Stadium",
+      "performanceAt": "2026-10-31T19:00:00+09:00",
+      "doorOpenAt": "2026-10-31T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_bangkok_1226",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "Supachalasai National Stadium",
+      "performanceAt": "2026-12-26T19:00:00+09:00",
+      "doorOpenAt": "2026-12-26T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_prema_world_2026_seoul_0109",
+      "tourId": "fujii_kaze_prema_world_2026",
+      "venue": "Gocheok Sky Dome",
+      "performanceAt": "2027-01-09T18:00:00+09:00",
+      "doorOpenAt": "2027-01-09T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://hehn.fujiikaze.com/pwt/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
