@@ -10,5 +10,365 @@
       "type": "hash",
       "hash": "45aca1da7ed0495bd74b613a4a6fb6cd"
     }
+  },
+  "yonezu_kenshi": {
+    "https://reissuerecords.net/2025/08/08/2026-tour-ghost/": {
+      "type": "hash",
+      "hash": "76a1eebc951f1b1403c6a0796ffc8ac6"
+    }
+  },
+  "mizuki_nana": {
+    "https://www.mizukinana.jp/schedule/": {
+      "type": "hash",
+      "hash": "aadcae9ec9bde68054c388ab99433d35"
+    }
+  },
+  "iris": {
+    "https://iris.dive2ent.com/": {
+      "type": "hash",
+      "hash": "942d41ffa0f9ca1305b6c3fb71d00303"
+    }
+  },
+  "mr_children": {
+    "https://www.mrchildren.jp/": {
+      "type": "hash",
+      "hash": "3da78fedb334abb17467569d56b41634"
+    }
+  },
+  "official_hige_dandism": {
+    "https://event.higedan.com/feature/zepp2025_hall2026": {
+      "type": "hash",
+      "hash": "8364e389609c2c26db194b3848c406e6"
+    }
+  },
+  "back_number": {
+    "https://backnumber.info/feature/stadiumtour2026": {
+      "type": "hash",
+      "hash": "9b9c4f29d31de036e5365eb64a60f54f"
+    }
+  },
+  "ado": {
+    "https://www.universal-music.co.jp/ado/news/2025-11-23/": {
+      "type": "hash",
+      "hash": "a458f96a1700c00c7988139e52beeaa9"
+    }
+  },
+  "yoasobi": {
+    "https://www.yoasobi-music.jp/live/54776": {
+      "type": "hash",
+      "hash": "ae6197ee37e1c015d3a5800e84e8aab9"
+    }
+  },
+  "nogizaka46": {
+    "https://www.nogizaka46.com/s/n46/page/summer_tour2026": {
+      "type": "hash",
+      "hash": "3e8c61afb9277687d94b27a5e5fa0819"
+    }
+  },
+  "hinatazaka46": {
+    "https://www.hinatazaka46.com/s/official/news/detail/E00800": {
+      "type": "hash",
+      "hash": "db82a83ea4c2d695e3fd0b2490af3569"
+    }
+  },
+  "aimyon": {
+    "https://www.aimyong.net/feature/tententen_koshien": {
+      "type": "hash",
+      "hash": "ef520a84d14da0e17736e270e25061f0"
+    }
+  },
+  "creepy_nuts": {
+    "https://creepynuts.com/": {
+      "type": "hash",
+      "hash": "32916f710d32ca81dcd10871ad2ed6d5"
+    }
+  },
+  "sakanaction": {
+    "https://sakanaction.jp/feature/tour2026_ticket": {
+      "type": "hash",
+      "hash": "688988ec8f1c6aab28539512cc30069a"
+    }
+  },
+  "larc_en_ciel": {
+    "https://larc-en-ciel.com/s/n137/news/detail/13399": {
+      "type": "hash",
+      "hash": "3c302791b1caf523da6476105c57aa71"
+    }
+  },
+  "king_gnu": {
+    "https://www.sonymusic.co.jp/artist/kinggnu/info/577778": {
+      "type": "hash",
+      "hash": "e77f1b07b5d8babc2944360840a2335c"
+    }
+  },
+  "hoshino_gen": {
+    "https://www.hoshinogen.com/": {
+      "type": "hash",
+      "hash": "4c65e966f8ac9c407d1ea0aad0e4e75d"
+    }
+  },
+  "vaundy": {
+    "https://vaundy.jp/news/detail/11144": {
+      "type": "hash",
+      "hash": "d1638ce3ecdded4c1dfc690ca4d14f5d"
+    }
+  },
+  "fujii_kaze": {
+    "https://hehn.fujiikaze.com/pwt/": {
+      "type": "hash",
+      "hash": "b239f6bd56c12c8f3008521faa9dcf4a"
+    }
+  },
+  "spitz": {
+    "https://spitz-web.com/live/": {
+      "type": "hash",
+      "hash": "367ddaa1658594ab8ce82ac432dba557"
+    }
+  },
+  "lisa": {
+    "https://eplus.jp/sf/detail/0534530001": {
+      "type": "hash",
+      "hash": "19ad5ff00d38c2e4cf345869c02b22fa"
+    }
+  },
+  "hana": {
+    "https://hana.b-rave.tokyo/": {
+      "type": "hash",
+      "hash": "7190a1b47be29cfaff44441b46b5fd01"
+    }
+  },
+  "snow_man": {
+    "https://mentrecording.jp/snowman/": {
+      "type": "hash",
+      "hash": "d5479495cf388ddc2d92bdf693e9132c"
+    }
+  },
+  "sixtones": {
+    "https://www.sixtones.jp/": {
+      "type": "hash",
+      "hash": "32f24025ac7e0ba986b3e9acbf9d458c"
+    }
+  },
+  "one_ok_rock": {
+    "https://oneokrock-pf.com/feature/detoxjapantourfinal": {
+      "type": "hash",
+      "hash": "adf3e097785b9d6203d78c4e3dec1568"
+    }
+  },
+  "radwimps": {
+    "https://radwimps.jp/yurinchi/": {
+      "type": "hash",
+      "hash": "7e140423988f637d8a7da3c4eedd6da9"
+    }
+  },
+  "ryokuoushoku_shakai": {
+    "https://www.ryokushaka.com/daiyasai2026/": {
+      "type": "hash",
+      "hash": "24116c8e8118150c93139ac30c696a03"
+    }
+  },
+  "aimer": {
+    "https://www.aimer-web.jp/": {
+      "type": "hash",
+      "hash": "c8c89d8221e7e9a3a5d4def223d550b7"
+    }
+  },
+  "yuuri": {
+    "https://eplus.jp/sf/detail/3413260010": {
+      "type": "hash",
+      "hash": "252080a49838afbd87fc519028c1b3cc"
+    }
+  },
+  "naniwa_danshi": {
+    "https://fan.books.rakuten.co.jp/articles/6966": {
+      "type": "hash",
+      "hash": "2e3bb662028e3ef553ef4ae2f2ea4674"
+    }
+  },
+  "hey_say_jump": {
+    "https://live-events.a-jp.org/soko/a/30.html": {
+      "type": "hash",
+      "hash": "8f84428f7f3c224dd06d214febaba531"
+    }
+  },
+  "travis_japan": {
+    "https://fan.books.rakuten.co.jp/articles/3892": {
+      "type": "hash",
+      "hash": "c0713dc747cbef34145a663acee86599"
+    }
+  },
+  "twice": {
+    "https://www.twicejapan.com/feature/6thworldtour_thisisfor_stadium": {
+      "type": "hash",
+      "hash": "6303a97da8d3f04d91760460e7ddcccb"
+    }
+  },
+  "seventeen": {
+    "https://www.seventeen-17.jp/statics/2026_yakusoku": {
+      "type": "hash",
+      "hash": "883f40556bf89588e14241b84bea19c7"
+    }
+  },
+  "sky_hi": {
+    "https://bmsg.tokyo/live/skyhi-tour2026/": {
+      "type": "hash",
+      "hash": "238ede9fbd26e1c5eee3299819ebf908"
+    }
+  },
+  "tennimu": {
+    "https://www.tennimu.com/4th_2026rikkai_1/ticket/": {
+      "type": "hash",
+      "hash": "b5e20fdfbdbc149383e4fb0d45a06158"
+    }
+  },
+  "touken_ranbu_musical": {
+    "https://musical-toukenranbu.jp/pages/autumn2026": {
+      "type": "hash",
+      "hash": "cb521f52ff862a73bb259a2b96988e75"
+    }
+  },
+  "zutomayo": {
+    "https://zutomayo.net/intense2/": {
+      "type": "hash",
+      "hash": "c5d4341956d5698ed53ff87c23e7673d"
+    }
+  },
+  "momoiro_clover_z": {
+    "https://www.momoclo.net/": {
+      "type": "hash",
+      "hash": "a9ad01254bf91309eac6ec6b9be545ed"
+    }
+  },
+  "macaroni_empitsu": {
+    "https://macaroniempitsu.com/": {
+      "type": "hash",
+      "hash": "a110330bf1dd8e65a993316ad101dbc6"
+    }
+  },
+  "sakurazaka46": {
+    "https://sakurazaka46.com/s/s46/page/nationaltour2026": {
+      "type": "hash",
+      "hash": "79b4718678bd3859b8a4b8fad449105a"
+    }
+  },
+  "babymetal": {
+    "https://babymetal.com/": {
+      "type": "hash",
+      "hash": "eaf8bce9e3ce0647234e9ffb171c8fe9"
+    }
+  },
+  "mrs_green_apple": {
+    "https://mrsgreenapple.com/feature/zenjinmito_2026": {
+      "type": "hash",
+      "hash": "63d208a0270f2780e8dc949ac0b433b7"
+    }
+  },
+  "be_first": {
+    "https://befirst.tokyo/": {
+      "type": "hash",
+      "hash": "471d5243e14c87eb116f905c2a55ac16"
+    }
+  },
+  "glay": {
+    "https://www.glay.co.jp/feature/arenatour2026_27": {
+      "type": "hash",
+      "hash": "9e0fda9870001cd6ecd5c0483298de8e"
+    }
+  },
+  "koda_kumi": {
+    "https://rhythmzone.net/koda/": {
+      "type": "hash",
+      "hash": "3653cfc97beb4c6e6b1086c6537e51fd"
+    }
+  },
+  "kobukuro": {
+    "https://kobukuro.com/feature/kobukuro_tour2026": {
+      "type": "hash",
+      "hash": "2c04c67faf4c3fc09917b4b86a1a8f85"
+    }
+  },
+  "number_i": {
+    "https://tobe-official.jp/artists/number_i": {
+      "type": "hash",
+      "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    }
+  },
+  "king_and_prince": {
+    "https://kingandprince7th.jp/": {
+      "type": "hash",
+      "hash": "296b5c0c644487d4482c73b81fb0dadf"
+    }
+  },
+  "timelesz": {
+    "https://ovtp.jp/timelesz/live-stage": {
+      "type": "hash",
+      "hash": "a9bfea45294aa289cd37d568138c606b"
+    }
+  },
+  "milk": {
+    "https://sd-milk.com/": {
+      "type": "hash",
+      "hash": "72b37b146529812610e1c648073f93de"
+    }
+  },
+  "bump_of_chicken": {
+    "https://www.bumpofchicken.com/": {
+      "type": "hash",
+      "hash": "cccd66a73bcb0e07b1fc00152fb79abe"
+    }
+  },
+  "bz": {
+    "https://bz-vermillion.com/": {
+      "type": "hash",
+      "hash": "bbbc78260d6a3f6edc1bcd0131fb4143"
+    }
+  },
+  "ae_group": {
+    "https://starto.jp/": {
+      "type": "hash",
+      "hash": "3bb14236ba0ad07187f67414fb0dbbe0"
+    }
+  },
+  "novelbright": {
+    "https://novelbright.jp/": {
+      "type": "hash",
+      "hash": "0bd6487da308d230b02eaacd50538f20"
+    }
+  },
+  "04_limited_sazabys": {
+    "https://www.04limitedsazabys.com/": {
+      "type": "hash",
+      "hash": "a681b5daeea7e63376a3275ddec142d9"
+    }
+  },
+  "frederic": {
+    "https://frederic-official.com/": {
+      "type": "hash",
+      "hash": "7e802ee3240049a3079a03e5dd80bc9f"
+    }
+  },
+  "fruits_zipper": {
+    "https://fruitszipper.asobisystem.com/": {
+      "type": "hash",
+      "hash": "ca6e52441c87bbf8470aff7125372db1"
+    }
+  },
+  "cutie_street": {
+    "https://cutiestreet.asobisystem.com/": {
+      "type": "hash",
+      "hash": "836c2e62d0fbaefe590fbad4e387671d"
+    }
+  },
+  "monaki": {
+    "https://monaki.fanpla.jp/": {
+      "type": "hash",
+      "hash": "c810edc849a96327e6297d9a1a8ab4fa"
+    }
+  },
+  "equal_love": {
+    "https://equal-love.jp/": {
+      "type": "hash",
+      "hash": "2371112cb73c5be8fa230c4a6874441d"
+    }
   }
 }
