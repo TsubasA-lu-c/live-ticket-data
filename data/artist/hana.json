@@ -8,7 +8,10 @@
       "startDate": "2026-03-07T00:00:00+09:00",
       "endDate": "2026-07-20T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 10890}
+        {
+          "label": "指定席",
+          "amount": 10890
+        }
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/hana1sttour2026-borntobloom/",
@@ -21,18 +24,32 @@
       "startDate": "2026-09-16T00:00:00+09:00",
       "endDate": "2026-10-31T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 10890}
+        {
+          "label": "指定席",
+          "amount": 10890
+        }
       ],
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260612/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "hana_fes_2026",
+      "id": "hana_fes_2026_niigata",
       "artistId": "hana",
-      "title": "2026年フェス出演",
-      "startDate": "2026-08-29T00:00:00+09:00",
-      "endDate": "2026-09-20T00:00:00+09:00",
+      "title": "音楽と髭達2026 -TIME MACHINE-",
+      "startDate": "2026-08-29T11:00:00+09:00",
+      "endDate": "2026-08-29T11:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260501/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_chiba",
+      "artistId": "hana",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-20T12:00:00+09:00",
+      "endDate": "2026-09-20T12:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/",
@@ -402,7 +419,7 @@
     },
     {
       "id": "hana_fes_2026_niigata_0829",
-      "tourId": "hana_fes_2026",
+      "tourId": "hana_fes_2026_niigata",
       "venue": "HARD OFF ECOスタジアム新潟",
       "performanceAt": "2026-08-29T11:00:00+09:00",
       "doorOpenAt": "2026-08-29T09:00:00+09:00",
@@ -414,7 +431,7 @@
     },
     {
       "id": "hana_fes_2026_chiba_0920",
-      "tourId": "hana_fes_2026",
+      "tourId": "hana_fes_2026_chiba",
       "venue": "Chiba City Soga Sports Park",
       "performanceAt": "2026-09-20T12:00:00+09:00",
       "doorOpenAt": null,

@@ -8,8 +8,14 @@
       "startDate": "2026-01-04T00:00:00+09:00",
       "endDate": "2026-05-24T00:00:00+09:00",
       "prices": [
-        {"label": "FC料金", "amount": 9800},
-        {"label": "一般", "amount": 10300}
+        {
+          "label": "FC料金",
+          "amount": 9800
+        },
+        {
+          "label": "一般",
+          "amount": 10300
+        }
       ],
       "source": "system",
       "sourceUrl": "https://fan.books.rakuten.co.jp/articles/3892",
@@ -18,7 +24,7 @@
     {
       "id": "travis_japan_fes_2026",
       "artistId": "travis_japan",
-      "title": "2026年フェス出演",
+      "title": "SUMMER SONIC 2026",
       "startDate": "2026-08-14T00:00:00+09:00",
       "endDate": "2026-08-16T00:00:00+09:00",
       "prices": null,

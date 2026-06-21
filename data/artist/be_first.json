@@ -8,10 +8,22 @@
       "startDate": "2026-05-16T00:00:00+09:00",
       "endDate": "2026-05-17T00:00:00+09:00",
       "prices": [
-        {"label": "SS指定席（特典付きプレミアム席）", "amount": 30000},
-        {"label": "一般指定席", "amount": 15000},
-        {"label": "着席指定席", "amount": 15000},
-        {"label": "注釈付き指定席", "amount": 14000}
+        {
+          "label": "SS指定席（特典付きプレミアム席）",
+          "amount": 30000
+        },
+        {
+          "label": "一般指定席",
+          "amount": 15000
+        },
+        {
+          "label": "着席指定席",
+          "amount": 15000
+        },
+        {
+          "label": "注釈付き指定席",
+          "amount": 14000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/tour/Stadium-Live-2026/",
@@ -29,22 +41,121 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "be_first_fes_2026",
+      "id": "be_first_fes_dunk_showcase",
       "artistId": "be_first",
-      "title": "2026年フェス出演",
-      "startDate": "2026-03-15T00:00:00+09:00",
-      "endDate": "2026-08-29T00:00:00+09:00",
+      "title": "D.U.N.K. Showcase",
+      "startDate": "2026-03-15T12:00:00+09:00",
+      "endDate": "2026-03-15T12:00:00+09:00",
       "prices": [],
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/category/live/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "be_first_special_live_2026",
+      "id": "be_first_fes_head_in_the_clouds",
       "artistId": "be_first",
-      "title": "2026年スペシャルライブ",
-      "startDate": "2026-03-03T00:00:00+09:00",
-      "endDate": "2026-06-14T00:00:00+09:00",
+      "title": "HEAD IN THE CLOUDS 2026",
+      "startDate": "2026-03-28T12:00:00+09:00",
+      "endDate": "2026-03-28T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/category/live/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_fes_jal_sapporo",
+      "artistId": "be_first",
+      "title": "JAL SAPPORO MUSIC EXPERIENCE 2026",
+      "startDate": "2026-04-19T12:00:00+09:00",
+      "endDate": "2026-04-19T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/category/live/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_fes_ryokushoku",
+      "artistId": "be_first",
+      "title": "緑黄色大夜祭2026",
+      "startDate": "2026-04-26T12:00:00+09:00",
+      "endDate": "2026-04-26T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/category/live/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_fes_meet_the_world_beat",
+      "artistId": "be_first",
+      "title": "FM802 MEET THE WORLD BEAT 2026",
+      "startDate": "2026-05-23T12:00:00+09:00",
+      "endDate": "2026-05-23T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/category/live/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_fes_summer_sonic",
+      "artistId": "be_first",
+      "title": "SUMMER SONIC 2026",
+      "startDate": "2026-08-15T12:00:00+09:00",
+      "endDate": "2026-08-15T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/category/live/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_fes_lalalala",
+      "artistId": "be_first",
+      "title": "LaLaLa Fest 2026",
+      "startDate": "2026-08-23T12:00:00+09:00",
+      "endDate": "2026-08-23T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/category/live/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_fes_music_and_beards",
+      "artistId": "be_first",
+      "title": "音楽と髭達2026",
+      "startDate": "2026-08-29T12:00:00+09:00",
+      "endDate": "2026-08-29T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/category/live/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_special_mtv_unplugged",
+      "artistId": "be_first",
+      "title": "MTV Unplugged: BE:FIRST",
+      "startDate": "2026-03-03T18:00:00+09:00",
+      "endDate": "2026-03-03T18:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/category/live/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_special_heian_shrine",
+      "artistId": "be_first",
+      "title": "平安神宮奉納Special Live",
+      "startDate": "2026-03-20T18:00:00+09:00",
+      "endDate": "2026-03-20T18:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/category/live/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_special_janet_jackson",
+      "artistId": "be_first",
+      "title": "JANET JACKSON JAPAN 2026 (ゲスト出演)",
+      "startDate": "2026-06-14T12:00:00+09:00",
+      "endDate": "2026-06-14T12:00:00+09:00",
       "prices": [],
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/category/live/",
@@ -126,7 +237,7 @@
     },
     {
       "id": "be_first_fes_dunk_showcase_0315",
-      "tourId": "be_first_fes_2026",
+      "tourId": "be_first_fes_dunk_showcase",
       "venue": null,
       "performanceAt": "2026-03-15T12:00:00+09:00",
       "doorOpenAt": null,
@@ -138,7 +249,7 @@
     },
     {
       "id": "be_first_special_mtv_unplugged_0303",
-      "tourId": "be_first_special_live_2026",
+      "tourId": "be_first_special_mtv_unplugged",
       "venue": "ぴあアリーナMM",
       "performanceAt": "2026-03-03T18:00:00+09:00",
       "doorOpenAt": null,
@@ -150,7 +261,7 @@
     },
     {
       "id": "be_first_fes_head_in_the_clouds_0328",
-      "tourId": "be_first_fes_2026",
+      "tourId": "be_first_fes_head_in_the_clouds",
       "venue": null,
       "performanceAt": "2026-03-28T12:00:00+09:00",
       "doorOpenAt": null,
@@ -162,7 +273,7 @@
     },
     {
       "id": "be_first_fes_jal_sapporo_0419",
-      "tourId": "be_first_fes_2026",
+      "tourId": "be_first_fes_jal_sapporo",
       "venue": null,
       "performanceAt": "2026-04-19T12:00:00+09:00",
       "doorOpenAt": null,
@@ -174,7 +285,7 @@
     },
     {
       "id": "be_first_fes_ryokushoku_0426",
-      "tourId": "be_first_fes_2026",
+      "tourId": "be_first_fes_ryokushoku",
       "venue": null,
       "performanceAt": "2026-04-26T12:00:00+09:00",
       "doorOpenAt": null,
@@ -186,7 +297,7 @@
     },
     {
       "id": "be_first_fes_meet_the_world_beat_0523",
-      "tourId": "be_first_fes_2026",
+      "tourId": "be_first_fes_meet_the_world_beat",
       "venue": "万博記念公園",
       "performanceAt": "2026-05-23T12:00:00+09:00",
       "doorOpenAt": null,
@@ -198,7 +309,7 @@
     },
     {
       "id": "be_first_special_heian_shrine_0320",
-      "tourId": "be_first_special_live_2026",
+      "tourId": "be_first_special_heian_shrine",
       "venue": "平安神宮",
       "performanceAt": "2026-03-20T18:00:00+09:00",
       "doorOpenAt": null,
@@ -210,7 +321,7 @@
     },
     {
       "id": "be_first_special_janet_jackson_0614",
-      "tourId": "be_first_special_live_2026",
+      "tourId": "be_first_special_janet_jackson",
       "venue": null,
       "performanceAt": "2026-06-14T12:00:00+09:00",
       "doorOpenAt": null,
@@ -222,7 +333,7 @@
     },
     {
       "id": "be_first_fes_summer_sonic_0815",
-      "tourId": "be_first_fes_2026",
+      "tourId": "be_first_fes_summer_sonic",
       "venue": null,
       "performanceAt": "2026-08-15T12:00:00+09:00",
       "doorOpenAt": null,
@@ -234,7 +345,7 @@
     },
     {
       "id": "be_first_fes_lalalala_0823",
-      "tourId": "be_first_fes_2026",
+      "tourId": "be_first_fes_lalalala",
       "venue": null,
       "performanceAt": "2026-08-23T12:00:00+09:00",
       "doorOpenAt": null,
@@ -246,7 +357,7 @@
     },
     {
       "id": "be_first_fes_music_and_beards_0829",
-      "tourId": "be_first_fes_2026",
+      "tourId": "be_first_fes_music_and_beards",
       "venue": null,
       "performanceAt": "2026-08-29T12:00:00+09:00",
       "doorOpenAt": null,

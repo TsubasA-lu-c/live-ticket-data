@@ -29,14 +29,36 @@
       "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
-      "id": "iris_fes_2026",
+      "id": "iris_fes_2026_animelo",
       "artistId": "iris",
-      "title": "フェス出演 2026",
-      "startDate": "2026-07-12T00:00:00+09:00",
-      "endDate": "2026-09-20T00:00:00+09:00",
+      "title": "Animelo Summer Live 2026 -Messenger-",
+      "startDate": "2026-07-12T12:00:00+09:00",
+      "endDate": "2026-07-12T12:00:00+09:00",
       "prices": null,
       "source": "system",
-      "sourceUrl": "https://iris.dive2ent.com/liveevent/",
+      "sourceUrl": "https://anisama.tv/2026/en/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "iris_fes_2026_tif",
+      "artistId": "iris",
+      "title": "TOKYO IDOL FESTIVAL 2026",
+      "startDate": "2026-08-01T12:00:00+09:00",
+      "endDate": "2026-08-01T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://official.idolfes.com/s/tif2026/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "iris_fes_2026_nagano",
+      "artistId": "iris",
+      "title": "ナガノアニエラフェスタ2026",
+      "startDate": "2026-09-20T12:00:00+09:00",
+      "endDate": "2026-09-20T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133416",
       "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
@@ -154,7 +176,7 @@
     },
     {
       "id": "iris_fes_2026_animelo_0712",
-      "tourId": "iris_fes_2026",
+      "tourId": "iris_fes_2026_animelo",
       "venue": "幕張メッセ",
       "performanceAt": "2026-07-12T12:00:00+09:00",
       "doorOpenAt": null,
@@ -166,7 +188,7 @@
     },
     {
       "id": "iris_fes_2026_tif_0801",
-      "tourId": "iris_fes_2026",
+      "tourId": "iris_fes_2026_tif",
       "venue": "お台場 フジテレビ周辺",
       "performanceAt": "2026-08-01T12:00:00+09:00",
       "doorOpenAt": null,
@@ -178,7 +200,7 @@
     },
     {
       "id": "iris_fes_2026_nagano_0920",
-      "tourId": "iris_fes_2026",
+      "tourId": "iris_fes_2026_nagano",
       "venue": "駒場公園",
       "performanceAt": "2026-09-20T12:00:00+09:00",
       "doorOpenAt": null,

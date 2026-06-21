@@ -8,7 +8,10 @@
       "startDate": "2026-09-05T00:00:00+09:00",
       "endDate": "2026-11-15T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": null}
+        {
+          "label": "指定席",
+          "amount": null
+        }
       ],
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
@@ -26,10 +29,54 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "vaundy_fes_2026",
+      "id": "vaundy_fes_2026_osaka",
       "artistId": "vaundy",
-      "title": "Vaundy フェス出演 2026",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
       "startDate": "2026-08-02T00:00:00+09:00",
+      "endDate": "2026-08-02T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_fes_2026_hokkaido",
+      "artistId": "vaundy",
+      "title": "RISING SUN ROCK FESTIVAL 2026 in EZO",
+      "startDate": "2026-08-15T00:00:00+09:00",
+      "endDate": "2026-08-15T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_fes_2026_miyagi",
+      "artistId": "vaundy",
+      "title": "音楽と髭達2026 -TIME MACHINE-",
+      "startDate": "2026-08-29T00:00:00+09:00",
+      "endDate": "2026-08-29T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_fes_2026_ibaraki",
+      "artistId": "vaundy",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://vaundy.jp/news/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "vaundy_fes_2026_tokyo",
+      "artistId": "vaundy",
+      "title": "熱闘甲子園 presents 熱闘 JAM 2026",
+      "startDate": "2026-09-23T00:00:00+09:00",
       "endDate": "2026-09-23T00:00:00+09:00",
       "prices": null,
       "source": "system",
@@ -532,7 +579,7 @@
     },
     {
       "id": "vaundy_fes_2026_osaka_0802",
-      "tourId": "vaundy_fes_2026",
+      "tourId": "vaundy_fes_2026_osaka",
       "venue": null,
       "performanceAt": "2026-08-02T00:00:00+09:00",
       "doorOpenAt": null,
@@ -544,7 +591,7 @@
     },
     {
       "id": "vaundy_fes_2026_hokkaido_0815",
-      "tourId": "vaundy_fes_2026",
+      "tourId": "vaundy_fes_2026_hokkaido",
       "venue": null,
       "performanceAt": "2026-08-15T00:00:00+09:00",
       "doorOpenAt": null,
@@ -556,7 +603,7 @@
     },
     {
       "id": "vaundy_fes_2026_miyagi_0829",
-      "tourId": "vaundy_fes_2026",
+      "tourId": "vaundy_fes_2026_miyagi",
       "venue": null,
       "performanceAt": "2026-08-29T00:00:00+09:00",
       "doorOpenAt": null,
@@ -568,7 +615,7 @@
     },
     {
       "id": "vaundy_fes_2026_ibaraki_0912",
-      "tourId": "vaundy_fes_2026",
+      "tourId": "vaundy_fes_2026_ibaraki",
       "venue": null,
       "performanceAt": "2026-09-12T00:00:00+09:00",
       "doorOpenAt": null,
@@ -580,7 +627,7 @@
     },
     {
       "id": "vaundy_fes_2026_tokyo_0923",
-      "tourId": "vaundy_fes_2026",
+      "tourId": "vaundy_fes_2026_tokyo",
       "venue": null,
       "performanceAt": "2026-09-23T00:00:00+09:00",
       "doorOpenAt": null,

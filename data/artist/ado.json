@@ -8,25 +8,51 @@
       "startDate": "2026-07-04T00:00:00+09:00",
       "endDate": "2026-07-05T00:00:00+09:00",
       "prices": [
-        {"label": "VIP席", "amount": 30000},
-        {"label": "SS席", "amount": 20000},
-        {"label": "S席", "amount": 15000},
-        {"label": "A席", "amount": 10000},
-        {"label": "B席", "amount": 7000}
+        {
+          "label": "VIP席",
+          "amount": 30000
+        },
+        {
+          "label": "SS席",
+          "amount": 20000
+        },
+        {
+          "label": "S席",
+          "amount": 15000
+        },
+        {
+          "label": "A席",
+          "amount": 10000
+        },
+        {
+          "label": "B席",
+          "amount": 7000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
       "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     },
     {
-      "id": "ado_fes_2026",
+      "id": "ado_summer_sonic_tokyo",
       "artistId": "ado",
-      "title": "2026年フェス出演",
-      "startDate": "2026-08-15T00:00:00+09:00",
-      "endDate": "2026-09-21T00:00:00+09:00",
+      "title": "Summer Sonic 2026",
+      "startDate": "2026-08-15T11:00:00+09:00",
+      "endDate": "2026-08-15T11:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.summersonic.com/en/",
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "ado_rock_in_japan",
+      "artistId": "ado",
+      "title": "Rock in Japan Festival 2026",
+      "startDate": "2026-09-21T12:00:00+09:00",
+      "endDate": "2026-09-21T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.rockinjapan.com/",
       "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
@@ -57,7 +83,7 @@
     },
     {
       "id": "ado_summer_sonic_tokyo_2026",
-      "tourId": "ado_fes_2026",
+      "tourId": "ado_summer_sonic_tokyo",
       "venue": "Summer Sonic Tokyo",
       "performanceAt": "2026-08-15T11:00:00+09:00",
       "doorOpenAt": null,
@@ -69,7 +95,7 @@
     },
     {
       "id": "ado_rock_in_japan_2026",
-      "tourId": "ado_fes_2026",
+      "tourId": "ado_rock_in_japan",
       "venue": "Chiba Soga Sports Park",
       "performanceAt": "2026-09-21T12:00:00+09:00",
       "doorOpenAt": null,

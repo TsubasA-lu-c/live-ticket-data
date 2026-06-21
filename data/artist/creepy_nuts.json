@@ -13,11 +13,22 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "creepy_nuts_fes_2026",
+      "id": "creepy_nuts_fes_2026_coachella",
       "artistId": "creepy_nuts",
-      "title": "2026年フェス出演",
-      "startDate": "2026-04-10T00:00:00+09:00",
-      "endDate": "2026-08-02T00:00:00+09:00",
+      "title": "Coachella Valley Music and Arts Festival 2026",
+      "startDate": "2026-04-10T12:00:00+09:00",
+      "endDate": "2026-04-10T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/word/0000081866",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "creepy_nuts_fes_2026_ogmf",
+      "artistId": "creepy_nuts",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
+      "startDate": "2026-07-25T12:00:00+09:00",
+      "endDate": "2026-07-25T12:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/word/0000081866",
@@ -87,7 +98,7 @@
     },
     {
       "id": "creepy_nuts_fes_2026_coachella",
-      "tourId": "creepy_nuts_fes_2026",
+      "tourId": "creepy_nuts_fes_2026_coachella",
       "venue": "Coachella Valley Music and Arts Festival",
       "performanceAt": "2026-04-10T12:00:00+09:00",
       "doorOpenAt": null,
@@ -99,7 +110,7 @@
     },
     {
       "id": "creepy_nuts_fes_2026_ogmf",
-      "tourId": "creepy_nuts_fes_2026",
+      "tourId": "creepy_nuts_fes_2026_ogmf",
       "venue": "舞洲スポーツアイランド",
       "performanceAt": "2026-07-25T12:00:00+09:00",
       "doorOpenAt": null,

@@ -19,21 +19,35 @@
       "startDate": "2026-07-31T00:00:00+09:00",
       "endDate": "2026-08-01T00:00:00+09:00",
       "prices": [
-        {"label": "展示エリア入場券", "amount": 2200}
+        {
+          "label": "展示エリア入場券",
+          "amount": 2200
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "glay_fes_2026",
+      "id": "glay_fes_2026_puffy_pfes",
       "artistId": "glay",
-      "title": "2026年フェス出演",
-      "startDate": "2026-07-20T00:00:00+09:00",
-      "endDate": "2026-08-29T00:00:00+09:00",
+      "title": "PUFFYの\"P\"FES",
+      "startDate": "2026-07-20T13:00:00+09:00",
+      "endDate": "2026-07-20T13:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10119",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "glay_fes_2026_otohige",
+      "artistId": "glay",
+      "title": "音楽と髭達2026-TIME MACHINE",
+      "startDate": "2026-08-29T12:00:00+09:00",
+      "endDate": "2026-08-29T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10087",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
@@ -43,9 +57,18 @@
       "startDate": "2026-11-07T00:00:00+09:00",
       "endDate": "2027-02-21T00:00:00+09:00",
       "prices": [
-        {"label": "S席", "amount": 11000},
-        {"label": "A席", "amount": 9000},
-        {"label": "着席指定席", "amount": 11000}
+        {
+          "label": "S席",
+          "amount": 11000
+        },
+        {
+          "label": "A席",
+          "amount": 9000
+        },
+        {
+          "label": "着席指定席",
+          "amount": 11000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
@@ -283,7 +306,7 @@
     },
     {
       "id": "glay_fes_2026_puffy_pfes_0720",
-      "tourId": "glay_fes_2026",
+      "tourId": "glay_fes_2026_puffy_pfes",
       "venue": "東急ドレッセとどろきアリーナ",
       "performanceAt": "2026-07-20T13:00:00+09:00",
       "doorOpenAt": "2026-07-20T11:30:00+09:00",
@@ -295,7 +318,7 @@
     },
     {
       "id": "glay_fes_2026_otohige_0829",
-      "tourId": "glay_fes_2026",
+      "tourId": "glay_fes_2026_otohige",
       "venue": "HARD OFF ECO スタジアム新潟",
       "performanceAt": "2026-08-29T12:00:00+09:00",
       "doorOpenAt": "2026-08-29T09:00:00+09:00",

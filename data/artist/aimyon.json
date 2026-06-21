@@ -18,14 +18,25 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "aimyon_fes_2026",
+      "id": "aimyon_fes_2026_join_alive",
       "artistId": "aimyon",
-      "title": "2026年フェス出演",
-      "startDate": "2026-07-19T00:00:00+09:00",
-      "endDate": "2026-08-30T00:00:00+09:00",
+      "title": "JOIN ALIVE 2026",
+      "startDate": "2026-07-19T12:00:00+09:00",
+      "endDate": "2026-07-19T12:00:00+09:00",
       "prices": [],
       "source": "system",
-      "sourceUrl": "https://www.aimyong.net",
+      "sourceUrl": "https://joinalive.jp/2026/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_sweet_love_shower",
+      "artistId": "aimyon",
+      "title": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "startDate": "2026-08-28T12:00:00+09:00",
+      "endDate": "2026-08-28T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://2026.sweetloveshower.com/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
@@ -54,7 +65,7 @@
     },
     {
       "id": "aimyon_fes_2026_join_alive_0719",
-      "tourId": "aimyon_fes_2026",
+      "tourId": "aimyon_fes_2026_join_alive",
       "venue": "北海道いわみざわ公園",
       "performanceAt": "2026-07-19T12:00:00+09:00",
       "doorOpenAt": null,
@@ -66,7 +77,7 @@
     },
     {
       "id": "aimyon_fes_2026_sweet_love_shower_0828",
-      "tourId": "aimyon_fes_2026",
+      "tourId": "aimyon_fes_2026_sweet_love_shower",
       "venue": "山中湖交流プラザきらら",
       "performanceAt": "2026-08-28T12:00:00+09:00",
       "doorOpenAt": null,

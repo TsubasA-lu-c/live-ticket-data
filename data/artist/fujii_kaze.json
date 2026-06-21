@@ -24,14 +24,36 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "fujii_kaze_fes_2026",
+      "id": "fujii_kaze_fes_2026_lollapalooza_india",
       "artistId": "fujii_kaze",
-      "title": "2026年フェス出演",
-      "startDate": "2026-01-24T00:00:00+09:00",
-      "endDate": "2026-04-18T00:00:00+09:00",
+      "title": "Lollapalooza India 2026",
+      "startDate": "2026-01-24T12:00:00+09:00",
+      "endDate": "2026-01-25T12:00:00+09:00",
       "prices": null,
       "source": "system",
-      "sourceUrl": "https://hehn.fujiikaze.com/",
+      "sourceUrl": "https://lollaindia.com/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_fes_2026_coachella",
+      "artistId": "fujii_kaze",
+      "title": "Coachella 2026 Weekend 1",
+      "startDate": "2026-04-11T04:30:00+09:00",
+      "endDate": "2026-04-11T04:30:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.coachella.com/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "fujii_kaze_fes_2026_coachella_2",
+      "artistId": "fujii_kaze",
+      "title": "Coachella 2026 Weekend 2",
+      "startDate": "2026-04-18T12:00:00+09:00",
+      "endDate": "2026-04-18T12:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.coachella.com/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
@@ -194,7 +216,7 @@
     },
     {
       "id": "fujii_kaze_fes_2026_lollapalooza_india_0124",
-      "tourId": "fujii_kaze_fes_2026",
+      "tourId": "fujii_kaze_fes_2026_lollapalooza_india",
       "venue": "Mahalaxmi Race Course",
       "performanceAt": "2026-01-24T12:00:00+09:00",
       "doorOpenAt": null,
@@ -206,7 +228,7 @@
     },
     {
       "id": "fujii_kaze_fes_2026_lollapalooza_india_0125",
-      "tourId": "fujii_kaze_fes_2026",
+      "tourId": "fujii_kaze_fes_2026_lollapalooza_india",
       "venue": "Mahalaxmi Race Course",
       "performanceAt": "2026-01-25T12:00:00+09:00",
       "doorOpenAt": null,
@@ -218,7 +240,7 @@
     },
     {
       "id": "fujii_kaze_fes_2026_coachella_w1",
-      "tourId": "fujii_kaze_fes_2026",
+      "tourId": "fujii_kaze_fes_2026_coachella",
       "venue": "Empire Polo Club",
       "performanceAt": "2026-04-11T04:30:00+09:00",
       "doorOpenAt": null,
@@ -230,7 +252,7 @@
     },
     {
       "id": "fujii_kaze_fes_2026_coachella_w2",
-      "tourId": "fujii_kaze_fes_2026",
+      "tourId": "fujii_kaze_fes_2026_coachella_2",
       "venue": "Empire Polo Club",
       "performanceAt": "2026-04-18T12:00:00+09:00",
       "doorOpenAt": null,

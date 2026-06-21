@@ -4,7 +4,7 @@
     {
       "id": "momoiro_clover_z_fes_2026",
       "artistId": "momoiro_clover_z",
-      "title": "2026年フェス出演",
+      "title": "ごぶごぶフェス 2026",
       "startDate": "2026-06-06T00:00:00+09:00",
       "endDate": "2026-06-06T00:00:00+09:00",
       "prices": [],
@@ -13,14 +13,40 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "momoiro_clover_z_momocloland_2026",
+      "id": "momoiro_clover_z_momocloland_2026_tokyo_0503_hiru",
       "artistId": "momoiro_clover_z",
-      "title": "ももクロ結成18周年記念イベント 東京ももクロランド",
-      "startDate": "2026-05-03T00:00:00+09:00",
-      "endDate": "2026-05-03T00:00:00+09:00",
+      "title": "お昼のハイテンションショー",
+      "startDate": "2026-05-03T14:00:00+09:00",
+      "endDate": "2026-05-03T14:00:00+09:00",
       "prices": [
-        {"label": "昼公演指定席", "amount": 6500},
-        {"label": "夜公演指定席", "amount": 9500}
+        {
+          "label": "昼公演指定席",
+          "amount": 6500
+        },
+        {
+          "label": "夜公演指定席",
+          "amount": 9500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.momoclo.net/momocloland/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "momoiro_clover_z_momocloland_2026_tokyo_0503_yoru",
+      "artistId": "momoiro_clover_z",
+      "title": "MCZ THE LIVE 2026春",
+      "startDate": "2026-05-03T18:30:00+09:00",
+      "endDate": "2026-05-03T18:30:00+09:00",
+      "prices": [
+        {
+          "label": "昼公演指定席",
+          "amount": 6500
+        },
+        {
+          "label": "夜公演指定席",
+          "amount": 9500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/momocloland/",
@@ -75,7 +101,7 @@
     },
     {
       "id": "momoiro_clover_z_momocloland_2026_tokyo_0503_hiru",
-      "tourId": "momoiro_clover_z_momocloland_2026",
+      "tourId": "momoiro_clover_z_momocloland_2026_tokyo_0503_hiru",
       "venue": "東京体育館",
       "performanceAt": "2026-05-03T14:00:00+09:00",
       "doorOpenAt": null,
@@ -87,7 +113,7 @@
     },
     {
       "id": "momoiro_clover_z_momocloland_2026_tokyo_0503_yoru",
-      "tourId": "momoiro_clover_z_momocloland_2026",
+      "tourId": "momoiro_clover_z_momocloland_2026_tokyo_0503_yoru",
       "venue": "東京体育館",
       "performanceAt": "2026-05-03T18:30:00+09:00",
       "doorOpenAt": null,

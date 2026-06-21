@@ -8,8 +8,14 @@
       "startDate": "2026-04-30T00:00:00+09:00",
       "endDate": "2026-05-01T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 8500},
-        {"label": "ゆーりんちの席（FC限定）", "amount": 12000}
+        {
+          "label": "指定席",
+          "amount": 8500
+        },
+        {
+          "label": "ゆーりんちの席（FC限定）",
+          "amount": 12000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://lignea.co.jp/yuuri/",
@@ -22,9 +28,18 @@
       "startDate": "2026-05-12T00:00:00+09:00",
       "endDate": "2026-06-03T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 8500},
-        {"label": "ゆーりんちの席（FC限定）", "amount": 12000},
-        {"label": "ファミリーシート（2枚組）", "amount": 24000}
+        {
+          "label": "指定席",
+          "amount": 8500
+        },
+        {
+          "label": "ゆーりんちの席（FC限定）",
+          "amount": 12000
+        },
+        {
+          "label": "ファミリーシート（2枚組）",
+          "amount": 24000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://lignea.co.jp/yuuri/",
@@ -37,22 +52,83 @@
       "startDate": "2026-09-05T00:00:00+09:00",
       "endDate": "2026-09-06T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 8500},
-        {"label": "ゆーりんちの席（FC限定）", "amount": 12000}
+        {
+          "label": "指定席",
+          "amount": 8500
+        },
+        {
+          "label": "ゆーりんちの席（FC限定）",
+          "amount": 12000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/3413260010",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
-      "id": "yuuri_fes_2026",
+      "id": "yuuri_fes_2026_central",
       "artistId": "yuuri",
-      "title": "2026年フェス出演",
-      "startDate": "2026-04-05T00:00:00+09:00",
-      "endDate": "2026-07-31T00:00:00+09:00",
+      "title": "CENTRAL MUSIC & ENTERTAINMENT FESTIVAL 2026",
+      "startDate": "2026-04-05T12:00:00+09:00",
+      "endDate": "2026-04-05T12:00:00+09:00",
       "prices": [],
       "source": "system",
-      "sourceUrl": "https://lignea.co.jp/yuuri/",
+      "sourceUrl": "https://central-fest.com/s/central/news/detail/10057",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_metrock_tokyo",
+      "artistId": "yuuri",
+      "title": "METROCK 2026 東京",
+      "startDate": "2026-05-17T12:00:00+09:00",
+      "endDate": "2026-05-17T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://metrock.jp/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_metrock_osaka",
+      "artistId": "yuuri",
+      "title": "METROCK 2026 大阪",
+      "startDate": "2026-05-31T12:00:00+09:00",
+      "endDate": "2026-05-31T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://metrock.jp/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_hyakumangonji",
+      "artistId": "yuuri",
+      "title": "百万石音楽祭 2026",
+      "startDate": "2026-06-06T12:00:00+09:00",
+      "endDate": "2026-06-06T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.livefans.jp/events/1927001",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_joinalive",
+      "artistId": "yuuri",
+      "title": "JOIN ALIVE 2026",
+      "startDate": "2026-07-18T18:20:00+09:00",
+      "endDate": "2026-07-18T18:20:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://joinalive.jp/2026/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "yuuri_fes_2026_osakagigantic",
+      "artistId": "yuuri",
+      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
+      "startDate": "2026-07-25T12:00:00+09:00",
+      "endDate": "2026-07-25T12:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://eplus.jp/sf/detail/2249550001",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
@@ -155,7 +231,7 @@
     },
     {
       "id": "yuuri_fes_2026_central_0405",
-      "tourId": "yuuri_fes_2026",
+      "tourId": "yuuri_fes_2026_central",
       "venue": "Kアリーナ横浜",
       "performanceAt": "2026-04-05T12:00:00+09:00",
       "doorOpenAt": null,
@@ -167,7 +243,7 @@
     },
     {
       "id": "yuuri_fes_2026_metrock_tokyo_0517",
-      "tourId": "yuuri_fes_2026",
+      "tourId": "yuuri_fes_2026_metrock_tokyo",
       "venue": "海の森公園",
       "performanceAt": "2026-05-17T12:00:00+09:00",
       "doorOpenAt": null,
@@ -179,7 +255,7 @@
     },
     {
       "id": "yuuri_fes_2026_metrock_osaka_0531",
-      "tourId": "yuuri_fes_2026",
+      "tourId": "yuuri_fes_2026_metrock_osaka",
       "venue": "海とのふれあい広場",
       "performanceAt": "2026-05-31T12:00:00+09:00",
       "doorOpenAt": null,
@@ -191,7 +267,7 @@
     },
     {
       "id": "yuuri_fes_2026_hyakumangonji_0606",
-      "tourId": "yuuri_fes_2026",
+      "tourId": "yuuri_fes_2026_hyakumangonji",
       "venue": "石川県産業展示館",
       "performanceAt": "2026-06-06T12:00:00+09:00",
       "doorOpenAt": null,
@@ -203,7 +279,7 @@
     },
     {
       "id": "yuuri_fes_2026_joinalive_0718",
-      "tourId": "yuuri_fes_2026",
+      "tourId": "yuuri_fes_2026_joinalive",
       "venue": "山麓公園",
       "performanceAt": "2026-07-18T18:20:00+09:00",
       "doorOpenAt": null,
@@ -215,7 +291,7 @@
     },
     {
       "id": "yuuri_fes_2026_osakagigantic_0725",
-      "tourId": "yuuri_fes_2026",
+      "tourId": "yuuri_fes_2026_osakagigantic",
       "venue": "舞洲スポーツアイランド",
       "performanceAt": "2026-07-25T12:00:00+09:00",
       "doorOpenAt": null,
