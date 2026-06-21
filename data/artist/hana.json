@@ -54,6 +54,39 @@
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_summersonic_tokyo",
+      "artistId": "hana",
+      "title": "SUMMER SONIC 2026 TOKYO",
+      "startDate": "2026-08-15T00:00:00+09:00",
+      "endDate": "2026-08-15T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_summersonic_osaka",
+      "artistId": "hana",
+      "title": "SUMMER SONIC 2026 OSAKA",
+      "startDate": "2026-08-16T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "hana_taiban_2026_janet",
+      "artistId": "hana",
+      "title": "JANET JACKSON JAPAN 2026",
+      "startDate": "2026-06-17T00:00:00+09:00",
+      "endDate": "2026-06-17T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260415/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -439,6 +472,42 @@
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_summersonic_tokyo_0815",
+      "tourId": "hana_fes_2026_summersonic_tokyo",
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
+      "performanceAt": "2026-08-15T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "hana_fes_2026_summersonic_osaka_0816",
+      "tourId": "hana_fes_2026_summersonic_osaka",
+      "venue": "万博記念公園",
+      "performanceAt": "2026-08-16T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SUMMER SONIC 2026",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "hana_taiban_2026_janet_0617",
+      "tourId": "hana_taiban_2026_janet",
+      "venue": "IGアリーナ",
+      "performanceAt": "2026-06-17T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "JANET JACKSON JAPAN 2026",
+      "source": "system",
+      "sourceUrl": "https://hana.b-rave.tokyo/live/260415/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],

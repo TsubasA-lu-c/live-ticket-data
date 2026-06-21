@@ -117,6 +117,34 @@
   ],
   "lotteries": [
     {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_primal_footmark_senko",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "type": "PRIMAL FOOTMARK会員先行",
+      "entryStartAt": "2026-05-01T12:00:00+09:00",
+      "entryEndAt": "2026-05-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "one_ok_rock_detox_japan_tour_final_2026_official_hp_senko",
+      "tourId": "one_ok_rock_detox_japan_tour_final_2026",
+      "type": "オフィシャルホームページ先行",
+      "entryStartAt": "2026-05-28T12:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://oneokrock-pf.com/feature/detoxjapantourfinal",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
       "id": "one_ok_rock_detox_japan_tour_final_2026_pia_saisoku",
       "tourId": "one_ok_rock_detox_japan_tour_final_2026",
       "type": "ぴあプレイガイド最速先行",
