@@ -580,7 +580,7 @@
     {
       "id": "vaundy_fes_2026_osaka_0802",
       "tourId": "vaundy_fes_2026_osaka",
-      "venue": null,
+      "venue": "大阪舞洲スポーツアイランド ジャイガ特設会場",
       "performanceAt": "2026-08-02T00:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -592,7 +592,7 @@
     {
       "id": "vaundy_fes_2026_hokkaido_0815",
       "tourId": "vaundy_fes_2026_hokkaido",
-      "venue": null,
+      "venue": "石狩湾新港樽川ふ頭横野外特設ステージ",
       "performanceAt": "2026-08-15T00:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -604,7 +604,7 @@
     {
       "id": "vaundy_fes_2026_miyagi_0829",
       "tourId": "vaundy_fes_2026_miyagi",
-      "venue": null,
+      "venue": "HARD OFF ECO スタジアム新潟",
       "performanceAt": "2026-08-29T00:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -616,7 +616,7 @@
     {
       "id": "vaundy_fes_2026_ibaraki_0912",
       "tourId": "vaundy_fes_2026_ibaraki",
-      "venue": null,
+      "venue": "千葉市蘇我スポーツ公園",
       "performanceAt": "2026-09-12T00:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -628,7 +628,7 @@
     {
       "id": "vaundy_fes_2026_tokyo_0923",
       "tourId": "vaundy_fes_2026_tokyo",
-      "venue": null,
+      "venue": "GLION ARENA KOBE",
       "performanceAt": "2026-09-23T00:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",

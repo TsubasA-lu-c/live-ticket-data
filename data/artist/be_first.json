@@ -190,7 +190,7 @@
     {
       "id": "be_first_world_showcase_bangkok_0925",
       "tourId": "be_first_world_showcase_2026",
-      "venue": null,
+      "venue": "Samyan Mitrtown Hall",
       "performanceAt": "2026-09-25T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
@@ -202,7 +202,7 @@
     {
       "id": "be_first_world_showcase_taipei_0927",
       "tourId": "be_first_world_showcase_2026",
-      "venue": null,
+      "venue": "Legacy TERA",
       "performanceAt": "2026-09-27T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
@@ -214,7 +214,7 @@
     {
       "id": "be_first_world_showcase_manila_1003",
       "tourId": "be_first_world_showcase_2026",
-      "venue": null,
+      "venue": "New Frontier Theater",
       "performanceAt": "2026-10-03T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
@@ -226,7 +226,7 @@
     {
       "id": "be_first_world_showcase_ny_1023",
       "tourId": "be_first_world_showcase_2026",
-      "venue": null,
+      "venue": "Gramercy Theatre",
       "performanceAt": "2026-10-23T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
@@ -238,7 +238,7 @@
     {
       "id": "be_first_fes_dunk_showcase_0315",
       "tourId": "be_first_fes_dunk_showcase",
-      "venue": null,
+      "venue": "K-Arena Yokohama",
       "performanceAt": "2026-03-15T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -262,7 +262,7 @@
     {
       "id": "be_first_fes_head_in_the_clouds_0328",
       "tourId": "be_first_fes_head_in_the_clouds",
-      "venue": null,
+      "venue": "幕張メッセ",
       "performanceAt": "2026-03-28T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -274,7 +274,7 @@
     {
       "id": "be_first_fes_jal_sapporo_0419",
       "tourId": "be_first_fes_jal_sapporo",
-      "venue": null,
+      "venue": "大和ハウス プレミストドーム",
       "performanceAt": "2026-04-19T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -286,7 +286,7 @@
     {
       "id": "be_first_fes_ryokushoku_0426",
       "tourId": "be_first_fes_ryokushoku",
-      "venue": null,
+      "venue": "Aichi Sky Expo",
       "performanceAt": "2026-04-26T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -322,7 +322,7 @@
     {
       "id": "be_first_special_janet_jackson_0614",
       "tourId": "be_first_special_janet_jackson",
-      "venue": null,
+      "venue": "K-Arena Yokohama",
       "performanceAt": "2026-06-14T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
@@ -334,7 +334,7 @@
     {
       "id": "be_first_fes_summer_sonic_0815",
       "tourId": "be_first_fes_summer_sonic",
-      "venue": null,
+      "venue": "ZOZOマリンスタジアム＆幕張メッセ",
       "performanceAt": "2026-08-15T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -346,7 +346,7 @@
     {
       "id": "be_first_fes_lalalala_0823",
       "tourId": "be_first_fes_lalalala",
-      "venue": null,
+      "venue": "Jakarta International Expo",
       "performanceAt": "2026-08-23T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",
@@ -358,7 +358,7 @@
     {
       "id": "be_first_fes_music_and_beards_0829",
       "tourId": "be_first_fes_music_and_beards",
-      "venue": null,
+      "venue": "HARD OFF ECO スタジアム新潟",
       "performanceAt": "2026-08-29T12:00:00+09:00",
       "doorOpenAt": null,
       "kind": "fes",

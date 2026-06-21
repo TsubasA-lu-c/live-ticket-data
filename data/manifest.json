@@ -1,6 +1,6 @@
 {
-  "version": 38,
-  "updatedAt": "2026-06-21T12:55:19+09:00",
+  "version": 39,
+  "updatedAt": "2026-06-21T13:15:25+09:00",
   "files": {
     "artists": {
       "hash": "ce23e891dcba18d5"
@@ -68,7 +68,7 @@
       "hash": "eb1309b7caa8729c"
     },
     "vaundy": {
-      "hash": "5ac766a1af8e69bc"
+      "hash": "d2890ed1c3e4a6ea"
     },
     "hana": {
       "hash": "95fdb207933aecae"
@@ -125,7 +125,7 @@
       "hash": "218f212bb114be90"
     },
     "be_first": {
-      "hash": "992b044f3181400e"
+      "hash": "e806afde983d8110"
     },
     "glay": {
       "hash": "7908a4a86581d673"
