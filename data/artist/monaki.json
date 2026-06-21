@@ -13,6 +13,39 @@
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
+      "id": "monaki_fes_acf_2026",
+      "artistId": "monaki",
+      "title": "ASIA CULTURE FESTIVAL 2026",
+      "startDate": "2026-06-09T00:00:00+09:00",
+      "endDate": "2026-06-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78583",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_fes_nursefes_2026",
+      "artistId": "monaki",
+      "title": "ナースフェス2026",
+      "startDate": "2026-06-13T00:00:00+09:00",
+      "endDate": "2026-06-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/live_information/detail/40239",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_release_2026",
+      "artistId": "monaki",
+      "title": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
+      "startDate": "2026-06-02T00:00:00+09:00",
+      "endDate": "2026-07-23T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/80719",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
       "id": "monaki_1st_tour_2026",
       "artistId": "monaki",
       "title": "MONAKI 1st Tour 2026「モナキやで☆しらんけど」",
@@ -28,6 +61,66 @@
     }
   ],
   "performances": [
+    {
+      "id": "monaki_fes_acf_2026_acf_0609",
+      "tourId": "monaki_fes_acf_2026",
+      "venue": "東京ガーデンシアター",
+      "performanceAt": "2026-06-09T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ASIA CULTURE FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78583",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_fes_nursefes_2026_nursefes_0613",
+      "tourId": "monaki_fes_nursefes_2026",
+      "venue": "新宿住友ビル三角広場",
+      "performanceAt": "2026-06-13T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ナースフェス2026",
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/live_information/detail/40239",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_release_2026_sumida_0602",
+      "tourId": "monaki_release_2026",
+      "venue": "すみだ産業会館 サンライズホール",
+      "performanceAt": "2026-06-02T16:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念キャンペーン",
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/79963",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_release_2026_emiterrace_0607",
+      "tourId": "monaki_release_2026",
+      "venue": "エミテラス所沢 2F TOKOROZAWA e-CUBE",
+      "performanceAt": "2026-06-07T14:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/80719",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_release_2026_shinrifu_0723",
+      "tourId": "monaki_release_2026",
+      "venue": "イオンモール新利府 南館1Fライブスクエア",
+      "performanceAt": "2026-07-23T17:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/news/detail/82354",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
     {
       "id": "monaki_fes_2026_yatsui_0621",
       "tourId": "monaki_fes_2026",

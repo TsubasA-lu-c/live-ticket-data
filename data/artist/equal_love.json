@@ -10,7 +10,42 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/list/6",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_beat_ax_2026",
+      "artistId": "equal_love",
+      "title": "BEAT AX -SUMMER EDITION 2026-",
+      "startDate": "2026-07-12T00:00:00+09:00",
+      "endDate": "2026-07-12T00:00:00+09:00",
+      "prices": [
+        {"label": "全席指定", "amount": 11000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11563",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_tif_2026",
+      "artistId": "equal_love",
+      "title": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
+      "startDate": "2026-08-01T00:00:00+09:00",
+      "endDate": "2026-08-01T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11557",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_tokyo_dome_2027",
+      "artistId": "equal_love",
+      "title": "=LOVE in TOKYO DOME",
+      "startDate": "2027-01-19T00:00:00+09:00",
+      "endDate": "2027-01-20T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11613",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -24,7 +59,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://news.joysound.com/article/677115",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
     },
     {
       "id": "equal_love_9th_anniversary_2026_toyota_1016",
@@ -36,7 +71,55 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://news.joysound.com/article/677115",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_beat_ax_2026_karena_0712",
+      "tourId": "equal_love_beat_ax_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-07-12T17:00:00+09:00",
+      "doorOpenAt": "2026-07-12T15:30:00+09:00",
+      "kind": "festival",
+      "eventName": "BEAT AX -SUMMER EDITION 2026-",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11563",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_tif_2026_odaiba_0801",
+      "tourId": "equal_love_tif_2026",
+      "venue": "お台場・青海周辺エリア",
+      "performanceAt": "2026-08-01T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11557",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_tokyo_dome_2027_dome_0119",
+      "tourId": "equal_love_tokyo_dome_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-01-19T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11613",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_tokyo_dome_2027_dome_0120",
+      "tourId": "equal_love_tokyo_dome_2027",
+      "venue": "東京ドーム",
+      "performanceAt": "2027-01-20T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11613",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -55,7 +138,57 @@
       ],
       "source": "system",
       "sourceUrl": "https://news.joysound.com/article/677115",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_beat_ax_2026_fc",
+      "tourId": "equal_love_beat_ax_2026",
+      "type": "FC販売",
+      "entryStartAt": "2026-06-10T10:00:00+09:00",
+      "entryEndAt": "2026-06-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_beat_ax_2026_karena_0712"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11563",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_tokyo_dome_2027_fc_saisoku",
+      "tourId": "equal_love_tokyo_dome_2027",
+      "type": "FC最速先行",
+      "entryStartAt": "2026-10-13T17:00:00+09:00",
+      "entryEndAt": "2026-10-18T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_tokyo_dome_2027_dome_0119",
+        "equal_love_tokyo_dome_2027_dome_0120"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11613",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "equal_love_tokyo_dome_2027_fc_senkou",
+      "tourId": "equal_love_tokyo_dome_2027",
+      "type": "FC先行",
+      "entryStartAt": "2026-10-26T18:00:00+09:00",
+      "entryEndAt": "2026-11-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "equal_love_tokyo_dome_2027_dome_0119",
+        "equal_love_tokyo_dome_2027_dome_0120"
+      ],
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11613",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
     }
   ]
 }
