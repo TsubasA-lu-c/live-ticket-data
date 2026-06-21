@@ -2,6 +2,17 @@
   "artistId": "monaki",
   "tours": [
     {
+      "id": "monaki_fes_2026",
+      "artistId": "monaki",
+      "title": "YATSUI FESTIVAL! 2026",
+      "startDate": "2026-06-21T00:00:00+09:00",
+      "endDate": "2026-06-21T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
       "id": "monaki_1st_tour_2026",
       "artistId": "monaki",
       "title": "MONAKI 1st Tour 2026「モナキやで☆しらんけど」",
@@ -13,10 +24,22 @@
       ],
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "monaki_fes_2026_yatsui_0621",
+      "tourId": "monaki_fes_2026",
+      "venue": null,
+      "performanceAt": "2026-06-21T00:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "festival",
+      "eventName": "YATSUI FESTIVAL! 2026",
+      "source": "system",
+      "sourceUrl": "https://monaki.fanpla.jp/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
     {
       "id": "monaki_1st_tour_2026_zeppnamba_0818",
       "tourId": "monaki_1st_tour_2026",
@@ -27,7 +50,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_zeppnagoya_0819",
@@ -39,7 +62,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_zepphaneda_0824",
@@ -51,7 +74,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -71,7 +94,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }
