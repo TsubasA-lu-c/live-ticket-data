@@ -1,6 +1,6 @@
 {
-  "version": 31,
-  "updatedAt": "2026-06-21T11:26:25+09:00",
+  "version": 32,
+  "updatedAt": "2026-06-21T11:52:46+09:00",
   "files": {
     "artists": {
       "hash": "ce23e891dcba18d5"
@@ -182,7 +182,7 @@
       "hash": "d2f31a6917fcf468"
     },
     "milk": {
-      "hash": "f474dfccd973342b"
+      "hash": "69043e746f9f1ada"
     },
     "novelbright": {
       "hash": "948d6feaa54d0f1f"
