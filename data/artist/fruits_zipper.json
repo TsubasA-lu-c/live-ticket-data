@@ -2,6 +2,20 @@
   "artistId": "fruits_zipper",
   "tours": [
     {
+      "id": "fruits_zipper_kawaii_lab_session_summer_2026",
+      "artistId": "fruits_zipper",
+      "title": "KAWAII LAB. SESSION 2026 SUMMER",
+      "startDate": "2026-07-10T00:00:00+09:00",
+      "endDate": "2026-07-11T00:00:00+09:00",
+      "prices": [
+        {"label": "一般指定席", "amount": 10000},
+        {"label": "アップグレード指定席", "amount": 15000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/81818",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
       "id": "fruits_zipper_dream_with_in_2026",
       "artistId": "fruits_zipper",
       "title": "FRUITS ZIPPER 4TH ANNIVERSARY ARENA TOUR「DREAM WITH IN」",
@@ -29,6 +43,30 @@
     }
   ],
   "performances": [
+    {
+      "id": "fruits_zipper_kawaii_lab_session_summer_2026_yoyogi_0710",
+      "tourId": "fruits_zipper_kawaii_lab_session_summer_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-07-10T18:00:00+09:00",
+      "doorOpenAt": "2026-07-10T16:00:00+09:00",
+      "kind": "festival",
+      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/81818",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_kawaii_lab_session_summer_2026_yoyogi_0711",
+      "tourId": "fruits_zipper_kawaii_lab_session_summer_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-07-11T17:00:00+09:00",
+      "doorOpenAt": "2026-07-11T15:00:00+09:00",
+      "kind": "festival",
+      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/81818",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
     {
       "id": "fruits_zipper_dream_with_in_2026_ig_arena_0624",
       "tourId": "fruits_zipper_dream_with_in_2026",
@@ -416,6 +454,82 @@
       "source": "system",
       "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/78068",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_fc_2nd",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "FC先行",
+      "entryStartAt": "2026-05-26T18:00:00+09:00",
+      "entryEndAt": "2026-06-01T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_mie_0921",
+        "fruits_zipper_japan_tour_2026_autumn_gifu_0923",
+        "fruits_zipper_japan_tour_2026_autumn_aichi_0925",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001",
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007",
+        "fruits_zipper_japan_tour_2026_autumn_ishikawa_1011",
+        "fruits_zipper_japan_tour_2026_autumn_kagawa_1013",
+        "fruits_zipper_japan_tour_2026_autumn_ehime_1015",
+        "fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026",
+        "fruits_zipper_japan_tour_2026_autumn_kumamoto_1027",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106",
+        "fruits_zipper_japan_tour_2026_autumn_sapporo_1112",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://fruitszipper.asobisystem.com/news/detail/80267",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "fruits_zipper_japan_tour_2026_autumn_kawaii_lab_1st",
+      "tourId": "fruits_zipper_japan_tour_2026_autumn",
+      "type": "KAWAII LAB.先行",
+      "entryStartAt": "2026-06-09T18:00:00+09:00",
+      "entryEndAt": "2026-06-15T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "fruits_zipper_japan_tour_2026_autumn_yokosuka_0903",
+        "fruits_zipper_japan_tour_2026_autumn_omiya_sonic_0916",
+        "fruits_zipper_japan_tour_2026_autumn_matsudo_0918",
+        "fruits_zipper_japan_tour_2026_autumn_mie_0921",
+        "fruits_zipper_japan_tour_2026_autumn_gifu_0923",
+        "fruits_zipper_japan_tour_2026_autumn_aichi_0925",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_0930",
+        "fruits_zipper_japan_tour_2026_autumn_grand_cube_osaka_1001",
+        "fruits_zipper_japan_tour_2026_autumn_tochigi_1004",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1006",
+        "fruits_zipper_japan_tour_2026_autumn_sendai_sun_plaza_1007",
+        "fruits_zipper_japan_tour_2026_autumn_ishikawa_1011",
+        "fruits_zipper_japan_tour_2026_autumn_kagawa_1013",
+        "fruits_zipper_japan_tour_2026_autumn_ehime_1015",
+        "fruits_zipper_japan_tour_2026_autumn_fukuoka_sun_palace_1026",
+        "fruits_zipper_japan_tour_2026_autumn_kumamoto_1027",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1105",
+        "fruits_zipper_japan_tour_2026_autumn_hiroshima_1106",
+        "fruits_zipper_japan_tour_2026_autumn_sapporo_1112",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1114",
+        "fruits_zipper_japan_tour_2026_autumn_tokyo_garden_1115",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1121",
+        "fruits_zipper_japan_tour_2026_autumn_okinawa_1122"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kawaiilab.asobisystem.com/news/detail/81419",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
     }
   ]
 }

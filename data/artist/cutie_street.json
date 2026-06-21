@@ -2,6 +2,77 @@
   "artistId": "cutie_street",
   "tours": [
     {
+      "id": "cutie_street_2nd_anniversary_2026",
+      "artistId": "cutie_street",
+      "title": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
+      "startDate": "2026-08-25T00:00:00+09:00",
+      "endDate": "2026-08-26T00:00:00+09:00",
+      "prices": [
+        {"label": "一般指定席", "amount": 10000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_event_2026_nagi_birthday",
+      "artistId": "cutie_street",
+      "title": "真鍋凪咲 生誕祭 2026",
+      "startDate": "2026-06-29T00:00:00+09:00",
+      "endDate": "2026-06-29T00:00:00+09:00",
+      "prices": [
+        {"label": "お見送り会付指定席", "amount": 12000},
+        {"label": "一般指定席", "amount": 6500}
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/79660",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_sendai_2026",
+      "artistId": "cutie_street",
+      "title": "KAWAII LAB. SESSION in SENDAI",
+      "startDate": "2026-07-05T00:00:00+09:00",
+      "endDate": "2026-07-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81089",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_summer_2026",
+      "artistId": "cutie_street",
+      "title": "KAWAII LAB. SESSION 2026 SUMMER",
+      "startDate": "2026-07-10T00:00:00+09:00",
+      "endDate": "2026-07-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81821",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_live_in_korea_2026_summer",
+      "artistId": "cutie_street",
+      "title": "CUTIE STREET Live in Korea 2026 SUMMER",
+      "startDate": "2026-07-25T00:00:00+09:00",
+      "endDate": "2026-07-26T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_nagasaki_2026",
+      "artistId": "cutie_street",
+      "title": "KAWAII LAB. SESSION in NAGASAKI",
+      "startDate": "2026-06-27T00:00:00+09:00",
+      "endDate": "2026-06-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
       "id": "cutie_street_japan_arena_tour_2026_autumn",
       "artistId": "cutie_street",
       "title": "CUTIE STREET JAPAN ARENA TOUR 2026 -AUTUMN-",
@@ -16,6 +87,126 @@
     }
   ],
   "performances": [
+    {
+      "id": "cutie_street_2nd_anniversary_2026_budokan_0825",
+      "tourId": "cutie_street_2nd_anniversary_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-08-25T18:00:00+09:00",
+      "doorOpenAt": "2026-08-25T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_2nd_anniversary_2026_budokan_0826",
+      "tourId": "cutie_street_2nd_anniversary_2026",
+      "venue": "日本武道館",
+      "performanceAt": "2026-08-26T17:00:00+09:00",
+      "doorOpenAt": "2026-08-26T15:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_event_2026_nagi_birthday_sgc_0629",
+      "tourId": "cutie_street_event_2026_nagi_birthday",
+      "venue": "SGCホール有明",
+      "performanceAt": "2026-06-29T19:00:00+09:00",
+      "doorOpenAt": "2026-06-29T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "真鍋凪咲 生誕祭 2026",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/79660",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_sendai_2026_zevioarena_0705",
+      "tourId": "cutie_street_fes_kawaii_lab_sendai_2026",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-07-05T16:00:00+09:00",
+      "doorOpenAt": "2026-07-05T14:30:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. SESSION in SENDAI",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81089",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_summer_2026_yoyogi_0710",
+      "tourId": "cutie_street_fes_kawaii_lab_summer_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-07-10T18:00:00+09:00",
+      "doorOpenAt": "2026-07-10T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81821",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_summer_2026_yoyogi_0711",
+      "tourId": "cutie_street_fes_kawaii_lab_summer_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-07-11T17:00:00+09:00",
+      "doorOpenAt": "2026-07-11T15:00:00+09:00",
+      "kind": "fes",
+      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81821",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_live_in_korea_2026_summer_sejong_0725",
+      "tourId": "cutie_street_fes_live_in_korea_2026_summer",
+      "venue": "世宗大学 大洋ホール",
+      "performanceAt": "2026-07-25T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "CUTIE STREET Live in Korea 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_live_in_korea_2026_summer_sejong_0726",
+      "tourId": "cutie_street_fes_live_in_korea_2026_summer",
+      "venue": "世宗大学 大洋ホール",
+      "performanceAt": "2026-07-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "CUTIE STREET Live in Korea 2026 SUMMER",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_nagasaki_2026_happiness_arena_0627",
+      "tourId": "cutie_street_fes_kawaii_lab_nagasaki_2026",
+      "venue": "長崎スタジアムシティ HAPPINESS ARENA",
+      "performanceAt": "2026-06-27T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "KAWAII LAB. SESSION in NAGASAKI",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_fes_kawaii_lab_nagasaki_2026_happiness_arena_0628",
+      "tourId": "cutie_street_fes_kawaii_lab_nagasaki_2026",
+      "venue": "長崎スタジアムシティ HAPPINESS ARENA",
+      "performanceAt": "2026-06-28T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "KAWAII LAB. SESSION in NAGASAKI",
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/43664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
     {
       "id": "cutie_street_japan_arena_tour_2026_autumn_yokohama_arena_0923",
       "tourId": "cutie_street_japan_arena_tour_2026_autumn",
@@ -174,6 +365,39 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "cutie_street_2nd_anniversary_2026_pg_fastest",
+      "tourId": "cutie_street_2nd_anniversary_2026",
+      "type": "プレイガイド最速先行",
+      "entryStartAt": "2026-04-19T18:00:00+09:00",
+      "entryEndAt": "2026-05-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_2nd_anniversary_2026_budokan_0825",
+        "cutie_street_2nd_anniversary_2026_budokan_0826"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "cutie_street_event_2026_nagi_birthday_fc",
+      "tourId": "cutie_street_event_2026_nagi_birthday",
+      "type": "FC先行",
+      "entryStartAt": "2026-05-20T12:00:00+09:00",
+      "entryEndAt": "2026-05-25T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_event_2026_nagi_birthday_sgc_0629"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/79660",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
     {
       "id": "cutie_street_japan_arena_tour_2026_autumn_fc_1st",
       "tourId": "cutie_street_japan_arena_tour_2026_autumn",
