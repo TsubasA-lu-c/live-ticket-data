@@ -2,6 +2,19 @@
   "artistId": "number_i",
   "tours": [
     {
+      "id": "number_i_fes_rijf_2026",
+      "artistId": "number_i",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-19T00:00:00+09:00",
+      "prices": [
+        {"label": "1日券", "amount": 16000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
       "id": "number_i_fanmeeting_2026",
       "artistId": "number_i",
       "title": "Number_i ファンミーティング 2026",
@@ -14,6 +27,18 @@
     }
   ],
   "performances": [
+    {
+      "id": "number_i_fes_rijf_2026_soga_0919",
+      "tourId": "number_i_fes_rijf_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-19T12:00:00+09:00",
+      "doorOpenAt": "2026-09-19T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
     {
       "id": "number_i_fanmeeting_2026_osaka_0721",
       "tourId": "number_i_fanmeeting_2026",
@@ -112,6 +137,38 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "number_i_fes_rijf_2026_jfes_1st",
+      "tourId": "number_i_fes_rijf_2026",
+      "type": "第1次抽選先行（Jフェスアプリ）",
+      "entryStartAt": "2026-05-20T12:15:00+09:00",
+      "entryEndAt": "2026-05-26T16:00:00+09:00",
+      "resultAt": "2026-05-29T16:00:00+09:00",
+      "paymentStartAt": "2026-05-29T16:00:00+09:00",
+      "paymentEndAt": "2026-06-01T16:00:00+09:00",
+      "performanceIds": [
+        "number_i_fes_rijf_2026_soga_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "number_i_fes_rijf_2026_jfes_2nd",
+      "tourId": "number_i_fes_rijf_2026",
+      "type": "第2次抽選先行（Jフェスアプリ）",
+      "entryStartAt": "2026-06-03T12:15:00+09:00",
+      "entryEndAt": "2026-06-09T16:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "number_i_fes_rijf_2026_soga_0919"
+      ],
+      "source": "system",
+      "sourceUrl": "https://rijfes.jp/2026/ticket/",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
     {
       "id": "number_i_fanmeeting_2026_ilys_fc_senko",
       "tourId": "number_i_fanmeeting_2026",

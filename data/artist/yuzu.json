@@ -2,6 +2,24 @@
   "artistId": "yuzu",
   "tours": [
     {
+      "id": "yuzu_30th_kokoro_2026",
+      "artistId": "yuzu",
+      "title": "ゆず 30周年開幕記念ライブ 心をとめないで",
+      "startDate": "2026-10-23T00:00:00+09:00",
+      "endDate": "2026-10-25T00:00:00+09:00",
+      "prices": [
+        {"label": "YZ席", "amount": 21800},
+        {"label": "着席指定席", "amount": 15800},
+        {"label": "指定席", "amount": 12800},
+        {"label": "車椅子席", "amount": 12800},
+        {"label": "親子席", "amount": 9900},
+        {"label": "U-18席", "amount": 7700}
+      ],
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/contents/information/a567b0d2-f59d-45fd-8e12-5d2bd69f2664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
       "id": "yuzu_kokoro_no_ne_arenatour_2026",
       "artistId": "yuzu",
       "title": "ゆず 弾き語りアリーナツアー 2026 心音",
@@ -274,9 +292,59 @@
       "source": "system",
       "sourceUrl": "https://yuzu-official.com/pages/yuzu_arenatour2026/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_karena_1023",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-10-23T18:00:00+09:00",
+      "doorOpenAt": "2026-10-23T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": "ゆず 30周年開幕記念ライブ 心をとめないで",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/contents/information/a567b0d2-f59d-45fd-8e12-5d2bd69f2664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_karena_1024",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-10-24T16:30:00+09:00",
+      "doorOpenAt": "2026-10-24T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ゆず 30周年開幕記念ライブ 心をとめないで",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/contents/information/a567b0d2-f59d-45fd-8e12-5d2bd69f2664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "yuzu_30th_kokoro_2026_karena_1025",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "venue": "Kアリーナ横浜",
+      "performanceAt": "2026-10-25T16:30:00+09:00",
+      "doorOpenAt": "2026-10-25T15:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ゆず 30周年開幕記念ライブ 心をとめないで",
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/contents/information/a567b0d2-f59d-45fd-8e12-5d2bd69f2664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
+    {
+      "id": "yuzu_30th_kokoro_2026_fc",
+      "tourId": "yuzu_30th_kokoro_2026",
+      "type": "FC先行（ゆずの輪）",
+      "entryStartAt": "2026-06-06T19:00:00+09:00",
+      "entryEndAt": "2026-06-16T23:59:00+09:00",
+      "resultAt": "2026-06-23T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": "2026-06-28T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://yuzu-official.com/contents/information/a567b0d2-f59d-45fd-8e12-5d2bd69f2664",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
     {
       "id": "yuzu_kokoro_no_ne_arenatour_2026_fc_1",
       "tourId": "yuzu_kokoro_no_ne_arenatour_2026",
