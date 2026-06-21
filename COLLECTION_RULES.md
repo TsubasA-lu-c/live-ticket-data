@@ -410,7 +410,8 @@ data/
 
 | コマンド | 対象 | 推奨タイミング |
 |---|---|---|
-| `/refresh-hot` | Hot tier のみ（動的判定→絞り込み→鮮度更新） | 毎週 |
+| `/refresh-smart` | 公式サイトに変化があったアーティストのみ（自動判定） | 毎週（推奨） |
+| `/refresh-hot` | Hot tier のみ（動的判定→絞り込み→鮮度更新） | 毎週（smartが使えない場合） |
 | `/refresh-all` | 全アーティスト + 終了ツアー掃除（§5.1） | 月次 |
 | `/add-artists` | 新規アーティストの追加バッチ | 月次 |
 
@@ -431,6 +432,33 @@ data/
   ↓ 全グループ完了
 メイン: update_manifest.py → commit & push
 ```
+
+#### /refresh-smart の手順
+
+**差分チェックで変化があったアーティストだけを更新する。セッション消費を最小化できる。**
+
+```
+1. python3 tools/check_updates.py 2>/dev/null > /tmp/changed.txt
+   → 変化ありアーティストIDが1行ずつ出力される
+   → 初回（cache なし）は全件が出力される（期待通り）
+
+2. cat /tmp/changed.txt で対象IDを確認する
+
+3. 対象IDを5組ずつのグループに分割
+
+4. グループごとに1組×5並列で起動
+   - 各サブ: §4 の収集手順を実施（終了ツアー掃除は不要、変化があった分のみ）
+   - 全完了後: artists.json の lastVerifiedAt を更新 → validate.py → commit & push
+
+5. 全グループ完了後:
+   python3 tools/update_manifest.py → commit & push
+   git add cache/source_hashes.json && git commit -m "update: source hash cache" && git push origin main
+```
+
+**注意事項:**
+- `cache/source_hashes.json` は git 管理する（次回チェックの基準点）
+- 公式サイトを更新していないアーティストは出力されないため、スキップして正しい
+- 公式サイトが存在しない（sourceUrl が null）アーティストは常に"変化あり"扱いとなる
 
 #### /refresh-hot の手順
 1. 全 `data/artist/{id}.json` を読み込み、Hot tier アーティストを抽出

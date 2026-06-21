@@ -1,0 +1,14 @@
+{
+  "golden_bomber": {
+    "https://pc.goldenbomber.jp/": {
+      "type": "hash",
+      "hash": "26e41e90dffbb59cd5ce64b1769d0d57"
+    }
+  },
+  "yuzu": {
+    "https://yuzu-official.com/pages/yuzu_arenatour2026/": {
+      "type": "hash",
+      "hash": "45aca1da7ed0495bd74b613a4a6fb6cd"
+    }
+  }
+}
