@@ -39,6 +39,19 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1080346",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026",
+      "artistId": "milk",
+      "title": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "startDate": "2026-08-13T00:00:00+09:00",
+      "endDate": "2026-08-16T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 15000}
+      ],
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1081642",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -437,9 +450,71 @@
       "source": "system",
       "sourceUrl": "https://sd-milk.com/contents/1080346",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_yoyogi_0813",
+      "tourId": "milk_ebidan_live_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-08-13T18:00:00+09:00",
+      "doorOpenAt": "2026-08-13T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1081642",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_yoyogi_0814",
+      "tourId": "milk_ebidan_live_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-08-14T18:00:00+09:00",
+      "doorOpenAt": "2026-08-14T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1081642",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_yoyogi_0815",
+      "tourId": "milk_ebidan_live_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-08-15T18:00:00+09:00",
+      "doorOpenAt": "2026-08-15T17:00:00+09:00",
+      "kind": "fes",
+      "eventName": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1081642",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "milk_ebidan_live_2026_yoyogi_0816",
+      "tourId": "milk_ebidan_live_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-08-16T14:00:00+09:00",
+      "doorOpenAt": "2026-08-16T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "EBiDAN THE LIVE 2026 15th Anniversary",
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1081642",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
+    {
+      "id": "milk_ebidan_live_2026_ebidan_senko",
+      "tourId": "milk_ebidan_live_2026",
+      "type": "EBiDAN会員先行",
+      "entryStartAt": "2026-06-10T20:00:00+09:00",
+      "entryEndAt": "2026-06-14T23:59:00+09:00",
+      "resultAt": "2026-06-23T20:00:00+09:00",
+      "paymentStartAt": "2026-06-23T20:00:00+09:00",
+      "paymentEndAt": "2026-06-26T23:59:00+09:00",
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://sd-milk.com/contents/1081642",
+      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
     {
       "id": "milk_shakariki_revolution_2026_premium_milk_1",
       "tourId": "milk_shakariki_revolution_2026",
