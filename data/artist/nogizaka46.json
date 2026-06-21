@@ -287,6 +287,117 @@
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
       "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_mobile_miyagi_fukuoka_tokyo",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "乃木坂46モバイル会員2次先行",
+      "entryStartAt": "2026-06-21T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_miyagi_0725",
+        "nogizaka46_manatsu_2026_miyagi_0726",
+        "nogizaka46_manatsu_2026_fukuoka_0808",
+        "nogizaka46_manatsu_2026_fukuoka_0809",
+        "nogizaka46_manatsu_2026_tokyo_0820",
+        "nogizaka46_manatsu_2026_tokyo_0821",
+        "nogizaka46_manatsu_2026_tokyo_0822",
+        "nogizaka46_manatsu_2026_tokyo_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_nogidoga_miyagi_fukuoka_tokyo",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "のぎ動画チケット先行",
+      "entryStartAt": "2026-06-21T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_miyagi_0725",
+        "nogizaka46_manatsu_2026_miyagi_0726",
+        "nogizaka46_manatsu_2026_fukuoka_0808",
+        "nogizaka46_manatsu_2026_fukuoka_0809",
+        "nogizaka46_manatsu_2026_tokyo_0820",
+        "nogizaka46_manatsu_2026_tokyo_0821",
+        "nogizaka46_manatsu_2026_tokyo_0822",
+        "nogizaka46_manatsu_2026_tokyo_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_mail_miyagi_fukuoka_tokyo",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "メール会員先行",
+      "entryStartAt": "2026-06-21T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_miyagi_0725",
+        "nogizaka46_manatsu_2026_miyagi_0726",
+        "nogizaka46_manatsu_2026_fukuoka_0808",
+        "nogizaka46_manatsu_2026_fukuoka_0809",
+        "nogizaka46_manatsu_2026_tokyo_0820",
+        "nogizaka46_manatsu_2026_tokyo_0821",
+        "nogizaka46_manatsu_2026_tokyo_0822",
+        "nogizaka46_manatsu_2026_tokyo_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_message_miyagi_fukuoka_tokyo",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "メッセージ先行",
+      "entryStartAt": "2026-06-21T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_miyagi_0725",
+        "nogizaka46_manatsu_2026_miyagi_0726",
+        "nogizaka46_manatsu_2026_fukuoka_0808",
+        "nogizaka46_manatsu_2026_fukuoka_0809",
+        "nogizaka46_manatsu_2026_tokyo_0820",
+        "nogizaka46_manatsu_2026_tokyo_0821",
+        "nogizaka46_manatsu_2026_tokyo_0822",
+        "nogizaka46_manatsu_2026_tokyo_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_manatsu_2026_barrierfree_tokyo",
+      "tourId": "nogizaka46_manatsu_2026",
+      "type": "バリアフリー席先行（東京公演）",
+      "entryStartAt": "2026-06-21T12:00:00+09:00",
+      "entryEndAt": "2026-06-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_manatsu_2026_tokyo_0820",
+        "nogizaka46_manatsu_2026_tokyo_0821",
+        "nogizaka46_manatsu_2026_tokyo_0822",
+        "nogizaka46_manatsu_2026_tokyo_0823"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }

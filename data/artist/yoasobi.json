@@ -180,6 +180,31 @@
       "source": "system",
       "sourceUrl": "https://www.yoasobi-music.jp/live/54776",
       "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+    },
+    {
+      "id": "yoasobi_asia_dome_2026_fc_2nd",
+      "tourId": "yoasobi_asia_dome_2026",
+      "type": "FC先行（YOA'S 2次）",
+      "entryStartAt": "2026-04-03T12:00:00+09:00",
+      "entryEndAt": "2026-04-19T23:59:00+09:00",
+      "resultAt": "2026-04-25T15:00:00+09:00",
+      "paymentStartAt": "2026-04-25T15:00:00+09:00",
+      "paymentEndAt": "2026-04-29T23:59:00+09:00",
+      "performanceIds": [
+        "yoasobi_asia_dome_2026_osaka_1024",
+        "yoasobi_asia_dome_2026_osaka_1025",
+        "yoasobi_asia_dome_2026_aichi_1107",
+        "yoasobi_asia_dome_2026_aichi_1108",
+        "yoasobi_asia_dome_2026_hokkaido_1114",
+        "yoasobi_asia_dome_2026_hokkaido_1115",
+        "yoasobi_asia_dome_2026_fukuoka_1128",
+        "yoasobi_asia_dome_2026_fukuoka_1129",
+        "yoasobi_asia_dome_2026_tokyo_1205",
+        "yoasobi_asia_dome_2026_tokyo_1206"
+      ],
+      "source": "system",
+      "sourceUrl": "https://kobayasisaburo.com/6004/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }

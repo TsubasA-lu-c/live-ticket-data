@@ -2,6 +2,17 @@
   "artistId": "official_hige_dandism",
   "tours": [
     {
+      "id": "official_hige_dandism_asia_tour_2026",
+      "artistId": "official_hige_dandism",
+      "title": "OFFICIAL HIGE DANDISM ASIA TOUR 2026",
+      "startDate": "2026-08-08T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
       "id": "official_hige_dandism_tour_2026",
       "artistId": "official_hige_dandism",
       "title": "OFFICIAL HIGE DANDISM one-man tour 2026",
@@ -17,6 +28,78 @@
     }
   ],
   "performances": [
+    {
+      "id": "official_hige_dandism_asia_tour_2026_seoul_0808",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "venue": "KSPO DOME（ソウル）",
+      "performanceAt": "2026-08-08T19:00:00+09:00",
+      "doorOpenAt": "2026-08-08T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_asia_tour_2026_seoul_0809",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "venue": "KSPO DOME（ソウル）",
+      "performanceAt": "2026-08-09T19:00:00+09:00",
+      "doorOpenAt": "2026-08-09T17:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_asia_tour_2026_singapore_0821",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "venue": "The Star Theatre（シンガポール）",
+      "performanceAt": "2026-08-21T21:00:00+09:00",
+      "doorOpenAt": "2026-08-21T20:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_asia_tour_2026_taipei_0829",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "venue": "Taipei Arena（台北）",
+      "performanceAt": "2026-08-29T19:00:00+09:00",
+      "doorOpenAt": "2026-08-29T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_asia_tour_2026_taipei_0830",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "venue": "Taipei Arena（台北）",
+      "performanceAt": "2026-08-30T19:00:00+09:00",
+      "doorOpenAt": "2026-08-30T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "official_hige_dandism_asia_tour_2026_bangkok_0906",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "venue": "UOB LIVE（バンコク）",
+      "performanceAt": "2026-09-06T20:00:00+09:00",
+      "doorOpenAt": "2026-09-06T19:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
     {
       "id": "official_hige_dandism_tour_2026_miyagi_0404",
       "tourId": "official_hige_dandism_tour_2026",
@@ -331,6 +414,27 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "official_hige_dandism_asia_tour_2026_fc",
+      "tourId": "official_hige_dandism_asia_tour_2026",
+      "type": "FC先行（抽選）",
+      "entryStartAt": "2026-03-31T12:00:00+09:00",
+      "entryEndAt": "2026-04-06T23:59:00+09:00",
+      "resultAt": "2026-04-13T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "official_hige_dandism_asia_tour_2026_seoul_0808",
+        "official_hige_dandism_asia_tour_2026_seoul_0809",
+        "official_hige_dandism_asia_tour_2026_singapore_0821",
+        "official_hige_dandism_asia_tour_2026_taipei_0829",
+        "official_hige_dandism_asia_tour_2026_taipei_0830",
+        "official_hige_dandism_asia_tour_2026_bangkok_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://event.higedan.com/feature/asiatour2026",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
     {
       "id": "official_hige_dandism_tour_2026_w_member",
       "tourId": "official_hige_dandism_tour_2026",
