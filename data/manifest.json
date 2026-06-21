@@ -1,6 +1,6 @@
 {
-  "version": 42,
-  "updatedAt": "2026-06-22T07:26:24+09:00",
+  "version": 43,
+  "updatedAt": "2026-06-22T07:47:29+09:00",
   "files": {
     "artists": {
       "hash": "ce23e891dcba18d5"
@@ -161,7 +161,7 @@
       "hash": "c94e1fea139a3a13"
     },
     "04_limited_sazabys": {
-      "hash": "0ef4f181a943fcab"
+      "hash": "d83f2e1b3188c1a2"
     },
     "ae_group": {
       "hash": "bf3dd2ef88fda6a2"
@@ -173,25 +173,25 @@
       "hash": "238f163845c7443b"
     },
     "cutie_street": {
-      "hash": "53f0bc6e71d3e4a4"
+      "hash": "f6e39e14e2454581"
     },
     "frederic": {
-      "hash": "d9572d0dd0368df8"
+      "hash": "eb55a58eac157ca5"
     },
     "fruits_zipper": {
-      "hash": "d2f31a6917fcf468"
+      "hash": "32e2ffb780fdbd30"
     },
     "milk": {
       "hash": "45bb6fb880e78a32"
     },
     "novelbright": {
-      "hash": "948d6feaa54d0f1f"
+      "hash": "c9c6aa6f752a037f"
     },
     "equal_love": {
-      "hash": "5ce2bb0f4a047eec"
+      "hash": "167d012616267f13"
     },
     "monaki": {
-      "hash": "f74781b3ff458562"
+      "hash": "35c08df51d72197f"
     }
   }
 }
