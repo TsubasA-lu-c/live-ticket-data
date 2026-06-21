@@ -8,12 +8,14 @@
       "startDate": "2026-04-11T00:00:00+09:00",
       "endDate": "2026-10-17T00:00:00+09:00",
       "prices": [
-        {"label": "指定席（ホール）", "amount": 9000},
-        {"label": "指定席（アリーナ）", "amount": 9900}
+        {"label": "ジャスティンアイランド（会員限定・ホール）", "amount": 12500},
+        {"label": "指定席・着席指定席（ホール）", "amount": 9000},
+        {"label": "ジャスティンアイランド（会員限定・アリーナ）", "amount": 14900},
+        {"label": "指定席・着席指定席（アリーナ）", "amount": 9900}
       ],
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -27,7 +29,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/schedule/detail/2096",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_fukuoka_0626",
@@ -39,7 +41,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/schedule/detail/2096",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_gifu_0711",
@@ -51,7 +53,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_chiba_0807",
@@ -63,7 +65,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_aichi_0810",
@@ -75,7 +77,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_aichi_0811",
@@ -87,7 +89,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_niigata_0815",
@@ -99,7 +101,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_hyogo_0926",
@@ -111,7 +113,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_hyogo_0927",
@@ -123,7 +125,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_kanagawa_1007",
@@ -135,7 +137,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_kanagawa_1008",
@@ -147,7 +149,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_osaka_1016",
@@ -159,7 +161,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "novelbright_pyramid_2026_osaka_1017",
@@ -171,7 +173,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": []

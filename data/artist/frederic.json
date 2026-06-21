@@ -12,7 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -23,10 +23,10 @@
       "performanceAt": "2026-10-12T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
-      "eventName": "UMIMOYASU 2026-2027 MOVE",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0117",
@@ -35,10 +35,10 @@
       "performanceAt": "2027-01-17T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
-      "eventName": "UMIMOYASU 2026-2027 MOVE",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -56,7 +56,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ]
 }
