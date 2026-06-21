@@ -8,7 +8,10 @@
       "startDate": "2026-07-14T00:00:00+09:00",
       "endDate": "2026-07-15T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 12000}
+        {
+          "label": "指定席",
+          "amount": 12000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
@@ -35,7 +38,8 @@
       "doorOpenAt": "2026-07-14T16:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "aimyon_10th_koshien_2026_hyogo_0715",
@@ -45,7 +49,8 @@
       "doorOpenAt": "2026-07-15T16:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.aimyong.net/feature/tententen_koshien",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "aimyon_fes_2026_join_alive_0719",

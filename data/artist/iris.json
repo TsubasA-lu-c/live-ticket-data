@@ -49,7 +49,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "iris_11th_live_tour_2026_fukuoka_0504",
@@ -59,7 +60,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "iris_11th_live_tour_2026_aichi_0509",
@@ -69,7 +71,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "iris_11th_live_tour_2026_hokkaido_0516",
@@ -79,7 +82,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "iris_11th_live_tour_2026_osaka_0524",
@@ -89,7 +93,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "iris_11th_live_tour_2026_miyagi_0530",
@@ -99,7 +104,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "iris_11th_live_tour_2026_kanagawa_0531",
@@ -109,7 +115,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "iris_11th_live_tour_2026_tokyo_0719_day",
@@ -119,7 +126,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "iris_11th_live_tour_2026_tokyo_0719_night",
@@ -129,7 +137,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "iris_14th_anniversary_live_2026_yokohama_1103",

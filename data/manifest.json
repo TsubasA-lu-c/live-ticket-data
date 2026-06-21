@@ -1,6 +1,6 @@
 {
-  "version": 36,
-  "updatedAt": "2026-06-21T12:29:26+09:00",
+  "version": 37,
+  "updatedAt": "2026-06-21T12:36:18+09:00",
   "files": {
     "artists": {
       "hash": "ce23e891dcba18d5"
@@ -11,37 +11,37 @@
       "hash": "a69eed8604ff3d2c"
     },
     "yonezu_kenshi": {
-      "hash": "b5a611e8cef36b86"
+      "hash": "59996e891643de5b"
     },
     "mizuki_nana": {
-      "hash": "b4bd9166cb475d5b"
+      "hash": "8a3e22b95938e716"
     },
     "iris": {
-      "hash": "f528788378078db2"
+      "hash": "9c57ff1358ec8ee3"
     },
     "mr_children": {
-      "hash": "0e1e9e337e8668d6"
+      "hash": "a01d9c579660ff80"
     },
     "official_hige_dandism": {
       "hash": "86943b4785721c1f"
     },
     "back_number": {
-      "hash": "15780dfd963885c0"
+      "hash": "4810af8a6ee361dd"
     },
     "ado": {
       "hash": "9df4c56a3c77f952"
     },
     "yoasobi": {
-      "hash": "6587c40fdc1e7328"
+      "hash": "183a692819f67732"
     },
     "nogizaka46": {
-      "hash": "c27e99d93a6ce6cb"
+      "hash": "432f7b7b23f12c81"
     },
     "hinatazaka46": {
-      "hash": "285f28c0110db121"
+      "hash": "fe7130d389705cf7"
     },
     "aimyon": {
-      "hash": "3293a1f42d8e4ae3"
+      "hash": "54878cca24a58de5"
     },
     "creepy_nuts": {
       "hash": "fb7d35f58bbe9413"

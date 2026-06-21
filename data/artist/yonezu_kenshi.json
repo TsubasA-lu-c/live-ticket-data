@@ -8,8 +8,14 @@
       "startDate": "2026-11-06T00:00:00+09:00",
       "endDate": "2026-12-17T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 9900},
-        {"label": "ファミリー席（お子様）", "amount": 7500}
+        {
+          "label": "指定席",
+          "amount": 9900
+        },
+        {
+          "label": "ファミリー席（お子様）",
+          "amount": 7500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
@@ -25,7 +31,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_nagano_1107",
@@ -35,7 +42,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_kanagawa_1111",
@@ -45,7 +53,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_kanagawa_1112",
@@ -55,7 +64,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_osaka_1118",
@@ -65,7 +75,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_osaka_1119",
@@ -75,7 +86,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_fukuoka_1127",
@@ -85,7 +97,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_fukuoka_1128",
@@ -95,7 +108,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_miyagi_1203",
@@ -105,7 +119,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_miyagi_1204",
@@ -115,7 +130,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_aichi_1208",
@@ -125,7 +141,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_aichi_1209",
@@ -135,7 +152,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_kanagawa_1216",
@@ -145,7 +163,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "yonezu_kenshi_ghost_2026_kanagawa_1217",
@@ -155,7 +174,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://reissuerecords.net/2025/08/08/2026-tour-ghost/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     }
   ],
   "lotteries": [

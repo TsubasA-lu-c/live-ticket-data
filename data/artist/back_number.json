@@ -8,7 +8,10 @@
       "startDate": "2026-05-02T00:00:00+09:00",
       "endDate": "2026-06-28T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 12800}
+        {
+          "label": "指定席",
+          "amount": 12800
+        }
       ],
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
@@ -24,7 +27,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     },
     {
       "id": "back_number_grateful_yesterdays_2026_kumamoto_0628",
@@ -34,7 +38,8 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://backnumber.info/feature/stadiumtour2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "kind": "oneman"
     }
   ],
   "lotteries": [
