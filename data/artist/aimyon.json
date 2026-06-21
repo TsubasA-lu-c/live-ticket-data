@@ -38,6 +38,39 @@
       "source": "system",
       "sourceUrl": "https://2026.sweetloveshower.com/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_otohige",
+      "artistId": "aimyon",
+      "title": "音楽と髭達2026-TIME MACHINE-",
+      "startDate": "2026-08-29T11:00:00+09:00",
+      "endDate": "2026-08-29T11:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3324",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_hosomichi",
+      "artistId": "aimyon",
+      "title": "ロックのほそ道2026 ～15th Anniversary Special～",
+      "startDate": "2026-08-30T17:00:00+09:00",
+      "endDate": "2026-08-30T17:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3358",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_rijf",
+      "artistId": "aimyon",
+      "title": "rockin'on presents ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-20T11:45:00+09:00",
+      "endDate": "2026-09-20T11:45:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3368",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -85,6 +118,42 @@
       "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
       "source": "system",
       "sourceUrl": "https://2026.sweetloveshower.com/",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_otohige_0829",
+      "tourId": "aimyon_fes_2026_otohige",
+      "venue": "HARD OFF ECO スタジアム新潟",
+      "performanceAt": "2026-08-29T11:00:00+09:00",
+      "doorOpenAt": "2026-08-29T09:00:00+09:00",
+      "kind": "fes",
+      "eventName": "音楽と髭達2026-TIME MACHINE-",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3324",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_hosomichi_0830",
+      "tourId": "aimyon_fes_2026_hosomichi",
+      "venue": "ゼビオアリーナ仙台",
+      "performanceAt": "2026-08-30T17:00:00+09:00",
+      "doorOpenAt": "2026-08-30T16:00:00+09:00",
+      "kind": "fes",
+      "eventName": "ロックのほそ道2026 ～15th Anniversary Special～",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3358",
+      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+    },
+    {
+      "id": "aimyon_fes_2026_rijf_0920",
+      "tourId": "aimyon_fes_2026_rijf",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-20T11:45:00+09:00",
+      "doorOpenAt": "2026-09-20T08:30:00+09:00",
+      "kind": "fes",
+      "eventName": "rockin'on presents ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://www.aimyong.net/news/detail/3368",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],
