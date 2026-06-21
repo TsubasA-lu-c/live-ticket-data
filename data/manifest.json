@@ -1,6 +1,6 @@
 {
-  "version": 33,
-  "updatedAt": "2026-06-21T12:00:02+09:00",
+  "version": 34,
+  "updatedAt": "2026-06-21T12:03:31+09:00",
   "files": {
     "artists": {
       "hash": "ce23e891dcba18d5"
@@ -125,7 +125,7 @@
       "hash": "218f212bb114be90"
     },
     "be_first": {
-      "hash": "bc35ad006b175e42"
+      "hash": "1e20b47e7fc289dd"
     },
     "glay": {
       "hash": "b534575b8c2b8f3c"

@@ -149,6 +149,8 @@ data/
 - `sourceUrl`: 取得元URL（必須）
 - `lastVerifiedAt`: 収集日（必須）
 - `hidden`: boolean（省略時 false）。true にするとアプリの検索・一覧から除外される。フォロー済みユーザーには引き続き表示される。
+- **`performance.kind` はアプリ定義値のみ使用**（`"oneman"` または `"fes"` のみ。それ以外は使用禁止）  
+  ← アプリが認識しない値を入れてもUIに反映されず、意味をなさない
 
 ### 3.6. performanceIds の収集ルール（連携漏れ防止）
 
