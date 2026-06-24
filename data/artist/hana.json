@@ -76,17 +76,6 @@
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
       "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
-      "id": "hana_taiban_2026_janet",
-      "artistId": "hana",
-      "title": "JANET JACKSON JAPAN 2026",
-      "startDate": "2026-06-17T00:00:00+09:00",
-      "endDate": "2026-06-17T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://hana.b-rave.tokyo/live/260415/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -496,18 +485,6 @@
       "eventName": "SUMMER SONIC 2026",
       "source": "system",
       "sourceUrl": "https://hana.b-rave.tokyo/live/260417/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "hana_taiban_2026_janet_0617",
-      "tourId": "hana_taiban_2026_janet",
-      "venue": "IGアリーナ",
-      "performanceAt": "2026-06-17T00:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "taiban",
-      "eventName": "JANET JACKSON JAPAN 2026",
-      "source": "system",
-      "sourceUrl": "https://hana.b-rave.tokyo/live/260415/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     }
   ],

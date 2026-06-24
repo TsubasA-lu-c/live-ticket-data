@@ -2,26 +2,6 @@
   "artistId": "yuuri",
   "tours": [
     {
-      "id": "yuuri_asia_tour_revenge_2026",
-      "artistId": "yuuri",
-      "title": "YUURI ASIA TOUR 2025のリベンジ2026",
-      "startDate": "2026-04-30T00:00:00+09:00",
-      "endDate": "2026-05-01T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "指定席",
-          "amount": 8500
-        },
-        {
-          "label": "ゆーりんちの席（FC限定）",
-          "amount": 12000
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://yuurinchi.com/contents/1047040",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
       "id": "yuuri_asia_tour_gomen_2026",
       "artistId": "yuuri",
       "title": "YUURI ASIA TOUR 2025で行けなくてごめんね2026",
@@ -43,50 +23,6 @@
       ],
       "source": "system",
       "sourceUrl": "https://yuurinchi.com/contents/1047040",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_maizuru",
-      "artistId": "yuuri",
-      "title": "MAIZURU PLAYBACK FES. 2026",
-      "startDate": "2026-04-26T00:00:00+09:00",
-      "endDate": "2026-04-26T00:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://playback-fes.com/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_hyakumangoku",
-      "artistId": "yuuri",
-      "title": "百万石音楽祭2026 ～ミリオンロックフェスティバル～",
-      "startDate": "2026-06-06T00:00:00+09:00",
-      "endDate": "2026-06-06T00:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://www.livefans.jp/events/1927001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_metrock_tokyo",
-      "artistId": "yuuri",
-      "title": "METROCK2026 東京",
-      "startDate": "2026-05-17T00:00:00+09:00",
-      "endDate": "2026-05-17T00:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://metrock.jp/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_metrock_osaka",
-      "artistId": "yuuri",
-      "title": "METROCK2026 大阪",
-      "startDate": "2026-05-31T00:00:00+09:00",
-      "endDate": "2026-05-31T00:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://metrock.jp/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {
@@ -167,30 +103,6 @@
   ],
   "performances": [
     {
-      "id": "yuuri_asia_tour_revenge_2026_kissie_0430",
-      "tourId": "yuuri_asia_tour_revenge_2026",
-      "venue": "キッセイ文化ホール",
-      "performanceAt": "2026-04-30T19:00:00+09:00",
-      "doorOpenAt": "2026-04-30T18:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://yuurinchi.com/contents/1047040",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_asia_tour_revenge_2026_kissie_0501",
-      "tourId": "yuuri_asia_tour_revenge_2026",
-      "venue": "キッセイ文化ホール",
-      "performanceAt": "2026-05-01T19:00:00+09:00",
-      "doorOpenAt": "2026-05-01T18:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://yuurinchi.com/contents/1047040",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
       "id": "yuuri_asia_tour_gomen_2026_sendai_0512",
       "tourId": "yuuri_asia_tour_gomen_2026",
       "venue": "仙台サンプラザホール",
@@ -236,54 +148,6 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.sonymusic.co.jp/artist/yuri/info/583830",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_maizuru_0426",
-      "tourId": "yuuri_fes_2026_maizuru",
-      "venue": "MAIZURU P.B. Harbor Park（第3埠頭）",
-      "performanceAt": "2026-04-26T11:00:00+09:00",
-      "doorOpenAt": "2026-04-26T09:30:00+09:00",
-      "kind": "fes",
-      "eventName": "MAIZURU PLAYBACK FES. 2026",
-      "source": "system",
-      "sourceUrl": "https://playback-fes.com/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_hyakumangoku_0606",
-      "tourId": "yuuri_fes_2026_hyakumangoku",
-      "venue": "石川県産業展示館",
-      "performanceAt": "2026-06-06T10:30:00+09:00",
-      "doorOpenAt": "2026-06-06T10:00:00+09:00",
-      "kind": "fes",
-      "eventName": "百万石音楽祭2026 ～ミリオンロックフェスティバル～",
-      "source": "system",
-      "sourceUrl": "https://www.livefans.jp/events/1927001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_metrock_tokyo_0517",
-      "tourId": "yuuri_fes_2026_metrock_tokyo",
-      "venue": "海の森公園",
-      "performanceAt": "2026-05-17T19:05:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "METROCK2026",
-      "source": "system",
-      "sourceUrl": "https://metrock.jp/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "yuuri_fes_2026_metrock_osaka_0531",
-      "tourId": "yuuri_fes_2026_metrock_osaka",
-      "venue": "海との触れ合い広場",
-      "performanceAt": "2026-05-31T19:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "METROCK2026",
-      "source": "system",
-      "sourceUrl": "https://metrock.jp/",
       "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
     },
     {

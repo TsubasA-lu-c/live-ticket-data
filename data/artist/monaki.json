@@ -2,17 +2,6 @@
   "artistId": "monaki",
   "tours": [
     {
-      "id": "monaki_fes_2026",
-      "artistId": "monaki",
-      "title": "YATSUI FESTIVAL! 2026",
-      "startDate": "2026-06-21T00:00:00+09:00",
-      "endDate": "2026-06-21T00:00:00+09:00",
-      "prices": [],
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
       "id": "monaki_event_boatrace_2026",
       "artistId": "monaki",
       "title": "GⅢオールレディース ジュエルセブンカップ ステージイベント",
@@ -35,28 +24,6 @@
       "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
-      "id": "monaki_fes_acf_2026",
-      "artistId": "monaki",
-      "title": "ASIA CULTURE FESTIVAL 2026",
-      "startDate": "2026-06-09T00:00:00+09:00",
-      "endDate": "2026-06-09T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78583",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
-      "id": "monaki_fes_nursefes_2026",
-      "artistId": "monaki",
-      "title": "ナースフェス2026",
-      "startDate": "2026-06-13T00:00:00+09:00",
-      "endDate": "2026-06-13T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/live_information/detail/40239",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
       "id": "monaki_release_2026",
       "artistId": "monaki",
       "title": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
@@ -74,8 +41,14 @@
       "startDate": "2026-08-18T00:00:00+09:00",
       "endDate": "2026-08-24T00:00:00+09:00",
       "prices": [
-        {"label": "1階スタンディング", "amount": 6600},
-        {"label": "2階指定", "amount": 7700}
+        {
+          "label": "1階スタンディング",
+          "amount": 6600
+        },
+        {
+          "label": "2階指定",
+          "amount": 7700
+        }
       ],
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
@@ -83,30 +56,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "monaki_fes_acf_2026_acf_0609",
-      "tourId": "monaki_fes_acf_2026",
-      "venue": "東京ガーデンシアター",
-      "performanceAt": "2026-06-09T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "ASIA CULTURE FESTIVAL 2026",
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/78583",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
-      "id": "monaki_fes_nursefes_2026_nursefes_0613",
-      "tourId": "monaki_fes_nursefes_2026",
-      "venue": "新宿住友ビル三角広場",
-      "performanceAt": "2026-06-13T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "ナースフェス2026",
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/live_information/detail/40239",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
     {
       "id": "monaki_release_2026_sumida_0602",
       "tourId": "monaki_release_2026",
@@ -141,18 +90,6 @@
       "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82354",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
-      "id": "monaki_fes_2026_yatsui_0621",
-      "tourId": "monaki_fes_2026",
-      "venue": "Spotify O-EAST",
-      "performanceAt": "2026-06-21T00:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "YATSUI FESTIVAL! 2026",
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/",
       "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
