@@ -7,10 +7,13 @@
       "title": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "startDate": "2026-09-07T00:00:00+09:00",
       "endDate": "2026-10-25T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {"label": "S席", "amount": 14800},
+        {"label": "A席", "amount": 12800}
+      ],
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -24,7 +27,7 @@
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo_0913",
@@ -36,7 +39,7 @@
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_osaka_0920",
@@ -48,7 +51,7 @@
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_osaka_0927",
@@ -60,7 +63,7 @@
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1003",
@@ -72,7 +75,7 @@
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_aichi_1011",
@@ -84,7 +87,7 @@
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo2_1017",
@@ -96,7 +99,7 @@
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_tokyo2_1025",
@@ -108,7 +111,7 @@
       "eventName": "ミュージカル『刀剣乱舞』～月夜一縷～",
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -124,7 +127,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_cd_gen",
@@ -138,7 +141,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_lawson",
@@ -152,7 +155,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_prereq",
@@ -166,7 +169,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_game_dmm",
@@ -180,7 +183,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "touken_ranbu_musical_tsukiyo_ichiru_2026_ippan",
@@ -194,7 +197,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://musical-toukenranbu.jp/pages/autumn2026",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ]
 }

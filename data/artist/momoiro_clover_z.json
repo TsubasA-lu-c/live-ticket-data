@@ -10,7 +10,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260503_01",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026",
@@ -21,7 +21,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_utagassen_10th",
@@ -32,7 +32,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -46,7 +46,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260503_01",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_akimonoshinsai_2026_chiba_1018",
@@ -58,7 +58,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260503_01",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1212",
@@ -70,7 +70,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_xmas_2026_tokyo_1213",
@@ -82,7 +82,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "momoiro_clover_z_utagassen_10th_tokyo_1231",
@@ -94,7 +94,7 @@
       "eventName": "第10回 ももいろ歌合戦",
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/251221_01",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -113,7 +113,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.momoclo.net/archives/news/260503_01",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ]
 }
