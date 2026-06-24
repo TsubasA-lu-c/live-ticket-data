@@ -16,7 +16,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026",
@@ -29,7 +29,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -43,7 +43,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_zenjinmito_2026_tokyo_0419",
@@ -55,7 +55,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_zenjinmito_2026_osaka_0504",
@@ -67,7 +67,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_zenjinmito_2026_osaka_0505",
@@ -79,7 +79,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_zenjinmito_2026_tokyo_0704",
@@ -91,7 +91,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/zenjinmito_2026",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_zenjinmito_2026_tokyo_0705",
@@ -127,7 +127,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_hiroshima_1006",
@@ -139,7 +139,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_hiroshima_1007",
@@ -439,7 +439,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -462,7 +462,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://e.usen.com/news/news-event/mrs-green-apple-mufg4days-official-fan-clubringo-jam.html",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "mrs_green_apple_ringojam_shadows_2026_fc_cd",
@@ -505,7 +505,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://mrsgreenapple.com/feature/ringojamtour_shadows",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ]
 }
