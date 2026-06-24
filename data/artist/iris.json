@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_14th_anniversary_live_2026",
@@ -23,10 +23,15 @@
       "title": "i☆Ris 14th Anniversary Live",
       "startDate": "2026-11-03T00:00:00+09:00",
       "endDate": "2026-11-03T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 11000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_fes_2026_animelo",
@@ -37,7 +42,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://anisama.tv/2026/en/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_fes_2026_tif",
@@ -48,7 +53,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://official.idolfes.com/s/tif2026/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_fes_2026_nagano",
@@ -59,7 +64,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133416",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026",
@@ -73,7 +78,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026",
@@ -87,7 +92,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -99,7 +104,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -110,7 +115,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -121,7 +126,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -132,7 +137,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -143,7 +148,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -154,7 +159,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -165,7 +170,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -176,7 +181,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -187,7 +192,7 @@
       "doorOpenAt": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00",
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -200,7 +205,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_fes_2026_animelo_0712",
@@ -212,7 +217,7 @@
       "eventName": "Animelo Summer Live 2026 -Messenger-",
       "source": "system",
       "sourceUrl": "https://anisama.tv/2026/en/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_fes_2026_tif_0801",
@@ -224,7 +229,7 @@
       "eventName": "TOKYO IDOL FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://official.idolfes.com/s/tif2026/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_fes_2026_nagano_0920",
@@ -236,7 +241,7 @@
       "eventName": "ナガノアニエラフェスタ2026",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133416",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_miyagi_0802_day",
@@ -248,7 +253,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_miyagi_0802_night",
@@ -260,7 +265,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_fukuoka_0815_day",
@@ -272,7 +277,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_fukuoka_0815_night",
@@ -284,7 +289,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_saitama_0823_day",
@@ -296,7 +301,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_saitama_0823_night",
@@ -308,7 +313,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_gifu_0829_day",
@@ -320,7 +325,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_gifu_0829_night",
@@ -332,7 +337,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_aichi_0830_day",
@@ -344,7 +349,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_aichi_0830_night",
@@ -356,7 +361,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_tokyo_0906_day",
@@ -368,7 +373,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_tokyo_0906_night",
@@ -380,7 +385,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_osaka_0919_day",
@@ -392,7 +397,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_osaka_0919_night",
@@ -404,7 +409,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_hokkaido_0927_day",
@@ -416,7 +421,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_hokkaido_0927_night",
@@ -428,7 +433,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_tokyo_1010_day",
@@ -440,7 +445,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_tokyo_1010_night",
@@ -452,7 +457,7 @@
       "eventName": "友希 LIVE TOUR 2026 \"NO SHOW, NO ME\"",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_osaka_1206_day",
@@ -464,7 +469,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_osaka_1206_night",
@@ -476,7 +481,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_hokkaido_1212_day",
@@ -488,7 +493,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_hokkaido_1212_night",
@@ -500,7 +505,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_miyagi_0110_day",
@@ -512,7 +517,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_miyagi_0110_night",
@@ -524,7 +529,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_fukuoka_0116_day",
@@ -536,7 +541,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_fukuoka_0116_night",
@@ -548,7 +553,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_aichi_0123_day",
@@ -560,7 +565,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_aichi_0123_night",
@@ -572,7 +577,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_tokyo_0214_day",
@@ -584,7 +589,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_tokyo_0214_night",
@@ -596,7 +601,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -612,7 +617,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026_official",
@@ -626,7 +631,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133361",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_fc",
@@ -640,7 +645,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_eventer_1st",
@@ -654,7 +659,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133612",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026_eventer_2nd",
@@ -668,7 +673,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133926",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_14th_anniversary_live_2026_fc_1st",
@@ -684,7 +689,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_14th_anniversary_live_2026_fc_2nd",
@@ -700,7 +705,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133505",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "iris_14th_anniversary_live_2026_playguide",
@@ -716,7 +721,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133855",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ]
 }
