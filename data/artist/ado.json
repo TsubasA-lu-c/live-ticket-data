@@ -106,23 +106,5 @@
       "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
     }
   ],
-  "lotteries": [
-    {
-      "id": "ado_stadium_ao_2026_eplus_review_demo",
-      "tourId": "ado_stadium_ao_2026",
-      "type": "e＋先行抽選",
-      "entryStartAt": "2026-06-25T12:00:00+09:00",
-      "entryEndAt": "2026-07-20T23:59:00+09:00",
-      "resultAt": "2026-07-28T12:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "ado_stadium_ao_2026_kanagawa_0704",
-        "ado_stadium_ao_2026_kanagawa_0705"
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.universal-music.co.jp/ado/news/2025-11-23/",
-      "lastVerifiedAt": "2026-06-20T00:00:00+09:00"
-    }
-  ]
+  "lotteries": []
 }
