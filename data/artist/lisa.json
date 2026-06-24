@@ -2,19 +2,6 @@
   "artistId": "lisa",
   "tours": [
     {
-      "id": "lisa_15th_2026",
-      "artistId": "lisa",
-      "title": "LiVE is Smile Always～15～(iCHiNiTSUiTE GO)",
-      "startDate": "2026-04-17T00:00:00+09:00",
-      "endDate": "2026-05-20T00:00:00+09:00",
-      "prices": [
-        {"label": "全席指定", "amount": 11000}
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
       "id": "lisa_lace_up_2026",
       "artistId": "lisa",
       "title": "LiVE is Smile Always～LACE UP～",
@@ -23,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_fes_2026_monster",
@@ -34,7 +21,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://search.yahoo.co.jp/search?p=LiSA+2026+フェス",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_fes_2026_treasure",
@@ -45,82 +32,10 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://search.yahoo.co.jp/search?p=LiSA+2026+フェス",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "performances": [
-    {
-      "id": "lisa_15th_2026_tokyo_0417",
-      "tourId": "lisa_15th_2026",
-      "venue": "日本武道館",
-      "performanceAt": "2026-04-17T18:00:00+09:00",
-      "doorOpenAt": "2026-04-17T17:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_15th_2026_tokyo_0418",
-      "tourId": "lisa_15th_2026",
-      "venue": "日本武道館",
-      "performanceAt": "2026-04-18T17:00:00+09:00",
-      "doorOpenAt": "2026-04-18T16:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_15th_2026_hyogo_0428",
-      "tourId": "lisa_15th_2026",
-      "venue": "神戸ワールド記念ホール",
-      "performanceAt": "2026-04-28T18:30:00+09:00",
-      "doorOpenAt": "2026-04-28T17:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_15th_2026_hyogo_0429",
-      "tourId": "lisa_15th_2026",
-      "venue": "神戸ワールド記念ホール",
-      "performanceAt": "2026-04-29T17:00:00+09:00",
-      "doorOpenAt": "2026-04-29T16:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_15th_2026_aichi_0519",
-      "tourId": "lisa_15th_2026",
-      "venue": "日本ガイシホール",
-      "performanceAt": "2026-05-19T19:00:00+09:00",
-      "doorOpenAt": "2026-05-19T18:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_15th_2026_aichi_0520",
-      "tourId": "lisa_15th_2026",
-      "venue": "日本ガイシホール",
-      "performanceAt": "2026-05-20T18:30:00+09:00",
-      "doorOpenAt": "2026-05-20T17:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
     {
       "id": "lisa_lace_up_2026_yamanashi_1018",
       "tourId": "lisa_lace_up_2026",
@@ -131,7 +46,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_osaka_1024",
@@ -143,7 +58,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_osaka_1025",
@@ -155,7 +70,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_fukuoka_1101",
@@ -167,7 +82,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_oita_1103",
@@ -179,7 +94,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_hokkaido_1113",
@@ -191,7 +106,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_hokkaido_1115",
@@ -203,7 +118,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_kagawa_1121",
@@ -215,7 +130,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_ehime_1123",
@@ -227,7 +142,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_toyama_1212",
@@ -239,7 +154,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_ishikawa_1213",
@@ -251,7 +166,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_hiroshima_1218",
@@ -263,7 +178,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_tottori_1220",
@@ -275,7 +190,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_tokyo_0109",
@@ -287,7 +202,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_tokyo_0110",
@@ -299,7 +214,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_miyagi_0116",
@@ -311,7 +226,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_iwate_0117",
@@ -323,7 +238,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_aichi_0128",
@@ -335,7 +250,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_lace_up_2026_gifu_0130",
@@ -347,7 +262,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_fes_2026_monster_0823",
@@ -359,7 +274,7 @@
       "eventName": "MONSTER baSH 2026",
       "source": "system",
       "sourceUrl": "https://search.yahoo.co.jp/search?p=LiSA+2026+フェス",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     },
     {
       "id": "lisa_fes_2026_treasure_0906",
@@ -371,73 +286,10 @@
       "eventName": "TREASURE05X 2026",
       "source": "system",
       "sourceUrl": "https://treasure05x.jp/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ],
   "lotteries": [
-    {
-      "id": "lisa_15th_2026_fc",
-      "tourId": "lisa_15th_2026",
-      "type": "FC先行（リサラボっ。）",
-      "entryStartAt": "2026-01-05T21:00:00+09:00",
-      "entryEndAt": "2026-01-18T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "lisa_15th_2026_tokyo_0417",
-        "lisa_15th_2026_tokyo_0418",
-        "lisa_15th_2026_hyogo_0428",
-        "lisa_15th_2026_hyogo_0429",
-        "lisa_15th_2026_aichi_0519",
-        "lisa_15th_2026_aichi_0520"
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580081",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_15th_2026_eplus_fastest",
-      "tourId": "lisa_15th_2026",
-      "type": "最速先行（e+）",
-      "entryStartAt": "2026-02-02T12:00:00+09:00",
-      "entryEndAt": "2026-02-09T23:59:00+09:00",
-      "resultAt": "2026-02-13T13:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "lisa_15th_2026_tokyo_0417",
-        "lisa_15th_2026_tokyo_0418",
-        "lisa_15th_2026_hyogo_0428",
-        "lisa_15th_2026_hyogo_0429",
-        "lisa_15th_2026_aichi_0519",
-        "lisa_15th_2026_aichi_0520"
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.sonymusic.co.jp/artist/lisa/info/580762",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
-    {
-      "id": "lisa_15th_2026_general",
-      "tourId": "lisa_15th_2026",
-      "type": "一般発売",
-      "entryStartAt": "2026-03-20T10:00:00+09:00",
-      "entryEndAt": null,
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "lisa_15th_2026_tokyo_0417",
-        "lisa_15th_2026_tokyo_0418",
-        "lisa_15th_2026_hyogo_0428",
-        "lisa_15th_2026_hyogo_0429",
-        "lisa_15th_2026_aichi_0519",
-        "lisa_15th_2026_aichi_0520"
-      ],
-      "source": "system",
-      "sourceUrl": "https://www.sma.co.jp/s/sma/news/detail/113446",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
-    },
     {
       "id": "lisa_lace_up_2026_eplus_official",
       "tourId": "lisa_lace_up_2026",
@@ -470,7 +322,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://eplus.jp/sf/detail/0534530001",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
     }
   ]
 }
