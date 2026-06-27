@@ -822,5 +822,66 @@
     "source": "system",
     "sourceUrl": "https://theoralcigarettes.com/",
     "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "utada_hikaru",
+    "name": "宇多田ヒカル",
+    "aliases": [
+      "ウタダヒカル",
+      "Hikaru Utada"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.utadahikaru.jp/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "kroi",
+    "name": "Kroi",
+    "aliases": [
+      "クロイ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://special.kroi.net/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "hitsuji_bungaku",
+    "name": "羊文学",
+    "aliases": [
+      "ヒツジブンガク"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.sonymusic.co.jp/artist/hitsujibungaku/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "milet",
+    "name": "milet",
+    "aliases": [
+      "ミレイ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://milet.net/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "miura_daichi",
+    "name": "三浦大知",
+    "aliases": [
+      "ミウラダイチ"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://daichi-miura.jp/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
   }
 ]
