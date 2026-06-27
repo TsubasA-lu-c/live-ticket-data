@@ -1,0 +1,70 @@
+{
+  "artistId": "jo1",
+  "tours": [
+    {
+      "id": "jo1_eien_2026",
+      "artistId": "jo1",
+      "title": "JO1DER SHOW 2026 'EIEN 永縁'",
+      "startDate": "2026-07-19T00:00:00+09:00",
+      "endDate": "2026-09-27T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 14300},
+        {"label": "アップグレードシート", "amount": 24200}
+      ],
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/feature/jo1dershow2026_eien",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "jo1_eien_2026_vantelin_0719",
+      "tourId": "jo1_eien_2026",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2026-07-19T18:00:00+09:00",
+      "doorOpenAt": "2026-07-19T16:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/5966",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_vantelin_0720",
+      "tourId": "jo1_eien_2026",
+      "venue": "バンテリンドーム ナゴヤ",
+      "performanceAt": "2026-07-20T15:00:00+09:00",
+      "doorOpenAt": "2026-07-20T13:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://jo1.jp/news/detail/5966",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_seoul_0926",
+      "tourId": "jo1_eien_2026",
+      "venue": "TICKETLINK LIVE ARENA（ソウル）",
+      "performanceAt": "2026-09-26T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JO1DER SHOW 2026 'EIEN 永縁' LIMITED EDITION IN SEOUL",
+      "source": "system",
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "jo1_eien_2026_seoul_0927",
+      "tourId": "jo1_eien_2026",
+      "venue": "TICKETLINK LIVE ARENA（ソウル）",
+      "performanceAt": "2026-09-27T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "JO1DER SHOW 2026 'EIEN 永縁' LIMITED EDITION IN SEOUL",
+      "source": "system",
+      "sourceUrl": "https://cloud.jo1.jp/news/detail/6203",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}
