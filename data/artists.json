@@ -760,5 +760,67 @@
     "source": "system",
     "sourceUrl": "https://equal-love.jp/",
     "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+  },
+  {
+    "id": "super_beaver",
+    "name": "SUPER BEAVER",
+    "aliases": [
+      "スーパービーバー"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://sp.super-beaver.com/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "wanima",
+    "name": "WANIMA",
+    "aliases": [
+      "ワニマ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://wanima.net/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "yabai_tshirts_yasan",
+    "name": "ヤバイTシャツ屋さん",
+    "aliases": [
+      "ヤバT",
+      "やばいてぃーしゃつやさん"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://yabaitshirtsyasan.com/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "10_feet",
+    "name": "10-FEET",
+    "aliases": [
+      "テンフィート"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://10-feet.kyoto/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+  },
+  {
+    "id": "the_oral_cigarettes",
+    "name": "The Oral Cigarettes",
+    "aliases": [
+      "オーラル",
+      "ジオーラルシガレッツ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://theoralcigarettes.com/",
+    "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
   }
 ]
