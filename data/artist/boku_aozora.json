@@ -1,0 +1,31 @@
+{
+  "artistId": "boku_aozora",
+  "tours": [
+    {
+      "id": "boku_aozora_last_live_2026",
+      "artistId": "boku_aozora",
+      "title": "2026年ラストライブ",
+      "startDate": "2026-12-14T00:00:00+09:00",
+      "endDate": "2026-12-14T00:00:00+09:00",
+      "prices": [],
+      "source": "system",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000021.000115239.html",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "boku_aozora_last_live_2026_kanadevia_1214",
+      "tourId": "boku_aozora_last_live_2026",
+      "venue": "Kanadevia Hall",
+      "performanceAt": "2026-12-14T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000021.000115239.html",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": []
+}

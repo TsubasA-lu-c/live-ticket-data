@@ -943,5 +943,68 @@
     "source": "system",
     "sourceUrl": "https://tobe-official.jp/artists/imp",
     "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "mazzel",
+    "name": "MAZZEL",
+    "aliases": [
+      "マゼル"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://mazzel.tokyo/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "not_equal_me",
+    "name": "≠ME",
+    "aliases": [
+      "ノットイコールミー",
+      "ノイミー"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://not-equal-me.jp/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "boku_aozora",
+    "name": "僕が見たかった青空",
+    "aliases": [
+      "僕青",
+      "ぼくあおぞら"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://bokuao.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "da_ice",
+    "name": "Da-iCE",
+    "aliases": [
+      "ダイス"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://da-ice.jp/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "bts",
+    "name": "BTS",
+    "aliases": [
+      "防弾少年団",
+      "ビーティーエス"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://bts-official.jp/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
   }
 ]
