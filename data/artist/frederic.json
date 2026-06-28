@@ -12,18 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
-      "id": "frederic_home_party_rainvent_2026",
-      "artistId": "frederic",
-      "title": "Home Party Tour 2026 -RAINVENT-",
-      "startDate": "2026-06-27T00:00:00+09:00",
-      "endDate": "2026-06-28T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://frederic-official.com/news/detail/3564",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026",
@@ -34,7 +23,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -48,7 +37,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0526",
@@ -60,7 +49,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0712",
@@ -72,7 +61,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_1012",
@@ -84,7 +73,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0117",
@@ -96,31 +85,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
-      "id": "frederic_home_party_rainvent_2026_gorilla_osaka_0627",
-      "tourId": "frederic_home_party_rainvent_2026",
-      "venue": "GORILLA HALL OSAKA",
-      "performanceAt": "2026-06-27T18:00:00+09:00",
-      "doorOpenAt": "2026-06-27T17:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://frederic-official.com/news/detail/3564",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
-      "id": "frederic_home_party_rainvent_2026_bottomline_aichi_0628",
-      "tourId": "frederic_home_party_rainvent_2026",
-      "venue": "THE BOTTOM LINE",
-      "performanceAt": "2026-06-28T18:00:00+09:00",
-      "doorOpenAt": "2026-06-28T17:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://frederic-official.com/news/detail/3565",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026_talkingrockfes_yokohama_0711",
@@ -132,7 +97,7 @@
       "eventName": "Talking Rock! FES.2026 <<横浜編>>",
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3657",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026_singershigh_nagoya_0722",
@@ -144,7 +109,7 @@
       "eventName": "Singer's High pre. \"Battle Frontier tour 2026\"",
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3632",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026_jiga_osaka_0726",
@@ -156,7 +121,7 @@
       "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3648",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026_talkingrockfes_kobe_0809",
@@ -168,7 +133,7 @@
       "eventName": "Talking Rock! FES.2026 <<神戸編>>",
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3630",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026_luckyfes_hitachi_0811",
@@ -180,7 +145,7 @@
       "eventName": "LuckyFes'26",
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3620",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026_sls_yamanashi_0829",
@@ -192,7 +157,7 @@
       "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3631",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026_treasure05x_aichi_0912",
@@ -204,16 +169,16 @@
       "eventName": "TREASURE05X 2026 \"LAND OF THE FREE- LAGUNA FINAL-\"",
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3658",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ],
   "lotteries": [
     {
-      "id": "frederic_umimoyasu_20262027_move_fc_1012",
+      "id": "frederic_umimoyasu_20262027_move_fc_1st_1012",
       "tourId": "frederic_umimoyasu_20262027_move",
-      "type": "FC先行",
-      "entryStartAt": null,
-      "entryEndAt": null,
+      "type": "フレハウス+一次抽選",
+      "entryStartAt": "2026-04-06T18:00:00+09:00",
+      "entryEndAt": "2026-04-12T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -222,14 +187,14 @@
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
-      "id": "frederic_umimoyasu_20262027_move_eplus_1012",
+      "id": "frederic_umimoyasu_20262027_move_fc_2nd_1012",
       "tourId": "frederic_umimoyasu_20262027_move",
-      "type": "e+先行",
-      "entryStartAt": "2026-06-12T12:00:00+09:00",
-      "entryEndAt": "2026-06-21T23:59:00+09:00",
+      "type": "フレハウス+二次抽選",
+      "entryStartAt": "2026-04-17T18:00:00+09:00",
+      "entryEndAt": "2026-04-26T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -238,7 +203,23 @@
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_umimoyasu_20262027_move_preorder_1012",
+      "tourId": "frederic_umimoyasu_20262027_move",
+      "type": "プレオーダー",
+      "entryStartAt": "2026-06-26T18:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "frederic_umimoyasu_20262027_move_zepp_haneda_1012"
+      ],
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ]
 }
