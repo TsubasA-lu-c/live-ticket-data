@@ -1,9 +1,9 @@
 {
-  "version": 55,
-  "updatedAt": "2026-06-29T01:28:55+09:00",
+  "version": 56,
+  "updatedAt": "2026-06-29T06:24:02+09:00",
   "files": {
     "artists": {
-      "hash": "721700bd1f292f2b"
+      "hash": "5385fb03cd444b27"
     }
   },
   "artists": {
@@ -83,7 +83,7 @@
       "hash": "ec4fb93c4a363e92"
     },
     "hey_say_jump": {
-      "hash": "705acdaf80aa99c4"
+      "hash": "0ff40e2c3796c88e"
     },
     "naniwa_danshi": {
       "hash": "2196b7dd1b2d425e"
@@ -122,25 +122,25 @@
       "hash": "2d7bda2d4dd55290"
     },
     "babymetal": {
-      "hash": "218f212bb114be90"
+      "hash": "2132c9b264babedb"
     },
     "be_first": {
-      "hash": "9b1253cc5c3a51e8"
+      "hash": "1197303d7fb81c22"
     },
     "glay": {
-      "hash": "c960dfa9533b0ec3"
+      "hash": "72998b8d790e8805"
     },
     "king_and_prince": {
-      "hash": "894857156aba9f0a"
+      "hash": "8d27d5d63064eb0e"
     },
     "kobukuro": {
       "hash": "79b44054f4af8e1a"
     },
     "koda_kumi": {
-      "hash": "2db978f0a21416fd"
+      "hash": "d5ae8daeea926dce"
     },
     "macaroni_empitsu": {
-      "hash": "38e234813509d031"
+      "hash": "63b5099d818a8e78"
     },
     "momoiro_clover_z": {
       "hash": "809c80baf02cd858"
@@ -155,43 +155,43 @@
       "hash": "006f14a4f5e6a15d"
     },
     "timelesz": {
-      "hash": "755ec9c060669c72"
+      "hash": "d067a44bdb2c2c80"
     },
     "yuzu": {
-      "hash": "c94e1fea139a3a13"
+      "hash": "423c187374610e16"
     },
     "04_limited_sazabys": {
-      "hash": "ceb969275ec069f8"
+      "hash": "feb0c854a2543c9c"
     },
     "ae_group": {
-      "hash": "60ec41e77ce2ae18"
+      "hash": "2317512d7d4beaaf"
     },
     "bump_of_chicken": {
-      "hash": "0cbc0451feca4cdd"
+      "hash": "febd2daa0664cb5e"
     },
     "bz": {
-      "hash": "166b9f4161505c3e"
+      "hash": "881581dd84d645f2"
     },
     "cutie_street": {
-      "hash": "733cec9384a39b32"
+      "hash": "bdf286645cdd97f1"
     },
     "frederic": {
-      "hash": "c34de553078d3d8a"
+      "hash": "e9242cf1faec69fd"
     },
     "fruits_zipper": {
-      "hash": "fc09650859fcc981"
+      "hash": "9e967f0d52ca9e3e"
     },
     "milk": {
       "hash": "78dd2a862ddcc381"
     },
     "novelbright": {
-      "hash": "946e1fc02856588c"
+      "hash": "45deb41b2bab360a"
     },
     "equal_love": {
-      "hash": "d9c6a8e8bd9e4f13"
+      "hash": "4cafb5074613704b"
     },
     "monaki": {
-      "hash": "91470e1e1b929f4e"
+      "hash": "a538e504ae2086f8"
     },
     "10_feet": {
       "hash": "bf07a9b6996b78b1"
