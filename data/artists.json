@@ -1133,5 +1133,69 @@
     "source": "system",
     "sourceUrl": "https://hypnosismic.com/",
     "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "uta_no_prince_sama",
+    "name": "うたの☆プリンスさまっ♪",
+    "aliases": [
+      "うたプリ",
+      "ウタノプリンスサマ"
+    ],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://utapri.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "idolish7",
+    "name": "IDOLiSH7",
+    "aliases": [
+      "アイドリッシュセブン",
+      "アイナナ"
+    ],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://idolish7.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "a3",
+    "name": "A3!",
+    "aliases": [
+      "エースリー",
+      "MANKAI STAGE"
+    ],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://mankai-stage.jp/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "gre4n_boyz",
+    "name": "GRe4N BOYZ",
+    "aliases": [
+      "グリーンボーイズ",
+      "GReeeeN"
+    ],
+    "genre": "ユニット",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://gre4n-boyz.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "ikimonogakari",
+    "name": "いきものがかり",
+    "aliases": [
+      "イキモノガカリ"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ikimonogakari.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
   }
 ]

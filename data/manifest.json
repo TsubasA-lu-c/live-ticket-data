@@ -1,9 +1,9 @@
 {
-  "version": 49,
-  "updatedAt": "2026-06-28T13:34:58+09:00",
+  "version": 50,
+  "updatedAt": "2026-06-28T15:21:48+09:00",
   "files": {
     "artists": {
-      "hash": "f5162d4db317387f"
+      "hash": "67be61187bd4fa2b"
     }
   },
   "artists": {
@@ -282,6 +282,21 @@
     },
     "zorn": {
       "hash": "195b8ee8582e5eba"
+    },
+    "a3": {
+      "hash": "c0100419a226ec70"
+    },
+    "gre4n_boyz": {
+      "hash": "0a42297a9cdfade2"
+    },
+    "idolish7": {
+      "hash": "7f3b38a0ff89f868"
+    },
+    "ikimonogakari": {
+      "hash": "a519150b60061fd6"
+    },
+    "uta_no_prince_sama": {
+      "hash": "37adea7633b46e77"
     }
   }
 }
