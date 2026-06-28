@@ -1,9 +1,9 @@
 {
-  "version": 47,
-  "updatedAt": "2026-06-28T10:20:35+09:00",
+  "version": 48,
+  "updatedAt": "2026-06-28T13:29:34+09:00",
   "files": {
     "artists": {
-      "hash": "0366bdfdc1256f3d"
+      "hash": "1ad55d72aa7e91f7"
     }
   },
   "artists": {
@@ -267,6 +267,21 @@
     },
     "yabai_tshirts_yasan": {
       "hash": "92019aea141a5239"
+    },
+    "hypnosis_mic": {
+      "hash": "3c81a7eb647d4212"
+    },
+    "sandaime_j_soul_brothers": {
+      "hash": "a3dc3a5c3a266b78"
+    },
+    "shinee": {
+      "hash": "8ae950186e6090eb"
+    },
+    "tomorrow_x_together": {
+      "hash": "95871b0f97362e44"
+    },
+    "zorn": {
+      "hash": "195b8ee8582e5eba"
     }
   }
 }

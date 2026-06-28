@@ -1067,5 +1067,69 @@
     "source": "system",
     "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
     "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "tomorrow_x_together",
+    "name": "TOMORROW X TOGETHER",
+    "aliases": [
+      "TXT",
+      "トゥモロー バイ トゥゲザー"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://txt-official.jp/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "shinee",
+    "name": "SHINee",
+    "aliases": [
+      "シャイニー"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://shinee.jp/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "sandaime_j_soul_brothers",
+    "name": "三代目 J SOUL BROTHERS from EXILE TRIBE",
+    "aliases": [
+      "三代目",
+      "JSB",
+      "J SOUL BROTHERS"
+    ],
+    "genre": "アイドル",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.ldh-liveschedule.jp/sys/tour/40856/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "zorn",
+    "name": "ZORN",
+    "aliases": [
+      "ゾーン"
+    ],
+    "genre": "ヒップホップ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://zorn.tokyo/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "hypnosis_mic",
+    "name": "ヒプノシスマイク -Division Rap Battle-",
+    "aliases": [
+      "ヒプマイ",
+      "HypMic"
+    ],
+    "genre": "声優",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://hypnosismic.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
   }
 ]
