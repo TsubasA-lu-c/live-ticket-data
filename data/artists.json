@@ -1197,5 +1197,42 @@
     "source": "system",
     "sourceUrl": "https://ikimonogakari.com/",
     "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "and_team",
+    "name": "&TEAM",
+    "aliases": [
+      "アンドチーム"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.andteam-official.jp/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "aina_the_end",
+    "name": "アイナ・ジ・エンド",
+    "aliases": [
+      "アイナジエンド",
+      "AiNA THE END"
+    ],
+    "genre": "ソロ",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ainatheend.jp/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "yorushika",
+    "name": "ヨルシカ",
+    "aliases": [
+      "yorushika"
+    ],
+    "genre": "バンド",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://yorushika.com/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
   }
 ]

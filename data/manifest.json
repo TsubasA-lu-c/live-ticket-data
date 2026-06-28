@@ -1,9 +1,9 @@
 {
-  "version": 51,
-  "updatedAt": "2026-06-28T20:11:52+09:00",
+  "version": 52,
+  "updatedAt": "2026-06-28T20:25:49+09:00",
   "files": {
     "artists": {
-      "hash": "67be61187bd4fa2b"
+      "hash": "877235a13ce2e3d1"
     }
   },
   "artists": {
@@ -297,6 +297,15 @@
     },
     "uta_no_prince_sama": {
       "hash": "37adea7633b46e77"
+    },
+    "aina_the_end": {
+      "hash": "c01de85f85a8dbcd"
+    },
+    "and_team": {
+      "hash": "4570b2c8d674f8bc"
+    },
+    "yorushika": {
+      "hash": "43f83cd0c9d49e4f"
     }
   }
 }
