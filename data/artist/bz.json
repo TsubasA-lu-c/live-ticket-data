@@ -2,19 +2,6 @@
   "artistId": "bz",
   "tours": [
     {
-      "id": "bz_fyop_naked_2026",
-      "artistId": "bz",
-      "title": "B'z LIVE-GYM 2026 -FYOP naked-",
-      "startDate": "2026-06-27T00:00:00+09:00",
-      "endDate": "2026-06-28T00:00:00+09:00",
-      "prices": [
-        {"label": "全席指定", "amount": 13000}
-      ],
-      "source": "system",
-      "sourceUrl": "https://bz-vermillion.com/livegym2026/naked/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
       "id": "bz_tmg_sayonara_2026",
       "artistId": "bz",
       "title": "TMG LIVE 2026 \"SAYONARA\"",
@@ -23,34 +10,10 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ],
   "performances": [
-    {
-      "id": "bz_fyop_naked_2026_kanagawa_0627",
-      "tourId": "bz_fyop_naked_2026",
-      "venue": "Kアリーナ横浜",
-      "performanceAt": "2026-06-27T17:00:00+09:00",
-      "doorOpenAt": "2026-06-27T15:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://bz-vermillion.com/livegym2026/naked/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
-    {
-      "id": "bz_fyop_naked_2026_kanagawa_0628",
-      "tourId": "bz_fyop_naked_2026",
-      "venue": "Kアリーナ横浜",
-      "performanceAt": "2026-06-28T17:00:00+09:00",
-      "doorOpenAt": "2026-06-28T15:30:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://bz-vermillion.com/livegym2026/naked/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
     {
       "id": "bz_tmg_sayonara_2026_tokyo_1005",
       "tourId": "bz_tmg_sayonara_2026",
@@ -61,7 +24,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_tokyo_1006",
@@ -73,7 +36,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_hokkaido_1009",
@@ -85,7 +48,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_osaka_1013",
@@ -97,7 +60,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_osaka_1014",
@@ -109,7 +72,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_fukuoka_1017",
@@ -121,7 +84,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_aichi_1020",
@@ -133,7 +96,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_aichi_1021",
@@ -145,7 +108,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_tokyo2_1023",
@@ -157,27 +120,10 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ],
   "lotteries": [
-    {
-      "id": "bz_fyop_naked_2026_party_1st",
-      "tourId": "bz_fyop_naked_2026",
-      "type": "B'z PARTY先行（1次）",
-      "entryStartAt": "2026-06-15T12:00:00+09:00",
-      "entryEndAt": "2026-06-16T23:59:00+09:00",
-      "resultAt": "2026-06-24T12:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "bz_fyop_naked_2026_kanagawa_0627",
-        "bz_fyop_naked_2026_kanagawa_0628"
-      ],
-      "source": "system",
-      "sourceUrl": "https://bz-vermillion.com/livegym2026/naked/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
-    },
     {
       "id": "bz_tmg_sayonara_2026_ticket_1st",
       "tourId": "bz_tmg_sayonara_2026",
@@ -190,7 +136,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_ticket_2nd",
@@ -204,7 +150,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "bz_tmg_sayonara_2026_ticket_3rd",
@@ -218,7 +164,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://bz-vermillion.com/tmg/2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ]
 }
