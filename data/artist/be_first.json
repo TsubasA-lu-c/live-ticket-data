@@ -261,6 +261,27 @@
       "source": "system",
       "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
       "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+    },
+    {
+      "id": "be_first_dome_tour_2027_lawson_ticket",
+      "tourId": "be_first_dome_tour_2027",
+      "type": "ローソンチケット先行",
+      "entryStartAt": "2026-06-24T18:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": "2026-07-10T17:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "be_first_dome_tour_2027_tokyodome_0111",
+        "be_first_dome_tour_2027_tokyodome_0112",
+        "be_first_dome_tour_2027_fukuoka_0213",
+        "be_first_dome_tour_2027_fukuoka_0214",
+        "be_first_dome_tour_2027_belluna_0306",
+        "be_first_dome_tour_2027_belluna_0307"
+      ],
+      "source": "system",
+      "sourceUrl": "https://befirst.tokyo/tour/dometour2027/",
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ]
 }
