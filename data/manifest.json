@@ -1,9 +1,9 @@
 {
-  "version": 54,
-  "updatedAt": "2026-06-29T01:21:30+09:00",
+  "version": 55,
+  "updatedAt": "2026-06-29T01:28:55+09:00",
   "files": {
     "artists": {
-      "hash": "877235a13ce2e3d1"
+      "hash": "721700bd1f292f2b"
     }
   },
   "artists": {
@@ -107,13 +107,13 @@
       "hash": "316ceeb5fb2cba56"
     },
     "touken_ranbu_musical": {
-      "hash": "825a84e4e848a3c6"
+      "hash": "9d4e5ca8902759e3"
     },
     "travis_japan": {
       "hash": "11beeba1b67d7402"
     },
     "twice": {
-      "hash": "ba357bab3787b2b6"
+      "hash": "7eeb3fcf176bbee8"
     },
     "yuuri": {
       "hash": "8c47f0e0216ff251"
@@ -134,7 +134,7 @@
       "hash": "894857156aba9f0a"
     },
     "kobukuro": {
-      "hash": "9367fba095d6eba6"
+      "hash": "79b44054f4af8e1a"
     },
     "koda_kumi": {
       "hash": "2db978f0a21416fd"
@@ -152,7 +152,7 @@
       "hash": "cbe9dc56048b5340"
     },
     "sakurazaka46": {
-      "hash": "7c57a8d056bb6c8c"
+      "hash": "006f14a4f5e6a15d"
     },
     "timelesz": {
       "hash": "755ec9c060669c72"
@@ -182,7 +182,7 @@
       "hash": "fc09650859fcc981"
     },
     "milk": {
-      "hash": "50bae4cda9541267"
+      "hash": "78dd2a862ddcc381"
     },
     "novelbright": {
       "hash": "946e1fc02856588c"
