@@ -9,13 +9,13 @@
       "endDate": "2026-11-15T00:00:00+09:00",
       "prices": [
         {
-          "label": "指定席",
-          "amount": null
+          "label": "スタンディング",
+          "amount": 9900
         }
       ],
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728",
@@ -23,10 +23,19 @@
       "title": "Vaundy JAPAN ARENA TOUR 2027-2028",
       "startDate": "2027-08-14T00:00:00+09:00",
       "endDate": "2028-02-27T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 9900
+        },
+        {
+          "label": "ステージサイドバック席",
+          "amount": 9900
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_osaka",
@@ -37,7 +46,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_hokkaido",
@@ -48,7 +57,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_miyagi",
@@ -59,7 +68,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_ibaraki",
@@ -70,7 +79,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_tokyo",
@@ -81,7 +90,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -95,7 +104,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_chiba_0906",
@@ -107,7 +116,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_fukuoka_1024",
@@ -119,7 +128,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_fukuoka_1025",
@@ -131,7 +140,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_seoul_0919",
@@ -143,7 +152,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_seoul_0920",
@@ -155,7 +164,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_hongkong_1003",
@@ -167,7 +176,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_taipei_1031",
@@ -179,7 +188,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_taipei_1101",
@@ -191,7 +200,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_shanghai_1114",
@@ -203,7 +212,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_horo_2026_shanghai_1115",
@@ -215,7 +224,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hyogo_0814",
@@ -227,7 +236,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hyogo_0815",
@@ -239,7 +248,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_aichi_0828",
@@ -251,7 +260,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_aichi_0829",
@@ -263,7 +272,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_fukuoka_0919",
@@ -275,7 +284,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_fukuoka_0920",
@@ -287,7 +296,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hokkaido_0925",
@@ -299,7 +308,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hokkaido_0926",
@@ -311,7 +320,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_osaka_1002",
@@ -323,7 +332,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_osaka_1003",
@@ -335,7 +344,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hiroshima_1016",
@@ -347,7 +356,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_hiroshima_1017",
@@ -359,7 +368,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_niigata_1023",
@@ -371,7 +380,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_niigata_1024",
@@ -383,7 +392,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_iwate_1120",
@@ -395,7 +404,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_iwate_1121",
@@ -407,7 +416,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kanagawa_1127",
@@ -419,7 +428,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kanagawa_1128",
@@ -431,7 +440,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_fukui_1211",
@@ -443,7 +452,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_fukui_1212",
@@ -455,7 +464,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_osaka_0109",
@@ -467,7 +476,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_osaka_0110",
@@ -479,7 +488,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_aichi_0115",
@@ -491,7 +500,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_aichi_0116",
@@ -503,7 +512,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kumamoto_0122",
@@ -515,7 +524,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kumamoto_0123",
@@ -527,7 +536,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kagawa_0205",
@@ -539,7 +548,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_kagawa_0206",
@@ -551,7 +560,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_miyagi_0226",
@@ -563,7 +572,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_miyagi_0227",
@@ -575,7 +584,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11145",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_osaka_0802",
@@ -587,7 +596,7 @@
       "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_hokkaido_0815",
@@ -599,7 +608,7 @@
       "eventName": "RISING SUN ROCK FESTIVAL 2026 in EZO",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_miyagi_0829",
@@ -611,7 +620,7 @@
       "eventName": "音楽と髭達2026 -TIME MACHINE-",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_ibaraki_0912",
@@ -623,7 +632,7 @@
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_fes_2026_tokyo_0923",
@@ -635,7 +644,7 @@
       "eventName": "熱闘甲子園 presents 熱闘 JAM 2026",
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -656,7 +665,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://t.pia.jp/en/pia/event/event.do?eventBundleCd=b2666477",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "vaundy_japan_arena_2728_pia2",
@@ -689,7 +698,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2666592",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ]
 }

@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/liveevent/tour.php?fdate=2026-05-02&id=1002916&ldate=2026-07-19",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "iris_14th_anniversary_live_2026",
@@ -31,7 +31,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133209",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "iris_fes_2026_animelo",
@@ -42,7 +42,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://anisama.tv/2026/en/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "iris_fes_2026_tif",
@@ -53,7 +53,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://official.idolfes.com/s/tif2026/",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "iris_fes_2026_nagano",
@@ -64,7 +64,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133416",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "iris_wakaii_yuki_live_tour_2026",
@@ -78,7 +78,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133001",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "iris_yu_serizawa_6th_live_tour_2026",
@@ -601,7 +601,7 @@
       "eventName": "Yu Serizawa 6th Live Tour 2026-2027",
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133054",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -721,7 +721,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://iris.dive2ent.com/news/detail.php?id=1133855",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ]
 }
