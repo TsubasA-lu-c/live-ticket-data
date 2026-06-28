@@ -10,7 +10,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82706",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "monaki_event_2shot_2026",
@@ -21,7 +21,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82529",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "monaki_release_2026",
@@ -52,7 +52,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -66,7 +66,7 @@
       "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念キャンペーン",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/79963",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "monaki_release_2026_emiterrace_0607",
@@ -78,7 +78,7 @@
       "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/80719",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "monaki_release_2026_shinrifu_0723",
@@ -90,7 +90,7 @@
       "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82354",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "monaki_event_boatrace_2026_boatrace_0720",
@@ -102,7 +102,7 @@
       "eventName": "GⅢオールレディース ジュエルセブンカップ",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82706",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "monaki_event_2shot_2026_2shot_0810",
@@ -126,7 +126,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_zeppnagoya_0819",
@@ -138,7 +138,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_zepphaneda_0824",
@@ -150,7 +150,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -170,7 +170,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
       "id": "monaki_event_2shot_2026_抽選",
@@ -186,7 +186,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82529",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     }
   ]
 }
