@@ -1,9 +1,9 @@
 {
-  "version": 45,
-  "updatedAt": "2026-06-24T21:11:43+09:00",
+  "version": 46,
+  "updatedAt": "2026-06-28T10:19:18+09:00",
   "files": {
     "artists": {
-      "hash": "bb48b05df958316e"
+      "hash": "0366bdfdc1256f3d"
     }
   },
   "artists": {
@@ -29,7 +29,7 @@
       "hash": "a56b11665504bb63"
     },
     "ado": {
-      "hash": "48ce696021b46e07"
+      "hash": "43b30d6021153d25"
     },
     "yoasobi": {
       "hash": "fbfacc39674925de"
@@ -89,7 +89,7 @@
       "hash": "dc347dbed13fc2f3"
     },
     "one_ok_rock": {
-      "hash": "2c7827cdbde4ad95"
+      "hash": "faa1f304d5367fd4"
     },
     "radwimps": {
       "hash": "f26385c413551224"
@@ -192,6 +192,81 @@
     },
     "monaki": {
       "hash": "91470e1e1b929f4e"
+    },
+    "10_feet": {
+      "hash": "bf07a9b6996b78b1"
+    },
+    "aespa": {
+      "hash": "96f9db5dc45b5f9d"
+    },
+    "boku_aozora": {
+      "hash": "7b6d5b35230b97b9"
+    },
+    "bts": {
+      "hash": "467e2748a48a4dfb"
+    },
+    "da_ice": {
+      "hash": "f7d9f247eb552096"
+    },
+    "enhypen": {
+      "hash": "63f5628f7b2ede20"
+    },
+    "hitsuji_bungaku": {
+      "hash": "8be3b7b78c0acbce"
+    },
+    "imp": {
+      "hash": "968d3198254b2ee3"
+    },
+    "ini": {
+      "hash": "02163bc08ce65349"
+    },
+    "ive": {
+      "hash": "cd706b2fabc53ba0"
+    },
+    "jo1": {
+      "hash": "7ded09457583c6e7"
+    },
+    "kroi": {
+      "hash": "a895135c9baefd6d"
+    },
+    "kurayamisaka": {
+      "hash": "99c80b2b20659087"
+    },
+    "le_sserafim": {
+      "hash": "6cda2639a29cd95e"
+    },
+    "mazzel": {
+      "hash": "a2185b75063e90e2"
+    },
+    "milet": {
+      "hash": "8d703f239dbd3271"
+    },
+    "miura_daichi": {
+      "hash": "4c7a1232115a1d80"
+    },
+    "not_equal_me": {
+      "hash": "e32f2c5cf5e112a1"
+    },
+    "starglow": {
+      "hash": "13e7551036dabb32"
+    },
+    "stray_kids": {
+      "hash": "97b23217aad37a1e"
+    },
+    "super_beaver": {
+      "hash": "0962e1722f43183a"
+    },
+    "the_oral_cigarettes": {
+      "hash": "5cb3a8b8ec6944dd"
+    },
+    "utada_hikaru": {
+      "hash": "270a0ffccde4b467"
+    },
+    "wanima": {
+      "hash": "b1d86e2cb81951ca"
+    },
+    "yabai_tshirts_yasan": {
+      "hash": "92019aea141a5239"
     }
   }
 }
