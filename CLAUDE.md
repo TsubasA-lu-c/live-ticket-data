@@ -100,6 +100,10 @@
 - **`data/artist/{id}.json` のみ書くこと（artists.json/manifest.json は触らない）**
 - 完了後に `lastVerifiedAt`（更新日時）と参照URLを報告すること
 - validate.py は**実行しない**（メインが一括で行う）
+- **情報収集の注意点（必ず守ること）:**
+  - 公式サイトの schedule・news 一覧ページを確認したら、個別記事リンク（`/news/detail/*` 等）も必ずWebFetchで開いて詳細を確認する
+  - 「日時不明」と判断する前に、一覧ページ内のリンクを最低1階層辿ること
+  - `performanceAt` は null 禁止。不明な場合は `18:00:00` をデフォルトで設定する
 
 ---
 
