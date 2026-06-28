@@ -1006,5 +1006,66 @@
     "source": "system",
     "sourceUrl": "https://bts-official.jp/",
     "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "stray_kids",
+    "name": "Stray Kids",
+    "aliases": [
+      "ストレイキッズ",
+      "スキズ"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.straykidsjapan.com/runitjapan/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "enhypen",
+    "name": "ENHYPEN",
+    "aliases": [
+      "エンハイフン"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.hybejapan-concert.com/statics/enhypen_blood_saga",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "ive",
+    "name": "IVE",
+    "aliases": [
+      "アイヴ"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10325",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "aespa",
+    "name": "aespa",
+    "aliases": [
+      "エスパ"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://aespa-official.jp/news/fanmeeting2026-myclassmaete/",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+  },
+  {
+    "id": "le_sserafim",
+    "name": "LE SSERAFIM",
+    "aliases": [
+      "ルセラフィム"
+    ],
+    "genre": "K-POP",
+    "imageUrl": null,
+    "source": "system",
+    "sourceUrl": "https://www.le-sserafim.jp/news/51726af4dd90",
+    "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
   }
 ]

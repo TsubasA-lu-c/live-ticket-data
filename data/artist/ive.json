@@ -1,0 +1,124 @@
+{
+  "artistId": "ive",
+  "tours": [
+    {
+      "id": "ive_show_what_i_am_japan_2026",
+      "artistId": "ive",
+      "title": "IVE WORLD TOUR 'SHOW WHAT I AM' IN JAPAN",
+      "startDate": "2026-04-18T00:00:00+09:00",
+      "endDate": "2026-06-24T00:00:00+09:00",
+      "prices": [
+        {"label": "指定席", "amount": 14800}
+      ],
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10325",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "performances": [
+    {
+      "id": "ive_show_what_i_am_japan_2026_kyocera_0418",
+      "tourId": "ive_show_what_i_am_japan_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-04-18T18:30:00+09:00",
+      "doorOpenAt": "2026-04-18T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10325",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ive_show_what_i_am_japan_2026_kyocera_0419",
+      "tourId": "ive_show_what_i_am_japan_2026",
+      "venue": "京セラドーム大阪",
+      "performanceAt": "2026-04-19T16:00:00+09:00",
+      "doorOpenAt": "2026-04-19T14:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10325",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ive_show_what_i_am_japan_2026_tokyo_dome_0624",
+      "tourId": "ive_show_what_i_am_japan_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-06-24T18:30:00+09:00",
+      "doorOpenAt": "2026-06-24T16:30:00+09:00",
+      "kind": "oneman",
+      "eventName": null,
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10360",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ],
+  "lotteries": [
+    {
+      "id": "ive_show_what_i_am_japan_2026_fc_osaka",
+      "tourId": "ive_show_what_i_am_japan_2026",
+      "type": "FC先行",
+      "entryStartAt": "2025-12-02T12:00:00+09:00",
+      "entryEndAt": "2025-12-15T23:59:00+09:00",
+      "resultAt": "2025-12-20T18:00:00+09:00",
+      "paymentStartAt": "2025-12-20T18:00:00+09:00",
+      "paymentEndAt": "2025-12-23T23:00:00+09:00",
+      "performanceIds": [
+        "ive_show_what_i_am_japan_2026_kyocera_0418",
+        "ive_show_what_i_am_japan_2026_kyocera_0419"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10325",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ive_show_what_i_am_japan_2026_fc2_osaka",
+      "tourId": "ive_show_what_i_am_japan_2026",
+      "type": "FC2次先行",
+      "entryStartAt": "2025-12-24T18:00:00+09:00",
+      "entryEndAt": "2026-01-09T23:59:00+09:00",
+      "resultAt": "2026-01-17T18:00:00+09:00",
+      "paymentStartAt": "2026-01-17T18:00:00+09:00",
+      "paymentEndAt": "2026-01-20T23:00:00+09:00",
+      "performanceIds": [
+        "ive_show_what_i_am_japan_2026_kyocera_0418",
+        "ive_show_what_i_am_japan_2026_kyocera_0419"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10330",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ive_show_what_i_am_japan_2026_fc_tokyo",
+      "tourId": "ive_show_what_i_am_japan_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-04-16T18:00:00+09:00",
+      "entryEndAt": "2026-04-21T23:59:00+09:00",
+      "resultAt": "2026-04-25T18:00:00+09:00",
+      "paymentStartAt": "2026-04-25T18:00:00+09:00",
+      "paymentEndAt": "2026-04-28T23:00:00+09:00",
+      "performanceIds": [
+        "ive_show_what_i_am_japan_2026_tokyo_dome_0624"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10364",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    },
+    {
+      "id": "ive_show_what_i_am_japan_2026_fc2_tokyo",
+      "tourId": "ive_show_what_i_am_japan_2026",
+      "type": "FC2次先行",
+      "entryStartAt": "2026-04-22T12:00:00+09:00",
+      "entryEndAt": "2026-04-30T23:59:00+09:00",
+      "resultAt": "2026-05-09T18:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ive_show_what_i_am_japan_2026_tokyo_dome_0624"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ive-official.jp/mob/news/newsShw.php?site=DIVE&cd=OF10369",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+    }
+  ]
+}
