@@ -12,7 +12,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/",
-      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026",
@@ -23,7 +23,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -37,7 +37,7 @@
       "eventName": "ROCK IN JAPAN FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/",
-      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_osaka_0721",
@@ -49,7 +49,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_osaka_0722_1st",
@@ -61,7 +61,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_osaka_0722_2nd",
@@ -73,7 +73,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0825_1st",
@@ -85,7 +85,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0825_2nd",
@@ -97,7 +97,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0826",
@@ -109,7 +109,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0827_1st",
@@ -121,7 +121,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_tokyo_0827_2nd",
@@ -133,7 +133,7 @@
       "eventName": "Number_i ファンミーティング 2026",
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -151,7 +151,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/ticket/",
-      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fes_rijf_2026_jfes_2nd",
@@ -167,7 +167,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://rijfes.jp/2026/ticket/",
-      "lastVerifiedAt": "2026-06-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "number_i_fanmeeting_2026_ilys_fc_senko",
@@ -190,7 +190,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://tobe-official.jp/artists/number_i/concert",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     }
   ]
 }

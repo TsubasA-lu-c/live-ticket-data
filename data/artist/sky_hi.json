@@ -7,10 +7,12 @@
       "title": "s**t kingz Fes 2026 会社",
       "startDate": "2026-07-26T00:00:00+09:00",
       "endDate": "2026-07-26T00:00:00+09:00",
-      "prices": [],
+      "prices": [
+        {"label": "全席指定", "amount": 15000}
+      ],
       "source": "system",
-      "sourceUrl": "https://skyhi.tokyo/news",
-      "lastVerifiedAt": "2026-06-21T00:00:00+09:00"
+      "sourceUrl": "https://shitkingz.jp/s/stkgzfes2026/",
+      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
     },
     {
       "id": "sky_hi_toyosu_pit_2026",
