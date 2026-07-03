@@ -14,7 +14,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "and_team_blaze_the_way_encore_2026",
@@ -28,7 +28,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "and_team_blaze_the_way_liveviewing_2026",
@@ -252,7 +252,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.andteam-official.jp/news/kmubos",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "and_team_blaze_the_way_2026_lune2nd",
@@ -330,7 +330,24 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "and_team_blaze_the_way_encore_2026_playguide",
+      "tourId": "and_team_blaze_the_way_encore_2026",
+      "type": "プレイガイド先着先行",
+      "entryStartAt": "2026-07-03T13:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "and_team_blaze_the_way_encore_2026_belluna_0905",
+        "and_team_blaze_the_way_encore_2026_belluna_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hybejapan-concert.com/statics/andteam_blaze_the_way_encore",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "and_team_blaze_the_way_liveviewing_2026_lune",
@@ -346,7 +363,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "and_team_blaze_the_way_liveviewing_2026_prereq",
@@ -362,7 +379,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "and_team_blaze_the_way_liveviewing_2026_prereq_senchaku",
@@ -378,7 +395,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://api-liveviewing.com/andteam-blaze-the-way/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ]
 }
