@@ -174,5 +174,20 @@
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "the_oral_cigarettes_homesweethome_2026_fc",
+      "tourId": "the_oral_cigarettes_homesweethome_2026",
+      "type": "FC先行",
+      "entryStartAt": "2025-12-19T19:00:00+09:00",
+      "entryEndAt": "2026-01-06T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://theoralcigarettes.com/news/detail/3086",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
 }

@@ -15,7 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "wanima_fes_2026",
@@ -26,7 +26,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://wanima.net/contents/live",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -40,7 +40,7 @@
       "eventName": "1CHANCE FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "wanima_1chance_fes_2026_kumamoto_0927",
@@ -52,7 +52,7 @@
       "eventName": "1CHANCE FESTIVAL 2026",
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "wanima_fes_2026_numbershot_0802",
@@ -155,7 +155,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://wanima.net/contents/1064730",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "wanima_1chance_fes_2026_1st",
@@ -172,7 +172,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "wanima_1chance_fes_2026_2nd",
@@ -189,7 +189,24 @@
       ],
       "source": "system",
       "sourceUrl": "https://1chancefes.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "wanima_1chance_fes_2026_3rd",
+      "tourId": "wanima_1chance_fes_2026",
+      "type": "3次先行抽選",
+      "entryStartAt": "2026-07-01T19:00:00+09:00",
+      "entryEndAt": "2026-07-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "wanima_1chance_fes_2026_kumamoto_0926",
+        "wanima_1chance_fes_2026_kumamoto_0927"
+      ],
+      "source": "system",
+      "sourceUrl": "https://1chancefes.com/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "wanima_fes_2026_numbershot_general",

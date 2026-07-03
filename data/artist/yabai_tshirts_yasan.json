@@ -80,6 +80,28 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/news/",
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_akitacaravan_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "秋田CARAVAN MUSIC FES 2026",
+      "startDate": "2026-09-27T00:00:00+09:00",
+      "endDate": "2026-09-27T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_osakajouin_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "風雲！大阪城音泉",
+      "startDate": "2026-10-04T00:00:00+09:00",
+      "endDate": "2026-10-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -346,6 +368,30 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/news/",
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_akitacaravan_2026_ac_0927",
+      "tourId": "yabai_tshirts_yasan_fes_akitacaravan_2026",
+      "venue": "象潟グラウンド",
+      "performanceAt": "2026-09-27T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "秋田CARAVAN MUSIC FES 2026",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_osakajouin_2026_oj_1004",
+      "tourId": "yabai_tshirts_yasan_fes_osakajouin_2026",
+      "venue": "大阪城音楽堂",
+      "performanceAt": "2026-10-04T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "風雲！大阪城音泉",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -432,6 +478,20 @@
       "source": "system",
       "sourceUrl": "https://l-tike.com/yabaitshirtsyasan/",
       "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mtp_tour_2026_cd_saishu",
+      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
+      "type": "CD封入最終先行",
+      "entryStartAt": "2026-07-28T12:00:00+09:00",
+      "entryEndAt": "2026-08-03T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ]
 }
