@@ -2,6 +2,22 @@
   "artistId": "glay",
   "tours": [
     {
+      "id": "glay_zeppy_swing_2026",
+      "artistId": "glay",
+      "title": "GLAY SPECIAL LIVE We♡Zeppy Swing",
+      "startDate": "2026-07-27T00:00:00+09:00",
+      "endDate": "2026-07-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 8800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10174",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
       "id": "glay_wehappyswing_vol4_2026",
       "artistId": "glay",
       "title": "HAPPY SWING 30th Anniversary GLAY SPECIAL LIVE We♡Happy Swing Vol.4 ～Promise The Venezia～",
@@ -10,7 +26,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/live",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_happy_swing_festa_2026",
@@ -26,7 +42,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_fes_2026_puffy_pfes",
@@ -37,7 +53,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10119",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_fes_2026_otohige",
@@ -48,7 +64,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10087",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026",
@@ -72,10 +88,22 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "performances": [
+    {
+      "id": "glay_zeppy_swing_2026_divercity_0727",
+      "tourId": "glay_zeppy_swing_2026",
+      "venue": "Zepp DiverCity",
+      "performanceAt": "2026-07-27T18:00:00+09:00",
+      "doorOpenAt": "2026-07-27T17:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "GLAY SPECIAL LIVE We♡Zeppy Swing",
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10174",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
     {
       "id": "glay_wehappyswing_vol4_2026_makuhari_0731",
       "tourId": "glay_wehappyswing_vol4_2026",
@@ -86,7 +114,7 @@
       "eventName": "HAPPY SWING 30th Anniversary GLAY SPECIAL LIVE We♡Happy Swing Vol.4 ～Promise The Venezia～",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/live",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_wehappyswing_vol4_2026_makuhari_0801",
@@ -98,7 +126,7 @@
       "eventName": "HAPPY SWING 30th Anniversary GLAY SPECIAL LIVE We♡Happy Swing Vol.4 ～Promise The Venezia～",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/live",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_happy_swing_festa_2026_makuhari_0731",
@@ -110,7 +138,7 @@
       "eventName": "HAPPY SWING FESTA 2026",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_happy_swing_festa_2026_makuhari_0801",
@@ -122,7 +150,7 @@
       "eventName": "HAPPY SWING FESTA 2026",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_fes_2026_puffy_pfes_0720",
@@ -134,7 +162,7 @@
       "eventName": "PUFFYの\"P\"FES",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10119",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_fes_2026_otohige_0829",
@@ -146,7 +174,7 @@
       "eventName": "音楽と髭達2026-TIME MACHINE",
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10087",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_osaka_1107",
@@ -158,7 +186,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_osaka_1108",
@@ -170,7 +198,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_miyagi_1121",
@@ -182,7 +210,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_miyagi_1122",
@@ -194,7 +222,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_tokyo_1128",
@@ -206,7 +234,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_tokyo_1129",
@@ -218,7 +246,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_niigata_1205",
@@ -230,7 +258,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hokkaido_1212",
@@ -242,7 +270,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hokkaido_1213",
@@ -254,7 +282,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_fukuoka_1219",
@@ -266,7 +294,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_fukuoka_1220",
@@ -278,7 +306,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hyogo_0116",
@@ -290,7 +318,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hyogo_0117",
@@ -302,7 +330,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hiroshima_0130",
@@ -314,7 +342,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hiroshima_0131",
@@ -326,7 +354,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_aichi_0206",
@@ -338,7 +366,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_aichi_0207",
@@ -350,7 +378,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hakodate_0211",
@@ -362,7 +390,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hakodate_0213",
@@ -374,7 +402,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_hakodate_0214",
@@ -386,7 +414,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_yokohama_0220",
@@ -398,7 +426,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_yokohama_0221",
@@ -410,10 +438,26 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
+    {
+      "id": "glay_zeppy_swing_2026_glay_app",
+      "tourId": "glay_zeppy_swing_2026",
+      "type": "GLAY APP有料会員先行抽選",
+      "entryStartAt": "2026-07-06T15:00:00+09:00",
+      "entryEndAt": "2026-07-13T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_zeppy_swing_2026_divercity_0727"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/news/detail/10174",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
     {
       "id": "glay_wehappyswing_vol4_2026_happy_swing_2nd",
       "tourId": "glay_wehappyswing_vol4_2026",
@@ -429,7 +473,23 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/live",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "glay_wehappyswing_vol4_2026_glay_mobile_2nd",
+      "tourId": "glay_wehappyswing_vol4_2026",
+      "type": "GLAY MOBILE 2次受付",
+      "entryStartAt": "2026-07-01T15:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:00:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "glay_wehappyswing_vol4_2026_makuhari_0731"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.glay.co.jp/feature/live",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_happy_swing_festa_2026_happy_swing_2nd",
@@ -446,7 +506,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/news/detail/10157",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "glay_exofire_2026_lawson_fastest",
@@ -472,7 +532,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.glay.co.jp/feature/arenatour2026_27",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ]
 }
