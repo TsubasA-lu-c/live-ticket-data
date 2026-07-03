@@ -170,7 +170,24 @@
       ],
       "source": "system",
       "sourceUrl": "https://jsb3.exfamily.jp/s/ldh02/ticket/list?ima=0000&ct=main",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka直前販売",
+      "tourId": "sandaime_j_soul_brothers_jsb_land_forever_2026",
+      "type": "直前販売",
+      "entryStartAt": "2026-06-30T19:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0701",
+        "sandaime_j_soul_brothers_jsb_land_forever_2026_osaka_0702"
+      ],
+      "source": "system",
+      "sourceUrl": "https://e-ticketbook.com/3jsb-jsbland-forever/2603-tb/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ]
 }
