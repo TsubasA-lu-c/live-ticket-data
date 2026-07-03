@@ -19,7 +19,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_tif_2026",
@@ -30,7 +30,7 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/101825",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -42,7 +42,7 @@
       "doorOpenAt": "2026-06-13T15:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/101747",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00",
       "kind": "oneman"
     },
     {
@@ -242,7 +242,7 @@
       "eventName": "TOKYO IDOL FESTIVAL 2026 supported by にしたんクリニック",
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/101825",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -258,7 +258,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://sp.nogizaka46.com/p/tickets/1174170702723416064",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_mobile_2nd",
@@ -272,7 +272,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://sp.nogizaka46.com/p/tickets/1190101583111651328",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_mobile_3rd",
@@ -286,7 +286,7 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_mobile_miyagi_fukuoka_tokyo",
@@ -309,7 +309,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_nogidoga_miyagi_fukuoka_tokyo",
@@ -332,7 +332,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_mail_miyagi_fukuoka_tokyo",
@@ -355,7 +355,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_message_miyagi_fukuoka_tokyo",
@@ -378,7 +378,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "nogizaka46_manatsu_2026_barrierfree_tokyo",

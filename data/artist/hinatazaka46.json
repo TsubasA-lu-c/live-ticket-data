@@ -198,6 +198,20 @@
   ],
   "lotteries": [
     {
+      "id": "hinatazaka46_gokisei_live_2026_general",
+      "tourId": "hinatazaka46_gokisei_live_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-06-27T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/5th_generation_live/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
       "id": "hinatazaka46_hinata_fes_2026_fc_1st",
       "tourId": "hinatazaka46_hinata_fes_2026",
       "type": "FC先行（1次）",
@@ -252,6 +266,20 @@
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
       "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_sankisei_live_2026_general",
+      "tourId": "hinatazaka46_sankisei_live_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-12T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": null,
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ]
 }
