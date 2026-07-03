@@ -10,11 +10,13 @@
       "prices": [
         {"label": "プレミアムエリア", "amount": 15000},
         {"label": "僕青撮影部エリア", "amount": 10000},
-        {"label": "一般エリア", "amount": 8300}
+        {"label": "一般エリア", "amount": 8300},
+        {"label": "女性エリア", "amount": 8300},
+        {"label": "ファミリーエリア", "amount": 8300}
       ],
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5405",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "boku_aozora_last_live_2026",
@@ -25,7 +27,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000021.000115239.html",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -39,7 +41,7 @@
       "eventName": "アオゾラサマーフェスティバル2026",
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5405",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "boku_aozora_last_live_2026_kanadevia_1214",
@@ -51,7 +53,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000021.000115239.html",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -67,7 +69,7 @@
       "performanceIds": ["boku_aozora_summer_fes_2026_toyosupit_0830"],
       "source": "system",
       "sourceUrl": "https://bokuao.com/news/detail/5405",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ]
 }

@@ -17,7 +17,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://da-ice.jp/en/schedule/tour.php?id=1003011&fdate=2027-02-04&ldate=2027-02-14",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -30,8 +30,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://da-ice.jp/en/schedule/tour.php?id=1003011&fdate=2027-02-04&ldate=2027-02-14",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027_kyocera_0213",
@@ -42,8 +42,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://da-ice.jp/en/schedule/tour.php?id=1003011&fdate=2027-02-04&ldate=2027-02-14",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "da_ice_dome_phase_2027_kyocera_0214",
@@ -54,8 +54,8 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://da-ice.jp/en/schedule/tour.php?id=1003011&fdate=2027-02-04&ldate=2027-02-14",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -74,8 +74,8 @@
         "da_ice_dome_phase_2027_kyocera_0214"
       ],
       "source": "system",
-      "sourceUrl": "https://da-ice.jp/en/schedule/tour.php?id=1003011&fdate=2027-02-04&ldate=2027-02-14",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "sourceUrl": "https://da-ice.jp/schedule/tour.php?id=1003011",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ]
 }
