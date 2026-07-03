@@ -8,24 +8,13 @@
       "startDate": "2026-08-25T00:00:00+09:00",
       "endDate": "2026-08-26T00:00:00+09:00",
       "prices": [
-        {"label": "一般指定席", "amount": 10000}
+        {
+          "label": "一般指定席",
+          "amount": 10000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
-    },
-    {
-      "id": "cutie_street_event_2026_nagi_birthday",
-      "artistId": "cutie_street",
-      "title": "真鍋凪咲 生誕祭 2026",
-      "startDate": "2026-06-29T00:00:00+09:00",
-      "endDate": "2026-06-29T00:00:00+09:00",
-      "prices": [
-        {"label": "お見送り会付指定席", "amount": 12000},
-        {"label": "一般指定席", "amount": 6500}
-      ],
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/79660",
       "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
@@ -68,7 +57,10 @@
       "startDate": "2026-09-23T00:00:00+09:00",
       "endDate": "2026-11-29T00:00:00+09:00",
       "prices": [
-        {"label": "指定席", "amount": 10000}
+        {
+          "label": "指定席",
+          "amount": 10000
+        }
       ],
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/autumntour",
@@ -98,18 +90,6 @@
       "eventName": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
-    },
-    {
-      "id": "cutie_street_event_2026_nagi_birthday_sgc_0629",
-      "tourId": "cutie_street_event_2026_nagi_birthday",
-      "venue": "SGCホール有明",
-      "performanceAt": "2026-06-29T19:00:00+09:00",
-      "doorOpenAt": "2026-06-29T17:30:00+09:00",
-      "kind": "oneman",
-      "eventName": "真鍋凪咲 生誕祭 2026",
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/79660",
       "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {
@@ -345,22 +325,6 @@
       ],
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
-    },
-    {
-      "id": "cutie_street_event_2026_nagi_birthday_fc",
-      "tourId": "cutie_street_event_2026_nagi_birthday",
-      "type": "FC先行",
-      "entryStartAt": "2026-05-20T12:00:00+09:00",
-      "entryEndAt": "2026-05-25T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "cutie_street_event_2026_nagi_birthday_sgc_0629"
-      ],
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/79660",
       "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
     },
     {

@@ -8,10 +8,22 @@
       "startDate": "2026-04-11T00:00:00+09:00",
       "endDate": "2026-10-17T00:00:00+09:00",
       "prices": [
-        {"label": "ジャスティンアイランド（会員限定・ホール）", "amount": 12500},
-        {"label": "指定席・着席指定席（ホール）", "amount": 9000},
-        {"label": "ジャスティンアイランド（会員限定・アリーナ）", "amount": 14900},
-        {"label": "指定席・着席指定席（アリーナ）", "amount": 9900}
+        {
+          "label": "ジャスティンアイランド（会員限定・ホール）",
+          "amount": 12500
+        },
+        {
+          "label": "指定席・着席指定席（ホール）",
+          "amount": 9000
+        },
+        {
+          "label": "ジャスティンアイランド（会員限定・アリーナ）",
+          "amount": 14900
+        },
+        {
+          "label": "指定席・着席指定席（アリーナ）",
+          "amount": 9900
+        }
       ],
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
@@ -26,17 +38,6 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://novelbright.jp/news/detail/2430",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
-    },
-    {
-      "id": "novelbright_fes_takamatsuri_2026",
-      "artistId": "novelbright",
-      "title": "鷹祭 SUMMER BOOST 2026",
-      "startDate": "2026-06-30T00:00:00+09:00",
-      "endDate": "2026-06-30T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://novelbright.jp/schedule/detail/2429",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
@@ -458,18 +459,6 @@
       "eventName": "Novelbright ASIA TOUR 2026 〜PYRAMID〜 IN TAIPEI",
       "source": "system",
       "sourceUrl": "https://novelbright.jp/feature/hall_arenatour2026",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
-    },
-    {
-      "id": "novelbright_fes_takamatsuri_2026_tokyodome_0630",
-      "tourId": "novelbright_fes_takamatsuri_2026",
-      "venue": "東京ドーム",
-      "performanceAt": "2026-06-30T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "鷹祭 SUMMER BOOST 2026",
-      "source": "system",
-      "sourceUrl": "https://novelbright.jp/schedule/detail/2429",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
