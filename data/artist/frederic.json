@@ -12,18 +12,18 @@
       ],
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026",
       "artistId": "frederic",
       "title": "2026年フェス出演",
       "startDate": "2026-07-11T00:00:00+09:00",
-      "endDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -37,7 +37,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0526",
@@ -49,7 +49,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0712",
@@ -61,7 +61,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_1012",
@@ -73,7 +73,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "frederic_umimoyasu_20262027_move_zepp_haneda_0117",
@@ -85,7 +85,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://frederic-official.com/feature/umimoyasu20262027_move",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "frederic_fes_2026_talkingrockfes_yokohama_0711",
@@ -170,6 +170,30 @@
       "source": "system",
       "sourceUrl": "https://frederic-official.com/news/detail/3658",
       "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_rij_soga_0920",
+      "tourId": "frederic_fes_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-20T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3668",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "frederic_fes_2026_inazuma_kusatsu_0921",
+      "tourId": "frederic_fes_2026",
+      "venue": "滋賀県草津市烏丸半島芝生広場",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "FEST. INAZUMA 2026",
+      "source": "system",
+      "sourceUrl": "https://frederic-official.com/news/detail/3682",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "lotteries": [

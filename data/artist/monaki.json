@@ -2,6 +2,28 @@
   "artistId": "monaki",
   "tours": [
     {
+      "id": "monaki_fes_weekend_korea_2026",
+      "artistId": "monaki",
+      "title": "週末KOREA ハップルフェス in 大阪",
+      "startDate": "2026-07-04T00:00:00+09:00",
+      "endDate": "2026-07-04T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_fes_8fes_2026",
+      "artistId": "monaki",
+      "title": "８FES 2026",
+      "startDate": "2026-07-05T00:00:00+09:00",
+      "endDate": "2026-07-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
       "id": "monaki_event_boatrace_2026",
       "artistId": "monaki",
       "title": "GⅢオールレディース ジュエルセブンカップ ステージイベント",
@@ -57,6 +79,30 @@
   ],
   "performances": [
     {
+      "id": "monaki_fes_weekend_korea_2026_osaka_0704",
+      "tourId": "monaki_fes_weekend_korea_2026",
+      "venue": null,
+      "performanceAt": "2026-07-04T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "週末KOREA ハップルフェス in 大阪",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_fes_8fes_2026_suzuka_0705",
+      "tourId": "monaki_fes_8fes_2026",
+      "venue": "鈴鹿サーキット",
+      "performanceAt": "2026-07-05T18:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "８FES 2026",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
       "id": "monaki_release_2026_sumida_0602",
       "tourId": "monaki_release_2026",
       "venue": "すみだ産業会館 サンライズホール",
@@ -66,7 +112,7 @@
       "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念キャンペーン",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/79963",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "monaki_release_2026_emiterrace_0607",
@@ -78,7 +124,7 @@
       "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/80719",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "monaki_release_2026_shinrifu_0723",
@@ -90,7 +136,7 @@
       "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82354",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "monaki_event_boatrace_2026_boatrace_0720",
@@ -102,7 +148,7 @@
       "eventName": "GⅢオールレディース ジュエルセブンカップ",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82706",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "monaki_event_2shot_2026_2shot_0810",
@@ -114,7 +160,7 @@
       "eventName": "メンバー個別 2ショット撮影会",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82529",
-      "lastVerifiedAt": "2026-06-24T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_zeppnamba_0818",
@@ -126,7 +172,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_zeppnagoya_0819",
@@ -138,7 +184,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "monaki_1st_tour_2026_zepphaneda_0824",
@@ -150,7 +196,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -170,7 +216,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/78925",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "monaki_event_2shot_2026_抽選",
@@ -186,7 +232,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82529",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ]
 }
