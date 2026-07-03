@@ -8,11 +8,14 @@
       "startDate": "2026-04-10T00:00:00+09:00",
       "endDate": "2026-07-25T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 9900}
+        {
+          "label": "全席指定",
+          "amount": 9900
+        }
       ],
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_special_2026",
@@ -21,11 +24,25 @@
       "startDate": "2026-08-01T00:00:00+09:00",
       "endDate": "2026-08-09T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定", "amount": 9900}
+        {
+          "label": "全席指定",
+          "amount": 9900
+        }
       ],
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_fes_2026_bmsg",
+      "artistId": "starglow",
+      "title": "BMSG FES'26",
+      "startDate": "2026-10-10T00:00:00+09:00",
+      "endDate": "2026-10-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -39,7 +56,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_tochigi_0425",
@@ -51,7 +68,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_shizuoka_0429",
@@ -63,7 +80,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_aichi_0501",
@@ -75,7 +92,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_kyoto_0502",
@@ -87,7 +104,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_miyagi_0504",
@@ -99,7 +116,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_tokyo_0510",
@@ -111,7 +128,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_hokkaido_0531",
@@ -123,7 +140,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_osaka_0610",
@@ -135,7 +152,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_hyogo_0612",
@@ -147,7 +164,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_kagawa_0614",
@@ -159,7 +176,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_fukuoka_0620",
@@ -171,7 +188,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_niigata_0705",
@@ -183,7 +200,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_hiroshima_0710",
@@ -195,7 +212,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_okayama_0711",
@@ -207,7 +224,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_ishikawa_0719",
@@ -219,7 +236,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_2026_okinawa_0725",
@@ -231,7 +248,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_special_2026_kanagawa_0801",
@@ -243,7 +260,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_special_2026_kanagawa_0802",
@@ -255,7 +272,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_special_2026_hyogo_0808",
@@ -267,7 +284,7 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
       "id": "starglow_star_cruise_special_2026_hyogo_0809",
@@ -279,8 +296,64 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://starcruise2026.starglow.tokyo/news/specialedition",
-      "lastVerifiedAt": "2026-06-28T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_fes_2026_bmsg_1010",
+      "tourId": "starglow_fes_2026_bmsg",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-10T15:00:00+09:00",
+      "doorOpenAt": "2026-10-10T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES'26",
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_fes_2026_bmsg_1011",
+      "tourId": "starglow_fes_2026_bmsg",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-11T15:00:00+09:00",
+      "doorOpenAt": "2026-10-11T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES'26",
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "starglow_fes_2026_bmsg_1012",
+      "tourId": "starglow_fes_2026_bmsg",
+      "venue": "お台場BMSG FES特設会場",
+      "performanceAt": "2026-10-12T15:00:00+09:00",
+      "doorOpenAt": "2026-10-12T13:00:00+09:00",
+      "kind": "fes",
+      "eventName": "BMSG FES'26",
+      "source": "system",
+      "sourceUrl": "https://bmsgfes.tokyo/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     }
   ],
-  "lotteries": []
+  "lotteries": [
+    {
+      "id": "starglow_star_cruise_special_2026_upgrade",
+      "tourId": "starglow_star_cruise_special_2026",
+      "type": "アップグレード抽選",
+      "entryStartAt": "2026-06-30T15:00:00+09:00",
+      "entryEndAt": "2026-07-06T23:59:00+09:00",
+      "resultAt": "2026-07-15T15:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "starglow_star_cruise_special_2026_kanagawa_0801",
+        "starglow_star_cruise_special_2026_kanagawa_0802",
+        "starglow_star_cruise_special_2026_hyogo_0808",
+        "starglow_star_cruise_special_2026_hyogo_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://starglow.tokyo/news/live/1214/",
+      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    }
+  ]
 }
