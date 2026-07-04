@@ -7,10 +7,27 @@
       "title": "ASUTO MUSIC PARK 2026",
       "startDate": "2026-09-05T00:00:00+09:00",
       "endDate": "2026-09-05T00:00:00+09:00",
-      "prices": [],
+      "prices": [
+        {
+          "label": "一般1日券",
+          "amount": 9900
+        },
+        {
+          "label": "2日間通し券",
+          "amount": 18000
+        },
+        {
+          "label": "中学生1日券",
+          "amount": 6900
+        },
+        {
+          "label": "中学生2日間通し券",
+          "amount": 12000
+        }
+      ],
       "source": "system",
-      "sourceUrl": "https://pc.goldenbomber.jp/contents/1084237",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+      "sourceUrl": "https://asutomusicpark.com/",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
     },
     {
       "id": "gb_choyakusen_2026",
@@ -180,6 +197,38 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "gb_asuto_2026_senko_1st",
+      "tourId": "golden_bomber_asuto_music_park_2026",
+      "type": "先行受付（第1次）",
+      "entryStartAt": "2026-06-01T10:00:00+09:00",
+      "entryEndAt": "2026-06-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_asuto_music_park_2026_sendai_0905"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/concert/mevent/?mid=751273",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
+    {
+      "id": "gb_asuto_2026_senko_2nd",
+      "tourId": "golden_bomber_asuto_music_park_2026",
+      "type": "先行受付（第2次）",
+      "entryStartAt": "2026-06-19T10:00:00+09:00",
+      "entryEndAt": "2026-07-05T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "golden_bomber_asuto_music_park_2026_sendai_0905"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/concert/mevent/?mid=751273",
+      "lastVerifiedAt": "2026-07-04T00:00:00+09:00"
+    },
     {
       "id": "golden_bomber_choyakusen_2026_fc_senten",
       "tourId": "gb_choyakusen_2026",
