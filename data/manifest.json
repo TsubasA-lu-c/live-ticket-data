@@ -1,9 +1,9 @@
 {
-  "version": 59,
-  "updatedAt": "2026-07-04T09:29:51+09:00",
+  "version": 60,
+  "updatedAt": "2026-07-04T11:17:48+09:00",
   "files": {
     "artists": {
-      "hash": "0a8b49bfb5ffc393"
+      "hash": "55964591b1c089a6"
     }
   },
   "artists": {
@@ -306,6 +306,9 @@
     },
     "yorushika": {
       "hash": "43f83cd0c9d49e4f"
+    },
+    "ellegarden": {
+      "hash": "fede2ece39a5ef11"
     }
   }
 }
