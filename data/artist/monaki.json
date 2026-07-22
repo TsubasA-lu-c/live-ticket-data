@@ -2,17 +2,6 @@
   "artistId": "monaki",
   "tours": [
     {
-      "id": "monaki_event_boatrace_2026",
-      "artistId": "monaki",
-      "title": "GⅢオールレディース ジュエルセブンカップ ステージイベント",
-      "startDate": "2026-07-20T00:00:00+09:00",
-      "endDate": "2026-07-20T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/82706",
-      "lastVerifiedAt": "2026-06-29T00:00:00+09:00"
-    },
-    {
       "id": "monaki_event_2shot_2026",
       "artistId": "monaki",
       "title": "メンバー個別 2ショット撮影会",
@@ -53,6 +42,22 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/78925",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_halloween_2026",
+      "artistId": "monaki",
+      "title": "ハロウィンやで☆しらんけど",
+      "startDate": "2026-10-27T00:00:00+09:00",
+      "endDate": "2026-10-27T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "スタンディング",
+          "amount": 6600
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/84518",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -90,18 +95,6 @@
       "eventName": "デビューシングル「ほんまやで☆なんでやねん☆しらんけど」発売記念リリースイベント",
       "source": "system",
       "sourceUrl": "https://monaki.fanpla.jp/news/detail/82354",
-      "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
-    },
-    {
-      "id": "monaki_event_boatrace_2026_boatrace_0720",
-      "tourId": "monaki_event_boatrace_2026",
-      "venue": "ボートレース下関",
-      "performanceAt": "2026-07-20T00:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "GⅢオールレディース ジュエルセブンカップ",
-      "source": "system",
-      "sourceUrl": "https://monaki.fanpla.jp/news/detail/82706",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
     },
     {
@@ -151,6 +144,18 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/78925",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_halloween_2026_toyosu_1027",
+      "tourId": "monaki_halloween_2026",
+      "venue": "豊洲PIT",
+      "performanceAt": "2026-10-27T19:00:00+09:00",
+      "doorOpenAt": "2026-10-27T18:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "ハロウィンやで☆しらんけど",
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/84518",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -205,6 +210,22 @@
       "source": "system",
       "sourceUrl": "https://monaki.jp/news/detail/82529",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "monaki_halloween_2026_fc",
+      "tourId": "monaki_halloween_2026",
+      "type": "FC先行",
+      "entryStartAt": "2026-07-16T12:00:00+09:00",
+      "entryEndAt": "2026-07-26T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "monaki_halloween_2026_toyosu_1027"
+      ],
+      "source": "system",
+      "sourceUrl": "https://monaki.jp/news/detail/84518",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }

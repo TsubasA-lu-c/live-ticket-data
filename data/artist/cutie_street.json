@@ -15,18 +15,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "cutie_street_fes_kawaii_lab_summer_2026",
-      "artistId": "cutie_street",
-      "title": "KAWAII LAB. SESSION 2026 SUMMER",
-      "startDate": "2026-07-10T00:00:00+09:00",
-      "endDate": "2026-07-11T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81821",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "cutie_street_fes_live_in_korea_2026_summer",
@@ -79,30 +68,6 @@
       "eventName": "CUTIE STREET 2nd ANNIVERSARY LIVE 2026",
       "source": "system",
       "sourceUrl": "https://cutiestreet.asobisystem.com/feature/2ndanniversarylive",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "cutie_street_fes_kawaii_lab_summer_2026_yoyogi_0710",
-      "tourId": "cutie_street_fes_kawaii_lab_summer_2026",
-      "venue": "国立代々木競技場 第一体育館",
-      "performanceAt": "2026-07-10T18:00:00+09:00",
-      "doorOpenAt": "2026-07-10T16:00:00+09:00",
-      "kind": "fes",
-      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81821",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "cutie_street_fes_kawaii_lab_summer_2026_yoyogi_0711",
-      "tourId": "cutie_street_fes_kawaii_lab_summer_2026",
-      "venue": "国立代々木競技場 第一体育館",
-      "performanceAt": "2026-07-11T17:00:00+09:00",
-      "doorOpenAt": "2026-07-11T15:00:00+09:00",
-      "kind": "fes",
-      "eventName": "KAWAII LAB. SESSION 2026 SUMMER",
-      "source": "system",
-      "sourceUrl": "https://cutiestreet.asobisystem.com/live_information/detail/81821",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
@@ -287,6 +252,23 @@
     }
   ],
   "lotteries": [
+    {
+      "id": "cutie_street_2nd_anniversary_2026_upgrade",
+      "tourId": "cutie_street_2nd_anniversary_2026",
+      "type": "アップグレード抽選",
+      "entryStartAt": "2026-07-09T18:00:00+09:00",
+      "entryEndAt": "2026-07-14T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "cutie_street_2nd_anniversary_2026_budokan_0825",
+        "cutie_street_2nd_anniversary_2026_budokan_0826"
+      ],
+      "source": "system",
+      "sourceUrl": "https://cutiestreet.asobisystem.com/news/detail/84129",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
     {
       "id": "cutie_street_2nd_anniversary_2026_pg_fastest",
       "tourId": "cutie_street_2nd_anniversary_2026",

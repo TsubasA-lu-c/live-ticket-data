@@ -2,17 +2,6 @@
   "artistId": "yabai_tshirts_yasan",
   "tours": [
     {
-      "id": "yabai_tshirts_yasan_fes_talkingrockfes_2026",
-      "artistId": "yabai_tshirts_yasan",
-      "title": "30th Anniversary Special Talking Rock! FES.2026 横浜編",
-      "startDate": "2026-07-12T00:00:00+09:00",
-      "endDate": "2026-07-12T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
       "id": "yabai_tshirts_yasan_fes_oganamahage_2026",
       "artistId": "yabai_tshirts_yasan",
       "title": "OGA NAMAHAGE ROCK FESTIVAL vol.15",
@@ -52,12 +41,18 @@
       "startDate": "2026-08-06T00:00:00+09:00",
       "endDate": "2026-11-11T00:00:00+09:00",
       "prices": [
-        {"label": "全席指定（小会場・税別）", "amount": 5000},
-        {"label": "全席指定（大会場・税別）", "amount": 5500}
+        {
+          "label": "全席指定（小会場・税別）",
+          "amount": 5000
+        },
+        {
+          "label": "全席指定（大会場・税別）",
+          "amount": 5500
+        }
       ],
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     },
     {
       "id": "yabai_tshirts_yasan_fes_gfest_2026",
@@ -94,18 +89,6 @@
     }
   ],
   "performances": [
-    {
-      "id": "yabai_tshirts_yasan_fes_talkingrockfes_2026_tr_0712",
-      "tourId": "yabai_tshirts_yasan_fes_talkingrockfes_2026",
-      "venue": "横浜アリーナ",
-      "performanceAt": "2026-07-12T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "30th Anniversary Special Talking Rock! FES.2026 横浜編",
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
     {
       "id": "yabai_tshirts_yasan_fes_oganamahage_2026_on_0724",
       "tourId": "yabai_tshirts_yasan_fes_oganamahage_2026",
@@ -469,6 +452,32 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mtp_tour_2026_official_3ji",
+      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
+      "type": "オフィシャル3次先行",
+      "entryStartAt": "2026-07-17T20:00:00+09:00",
+      "entryEndAt": "2026-07-21T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_mtp_tour_2026_osaka_1008",
+        "yabai_tshirts_yasan_mtp_tour_2026_sendai_1012",
+        "yabai_tshirts_yasan_mtp_tour_2026_nagoya_1015",
+        "yabai_tshirts_yasan_mtp_tour_2026_fukuoka_1019",
+        "yabai_tshirts_yasan_mtp_tour_2026_sapporo_1024",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1027",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1028",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1104",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1105",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1110",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/288512/",
+      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }
