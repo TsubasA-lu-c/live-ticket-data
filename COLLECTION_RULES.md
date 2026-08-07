@@ -256,6 +256,110 @@ data/
 
 ---
 
+## 3.6. Apple Music 連携データの収集（2026-08 追加）
+
+アプリはアーティスト画像・配色・30秒プレビューを Apple Music から得る。
+**アプリは Apple Music の API を呼ばない。** 収集側で確定させた値を配信JSONに載せる。
+
+### 鍵は不要
+
+MusicKit の Developer Token（`.p8` からのJWT生成）は**使わない**。以下の2つの公開経路で
+必要な情報が全て取得でき、管理すべき鍵が発生しない。
+
+| 経路 | 取得できるもの |
+|---|---|
+| iTunes Search API（認証不要） | `artistId`・代表曲・`previewUrl`・ジャケット |
+| Apple Music 公開アーティストページの埋め込みJSON | 本人画像URL・`bgColor`・`textColor1..4` |
+
+### ストアフロントは `jp` 固定
+
+日本でライブを行うアーティストのみが収集対象のため。来日する海外アーティストも
+`jp` カタログに存在する。
+
+### 手順
+
+専用ツールで行う。手作業でIDを調べない。
+
+```bash
+python3 tools/match_apple_music.py              # 候補収集と判定
+python3 tools/fetch_artist_images.py            # 本人画像URL・配色
+python3 tools/fetch_apple_music_previews.py     # 代表曲・プレビューURL
+python3 tools/build_review_sheet.py             # 人間確認用HTMLを生成
+```
+
+`cache/apple_music_candidates.json` に結果が溜まる。確認シートを見て誤りを直してから
+`artists.json` / `artist/{id}.json` へ書き込む。
+
+### 【重要】誤照合を防ぐルール
+
+過去に実際に起きた誤りと、その対策。
+
+| 起きた誤り | 対策 |
+|---|---|
+| 別名 `USSS`（浦島坂田船）が無関係の `Usss` に完全一致した | **別名だけの一致で自動確定しない**。正式名称の一致を優先し、別名一致は検索1位の場合のみ許容 |
+| `テニミュ` で検索したら刀剣乱舞の項目群が返り、別作品に紐づいた | **Apple Music ページが返す名前と配信中の名前を突き合わせる**。不一致は必ず人間が確認 |
+| ページ内の画像URLを出現順で拾い、類似アーティストの画像を掴んだ | `og:image` を使わない。`artistDetailHeaderLockup` から取り、`storeAdamID` の一致を検証する |
+
+**名前で毎回検索する運用は禁止。** 同名アーティストで誤爆する。一度確定させた
+`appleMusic.artistId` を保存し、以降はIDで引く。
+
+### 2.5次元・作品名義の扱い
+
+作品名とアーティスト名が一致せず、公演ごとに別ユニットが登録されていることが多い。
+
+- 公演別ユニットが多数ある場合は**包括名義**を採用する
+  - 例: `刀剣男士（刀ミュ）` → `ミュージカル『刀剣乱舞』 刀剣男士`（公演別の `team三条` 等は選ばない）
+- Apple Music に該当エンティティが無い場合は `appleMusic` を**付けない**
+  - 例: `テニスの王子様 Musical`（アプリ側は頭文字アバターにフォールバックする）
+
+### データ形式
+
+`artists.json` の各エントリ（該当が無ければキーごと省略）:
+
+```json
+"appleMusic": {
+  "artistId": "1492604670",
+  "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/…/{w}x{h}{c}.{f}",
+  "bgColor": "2d6790",
+  "textColor1": "f4f7f9",
+  "textColor2": "eaeff3",
+  "textColor3": "ccdae4",
+  "textColor4": "c4d4e0"
+}
+```
+
+`artist/{id}.json` のトップレベル（最大3件・該当が無ければキーごと省略）:
+
+```json
+"appleMusicTracks": [
+  {
+    "songId": "1640205669",
+    "title": "新時代",
+    "albumTitle": "ウタの歌 ONE PIECE FILM RED",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/…/preview.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/…/{w}x{h}bb.jpg"
+  }
+]
+```
+
+- `imageUrl` / `artworkUrl` は**サイズを差し替えられるテンプレート形式のまま保存**する。
+  正方形に固定して保存すると、後から横長で使いたくなった時に取り直しになる。
+- 色は先頭の `#` を付けない6桁hexで保存する（Apple の返す形式のまま）。
+
+### 更新頻度
+
+アーティスト情報の鮮度更新（§5.2）とは別サイクル。**新規アーティスト追加時**と、
+**画像が古いと分かった時**のみ実行する。ツアー情報と違って頻繁には変わらない。
+
+### この経路が壊れた場合
+
+Apple Music の公開ページの構造に依存しているため、Apple 側の変更で
+`fetch_artist_images.py` が失敗する可能性がある。**壊れても配信済みJSONとアプリは
+動き続ける**（収集時にしか使わないため）。修正するか、MusicKit の Developer Token を
+発行する方式に切り替える。取得できる情報は同じ。
+
+---
+
 ## 4. 収集手順（1アーティスト）
 
 > **対象範囲**: 登録済み全アーティストが対象。「一部のみ更新」は NG。
