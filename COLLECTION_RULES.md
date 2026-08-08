@@ -268,8 +268,23 @@ MusicKit の Developer Token（`.p8` からのJWT生成）は**使わない**。
 
 | 経路 | 取得できるもの |
 |---|---|
-| iTunes Search API（認証不要） | `artistId`・代表曲・`previewUrl`・ジャケット |
-| Apple Music 公開アーティストページの埋め込みJSON | 本人画像URL・`bgColor`・`textColor1..4` |
+| iTunes Search API（認証不要） | `artistId` の候補 |
+| Apple Music 公開アーティストページの埋め込みJSON | 本人画像URL・`bgColor`・`textColor1..4`・**代表曲**・`previewUrl`・ジャケット |
+
+### 代表曲は「トップソング」の上位3曲（2026-08-08 変更）
+
+**アーティストページの「トップソング」欄を、その順序のまま採る。**
+
+以前は iTunes Search API の `lookup?entity=song` を使っていたが、これは
+**発売が新しい順**で返す。人気曲ではないため、代表曲としてマイナーな曲が並んでいた
+（実例: ゴールデンボンバーで「女々しくて」が3番目、スピッツで代表曲が出ない）。
+
+ページの埋め込みJSONには順序・楽曲ID・`previewUrl`・アルバム名・ジャケットが
+すべて入っており、追加のAPI呼び出しも要らない。
+
+セクションは位置ではなく、項目の `sectionName == "topSongs"` で探す
+（ページ構成が変わっても壊れにくくするため）。
+アルバム名の区切りは中黒 `·` で、**前後は通常の空白ではなく U+202F**。
 
 ### ストアフロントは `jp` 固定
 
