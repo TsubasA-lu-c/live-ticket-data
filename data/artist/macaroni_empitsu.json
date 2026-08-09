@@ -30,7 +30,7 @@
       "prices": [],
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/live",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "macaroni_empitsu_fes_2026_summersonic",
@@ -112,13 +112,13 @@
     {
       "id": "macaroni_empitsu_fes_2026_murffin",
       "artistId": "macaroni_empitsu",
-      "title": "murffin discs 20th Anniversary “murffin Carnival!!”",
-      "startDate": "2026-10-18T14:30:00+09:00",
-      "endDate": "2026-10-18T14:30:00+09:00",
+      "title": "murffin discs 20th Anniversary",
+      "startDate": "2026-10-18T12:00:00+09:00",
+      "endDate": "2026-10-18T12:00:00+09:00",
       "prices": [],
       "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://macaroniempitsu.com/live",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
       "id": "macaroni_empitsu_fes_2026_kyotohakurankai",
@@ -383,28 +383,16 @@
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     },
     {
-      "id": "macaroni_empitsu_fes_2026_kyotohakurankai_1010",
-      "tourId": "macaroni_empitsu_fes_2026_kyotohakurankai",
-      "venue": "京都梅小路公園 芝生広場",
-      "performanceAt": "2026-10-10T11:30:00+09:00",
-      "doorOpenAt": "2026-10-10T10:00:00+09:00",
-      "kind": "fes",
-      "eventName": "京都音楽博覧会2026 in 梅小路公園",
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/category/live",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
       "id": "macaroni_empitsu_fes_2026_murffin_1018",
       "tourId": "macaroni_empitsu_fes_2026_murffin",
       "venue": "国立代々木競技場",
-      "performanceAt": "2026-10-18T14:30:00+09:00",
-      "doorOpenAt": "2026-10-18T14:00:00+09:00",
+      "performanceAt": "2026-10-18T12:00:00+09:00",
+      "doorOpenAt": null,
       "kind": "fes",
-      "eventName": "murffin discs 20th Anniversary “murffin Carnival!!”",
+      "eventName": "murffin discs 20th Anniversary",
       "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/live/19510.html",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+      "sourceUrl": "https://macaroniempitsu.com/live",
+      "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -485,104 +473,6 @@
       "source": "system",
       "sourceUrl": "https://macaroniempitsu.com/news/20381.html",
       "lastVerifiedAt": "2026-07-10T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_kyotohakurankai_official_2nd",
-      "tourId": "macaroni_empitsu_fes_2026_kyotohakurankai",
-      "type": "オフィシャル2次受付",
-      "entryStartAt": "2026-05-26T18:00:00+09:00",
-      "entryEndAt": "2026-06-07T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": ["macaroni_empitsu_fes_2026_kyotohakurankai_1010"],
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/news/20160.html",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_cannonball_1st_smart",
-      "tourId": "macaroni_empitsu_fes_2026_cannonball",
-      "type": "e+スマチケ先行(抽選)",
-      "entryStartAt": "2026-06-02T12:00:00+09:00",
-      "entryEndAt": "2026-06-17T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": ["macaroni_empitsu_fes_2026_cannonball_0809"],
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/cannonball-gaiden/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_cannonball_1st_paper",
-      "tourId": "macaroni_empitsu_fes_2026_cannonball",
-      "type": "e+紙チケ先行(抽選)",
-      "entryStartAt": "2026-06-02T12:00:00+09:00",
-      "entryEndAt": "2026-06-17T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": ["macaroni_empitsu_fes_2026_cannonball_0809"],
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/cannonball-gaiden/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_cannonball_2nd_smart",
-      "tourId": "macaroni_empitsu_fes_2026_cannonball",
-      "type": "e+スマチケ第2次先行(抽選)",
-      "entryStartAt": "2026-06-23T17:00:00+09:00",
-      "entryEndAt": "2026-06-24T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": ["macaroni_empitsu_fes_2026_cannonball_0809"],
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/cannonball-gaiden/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_cannonball_2nd_paper",
-      "tourId": "macaroni_empitsu_fes_2026_cannonball",
-      "type": "e+紙チケ第2次先行(抽選)",
-      "entryStartAt": "2026-06-23T17:00:00+09:00",
-      "entryEndAt": "2026-06-24T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": ["macaroni_empitsu_fes_2026_cannonball_0809"],
-      "source": "system",
-      "sourceUrl": "https://eplus.jp/cannonball-gaiden/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_murffin_okkake",
-      "tourId": "macaroni_empitsu_fes_2026_murffin",
-      "type": "OKKAKE先行",
-      "entryStartAt": "2026-03-20T11:00:00+09:00",
-      "entryEndAt": "2026-03-22T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": ["macaroni_empitsu_fes_2026_murffin_1018"],
-      "source": "system",
-      "sourceUrl": "https://fc.macaroniempitsu.com/news/detail/100156",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "macaroni_empitsu_fes_2026_murffin_official",
-      "tourId": "macaroni_empitsu_fes_2026_murffin",
-      "type": "オフィシャル先行",
-      "entryStartAt": "2026-03-20T11:00:00+09:00",
-      "entryEndAt": "2026-03-29T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": ["macaroni_empitsu_fes_2026_murffin_1018"],
-      "source": "system",
-      "sourceUrl": "https://macaroniempitsu.com/news/19495.html",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

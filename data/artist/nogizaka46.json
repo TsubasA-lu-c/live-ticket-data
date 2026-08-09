@@ -7,9 +7,57 @@
       "title": "乃木坂46 真夏の全国ツアー2026",
       "startDate": "2026-06-13T00:00:00+09:00",
       "endDate": "2026-08-23T00:00:00+09:00",
-      "prices": null,
+      "prices": [
+        {
+          "label": "指定席",
+          "amount": 12000
+        },
+        {
+          "label": "親子・女性エリア",
+          "amount": 12000
+        },
+        {
+          "label": "注釈付指定席",
+          "amount": 11000
+        },
+        {
+          "label": "見切れ席",
+          "amount": 9900
+        },
+        {
+          "label": "ステージバック席",
+          "amount": 7000
+        }
+      ],
       "source": "system",
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_mtv_vmaj_2026",
+      "artistId": "nogizaka46",
+      "title": "MTV VMAJ 2026",
+      "startDate": "2026-10-29T00:00:00+09:00",
+      "endDate": "2026-10-29T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "全席指定",
+          "amount": 19800
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102158",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_kyomaf_2026",
+      "artistId": "nogizaka46",
+      "title": "京都国際マンガアニメフェア2026",
+      "startDate": "2026-09-19T00:00:00+09:00",
+      "endDate": "2026-09-20T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102156",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
@@ -211,6 +259,30 @@
       "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
       "lastVerifiedAt": "2026-06-28T00:00:00+09:00",
       "kind": "oneman"
+    },
+    {
+      "id": "nogizaka46_mtv_vmaj_2026_tokyo_1029",
+      "tourId": "nogizaka46_mtv_vmaj_2026",
+      "venue": "東京ドーム",
+      "performanceAt": "2026-10-29T18:00:00+09:00",
+      "doorOpenAt": "2026-10-29T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102158",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "MTV VMAJ 2026"
+    },
+    {
+      "id": "nogizaka46_kyomaf_2026_miyakomesse_0920",
+      "tourId": "nogizaka46_kyomaf_2026",
+      "venue": "みやこめっせ",
+      "performanceAt": "2026-09-20T11:10:00+09:00",
+      "doorOpenAt": null,
+      "source": "system",
+      "sourceUrl": "https://www.nogizaka46.com/s/n46/news/detail/102156",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "乃木坂46×ビルディバイド -ブライト- TCG Vol.2 ~応援大使が京まふにやってきた！~"
     }
   ],
   "lotteries": [
@@ -476,65 +548,11 @@
       "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
     },
     {
-      "id": "nogizaka46_manatsu_2026_mobile_1st_hiroshima_tokyo",
+      "id": "nogizaka46_manatsu_2026_tokyo_venue_general",
       "tourId": "nogizaka46_manatsu_2026",
-      "type": "乃木坂46モバイル会員先行（後半5都市）",
-      "entryStartAt": "2026-05-31T12:00:00+09:00",
-      "entryEndAt": "2026-06-07T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "nogizaka46_manatsu_2026_hiroshima_0711",
-        "nogizaka46_manatsu_2026_hiroshima_0712",
-        "nogizaka46_manatsu_2026_osaka_0715",
-        "nogizaka46_manatsu_2026_osaka_0716",
-        "nogizaka46_manatsu_2026_miyagi_0725",
-        "nogizaka46_manatsu_2026_miyagi_0726",
-        "nogizaka46_manatsu_2026_fukuoka_0808",
-        "nogizaka46_manatsu_2026_fukuoka_0809",
-        "nogizaka46_manatsu_2026_tokyo_0820",
-        "nogizaka46_manatsu_2026_tokyo_0821",
-        "nogizaka46_manatsu_2026_tokyo_0822",
-        "nogizaka46_manatsu_2026_tokyo_0823"
-      ],
-      "source": "system",
-      "sourceUrl": "https://sp.nogizaka46.com/p/tickets/1190101583111651328",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "nogizaka46_manatsu_2026_nogidoga_premium_hiroshima_tokyo",
-      "tourId": "nogizaka46_manatsu_2026",
-      "type": "のぎ動画プレミアムシート先行（後半5都市）",
-      "entryStartAt": "2026-05-31T12:00:00+09:00",
-      "entryEndAt": "2026-06-07T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "nogizaka46_manatsu_2026_hiroshima_0711",
-        "nogizaka46_manatsu_2026_hiroshima_0712",
-        "nogizaka46_manatsu_2026_osaka_0715",
-        "nogizaka46_manatsu_2026_osaka_0716",
-        "nogizaka46_manatsu_2026_miyagi_0725",
-        "nogizaka46_manatsu_2026_miyagi_0726",
-        "nogizaka46_manatsu_2026_fukuoka_0808",
-        "nogizaka46_manatsu_2026_fukuoka_0809",
-        "nogizaka46_manatsu_2026_tokyo_0820",
-        "nogizaka46_manatsu_2026_tokyo_0821",
-        "nogizaka46_manatsu_2026_tokyo_0822",
-        "nogizaka46_manatsu_2026_tokyo_0823"
-      ],
-      "source": "system",
-      "sourceUrl": "https://nogidoga.com/pretickets/1189959523821944833",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "nogizaka46_manatsu_2026_rakuten_tokyo",
-      "tourId": "nogizaka46_manatsu_2026",
-      "type": "楽天チケット先行（東京公演）",
-      "entryStartAt": "2026-07-25T12:00:00+09:00",
-      "entryEndAt": "2026-07-29T23:59:00+09:00",
+      "type": "会場チケット一般発売（東京）",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": null,
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
@@ -549,22 +567,35 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "nogizaka46_manatsu_2026_general_tokyo",
-      "tourId": "nogizaka46_manatsu_2026",
-      "type": "一般先着チケット（東京公演）",
-      "entryStartAt": "2026-08-08T12:00:00+09:00",
-      "entryEndAt": null,
+      "id": "nogizaka46_mtv_vmaj_2026_official_fastest",
+      "tourId": "nogizaka46_mtv_vmaj_2026",
+      "type": "オフィシャル最速先行（ローチケ）",
+      "entryStartAt": "2026-08-07T18:00:00+09:00",
+      "entryEndAt": "2026-08-16T23:59:00+09:00",
       "resultAt": null,
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
-        "nogizaka46_manatsu_2026_tokyo_0820",
-        "nogizaka46_manatsu_2026_tokyo_0821",
-        "nogizaka46_manatsu_2026_tokyo_0822",
-        "nogizaka46_manatsu_2026_tokyo_0823"
+        "nogizaka46_mtv_vmaj_2026_tokyo_1029"
       ],
       "source": "system",
-      "sourceUrl": "https://www.nogizaka46.com/s/n46/page/summer_tour2026",
+      "sourceUrl": "https://l-tike.com/vmaj/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "nogizaka46_kyomaf_2026_stage_0920",
+      "tourId": "nogizaka46_kyomaf_2026",
+      "type": "京まふステージ観覧抽選（みやこめっせ・9/20）",
+      "entryStartAt": "2026-08-26T10:00:00+09:00",
+      "entryEndAt": "2026-09-02T23:59:00+09:00",
+      "resultAt": "2026-09-10T12:00:00+09:00",
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "nogizaka46_kyomaf_2026_miyakomesse_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://l-tike.com/st1/kyomaf260920",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],

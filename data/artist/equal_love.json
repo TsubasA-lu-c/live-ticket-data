@@ -5,76 +5,11 @@
       "id": "equal_love_21st_single_2026",
       "artistId": "equal_love",
       "title": "=LOVE 21stシングル発売記念スペシャルリリースイベント",
-      "startDate": "2026-08-10T00:00:00+09:00",
-      "endDate": "2026-08-25T00:00:00+09:00",
+      "startDate": "2026-07-26T00:00:00+09:00",
+      "endDate": "2026-08-10T00:00:00+09:00",
       "prices": null,
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11630",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_21st_talk_2026",
-      "artistId": "equal_love",
-      "title": "＝LOVE 21stシングル発売記念 個別お話し会",
-      "startDate": "2026-08-11T00:00:00+09:00",
-      "endDate": "2026-10-03T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11647",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_21st_online_sign_2026",
-      "artistId": "equal_love",
-      "title": "＝LOVE 21stシングル発売記念 オンライン個別サイン会",
-      "startDate": "2026-08-19T00:00:00+09:00",
-      "endDate": "2026-08-20T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11759",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_birthday_2026_08",
-      "artistId": "equal_love",
-      "title": "生誕祭イベント~supported by IKONOIJOY Puzzle~（8月）",
-      "startDate": "2026-08-20T00:00:00+09:00",
-      "endDate": "2026-08-20T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "一般席（プレゼント付き）",
-          "amount": 3300
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11793",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_mtv_vmaj_2026",
-      "artistId": "equal_love",
-      "title": "MTV VMAJ 2026",
-      "startDate": "2026-10-29T00:00:00+09:00",
-      "endDate": "2026-10-29T00:00:00+09:00",
-      "prices": [
-        {
-          "label": "全席指定",
-          "amount": 19800
-        }
-      ],
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11828",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_magilove_tv_recording_2026",
-      "artistId": "equal_love",
-      "title": "「マヂラブ・野口衣織のマヂでラブになるTV」公開収録",
-      "startDate": "2026-11-03T00:00:00+09:00",
-      "endDate": "2026-11-03T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11767",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -111,6 +46,18 @@
   ],
   "performances": [
     {
+      "id": "equal_love_21st_single_2026_yokohama_0726",
+      "tourId": "equal_love_21st_single_2026",
+      "venue": "Pacifico Yokohama Hall C",
+      "performanceAt": "2026-07-26T13:00:00+09:00",
+      "doorOpenAt": "2026-07-26T09:00:00+09:00",
+      "kind": "oneman",
+      "eventName": "=LOVE 21stシングル発売記念スペシャルリリースイベント",
+      "source": "system",
+      "sourceUrl": "https://equal-love.jp/news/detail/11630",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
       "id": "equal_love_21st_single_2026_makuhari_0810",
       "tourId": "equal_love_21st_single_2026",
       "venue": "Makuhari Messe Hall 11",
@@ -123,150 +70,6 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "equal_love_21st_single_2026_nagoya_0815",
-      "tourId": "equal_love_21st_single_2026",
-      "venue": "ららぽーと名古屋みなとアクルス 1Fセンターコート",
-      "performanceAt": null,
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "＝LOVE 21stシングル発売記念スペシャルリリースイベント",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11709",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_21st_single_2026_sumida_0816",
-      "tourId": "equal_love_21st_single_2026",
-      "venue": "すみだ産業会館 サンライズホール",
-      "performanceAt": "2026-08-16T12:30:00+09:00",
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "＝LOVE 21stシングル発売記念スペシャルリリースイベント",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11706",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_21st_single_2026_shinagawa_0825",
-      "tourId": "equal_love_21st_single_2026",
-      "venue": "品川ザ・グランドホール",
-      "performanceAt": null,
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "＝LOVE 21stシングル発売記念スペシャルリリースイベント",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11710",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_21st_talk_2026_makuhari_0811",
-      "tourId": "equal_love_21st_talk_2026",
-      "venue": "幕張メッセ9ホール",
-      "performanceAt": "2026-08-11T11:00:00+09:00",
-      "doorOpenAt": "2026-08-11T10:30:00+09:00",
-      "kind": "oneman",
-      "eventName": "＝LOVE 21stシングル発売記念 個別お話し会",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11647",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_21st_talk_2026_tokyo_0906",
-      "tourId": "equal_love_21st_talk_2026",
-      "venue": "東京ビッグサイト南1ホール",
-      "performanceAt": "2026-09-06T11:00:00+09:00",
-      "doorOpenAt": "2026-09-06T10:30:00+09:00",
-      "kind": "oneman",
-      "eventName": "＝LOVE 21stシングル発売記念 個別お話し会",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11647",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_21st_talk_2026_tokyo_1003",
-      "tourId": "equal_love_21st_talk_2026",
-      "venue": "東京ビッグサイト南2ホール",
-      "performanceAt": "2026-10-03T11:00:00+09:00",
-      "doorOpenAt": "2026-10-03T10:30:00+09:00",
-      "kind": "oneman",
-      "eventName": "＝LOVE 21stシングル発売記念 個別お話し会",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11647",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_21st_online_sign_2026_online_0819",
-      "tourId": "equal_love_21st_online_sign_2026",
-      "venue": "オンライン",
-      "performanceAt": "2026-08-19T17:00:00+09:00",
-      "doorOpenAt": "2026-08-19T16:45:00+09:00",
-      "kind": "oneman",
-      "eventName": "＝LOVE 21stシングル発売記念 オンライン個別サイン会",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11759",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_21st_online_sign_2026_online_0820",
-      "tourId": "equal_love_21st_online_sign_2026",
-      "venue": "オンライン",
-      "performanceAt": "2026-08-20T17:00:00+09:00",
-      "doorOpenAt": "2026-08-20T16:45:00+09:00",
-      "kind": "oneman",
-      "eventName": "＝LOVE 21stシングル発売記念 オンライン個別サイン会",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11760",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_birthday_2026_08_morohashi_0820",
-      "tourId": "equal_love_birthday_2026_08",
-      "venue": "都内某所（当選者のみに案内）",
-      "performanceAt": "2026-08-20T11:30:00+09:00",
-      "doorOpenAt": "2026-08-20T10:45:00+09:00",
-      "kind": "oneman",
-      "eventName": "諸橋沙夏 生誕祭",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11793",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_birthday_2026_08_oshima_0820",
-      "tourId": "equal_love_birthday_2026_08",
-      "venue": "都内某所（当選者のみに案内）",
-      "performanceAt": "2026-08-20T14:00:00+09:00",
-      "doorOpenAt": "2026-08-20T13:15:00+09:00",
-      "kind": "oneman",
-      "eventName": "音嶋莉沙 生誕祭",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11793",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_mtv_vmaj_2026_tokyo_dome_1029",
-      "tourId": "equal_love_mtv_vmaj_2026",
-      "venue": "東京ドーム",
-      "performanceAt": "2026-10-29T18:00:00+09:00",
-      "doorOpenAt": "2026-10-29T16:00:00+09:00",
-      "kind": "fes",
-      "eventName": "MTV VMAJ 2026",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11828",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_magilove_tv_recording_2026_musashino_1103",
-      "tourId": "equal_love_magilove_tv_recording_2026",
-      "venue": "武蔵野市民文化会館 大ホール",
-      "performanceAt": null,
-      "doorOpenAt": null,
-      "kind": "oneman",
-      "eventName": "「マヂラブ・野口衣織のマヂでラブになるTV」公開収録",
-      "source": "system",
-      "sourceUrl": "https://equal-love.jp/news/detail/11767",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
       "id": "equal_love_9th_anniversary_2026_toyota_1015",
       "tourId": "equal_love_9th_anniversary_2026",
       "venue": "TOYOTA ARENA TOKYO",
@@ -275,7 +78,7 @@
       "kind": "oneman",
       "eventName": null,
       "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11616",
+      "sourceUrl": "https://equal-love.jp/news/detail/11763",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -285,9 +88,9 @@
       "performanceAt": "2026-10-16T18:00:00+09:00",
       "doorOpenAt": "2026-10-16T16:30:00+09:00",
       "kind": "oneman",
-      "eventName": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」",
+      "eventName": null,
       "source": "system",
-      "sourceUrl": "https://equal-love.jp/schedule/detail/11616",
+      "sourceUrl": "https://equal-love.jp/news/detail/11763",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
@@ -297,7 +100,7 @@
       "performanceAt": "2027-01-19T18:00:00+09:00",
       "doorOpenAt": null,
       "kind": "oneman",
-      "eventName": "＝LOVE 9周年コンサート「＝LOVE 9th ANNIVERSARY PREMIUM CONCERT」",
+      "eventName": null,
       "source": "system",
       "sourceUrl": "https://equal-love.jp/news/detail/11613",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
@@ -368,7 +171,7 @@
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
-      "id": "equal_love_9th_anniversary_2026_fc_senkou_regular",
+      "id": "equal_love_9th_anniversary_2026_fc_member_pair",
       "tourId": "equal_love_9th_anniversary_2026",
       "type": "FC先行（会員＋会員）",
       "entryStartAt": "2026-08-03T18:00:00+09:00",
@@ -381,40 +184,7 @@
         "equal_love_9th_anniversary_2026_toyota_1016"
       ],
       "source": "system",
-      "sourceUrl": "https://tixplus.jp/feature/equal-love/9th-anniversary-concert/fc-26062/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_birthday_2026_08_fc_2",
-      "tourId": "equal_love_birthday_2026_08",
-      "type": "FC会員2次受付",
-      "entryStartAt": "2026-07-29T17:00:00+09:00",
-      "entryEndAt": "2026-08-04T23:59:00+09:00",
-      "resultAt": "2026-08-13T15:00:00+09:00",
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "equal_love_birthday_2026_08_morohashi_0820",
-        "equal_love_birthday_2026_08_oshima_0820"
-      ],
-      "source": "system",
-      "sourceUrl": "https://tixplus.jp/feature/ikonoijoy_birthday202608_02/",
-      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
-    },
-    {
-      "id": "equal_love_mtv_vmaj_2026_official_fast",
-      "tourId": "equal_love_mtv_vmaj_2026",
-      "type": "オフィシャル最速先行",
-      "entryStartAt": "2026-08-07T18:00:00+09:00",
-      "entryEndAt": "2026-08-16T23:59:00+09:00",
-      "resultAt": null,
-      "paymentStartAt": null,
-      "paymentEndAt": null,
-      "performanceIds": [
-        "equal_love_mtv_vmaj_2026_tokyo_dome_1029"
-      ],
-      "source": "system",
-      "sourceUrl": "https://l-tike.com/vmaj/",
+      "sourceUrl": "https://equal-love.jp/news/detail/11805",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],

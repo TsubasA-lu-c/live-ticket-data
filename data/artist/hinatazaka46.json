@@ -19,7 +19,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "hinatazaka46_sankisei_live_2026",
@@ -39,7 +39,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "hinatazaka46_fes_2026_kishidan_banpaku",
@@ -50,7 +50,51 @@
       "prices": null,
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00854",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026",
+      "artistId": "hinatazaka46",
+      "title": "日向坂46 ARENA TOUR「ひなくり2026」",
+      "startDate": "2026-11-21T00:00:00+09:00",
+      "endDate": "2026-12-24T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "Leminoスペシャルシート",
+          "amount": 17000
+        },
+        {
+          "label": "全席指定",
+          "amount": 11000
+        },
+        {
+          "label": "親子・女性エリア",
+          "amount": 11000
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway",
+      "artistId": "hinatazaka46",
+      "title": "第4回 IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER Supported by TGC",
+      "startDate": "2026-09-20T00:00:00+09:00",
+      "endDate": "2026-09-20T00:00:00+09:00",
+      "prices": [
+        {
+          "label": "一般指定席（先行）",
+          "amount": 8000
+        },
+        {
+          "label": "一般指定席（一般販売）",
+          "amount": 8500
+        }
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
@@ -62,7 +106,7 @@
       "doorOpenAt": "2026-09-05T14:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "fes",
       "eventName": "ひなたフェス 2026"
     },
@@ -74,7 +118,7 @@
       "doorOpenAt": "2026-09-06T14:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "fes",
       "eventName": "ひなたフェス 2026"
     },
@@ -86,7 +130,7 @@
       "doorOpenAt": "2026-08-05T17:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman",
       "eventName": null
     },
@@ -98,7 +142,7 @@
       "doorOpenAt": "2026-08-06T17:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman",
       "eventName": null
     },
@@ -110,7 +154,7 @@
       "doorOpenAt": "2026-08-15T16:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman",
       "eventName": null
     },
@@ -122,7 +166,7 @@
       "doorOpenAt": "2026-08-16T16:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman",
       "eventName": null
     },
@@ -134,7 +178,7 @@
       "doorOpenAt": "2026-08-17T17:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman",
       "eventName": null
     },
@@ -146,7 +190,7 @@
       "doorOpenAt": "2026-08-18T17:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman",
       "eventName": null
     },
@@ -158,7 +202,7 @@
       "doorOpenAt": "2026-08-23T16:30:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "oneman",
       "eventName": null
     },
@@ -170,9 +214,129 @@
       "doorOpenAt": "2026-11-07T09:00:00+09:00",
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00854",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
       "kind": "fes",
       "eventName": "サントリー オールフリー presents 氣志團万博2026 ～房総爆音リゾート～"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_kobe_1121",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-11-21T17:30:00+09:00",
+      "doorOpenAt": "2026-11-21T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_kobe_1122",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-11-22T17:30:00+09:00",
+      "doorOpenAt": "2026-11-22T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_kobe_1123",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-11-23T17:30:00+09:00",
+      "doorOpenAt": "2026-11-23T16:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_yoyogi_1209",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-12-09T18:00:00+09:00",
+      "doorOpenAt": "2026-12-09T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_yoyogi_1210",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-12-10T18:00:00+09:00",
+      "doorOpenAt": "2026-12-10T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_yoyogi_1211",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "venue": "国立代々木競技場 第一体育館",
+      "performanceAt": "2026-12-11T18:00:00+09:00",
+      "doorOpenAt": "2026-12-11T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_nagoya_1222",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "venue": "クロコくんホール(日本ガイシホール)",
+      "performanceAt": "2026-12-22T18:00:00+09:00",
+      "doorOpenAt": "2026-12-22T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_nagoya_1223",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "venue": "クロコくんホール(日本ガイシホール)",
+      "performanceAt": "2026-12-23T18:00:00+09:00",
+      "doorOpenAt": "2026-12-23T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_nagoya_1224",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "venue": "クロコくんホール(日本ガイシホール)",
+      "performanceAt": "2026-12-24T18:00:00+09:00",
+      "doorOpenAt": "2026-12-24T16:30:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "oneman",
+      "eventName": null
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_yokohama_0920",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "venue": "横浜アリーナ",
+      "performanceAt": "2026-09-20T12:00:00+09:00",
+      "doorOpenAt": "2026-09-20T11:00:00+09:00",
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00",
+      "kind": "fes",
+      "eventName": "第4回 IDOL RUNWAY COLLECTION 2026 AUTUMN/WINTER Supported by TGC"
     }
   ],
   "lotteries": [
@@ -191,7 +355,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00858",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "hinatazaka46_hinata_fes_2026_fc_1st",
@@ -208,7 +372,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00824",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "hinatazaka46_hinata_fes_2026_lawson_3rd",
@@ -225,7 +389,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00800",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "hinatazaka46_sankisei_live_2026_official",
@@ -247,7 +411,7 @@
       ],
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "hinatazaka46_sankisei_live_2026_general",
@@ -261,7 +425,208 @@
       "performanceIds": null,
       "source": "system",
       "sourceUrl": "https://www.hinatazaka46.com/3rd_live2026/",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinata_fes_2026_general",
+      "tourId": "hinatazaka46_hinata_fes_2026",
+      "type": "一般発売",
+      "entryStartAt": "2026-07-25T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinata_fes_2026_miyazaki_0905",
+        "hinatazaka46_hinata_fes_2026_miyazaki_0906"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/news/detail/E00868",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_fc",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "FC先行(ローソン)",
+      "entryStartAt": "2026-09-09T12:00:00+09:00",
+      "entryEndAt": "2026-09-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1121",
+        "hinatazaka46_hinakuri_2026_kobe_1122",
+        "hinatazaka46_hinakuri_2026_kobe_1123",
+        "hinatazaka46_hinakuri_2026_yoyogi_1209",
+        "hinatazaka46_hinakuri_2026_yoyogi_1210",
+        "hinatazaka46_hinakuri_2026_yoyogi_1211",
+        "hinatazaka46_hinakuri_2026_nagoya_1222",
+        "hinatazaka46_hinakuri_2026_nagoya_1223",
+        "hinatazaka46_hinakuri_2026_nagoya_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_lemino_special",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "Leminoスペシャルシート先行",
+      "entryStartAt": "2026-09-09T12:00:00+09:00",
+      "entryEndAt": "2026-09-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1121",
+        "hinatazaka46_hinakuri_2026_kobe_1122",
+        "hinatazaka46_hinakuri_2026_kobe_1123",
+        "hinatazaka46_hinakuri_2026_yoyogi_1209",
+        "hinatazaka46_hinakuri_2026_yoyogi_1210",
+        "hinatazaka46_hinakuri_2026_yoyogi_1211",
+        "hinatazaka46_hinakuri_2026_nagoya_1222",
+        "hinatazaka46_hinakuri_2026_nagoya_1223",
+        "hinatazaka46_hinakuri_2026_nagoya_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_hinakuri_2026_lemino_pack",
+      "tourId": "hinatazaka46_hinakuri_2026",
+      "type": "Lemino日向坂46パック先行",
+      "entryStartAt": "2026-09-09T12:00:00+09:00",
+      "entryEndAt": "2026-09-20T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_hinakuri_2026_kobe_1121",
+        "hinatazaka46_hinakuri_2026_kobe_1122",
+        "hinatazaka46_hinakuri_2026_kobe_1123",
+        "hinatazaka46_hinakuri_2026_yoyogi_1209",
+        "hinatazaka46_hinakuri_2026_yoyogi_1210",
+        "hinatazaka46_hinakuri_2026_yoyogi_1211",
+        "hinatazaka46_hinakuri_2026_nagoya_1222",
+        "hinatazaka46_hinakuri_2026_nagoya_1223",
+        "hinatazaka46_hinakuri_2026_nagoya_1224"
+      ],
+      "source": "system",
+      "sourceUrl": "https://www.hinatazaka46.com/s/official/page/hinachri2026",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_irc_app",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "IRC APP会員共通先行（抽選）",
+      "entryStartAt": "2026-06-25T11:30:00+09:00",
+      "entryEndAt": "2026-07-12T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_ticketboard",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "ticket board先行（抽選）",
+      "entryStartAt": "2026-07-18T12:00:00+09:00",
+      "entryEndAt": "2026-07-27T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_general",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "一般販売（先着）",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_upgrade_gold",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "アップグレード抽選（IRC APP Gold会員）",
+      "entryStartAt": "2026-07-28T18:00:00+09:00",
+      "entryEndAt": "2026-08-09T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_upgrade_silver",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "アップグレード抽選（IRC APP Silver会員以上）",
+      "entryStartAt": "2026-08-10T18:00:00+09:00",
+      "entryEndAt": "2026-08-17T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_upgrade_bronze",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "アップグレード抽選（IRC APP Bronze会員以上）",
+      "entryStartAt": "2026-08-18T18:00:00+09:00",
+      "entryEndAt": "2026-08-24T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "hinatazaka46_fes_2026_idol_runway_upgrade_regular",
+      "tourId": "hinatazaka46_fes_2026_idol_runway",
+      "type": "アップグレード抽選（IRC APP Regular会員以上）",
+      "entryStartAt": "2026-08-25T18:00:00+09:00",
+      "entryEndAt": "2026-08-31T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "hinatazaka46_fes_2026_idol_runway_yokohama_0920"
+      ],
+      "source": "system",
+      "sourceUrl": "https://idolrunwaycollection.jp/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [

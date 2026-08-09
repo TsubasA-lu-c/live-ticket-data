@@ -367,7 +367,7 @@
       "type": "FC先行",
       "entryStartAt": "2026-02-15T13:00:00+09:00",
       "entryEndAt": "2026-02-24T12:00:00+09:00",
-      "resultAt": null,
+      "resultAt": "2026-03-19T00:00:00+09:00",
       "paymentStartAt": null,
       "paymentEndAt": null,
       "performanceIds": [
@@ -401,7 +401,7 @@
         "timelesz_momentum_2026_miyagi_0830_2"
       ],
       "source": "system",
-      "sourceUrl": "https://starto.jp/s/p/live/10431",
+      "sourceUrl": "https://matsujun911.com/timelesz-2026-ticket-8497",
       "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
