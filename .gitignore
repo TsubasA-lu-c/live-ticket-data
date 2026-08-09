@@ -4,3 +4,15 @@
 cache/*.log
 cache/apple_music_review_sheet.html
 tools/__pycache__/
+
+# 機械収集パイプラインの作業ファイル
+# 正規化スナップショットは差分の詳細（追加行）を出すためのもので、
+# 失っても cache/collect_state.json のハッシュで変化なし判定はできる
+cache/normalized/
+cache/normalized_pending/
+cache/ai_queue.json
+cache/ai_result.json
+cache/ai_accepted.json
+cache/collect_metrics.jsonl
+cache/collect_state.pending.json
+__pycache__/
