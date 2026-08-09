@@ -2,57 +2,24 @@
   "artistId": "yabai_tshirts_yasan",
   "tours": [
     {
-      "id": "yabai_tshirts_yasan_fes_oganamahage_2026",
-      "artistId": "yabai_tshirts_yasan",
-      "title": "OGA NAMAHAGE ROCK FESTIVAL vol.15",
-      "startDate": "2026-07-24T00:00:00+09:00",
-      "endDate": "2026-07-24T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "yabai_tshirts_yasan_fes_gigantic_2026",
-      "artistId": "yabai_tshirts_yasan",
-      "title": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
-      "startDate": "2026-07-26T00:00:00+09:00",
-      "endDate": "2026-07-26T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "yabai_tshirts_yasan_fes_daienkai_2026",
-      "artistId": "yabai_tshirts_yasan",
-      "title": "DAIENKAI 2026",
-      "startDate": "2026-07-31T00:00:00+09:00",
-      "endDate": "2026-07-31T00:00:00+09:00",
-      "prices": null,
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
       "id": "yabai_tshirts_yasan_mtp_tour_2026",
       "artistId": "yabai_tshirts_yasan",
       "title": "\"Magical Tank-top Parade\" ONE-MAN TOUR 2026",
-      "startDate": "2026-08-06T00:00:00+09:00",
+      "startDate": "2026-08-17T00:00:00+09:00",
       "endDate": "2026-11-11T00:00:00+09:00",
       "prices": [
         {
-          "label": "全席指定（小会場・税別）",
+          "label": "全自由（小会場・税別）",
           "amount": 5000
         },
         {
-          "label": "全席指定（大会場・税別）",
+          "label": "1F自由／2F指定（大会場・税別）",
           "amount": 5500
         }
       ],
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
-      "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     },
     {
       "id": "yabai_tshirts_yasan_fes_gfest_2026",
@@ -86,69 +53,174 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/news/",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_talkingrock_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "30th Anniversary Special Talking Rock! FES.2026 神戸編",
+      "startDate": "2026-08-09T00:00:00+09:00",
+      "endDate": "2026-08-09T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/272197/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_maki_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "Maki Tour 2026「四暗刻」",
+      "startDate": "2026-08-11T00:00:00+09:00",
+      "endDate": "2026-08-11T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/279342/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_monsterbash_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "MONSTER baSH 2026",
+      "startDate": "2026-08-22T00:00:00+09:00",
+      "endDate": "2026-08-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/279020/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_sweetlove_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "startDate": "2026-08-28T00:00:00+09:00",
+      "endDate": "2026-08-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/272601/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_berryten_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "RADIO BERRY ベリテンライブ 2026 Special",
+      "startDate": "2026-09-05T00:00:00+09:00",
+      "endDate": "2026-09-05T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/279486/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_treasure05x_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "TREASURE05X 2026 ”LAND OF THE FREE-LAGUNA FINAL-”",
+      "startDate": "2026-09-06T00:00:00+09:00",
+      "endDate": "2026-09-06T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/277126/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_umk_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "UMK SEAGAIA JamNight 2026",
+      "startDate": "2026-09-12T00:00:00+09:00",
+      "endDate": "2026-09-12T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/280173/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_wildwood_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "中津川 WILD WOOD 2026",
+      "startDate": "2026-09-20T00:00:00+09:00",
+      "endDate": "2026-09-20T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/276963/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_kazetorock_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "風とロック IMONIKAI in September JAM",
+      "startDate": "2026-09-21T00:00:00+09:00",
+      "endDate": "2026-09-22T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/277323/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_rijfes_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "ROCK IN JAPAN FESTIVAL 2026",
+      "startDate": "2026-09-21T00:00:00+09:00",
+      "endDate": "2026-09-21T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/279208/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_onagawa_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "女川町町制施行100周年記念祭 ONAGAWA COTTELEEZUN",
+      "startDate": "2026-10-31T00:00:00+09:00",
+      "endDate": "2026-10-31T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/293006/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_thisfes_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "[Alexandros] presents THIS FES ’26 in Sagamihara",
+      "startDate": "2026-11-01T00:00:00+09:00",
+      "endDate": "2026-11-01T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/282640/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_masterpiece_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "MASTERPIECE 2026",
+      "startDate": "2026-11-28T00:00:00+09:00",
+      "endDate": "2026-11-28T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/292907/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_kyototrain_2026",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "響都超特急2026",
+      "startDate": "2026-12-12T00:00:00+09:00",
+      "endDate": "2026-12-13T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/287965/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_heysmith_2027",
+      "artistId": "yabai_tshirts_yasan",
+      "title": "HEY-SMITH “ALL OVER JAPAN TOUR”",
+      "startDate": "2027-02-11T00:00:00+09:00",
+      "endDate": "2027-02-14T00:00:00+09:00",
+      "prices": null,
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/268157/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "performances": [
-    {
-      "id": "yabai_tshirts_yasan_fes_oganamahage_2026_on_0724",
-      "tourId": "yabai_tshirts_yasan_fes_oganamahage_2026",
-      "venue": "船川港内特設ステージ",
-      "performanceAt": "2026-07-24T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "OGA NAMAHAGE ROCK FESTIVAL vol.15",
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "yabai_tshirts_yasan_fes_gigantic_2026_gig_0726",
-      "tourId": "yabai_tshirts_yasan_fes_gigantic_2026",
-      "venue": "大阪舞洲スポーツアイランド ジャイガ特設会場",
-      "performanceAt": "2026-07-26T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "OSAKA GIGANTIC MUSIC FESTIVAL 2026 -THANKS 10TH GIGA-",
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "yabai_tshirts_yasan_fes_daienkai_2026_dai_0731",
-      "tourId": "yabai_tshirts_yasan_fes_daienkai_2026",
-      "venue": "東京ガーデンシアター",
-      "performanceAt": "2026-07-31T12:00:00+09:00",
-      "doorOpenAt": null,
-      "kind": "fes",
-      "eventName": "DAIENKAI 2026",
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "yabai_tshirts_yasan_mtp_tour_2026_takamatsu_0806",
-      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
-      "venue": "高松festhalle",
-      "performanceAt": "2026-08-06T19:00:00+09:00",
-      "doorOpenAt": "2026-08-06T18:15:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
-    {
-      "id": "yabai_tshirts_yasan_mtp_tour_2026_hiroshima_0808",
-      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
-      "venue": "広島BLUE LIVE",
-      "performanceAt": "2026-08-08T18:00:00+09:00",
-      "doorOpenAt": "2026-08-08T17:00:00+09:00",
-      "kind": "oneman",
-      "eventName": null,
-      "source": "system",
-      "sourceUrl": "https://yabaitshirtsyasan.com/mtp_tour/",
-      "lastVerifiedAt": "2026-06-27T00:00:00+09:00"
-    },
     {
       "id": "yabai_tshirts_yasan_mtp_tour_2026_niigata_0817",
       "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
@@ -352,6 +424,210 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/news/",
       "lastVerifiedAt": "2026-07-03T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_talkingrock_2026_0809",
+      "tourId": "yabai_tshirts_yasan_fes_talkingrock_2026",
+      "venue": "神戸ワールド記念ホール",
+      "performanceAt": "2026-08-09T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "30th Anniversary Special Talking Rock! FES.2026 神戸編",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/272197/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_maki_2026_0811",
+      "tourId": "yabai_tshirts_yasan_event_maki_2026",
+      "venue": "金沢EIGHT HALL",
+      "performanceAt": "2026-08-11T18:00:00+09:00",
+      "doorOpenAt": "2026-08-11T17:15:00+09:00",
+      "kind": "taiban",
+      "eventName": "Maki Tour 2026「四暗刻」",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/279342/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_monsterbash_2026_0822",
+      "tourId": "yabai_tshirts_yasan_fes_monsterbash_2026",
+      "venue": "国営讃岐まんのう公園（香川県仲多度郡まんのう町）",
+      "performanceAt": "2026-08-22T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "MONSTER baSH 2026",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/279020/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_sweetlove_2026_0828",
+      "tourId": "yabai_tshirts_yasan_fes_sweetlove_2026",
+      "venue": "山中湖交流プラザ きらら（山梨県南都留郡）",
+      "performanceAt": "2026-08-28T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "SPACE SHOWER SWEET LOVE SHOWER 2026",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/272601/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_berryten_2026_0905",
+      "tourId": "yabai_tshirts_yasan_fes_berryten_2026",
+      "venue": "井頭公園 運動広場（栃木県真岡市）",
+      "performanceAt": "2026-09-05T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "RADIO BERRY ベリテンライブ 2026 Special",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/279486/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_treasure05x_2026_0906",
+      "tourId": "yabai_tshirts_yasan_fes_treasure05x_2026",
+      "venue": "蒲郡ラグーナビーチ（愛知県蒲郡市）",
+      "performanceAt": "2026-09-06T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "TREASURE05X 2026 ”LAND OF THE FREE-LAGUNA FINAL-”",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/277126/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_umk_2026_0912",
+      "tourId": "yabai_tshirts_yasan_fes_umk_2026",
+      "venue": "シーガイアイベントスクエア（宮崎市）",
+      "performanceAt": "2026-09-12T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "UMK SEAGAIA JamNight 2026",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/280173/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_wildwood_2026_0920",
+      "tourId": "yabai_tshirts_yasan_fes_wildwood_2026",
+      "venue": "中津川公園内特設ステージ（岐阜県中津川市）",
+      "performanceAt": "2026-09-20T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "中津川 WILD WOOD 2026",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/276963/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_kazetorock_2026_0921",
+      "tourId": "yabai_tshirts_yasan_fes_kazetorock_2026",
+      "venue": "猪苗代スキー場 ミネロ（福島県耶麻郡猪苗代町）",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "風とロック IMONIKAI in September JAM（出演日未定）",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/277323/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_rijfes_2026_0921",
+      "tourId": "yabai_tshirts_yasan_fes_rijfes_2026",
+      "venue": "千葉市蘇我スポーツ公園",
+      "performanceAt": "2026-09-21T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "ROCK IN JAPAN FESTIVAL 2026",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/279208/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_onagawa_2026_1031",
+      "tourId": "yabai_tshirts_yasan_event_onagawa_2026",
+      "venue": "女川町総合運動場（宮城県牡鹿郡女川町）",
+      "performanceAt": "2026-10-31T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "女川町町制施行100周年記念祭 ONAGAWA COTTELEEZUN",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/293006/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_thisfes_2026_1101",
+      "tourId": "yabai_tshirts_yasan_fes_thisfes_2026",
+      "venue": "相模原ギオンフィールド（神奈川県相模原市）",
+      "performanceAt": "2026-11-01T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "[Alexandros] presents THIS FES ’26 in Sagamihara",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/282640/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_masterpiece_2026_1128",
+      "tourId": "yabai_tshirts_yasan_event_masterpiece_2026",
+      "venue": "岐阜市文化センター",
+      "performanceAt": "2026-11-28T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "oneman",
+      "eventName": "MASTERPIECE 2026",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/292907/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_fes_kyototrain_2026_1212",
+      "tourId": "yabai_tshirts_yasan_fes_kyototrain_2026",
+      "venue": "京都パルスプラザ",
+      "performanceAt": "2026-12-12T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "fes",
+      "eventName": "響都超特急2026（出演日未定）",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/287965/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_heysmith_2027_oita_0211",
+      "tourId": "yabai_tshirts_yasan_event_heysmith_2027",
+      "venue": "大分DRUM Be-0",
+      "performanceAt": "2027-02-11T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "HEY-SMITH “ALL OVER JAPAN TOUR”",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/268157/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_heysmith_2027_kagoshima_0213",
+      "tourId": "yabai_tshirts_yasan_event_heysmith_2027",
+      "venue": "鹿児島CAPARVO HALL",
+      "performanceAt": "2027-02-13T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "HEY-SMITH “ALL OVER JAPAN TOUR”",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/268157/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_event_heysmith_2027_kumamoto_0214",
+      "tourId": "yabai_tshirts_yasan_event_heysmith_2027",
+      "venue": "熊本B.9 V1",
+      "performanceAt": "2027-02-14T12:00:00+09:00",
+      "doorOpenAt": null,
+      "kind": "taiban",
+      "eventName": "HEY-SMITH “ALL OVER JAPAN TOUR”",
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/live/268157/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "lotteries": [
@@ -478,6 +754,53 @@
       "source": "system",
       "sourceUrl": "https://yabaitshirtsyasan.com/news/288512/",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mtp_tour_2026_prerequest_202608",
+      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
+      "type": "プレリクエスト先行（10・11月公演）",
+      "entryStartAt": "2026-08-07T12:00:00+09:00",
+      "entryEndAt": "2026-08-23T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": "2026-08-27T15:00:00+09:00",
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_mtp_tour_2026_osaka_1008",
+        "yabai_tshirts_yasan_mtp_tour_2026_sendai_1012",
+        "yabai_tshirts_yasan_mtp_tour_2026_nagoya_1015",
+        "yabai_tshirts_yasan_mtp_tour_2026_fukuoka_1019",
+        "yabai_tshirts_yasan_mtp_tour_2026_sapporo_1024",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1027",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1028",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1104",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1105",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1110",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/292862/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
+    },
+    {
+      "id": "yabai_tshirts_yasan_mtp_tour_2026_haneda_pia_eplus_202608",
+      "tourId": "yabai_tshirts_yasan_mtp_tour_2026",
+      "type": "プレオーダー／プレリザーブ先行（Zepp Haneda公演）",
+      "entryStartAt": "2026-08-07T12:00:00+09:00",
+      "entryEndAt": "2026-08-19T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1027",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1028",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1104",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1105",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1110",
+        "yabai_tshirts_yasan_mtp_tour_2026_haneda_1111"
+      ],
+      "source": "system",
+      "sourceUrl": "https://yabaitshirtsyasan.com/news/292862/",
+      "lastVerifiedAt": "2026-08-09T00:00:00+09:00"
     }
   ],
   "appleMusicTracks": [
