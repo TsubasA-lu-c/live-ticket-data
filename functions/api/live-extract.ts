@@ -47,7 +47,7 @@ type V2Block = LiveExtractV2Request["chunks"][number]["blocks"][number];
 interface V2Group { groupId: string; titleText: string; sourceBlockId?: string }
 interface V2Performance {
   sourceBlockId: string; groupId: string; dateText: string; regionText: string;
-  venueText: string; openTimeText: string; startTimeText: string; evidenceText: string;
+  venueText: string; eventTitleText: string; openTimeText: string; startTimeText: string; evidenceText: string;
 }
 interface V2Rejection { blockId: string; reason: string }
 interface V2ChunkResult {
@@ -69,9 +69,9 @@ const MAX_BLOCK_TEXT = 30_000;
 const MAX_TOTAL_BLOCK_TEXT = 500_000;
 const V2_PRIMARY_CONCURRENCY = 2;
 const CACHE_TTL_SECONDS = 24 * 60 * 60;
-const CACHE_SCHEMA_VERSION = "live-extract-v9";
-const V2_SCHEMA_VERSION = "live-extract-contract-v2.3";
-const WORKER_BUILD_VERSION = "live-extract-worker-v2.3.0";
+const CACHE_SCHEMA_VERSION = "live-extract-v14";
+const V2_SCHEMA_VERSION = "live-extract-contract-v2.8";
+const WORKER_BUILD_VERSION = "live-extract-worker-v2.8.0";
 
 const performanceSchema = {
   type: "object",
@@ -115,29 +115,17 @@ const responseSchema = {
 const v2ChunkResponseSchema = {
   type: "object",
   additionalProperties: false,
-  required: ["groups", "performances", "rejected"],
+  required: ["performances"],
   properties: {
-    groups: { type: "array", maxItems: 200, items: {
-      type: "object", additionalProperties: false,
-      required: ["groupId", "titleText", "sourceBlockId"],
-      properties: {
-        groupId: { type: "string", maxLength: 128 }, titleText: { type: "string", maxLength: 1_000 },
-        sourceBlockId: { type: "string", maxLength: 128 },
-      },
-    } },
     performances: { type: "array", maxItems: MAX_PERFORMANCES, items: {
       type: "object", additionalProperties: false,
-      required: ["sourceBlockId", "groupId", "dateText", "regionText", "venueText", "openTimeText", "startTimeText", "evidenceText"],
+      required: ["sourceBlockId", "groupTitleText", "dateText", "regionText", "venueText", "openTimeText", "startTimeText"],
       properties: {
-        sourceBlockId: { type: "string", maxLength: 128 }, groupId: { type: "string", maxLength: 128 },
+        sourceBlockId: { type: "string", maxLength: 128 }, groupTitleText: { type: "string", maxLength: 1_000 },
         dateText: { type: "string", maxLength: 1_000 }, regionText: { type: "string", maxLength: 1_000 },
         venueText: { type: "string", maxLength: 1_000 }, openTimeText: { type: "string", maxLength: 1_000 },
-        startTimeText: { type: "string", maxLength: 1_000 }, evidenceText: { type: "string", maxLength: 2_000 },
+        startTimeText: { type: "string", maxLength: 1_000 },
       },
-    } },
-    rejected: { type: "array", maxItems: MAX_BLOCKS, items: {
-      type: "object", additionalProperties: false, required: ["blockId", "reason"],
-      properties: { blockId: { type: "string", maxLength: 128 }, reason: { type: "string", maxLength: 1_000 } },
     } },
   },
 };
@@ -188,7 +176,8 @@ async function cacheRequest(
     JSON.stringify({
       version: CACHE_SCHEMA_VERSION,
       model,
-      promptHash: await sha256(prompt(input)),
+      aiPayloadHashes: await Promise.all([0, 1].map((attempt) =>
+        sha256(stableJSON(v1AIInput(model, input, attempt))))),
       artistName: normalizedCacheText(input.artistName),
       pageURL: canonicalPageURL(input.pageURL),
       pageTitle: normalizedCacheText(input.pageTitle),
@@ -365,6 +354,25 @@ function isWorkersAIModel(model: string): boolean {
   return model.startsWith("@cf/");
 }
 
+function isGLMModel(model: string): boolean {
+  const modelName = model.toLowerCase().split("/").at(-1) ?? "";
+  return /^glm(?:[-_.]|$)/.test(modelName);
+}
+
+function modelGenerationSettings(
+  model: string, responseFormat: Record<string, unknown>, maxTokens: number,
+): Record<string, unknown> {
+  const common = { response_format: responseFormat, temperature: 0 };
+  if (isGLMModel(model)) {
+    return {
+      ...common,
+      max_completion_tokens: maxTokens,
+      chat_template_kwargs: { enable_thinking: false },
+    };
+  }
+  return { ...common, max_tokens: maxTokens };
+}
+
 function stableJSON(value: unknown): string {
   if (Array.isArray(value)) return `[${value.map(stableJSON).join(",")}]`;
   if (value && typeof value === "object") {
@@ -376,12 +384,41 @@ function stableJSON(value: unknown): string {
 
 function v2Prompt(input: LiveExtractV2Request, blocks: V2Block[]): string {
   return `日本の公式ライブ情報を、次のブロック本文だけから抽出してください。\n` +
-    `sourceBlockIdを必ず維持し、別ブロックの文字列を混ぜないでください。値はすべて同じevent blockのexact substring、不明は空文字です。` +
-    `group titleはgroup.sourceBlockIdの本文（空ならevent block）のexact substringです。NEWS投稿日や受付日を公演日にしません。\n` +
+    `expectedEvent=trueの各event blockから公演を抽出し、sourceBlockIdを必ず維持してください。` +
+    `文字列はすべてそのevent block本文のexact substringだけを返し、別ブロックの文字列を混ぜず、不明は空文字にしてください。` +
+    `groupTitleTextは公演名を年・副題・括弧書き・引用符まで省略せず、本文にある正式名のexact substringで返してください。` +
+    `行頭で日付より前に単独表示されるFES/EVENT/TOUR/LIVEだけはカテゴリなので除外しますが、公演名に含まれるLive Tour等の語は残してください。` +
+    `NEWS投稿日や受付日を公演日にしません。同じsourceBlockIdを重複して返さないでください。\n` +
     `artist=${input.artistName}\nlocale=${input.document.locale}\nblocks=\n` +
     blocks.map((block) => stableJSON({ blockId: block.blockId, pageURL: block.pageURL,
       sectionPath: block.sectionPath, type: block.type, text: block.text,
       expectedEvent: block.expectedEvent })).join("\n");
+}
+
+function v2MaxTokens(chunk: LiveExtractV2Request["chunks"][number]): number {
+  const expected = chunk.blocks.filter((block) => block.expectedEvent).length;
+  return Math.min(8_000, Math.max(900, 500 + expected * 240 + chunk.blocks.length * 35));
+}
+
+function v2AIInput(
+  model: string, input: LiveExtractV2Request,
+  chunk: LiveExtractV2Request["chunks"][number], attempt: number,
+): Record<string, unknown> {
+  return {
+    messages: [
+      { role: "system", content: attempt === 0
+        ? "本文のexact substringだけを根拠に、指定JSON Schema以外を返さないでください。"
+        : "JSONオブジェクトだけを返してください。top-levelのperformances配列にsourceBlockId,groupTitleText,dateText,regionText,venueText,openTimeText,startTimeTextを持つ要素を入れてください。" },
+      { role: "user", content: v2Prompt(input, chunk.blocks) },
+    ],
+    ...modelGenerationSettings(
+      model,
+      attempt === 0
+        ? { type: "json_schema", json_schema: v2ChunkResponseSchema }
+        : { type: "json_object" },
+      v2MaxTokens(chunk),
+    ),
+  };
 }
 
 function parseStructuredText(text: string): unknown {
@@ -510,42 +547,170 @@ function isParseableDate(value: string): boolean {
   const iso = value.match(/(20\d{2})[-\/.](\d{1,2})[-\/.](\d{1,2})/);
   const jp = value.match(/(?:(20\d{2})年)?\s*(\d{1,2})月\s*(\d{1,2})日/);
   const short = value.match(/(?:^|\D)(\d{1,2})[\/.](\d{1,2})(?:\D|$)/);
-  const match = iso ?? jp ?? (short ? [short[0], "", short[1], short[2]] : null);
-  if (!match) return false;
+  const match = iso ?? jp;
+  if (!match) {
+    // Omitted-year rows are valid source evidence, but the Worker must not guess
+    // a year. The iOS review layer keeps it unresolved until deterministic page
+    // context or the user supplies one.
+    if (!short) return false;
+    const month = Number(short[1]), day = Number(short[2]);
+    return month >= 1 && month <= 12 && day >= 1 &&
+      day <= new Date(Date.UTC(2000, month, 0)).getUTCDate();
+  }
   const year = Number(match[1] || 2000), month = Number(match[2]), day = Number(match[3]);
   const date = new Date(Date.UTC(year, month - 1, day));
   return date.getUTCMonth() === month - 1 && date.getUTCDate() === day;
+}
+
+interface CanonicalSourceToken { value: string; start: number; end: number }
+
+function canonicalSourceTokens(value: string): CanonicalSourceToken[] {
+  const tokens: CanonicalSourceToken[] = [];
+  const quotes = new Set(["\"", "“", "„", "‟", "”", "「", "」", "『", "』", "｢", "｣"]);
+  const apostrophes = new Set(["'", "’", "‘", "‛", "＇", "`", "´"]);
+  const openings = new Map([["(", "("], ["[", "["], ["{", "{"], ["〈", "<"], ["《", "<"], ["【", "["]]);
+  const closings = new Map([[")", ")"], ["]", "]"], ["}", "}"], ["〉", ">"], ["》", ">"], ["】", "]"]]);
+  let offset = 0;
+  for (const original of value) {
+    const start = offset;
+    offset += original.length;
+    for (const normalized of original.normalize("NFKC")) {
+      let canonical = normalized;
+      // Whitespace is formatting, not evidence. Ignoring it lets us restore the exact source
+      // spelling (including its original spaces) without accepting changed words.
+      if (/\s/u.test(normalized)) continue;
+      if (quotes.has(normalized)) canonical = "\"";
+      else if (apostrophes.has(normalized)) canonical = "'";
+      else canonical = openings.get(normalized) ?? closings.get(normalized) ?? normalized;
+      tokens.push({ value: canonical, start, end: offset });
+    }
+  }
+  return tokens;
+}
+
+/** Returns the exact source spelling when only Unicode width/space/quote style differs. */
+function resolveSourceSubstring(source: string, candidate: string): string | null {
+  if (!candidate) return "";
+  if (source.includes(candidate)) return candidate;
+  const sourceTokens = canonicalSourceTokens(source);
+  const candidateTokens = canonicalSourceTokens(candidate);
+  if (candidateTokens.length === 0 || candidateTokens.length > sourceTokens.length) return null;
+  outer: for (let start = 0; start <= sourceTokens.length - candidateTokens.length; start += 1) {
+    for (let index = 0; index < candidateTokens.length; index += 1) {
+      if (sourceTokens[start + index].value !== candidateTokens[index].value) continue outer;
+    }
+    const first = sourceTokens[start];
+    const last = sourceTokens[start + candidateTokens.length - 1];
+    return source.slice(first.start, last.end);
+  }
+  return null;
+}
+
+/**
+ * Expands an already-grounded model title to the complete source segment between
+ * the grounded date and grounded location. This is deliberately bounded to one
+ * event block and only applies when the model title itself occurs inside that
+ * segment, so it cannot borrow a tour name from another performance.
+ */
+function completeGroundedTitle(
+  source: string, title: string, dateText: string, regionText: string, venueText: string,
+): string {
+  if (!title || !dateText || !regionText || !venueText) return title;
+  const dateStart = source.indexOf(dateText);
+  const titleStart = source.indexOf(title, Math.max(0, dateStart));
+  if (dateStart < 0 || titleStart < dateStart) return title;
+
+  // The candidate must be the first semantic text after the grounded date and
+  // an optional weekday. Otherwise expanding it could absorb an artist/status
+  // label which the model intentionally excluded.
+  const betweenDateAndTitle = source.slice(dateStart + dateText.length, titleStart);
+  const prefixWithoutWeekday = betweenDateAndTitle
+    .replace(/^\s*[（(]\s*(?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)(?:day)?|[月火水木金土日](?:曜(?:日)?)?)\s*[)）]/iu, "")
+    .trim();
+  if (prefixWithoutWeekday) return title;
+
+  const venueStart = source.indexOf(venueText, titleStart + title.length);
+  if (venueStart < 0) return title;
+  // Use the last region occurrence before the grounded venue. A region word may
+  // legitimately occur inside a title; the location label is the one nearest
+  // the venue.
+  const regionStart = source.lastIndexOf(regionText, venueStart - 1);
+  if (regionStart < titleStart + title.length || regionStart >= venueStart) return title;
+  const segment = source.slice(titleStart, regionStart)
+    // A region commonly begins with a bracket immediately before the value.
+    .replace(/[\s\u00a0　]*[【\[(（〈《「『｢]\s*$/u, "")
+    .trim();
+  const extension = segment.slice(title.length);
+  if (!segment.startsWith(title) || segment.length > 300 ||
+      /(?:20\d{2}[\/.年-]\d{1,2}|\bOPEN\b|\bSTART\b|開場|開演|受付|発売|問い合わせ|問合せ)/iu.test(extension)) return title;
+  return segment;
+}
+
+function titleLikeText(value: string): boolean {
+  return value.length > 0 && value.length <= 1_000 &&
+    /(?:LIVE|TOUR|CONCERT|FESTIVAL|FES|EVENT|ライブ|ツアー|コンサート|フェス)/iu.test(value) &&
+    !isParseableDate(value);
+}
+
+function titleLikeHeading(block: V2Block): boolean {
+  return !block.expectedEvent && /heading|title/i.test(block.type) && titleLikeText(block.text);
+}
+
+interface GroundedGroupTitle { titleText: string; sourceBlockId?: string }
+
+/** The row's own DOM heading path is stronger context than a page-wide search. */
+function fallbackGroupTitle(block: V2Block, blocks: V2Block[]): GroundedGroupTitle | undefined {
+  const pathTitle = [...block.sectionPath].reverse().find(titleLikeText);
+  if (pathTitle) {
+    const heading = blocks.find((candidate) =>
+      candidate.pageURL === block.pageURL && titleLikeHeading(candidate) &&
+      candidate.text === pathTitle);
+    return { titleText: pathTitle, ...(heading ? { sourceBlockId: heading.blockId } : {}) };
+  }
+
+  // Some sites expose a page-level title without attaching it to each row. Only
+  // use it when exactly one official title-like heading exists on that page.
+  const candidates = blocks.filter((candidate) =>
+    candidate.pageURL === block.pageURL && titleLikeHeading(candidate));
+  return candidates.length === 1
+    ? { titleText: candidates[0].text, sourceBlockId: candidates[0].blockId }
+    : undefined;
+}
+
+interface SplitVenueAnnotation { venueText: string; eventTitleText: string }
+
+/**
+ * Separates an event-specific subtitle when an exact-source venue ends in a
+ * standalone, complete pair of Japanese wave-dash delimiters. Requiring a
+ * whitespace boundary and matching delimiter keeps ordinary venue names and
+ * parenthesized/bracketed venue suffixes intact.
+ */
+function splitTrailingWaveDashAnnotation(venueText: string): SplitVenueAnnotation {
+  const match = venueText.match(/^(.*\S)[\p{Zs}\t]+([〜～])([^〜～]+)\2[\p{Zs}\t]*$/u);
+  if (!match) return { venueText, eventTitleText: "" };
+  const eventTitleText = match[3].trim();
+  if (!eventTitleText || !/[\p{L}\p{N}]/u.test(eventTitleText)) {
+    return { venueText, eventTitleText: "" };
+  }
+  return { venueText: match[1], eventTitleText };
 }
 
 export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2ChunkResult | null {
   const parsed = unwrapAIResult(value);
   if (!parsed.value || typeof parsed.value !== "object" || parsed.finishReason === "length") return null;
   const raw = parsed.value as Record<string, unknown>;
-  if (!Array.isArray(raw.groups) || !Array.isArray(raw.performances) || !Array.isArray(raw.rejected) ||
-      raw.groups.length > 200 || raw.performances.length > MAX_PERFORMANCES || raw.rejected.length > MAX_BLOCKS) return null;
+  if (!Array.isArray(raw.performances) || raw.performances.length > MAX_PERFORMANCES) return null;
   const byId = new Map(blocks.map((block) => [block.blockId, block]));
-  const groups = new Map<string, V2Group>();
+  const groups: V2Group[] = [];
+  const groupIdsByKey = new Map<string, string>();
   const warnings: string[] = [];
   const rejected: V2Rejection[] = [];
   let cacheable = true;
-  for (const item of raw.groups) {
-    if (!item || typeof item !== "object") { warnings.push("invalid group object"); cacheable = false; continue; }
-    const group = item as Record<string, unknown>;
-    if (typeof group.groupId !== "string" || !group.groupId || group.groupId.length > 128 ||
-        typeof group.titleText !== "string" || group.titleText.length > 1_000 ||
-        typeof group.sourceBlockId !== "string") { warnings.push("invalid group fields"); cacheable = false; continue; }
-    const source = group.sourceBlockId ? byId.get(group.sourceBlockId) : undefined;
-    if (group.sourceBlockId && !source) { warnings.push(`group ${group.groupId}: unknown sourceBlockId`); cacheable = false; continue; }
-    if (group.titleText && source && !source.text.includes(group.titleText)) {
-      warnings.push(`group ${group.groupId}: titleText is not exact source substring`); cacheable = false; continue;
-    }
-    if (groups.has(group.groupId)) { warnings.push(`duplicate groupId ${group.groupId}`); cacheable = false; continue; }
-    groups.set(group.groupId, { groupId: group.groupId, titleText: group.titleText,
-      ...(group.sourceBlockId ? { sourceBlockId: group.sourceBlockId } : {}) });
-  }
   const performances: V2Performance[] = [];
-  const performanceKeys = new Set<string>();
-  const fields = ["dateText", "regionText", "venueText", "openTimeText", "startTimeText", "evidenceText"] as const;
+  const coveredBlockIds = new Set<string>();
+  const requiredFields = ["dateText"] as const;
+  const optionalFields = ["regionText", "venueText", "openTimeText", "startTimeText"] as const;
+  const fields = [...requiredFields, ...optionalFields] as const;
   for (const item of raw.performances) {
     if (!item || typeof item !== "object") { warnings.push("invalid performance object"); cacheable = false; continue; }
     const performance = item as Record<string, unknown>;
@@ -558,39 +723,83 @@ export function validateV2ChunkResult(value: unknown, blocks: V2Block[]): V2Chun
     }
     const fail = (reason: string) => { rejected.push({ blockId, reason }); cacheable = false; };
     if (!block.expectedEvent) { fail("sourceBlockId is not an event block"); continue; }
-    if (typeof performance.groupId !== "string" || !groups.has(performance.groupId)) { fail("unknown groupId"); continue; }
+    if (coveredBlockIds.has(blockId)) { fail("duplicate sourceBlockId"); continue; }
+    if (typeof performance.groupTitleText !== "string" || performance.groupTitleText.length > 1_000) {
+      fail("invalid groupTitleText"); continue;
+    }
     if (!fields.every((field) => typeof performance[field] === "string" && (performance[field] as string).length <= 2_000)) { fail("invalid performance fields"); continue; }
-    if (!performance.evidenceText || !block.text.includes(performance.evidenceText as string)) { fail("evidenceText is not exact source substring"); continue; }
-    if (!["dateText", "regionText", "venueText", "openTimeText", "startTimeText"].every((field) =>
-      !performance[field] || block.text.includes(performance[field] as string))) { fail("field is not exact source substring"); continue; }
-    const group = groups.get(performance.groupId as string)!;
-    const groupSource = group.sourceBlockId ? byId.get(group.sourceBlockId) : block;
-    if (group.titleText && (!groupSource || !groupSource.text.includes(group.titleText))) { fail("group title is not exact source substring"); continue; }
-    if (!isParseableDate(performance.dateText as string)) { fail("dateText is not parseable"); continue; }
-    const performanceKey = stableJSON(fields.map((field) => performance[field]).concat([
-      performance.sourceBlockId, performance.groupId,
-    ]));
-    if (performanceKeys.has(performanceKey)) { fail("duplicate performance"); continue; }
-    performanceKeys.add(performanceKey);
-    performances.push(performance as unknown as V2Performance);
-  }
-  for (const item of raw.rejected) {
-    if (item && typeof item === "object" && typeof (item as Record<string, unknown>).blockId === "string" &&
-        byId.has((item as Record<string, unknown>).blockId as string) &&
-        typeof (item as Record<string, unknown>).reason === "string" &&
-        (item as Record<string, unknown>).reason !== "" && ((item as Record<string, unknown>).reason as string).length <= 1_000) {
-      rejected.push(item as V2Rejection);
-      // A model rejection is not independently grounded. Keep it visible, but do
-      // not cache it or let it suppress the one selective recovery pass.
+    const groundedFields = Object.fromEntries(fields.map((field) => [
+      field, resolveSourceSubstring(block.text, performance[field] as string),
+    ])) as Record<(typeof fields)[number], string | null>;
+    if (requiredFields.some((field) => groundedFields[field] === null)) {
+      fail("required field is not exact source substring");
+      continue;
+    }
+    for (const field of optionalFields) {
+      if (groundedFields[field] === null) {
+        groundedFields[field] = "";
+        warnings.push(`${blockId}: ${field} is not source-grounded; field cleared`);
+        cacheable = false;
+      }
+    }
+    if (!isParseableDate(groundedFields.dateText ?? "")) { fail("dateText is not parseable"); continue; }
+
+    let titleText = "";
+    let titleSourceBlockId: string | undefined;
+    let ungroundedCandidate = false;
+    const candidate = performance.groupTitleText as string;
+    if (candidate) {
+      // A title must be grounded in the same event block. Looking in an arbitrary nearby
+      // heading could associate a schedule row with the wrong tour.
+      const resolved = resolveSourceSubstring(block.text, candidate);
+      if (resolved !== null) {
+        titleText = completeGroundedTitle(
+          block.text, resolved, groundedFields.dateText ?? "",
+          groundedFields.regionText ?? "", groundedFields.venueText ?? "",
+        );
+        titleSourceBlockId = block.blockId;
+      }
+      ungroundedCandidate = !titleText;
+    }
+    if (!titleText) {
+      const heading = fallbackGroupTitle(block, blocks);
+      if (heading) {
+        titleText = heading.titleText;
+        titleSourceBlockId = heading.sourceBlockId;
+      }
+    }
+    // A model title that is not present in the row is harmless when the row's
+    // official DOM heading path deterministically replaces it. Warn and avoid
+    // caching only when no grounded fallback exists.
+    if (!titleText && ungroundedCandidate) {
+      warnings.push(`${blockId}: groupTitleText is not source-grounded; title cleared`);
       cacheable = false;
-    } else { warnings.push("invalid model rejection"); cacheable = false; }
+    }
+    const groupKey = stableJSON(titleText ? { titleText } : { eventBlockId: blockId });
+    let groupId = groupIdsByKey.get(groupKey);
+    if (!groupId) {
+      groupId = `local-group-${groups.length + 1}`;
+      groupIdsByKey.set(groupKey, groupId);
+      groups.push({ groupId, titleText, ...(titleSourceBlockId ? { sourceBlockId: titleSourceBlockId } : {}) });
+    }
+    coveredBlockIds.add(blockId);
+    const venue = splitTrailingWaveDashAnnotation(groundedFields.venueText ?? "");
+    performances.push({
+      sourceBlockId: blockId,
+      groupId,
+      dateText: groundedFields.dateText ?? "",
+      regionText: groundedFields.regionText ?? "",
+      venueText: venue.venueText,
+      eventTitleText: venue.eventTitleText,
+      openTimeText: groundedFields.openTimeText ?? "",
+      startTimeText: groundedFields.startTimeText ?? "",
+      // Date is already exact and parseable, so it is a compact deterministic
+      // evidence substring. Asking the model to copy the row doubled output size.
+      evidenceText: groundedFields.dateText ?? "",
+    });
   }
-  const resolved = new Set([
-    ...performances.map((performance) => performance.sourceBlockId),
-    ...rejected.map((rejection) => rejection.blockId),
-  ]);
-  if (blocks.some((block) => block.expectedEvent && !resolved.has(block.blockId))) cacheable = false;
-  return { groups: [...groups.values()], performances, rejected, warnings, usage: parsed.usage, cacheable };
+  if (blocks.some((block) => block.expectedEvent && !coveredBlockIds.has(block.blockId))) cacheable = false;
+  return { groups, performances, rejected, warnings, usage: parsed.usage, cacheable };
 }
 
 function prompt(input: LiveExtractRequest): string {
@@ -622,6 +831,29 @@ function prompt(input: LiveExtractRequest): string {
 
 表示済みページ本文:
 ${input.snapshotText}`;
+}
+
+function v1AIInput(
+  model: string, input: LiveExtractRequest, attempt: number,
+): Record<string, unknown> {
+  return {
+    messages: [
+      {
+        role: "system",
+        content: attempt === 0
+          ? "入力本文の文字列だけを根拠に抽出し、指定JSON Schema以外を返さないでください。"
+          : "JSONオブジェクトだけを返してください。top-levelのperformances配列に、groupTitleText,dateText,regionText,venueText,openTimeText,startTimeText,kindを持つ要素を入れてください。",
+      },
+      { role: "user", content: prompt(input) },
+    ],
+    ...modelGenerationSettings(
+      model,
+      attempt === 0
+        ? { type: "json_schema", json_schema: responseSchema }
+        : { type: "json_object" },
+      8_000,
+    ),
+  };
 }
 
 export function normalizeAIResult(value: unknown): unknown {
@@ -662,15 +894,10 @@ export function normalizeAIResult(value: unknown): unknown {
 async function v2ChunkCacheRequest(
   request: Request, input: LiveExtractV2Request, chunk: LiveExtractV2Request["chunks"][number], model: string,
 ): Promise<Request> {
-  const promptText = v2Prompt(input, chunk.blocks);
+  const aiPayloadHash = await sha256(stableJSON(v2AIInput(model, input, chunk, 0)));
   const fingerprint = await sha256(stableJSON({
     version: V2_SCHEMA_VERSION, contractVersion: 2, extractorVersion: input.extractorVersion,
-    model, modelSettings: {
-      temperature: 0, responseFormat: "json_schema_then_json_object",
-      reasoning: "disabled_via_chat_template_kwargs",
-      maxTokens: Math.min(8_000, Math.max(1_200, 700 + chunk.blocks.filter((block) => block.expectedEvent).length * 450 + chunk.blocks.length * 80)),
-    },
-    promptHash: await sha256(promptText), locale: input.document.locale, chunk,
+    model, aiPayloadHash, locale: input.document.locale, chunk,
   }));
   const keyURL = new URL(request.url);
   keyURL.pathname = `/api/live-extract-cache/v2/${fingerprint}`;
@@ -739,77 +966,45 @@ export async function boundedMapOrdered<Input, Output>(
 async function runV2Chunk(
   request: Request, env: Env, input: LiveExtractV2Request,
   chunk: LiveExtractV2Request["chunks"][number], model: string,
-): Promise<{ result: V2ChunkResult; cache: "HIT" | "MISS" }> {
+): Promise<{ result: V2ChunkResult; cache: "HIT" | "MISS"; durationMs: number; aiCalls: number }> {
+  const startedAt = Date.now();
   const key = await v2ChunkCacheRequest(request, input, chunk, model);
   if (!input.forceRefresh) {
     const cached = await readCachedV2(key, chunk.blocks);
-    if (cached) return { result: cached, cache: "HIT" };
+    if (cached) return { result: cached, cache: "HIT", durationMs: Date.now() - startedAt, aiCalls: 0 };
   }
-  const expected = chunk.blocks.filter((block) => block.expectedEvent).length;
-  const maxTokens = Math.min(8_000, Math.max(1_200, 700 + expected * 450 + chunk.blocks.length * 80));
-  let lastError: unknown;
-  for (let attempt = 0; attempt < 2; attempt += 1) {
-    try {
-      const result = await env.AI.run(model, {
-        messages: [
-          { role: "system", content: attempt === 0
-            ? "本文のexact substringだけを根拠に、指定JSON Schema以外を返さないでください。"
-            : "JSONオブジェクトだけを返してください。top-levelはgroups, performances, rejectedの3配列です。groupはgroupId,titleText,sourceBlockId、performanceはsourceBlockId,groupId,dateText,regionText,venueText,openTimeText,startTimeText,evidenceText、rejectedはblockId,reasonを持ちます。" },
-          { role: "user", content: v2Prompt(input, chunk.blocks) },
-        ],
-        response_format: attempt === 0
-          ? { type: "json_schema", json_schema: v2ChunkResponseSchema }
-          : { type: "json_object" },
-        max_completion_tokens: maxTokens,
-        chat_template_kwargs: { enable_thinking: false },
-        temperature: 0,
-      }, env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined);
-      const validated = validateV2ChunkResult(result, chunk.blocks);
-      if (!validated) throw invalidAIResponse(result);
-      if (validated.cacheable) {
-        await storeCachedResult(key, {
-          groups: validated.groups.map((group) => ({ ...group, sourceBlockId: group.sourceBlockId ?? "" })),
-          performances: validated.performances, rejected: validated.rejected,
-        });
-      }
-      return { result: validated, cache: "MISS" };
-    } catch (error) {
-      lastError = error;
-      const message = errorText(error);
-      const dailyQuota = message.includes("3036") || message.includes("daily free allocation");
-      const retryable = message.includes("invalid_ai_response") || message.includes("3040") ||
-        message.includes("capacity") || message.includes("timeout") || message.includes("timed out") ||
-        message.includes("json") || message.includes("rate limit") || message.includes("429");
-      if (attempt === 1 || dailyQuota || !retryable) throw error;
-      await new Promise((resolve) => setTimeout(resolve, 150));
-    }
+  const result = await env.AI.run(
+    model,
+    v2AIInput(model, input, chunk, 0),
+    env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined,
+  );
+  const validated = validateV2ChunkResult(result, chunk.blocks);
+  if (!validated) throw invalidAIResponse(result);
+  if (validated.cacheable) {
+    await storeCachedResult(key, { performances: validated.performances.map((performance) => {
+      const group = validated.groups.find((item) => item.groupId === performance.groupId);
+      return {
+        sourceBlockId: performance.sourceBlockId,
+        groupTitleText: group?.titleText ?? "",
+        dateText: performance.dateText,
+        regionText: performance.regionText,
+        venueText: performance.venueText,
+        openTimeText: performance.openTimeText,
+        startTimeText: performance.startTimeText,
+      };
+    }) });
   }
-  throw lastError;
-}
-
-function recoveryBlocks(chunk: LiveExtractV2Request["chunks"][number], uncovered: Set<string>): V2Block[] {
-  const selected: V2Block[] = [];
-  const added = new Set<string>();
-  let heading: V2Block | undefined;
-  const add = (block: V2Block) => {
-    if (!added.has(block.blockId)) { selected.push(block); added.add(block.blockId); }
-  };
-  for (const block of chunk.blocks) {
-    if (/heading|title/i.test(block.type)) heading = block;
-    if (uncovered.has(block.blockId)) {
-      if (heading && heading.blockId !== block.blockId) add(heading);
-      add(block);
-    }
-  }
-  return selected;
+  return { result: validated, cache: "MISS", durationMs: Date.now() - startedAt, aiCalls: 1 };
 }
 
 async function onRequestV2(request: Request, env: Env, input: LiveExtractV2Request, model: string): Promise<Response> {
+  const startedAt = Date.now();
   if (await contentHash(input) !== input.document.contentHash.toLowerCase()) {
     return json({ code: "invalid_request", message: "Invalid content hash" }, 400, { "X-Request-ID": input.requestId });
   }
-  const outcomes: Array<{ result: V2ChunkResult; cache: "HIT" | "MISS"; chunkId: string }> = [];
-  const pipelineWarnings: string[] = [];
+  const outcomes: Array<{
+    result: V2ChunkResult; cache: "HIT" | "MISS"; chunkId: string; durationMs: number; aiCalls: number;
+  }> = [];
   try {
     const primaryOutcomes = await boundedMapOrdered(
       input.chunks, V2_PRIMARY_CONCURRENCY, async (chunk) => {
@@ -818,26 +1013,6 @@ async function onRequestV2(request: Request, env: Env, input: LiveExtractV2Reque
       },
     );
     outcomes.push(...primaryOutcomes);
-    const initiallyCovered = new Set(outcomes.flatMap((outcome) =>
-      outcome.result.performances.map((performance) => performance.sourceBlockId)));
-    const expected = new Set(input.chunks.flatMap((chunk) =>
-      chunk.blocks.filter((block) => block.expectedEvent && !initiallyCovered.has(block.blockId))
-        .map((block) => block.blockId)));
-    // One selective recovery pass. Never rerun a complete primary chunk.
-    for (const chunk of input.chunks) {
-      const blocks = recoveryBlocks(chunk, expected);
-      if (!blocks.some((block) => expected.has(block.blockId))) continue;
-      const suffix = (await sha256(blocks.map((block) => block.blockId).join("\u001f"))).slice(0, 12);
-      try {
-        const recovery = await runV2Chunk(request, env, input, { chunkId: `${chunk.chunkId}-recovery-${suffix}`, blocks }, model);
-        outcomes.push({ ...recovery, chunkId: `${chunk.chunkId}-recovery-${suffix}` });
-      } catch (error) {
-        const message = errorText(error);
-        const dailyQuota = message.includes("3036") || message.includes("daily free allocation");
-        if (dailyQuota) throw error;
-        pipelineWarnings.push(`${chunk.chunkId}: selective recovery failed (AI unavailable)`);
-      }
-    }
   } catch (error) {
     const message = errorText(error);
     if (message.includes("3036") || message.includes("daily free allocation")) {
@@ -863,7 +1038,7 @@ async function onRequestV2(request: Request, env: Env, input: LiveExtractV2Reque
   const groupsByStableId = new Map<string, V2Group>();
   const performances: V2Performance[] = [];
   const rejected: V2Rejection[] = [];
-  const warnings: string[] = [...pipelineWarnings];
+  const warnings: string[] = [];
   const usage: unknown[] = [];
   for (const outcome of outcomes) {
     const idMap = new Map<string, string>();
@@ -893,12 +1068,16 @@ async function onRequestV2(request: Request, env: Env, input: LiveExtractV2Reque
     return json({ code: "invalid_ai_response", message: "Invalid AI response" }, 502, { "X-Request-ID": input.requestId });
   }
   const coveredSet = new Set(performances.map((performance) => performance.sourceBlockId));
-  const rejectedSet = new Set(rejected.map((item) => item.blockId));
   const coveredBlockIds = expectedBlockIds.filter((id) => coveredSet.has(id));
-  const uncoveredBlockIds = expectedBlockIds.filter((id) => !coveredSet.has(id) && !rejectedSet.has(id));
+  // Rejection explains why a block was not accepted; it does not mean the
+  // expected performance was covered. Keep it visible in both collections so
+  // the client cannot mistake a rejected row for a complete extraction.
+  const uncoveredBlockIds = expectedBlockIds.filter((id) => !coveredSet.has(id));
   if (input.capture.truncated) warnings.push("capture was truncated");
   if (uncoveredBlockIds.length) warnings.push(`${uncoveredBlockIds.length} expected event block(s) remain uncovered`);
   const hits = outcomes.filter((outcome) => outcome.cache === "HIT").length;
+  const aiCalls = outcomes.reduce((sum, outcome) => sum + outcome.aiCalls, 0);
+  const chunkDurationMs = outcomes.reduce((maximum, outcome) => Math.max(maximum, outcome.durationMs), 0);
   const cache = outcomes.length === 0 ? "MISS" : hits === outcomes.length ? "HIT" : hits === 0 ? "MISS" : "MIXED";
   const seenRejections = new Set<string>();
   const finalRejected = rejected.filter((item) => {
@@ -915,7 +1094,9 @@ async function onRequestV2(request: Request, env: Env, input: LiveExtractV2Reque
   }, 200, {
     "X-Live-Extract-Cache": cache,
     "X-Live-Extract-Version": WORKER_BUILD_VERSION,
+    "X-Live-Extract-AI-Calls": String(aiCalls),
     "X-Request-ID": input.requestId,
+    "Server-Timing": `chunks;dur=${chunkDurationMs}, total;dur=${Date.now() - startedAt}`,
   });
 }
 
@@ -987,23 +1168,11 @@ export async function onRequest(context: {
     let lastError: unknown;
     for (let attempt = 0; attempt < 2; attempt += 1) {
       try {
-        const result = await env.AI.run(model, {
-          messages: [
-            {
-              role: "system",
-              content: attempt === 0
-                ? "入力本文の文字列だけを根拠に抽出し、指定JSON Schema以外を返さないでください。"
-                : "JSONオブジェクトだけを返してください。top-levelのperformances配列に、groupTitleText,dateText,regionText,venueText,openTimeText,startTimeText,kindを持つ要素を入れてください。",
-            },
-            { role: "user", content: prompt(input) },
-          ],
-          response_format: attempt === 0
-            ? { type: "json_schema", json_schema: responseSchema }
-            : { type: "json_object" },
-          max_completion_tokens: 8_000,
-          chat_template_kwargs: { enable_thinking: false },
-          temperature: 0,
-        }, env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined);
+        const result = await env.AI.run(
+          model,
+          v1AIInput(model, input, attempt),
+          env.AI_GATEWAY_ID ? { gateway: { id: env.AI_GATEWAY_ID } } : undefined,
+        );
         const envelope = unwrapAIResult(result);
         normalized = envelope.finishReason === "length" ? null : normalizeAIResult(result);
         if (!normalized) throw new Error("invalid_ai_response");
