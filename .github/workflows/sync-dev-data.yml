@@ -1,0 +1,50 @@
+name: Sync validated dev data
+
+on:
+  push:
+    branches:
+      - agent/sync-dev-2026-08-18
+    paths:
+      - '.github/workflows/sync-dev-data.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    if: github.event.head_commit.message == 'Bootstrap production data sync'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout production candidate
+        uses: actions/checkout@v4
+        with:
+          ref: agent/sync-dev-2026-08-18
+          fetch-depth: 0
+
+      - name: Fetch validated dev data
+        run: |
+          git clone --depth 1 https://github.com/TsubasA-lu-c/live-ticket-data-dev.git /tmp/live-ticket-data-dev
+          rm -rf data
+          cp -a /tmp/live-ticket-data-dev/data ./data
+          cp /tmp/live-ticket-data-dev/COLLECTION_RULES.md ./COLLECTION_RULES.md
+
+      - name: Confirm exact data sync
+        run: |
+          diff -qr data /tmp/live-ticket-data-dev/data
+          cmp COLLECTION_RULES.md /tmp/live-ticket-data-dev/COLLECTION_RULES.md
+
+      - name: Validate production copy
+        run: python3 tools/validate.py
+
+      - name: Commit production candidate
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data COLLECTION_RULES.md
+          if git diff --cached --quiet; then
+            echo 'No production data changes.'
+            exit 0
+          fi
+          git commit -m 'Sync validated dev data to production candidate'
+          git push origin HEAD:agent/sync-dev-2026-08-18
