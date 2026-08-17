@@ -235,6 +235,34 @@ python3 tools/venue_master.py check          # 綴りの違う同一会場の候
 
 ---
 
+## 2.55. 【必須】取得の作法（最初からこれで投げる）
+
+**同じサイトへ同時に複数のリクエストを投げない。1本ずつ、3秒以上あけて取る。**
+
+失敗してから直すのではなく、**最初からこの投げ方をする**。速く投げても得られる
+情報は変わらず、弾かれる危険だけが増える。
+
+### 根拠（2026-08 実測）
+
+全101組・659URLを確認したとき、同時8本で投げると23件が 200 以外になった。
+そのうち **21件は3秒間隔の直列なら 200 が返った**。
+つまり**サイトが落ちていたのではなく、投げ方が速すぎただけ**だった。
+
+弾かれやすいのは `contents/` 系のCMS（`sd-milk.com`・`wanima.net`・
+`musical-toukenranbu.jp`・`pc.goldenbomber.jp` 等）と `eplus.jp`。
+いずれもルートは 200 を返すので、**サブページだけ 503 なら投げ方を疑う**。
+
+### 守ること
+
+- 1アーティストの中では**必ず直列**。ページを並行取得しない
+- 同一ホストへの連続アクセスは **3秒以上あける**
+- 並列バッチ（5組同時）は**別ホストどうしなので可**。同じホストに複数組が
+  乗っている場合（レーベル・事務所サイト）は直列にする
+- 503・接続失敗が出たら、**間隔を倍にして1回だけ再試行**する。
+  それでも駄目なら §2.6 へ進む
+
+---
+
 ## 2.6. JSレンダリングサイトの回避手順（追加コストなし）
 
 公式サイトが JS レンダリングで WebFetch で本文が取得できない場合、以下を**順に**試す。
@@ -248,13 +276,36 @@ python3 tools/venue_master.py check          # 綴りの違う同一会場の候
 2. **RSSフィードがあれば活用**: WebFetch でフィードを取得して記事URLを辿る。`cache/watch_urls.json` にも登録する（JSサイトは静的HTMLが変化せず更新検知からも漏れるため、RSS登録で検知も回復する。`discover_watch_urls.py` はフィードを自動検出する）
 3. **正規チケットサイトに切り替え**: e+ / ぴあ / ローチケ等のアーティストページを一次情報として使う（§2 の正規情報源）
 4. **WebSearch で別の公式ページを探す**（URL発見にのみ使う。AIサマリーからの日程転記は禁止のまま）
-5. それでも確認できない項目は **null** とし、完了報告に「JSレンダリングで取得不可」と明記する
+5. **投げ方を見直す**: §2.55 の作法（直列・3秒以上）で取れているか確かめる。
+   **「サイトが落ちている」と判断する前に、投げ方を疑うこと。**
+6. **打ち切る前にモデルを引き上げる**: haiku で回している場合、ここまでで解決しなければ
+   そのアーティストだけ sonnet で再実行する（`CLAUDE.md` モデル運用ルール）。
+   「サイトが落ちている」ように見えても、**実際には辿るパスを間違えているだけのことが多い**
+   （2026-08: BUMP OF CHICKEN で `/live` `/news` を推測して404を掴み、
+   正解の `/live_information` に辿り着けなかった）
+7. それでも確認できない項目は **null** とし、完了報告に「JSレンダリングで取得不可」と明記する
 
 > **URL推測禁止の例外（限定）**: 手順1で `<link rel="https://api.w.org/" href="...">` が生HTML内に実在する場合のみ、その href 配下の標準エンドポイント `wp/v2/posts` を使用してよい（API ルート宣言からの標準パスであり推測に当たらない）。それ以外のパス組み立ては引き続き禁止。
 
 ### null ルール（再確認）
 - 不明な日程・確認できない日程は **必ず null**
 - `null` の方が誤日程より遥かにマシ（ユーザーが手入力できるが、誤情報は気づかない）
+
+---
+
+## 2.7. 【重要】sourceUrl と監視URLの区別（見落とし防止）
+
+> 2026-07にサカナクションのツアー拡大情報を見落とした事例から追加。
+> 原因: `artists.json` の `sourceUrl` がツアー特設ページ（例: `/feature/tour2026_ticket`）を指しており、
+> `discover_watch_urls.py` がそのページ内のリンクしか辿れず、公式TOPページのナビゲーションにある
+> NEWS一覧ページを発見できていなかった。加えて、収集エージェント自身もNEWSページを確認しなかった。
+
+### ルール
+- `artists.json` の `sourceUrl` は**そのアーティストの情報源として最も信頼できるページ**を指してよい（特設ページ・ニュース記事等でも可）。これは変更不要。
+- ただし `cache/watch_urls.json` には、**`sourceUrl` のドメインの公式TOPページ、または公式NEWS一覧ページを必ず1件は含める**こと。特設ページのリンクだけでは不十分。
+  - `discover_watch_urls.py` は `sourceUrl` を起点にリンクを辿るため、`sourceUrl` が深い特設ページの場合はTOPページの中身が拾えない。**そのアーティストの公式ドメインのルート（例: `https://example.jp/`）に対しても `discover_watch_urls.py` 相当の抽出を1回実行し、NEWS一覧ページを見つけて登録すること**（同一アーティストへの追加登録として `cache/watch_urls.json` に追記する。既存の `sourceUrl` は変更しない）。
+  - 複数アーティストが同居するレーベル/事務所サイト（例: `sonymusic.co.jp`, `tobe-official.jp`, `rhythmzone.net`, `mentrecording.jp` 等）では、ドメインルートではなく**そのアーティスト専用のパス階層**（例: `sonymusic.co.jp/artist/{slug}/`）をTOP候補として使うこと。ドメインルートは他アーティストの更新まで拾ってノイズになる。
+- **NEWSページの確認は完了報告で必須項目**（§4手順3）。確認したURL一覧に **NEWSページのURLが含まれていない完了報告は不完全とみなし、メインエージェントは再収集を指示すること**。「LIVE/TOURページのみ確認してNEWSページを確認していない」ケースが実際に発生したため、レビュー時に必ずチェックする。
 
 ---
 
@@ -348,21 +399,7 @@ data/
 
 ---
 
-## 3.5. アーティスト名の名寄せ（正規名称解決）
-
-- 入力が**通称・略称・愛称・表記揺れ**でも、**公式の正規名称に解決してから**収集する。
-  - 例: 「ミスチル」→ `Mr.Children` / 「ヒゲダン」→ `Official髭男dism`
-  - 例: 「サザン」→ `サザンオールスターズ`
-- 解決手順:
-  1. 入力名でweb検索し、公式サイト/公式SNSで正規表記を確認
-  2. 正規名称を `Artist.name` に採用（`id` は英小文字スネークで採番）
-  3. 通称と正規名称が大きく異なる場合、完了報告に「入力『◯◯』→正規『△△』として収集」と明記
-- **同名の別アーティストに注意**（同名グループ・解散済み等）。公式で本人性を確認できないものは収集しない。
-- 解決できない/公式が特定できない場合は収集せず、その旨を報告する。
-
----
-
-## 3.6. Apple Music 連携データの収集（2026-08 追加）
+## 3.7. Apple Music 連携データの収集（2026-08 追加）
 
 アプリはアーティスト画像・配色・30秒プレビューを Apple Music から得る。
 **アプリは Apple Music の API を呼ばない。** 収集側で確定させた値を配信JSONに載せる。
@@ -481,6 +518,22 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 
 ---
 
+---
+
+## 3.5. アーティスト名の名寄せ（正規名称解決）
+
+- 入力が**通称・略称・愛称・表記揺れ**でも、**公式の正規名称に解決してから**収集する。
+  - 例: 「ミスチル」→ `Mr.Children` / 「ヒゲダン」→ `Official髭男dism`
+  - 例: 「サザン」→ `サザンオールスターズ`
+- 解決手順:
+  1. 入力名でweb検索し、公式サイト/公式SNSで正規表記を確認
+  2. 正規名称を `Artist.name` に採用（`id` は英小文字スネークで採番）
+  3. 通称と正規名称が大きく異なる場合、完了報告に「入力『◯◯』→正規『△△』として収集」と明記
+- **同名の別アーティストに注意**（同名グループ・解散済み等）。公式で本人性を確認できないものは収集しない。
+- 解決できない/公式が特定できない場合は収集せず、その旨を報告する。
+
+---
+
 ## 4. 収集手順（1アーティスト）
 
 > **対象範囲**: 登録済み全アーティストが対象。「一部のみ更新」は NG。
@@ -502,12 +555,16 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 7. `sourceUrl` と `lastVerifiedAt` を記録
 8. 対象アーティストの `data/artist/{artistId}.json` に出力（tours / performances / lotteries を含む1ファイル）
 9. `data/artists.json` を更新（アーティストが新規の場合は追加。既存は lastVerifiedAt 等を更新）
-10. **セルフチェック（収集漏れ防止）**:
+10. **新規アーティストなら Apple Music と紐付ける**（§3.7）。
+    紐付けを飛ばすと、アプリ側でそのアーティストだけ頭文字アバターになり、
+    トップソングも出ない。既存アーティストの再収集では不要
+11. **セルフチェック（収集漏れ防止）**:
     - [ ] NEWSページで見つけたイベントが全て収集されているか
     - [ ] ツアーが継続中なのに `lotteries: []` になっていないか（全抽選が終了済みでも入れる）
     - [ ] フェス出演が §4.5 のフェスツアーに追加されているか
     - [ ] ファンミーティング等の単発イベントが §4.6 のイベントツアーに追加されているか
     - [ ] **日程が確定している公演に venue: null がないか**（あればフェス公式・チケットサイトで取得してから完了とする）
+    - [ ] **新規アーティストに `appleMusic` と `appleMusicTracks` が入っているか**（Apple Music に該当が無い場合のみ空でよい）
 
 ---
 
@@ -546,7 +603,8 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
   "id": "{fesTourId}_{フェス略称}_{mmdd}",
   "tourId": "{artistId}_fes_{year}",
   "venue": "フェス会場名（正式名称）",
-  "performanceAt": "出演日T時刻（不明な場合 12:00:00）",
+  "performanceAt": "フェス全体の開演日時（公式未発表の場合は出演日T12:00:00を暫定値とする）",
+  "doorOpenAt": "フェス全体の開場日時（不明なら null）",
   "kind": "fes",
   "eventName": "ROCK IN JAPAN FESTIVAL 2026"
 }
@@ -554,7 +612,10 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 
 - `kind`: **`"fes"`**（`"festival"` は誤り。アプリは `"fes"` のみ認識する）
 - `eventName`: フェス正式名称（省略・略称は使わない）
-- 出演時刻が未定の場合は `12:00:00+09:00` とし `null` にしない（アプリの日付表示が壊れるため）
+- `performanceAt` は**アーティスト個別の出演時刻ではなく、フェス全体の開演時刻**を入れる。タイムテーブルのステージ出演時刻で上書きしない
+- フェス全体の開演時刻が公式に未発表の場合は `12:00:00+09:00` を**暫定値**として使い、出演時刻を代用しない（現行スキーマでは `performanceAt` が null 不可のため）
+- `doorOpenAt` はフェス全体の開場時刻を入れる。公式に未発表なら null とする
+- アーティスト個別の出演時刻は現行スキーマには保存しない。将来必要になった場合は `artistPerformanceAt` 等の専用フィールド追加を検討する
 - **他の出演者は収集しない**（このアーティストの出演情報のみ）
 
 ### 収集ルール
@@ -621,6 +682,9 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 ## 5. マージ・追記ルール
 
 - 既存の `data/artist/{artistId}.json` を**読み込んでから更新**（全消ししない）
+- **`appleMusic`（artists.json）と `appleMusicTracks`（artist/{id}.json）を消さない。**
+  ツアー情報の更新で作り直すと、アプリのアートワークとトップソングが一斉に消える。
+  収集経路が別（§3.7）なので、ツアーの再収集では触らずそのまま残すこと
 - 同一IDが既にあれば**更新**、なければ**追加**
 - 一括収集時も各アーティストのファイルに追記していく
 - 最後に **`data/manifest.json` の `version` を +1** し、以下を更新:
@@ -685,20 +749,32 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 
 #### 実行の原則（競合回避・リミット対策）
 
-**1組×5並列、5組完了ごとにcommit** の方式を使う。
+標準方式は **1組×5並列、5組完了ごとにcommit & push** とする。ただし、ユーザーがコスト優先・直列実行を指定した場合は、更新処理の種類を問わず（`/refresh-smart`・`/refresh-hot`・`/refresh-all`・`/add-artists` 等）、次の代替方式を選択できる。
+
+方式に関係なく、各commit/push単位で `python3 tools/update_manifest.py` を実行し、生成・更新された `data/manifest.json` を対象JSON・`data/artists.json`・必要なcacheと同じcommitに含める。全対象の処理が終わった後にmanifestだけをまとめてpushする運用にはしない（最終確認で差分が出た場合を除く）。
+
+**直列・10組バッチ方式（ユーザー指定時）**
+
+- 1組ずつ順番に収集する（同時実行しない）
+- 各アーティストの収集成功後、`data/artist/{id}.json` と `data/artists.json` の該当エントリ（`lastVerifiedAt` 等）を同期更新する
+- 成功したアーティストを10組蓄積してから `validate.py` → `update_manifest.py` → source hash確定 → `data/artists.json`・対象アーティストJSON・`data/manifest.json`・必要なcacheをまとめてcommit & pushする（`refresh-smart` に限らず、選択した全更新処理で同じ手順）
+- 10組未満で全対象が終了した場合も、最後に残った組をまとめてcommit & pushする
+- 失敗・未確認のIDは `data/artists.json` を成功扱いに更新せず、source hashも確定しない
+
+**並列・5組バッチ方式（標準）**
 
 - **バッチサブエージェント**: 1組を1エージェントが担当。`data/artist/{担当id}.json` のみ書く。`artists.json` / `manifest.json` には触らない
-- **メインエージェント**: 5組完了後に `artists.json` を一括更新 → `validate.py` → commit & push。全バッチ完了後に `update_manifest.py` → commit & push
+- **メインエージェント**: 5組完了後に `data/artists.json` を一括更新 → `validate.py` → `update_manifest.py` → commit & push。`data/manifest.json` は並列の各バッチのpushにも必ず含める
 - 5組完了ごとに push することで、途中でリミットに達しても完了分は確定する
 
 ```
 グループ①: 5つのサブ（各1組）を同時起動（background）
   ↓ 全5つの完了を待つ
-メイン: artists.json を5組分一括更新 → validate.py → commit & push
+メイン: artists.json を5組分一括更新 → validate.py → update_manifest.py → manifestを同梱してcommit & push
   ↓
 グループ②: 次の5組で繰り返し
-  ↓ 全グループ完了
-メイン: update_manifest.py → commit & push
+  ↓ 各グループ完了後
+メイン: update_manifest.py → commit & push（manifestを同梱）
 ```
 
 #### /refresh-smart の手順
@@ -712,19 +788,24 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 
 2. cat /tmp/changed.txt で対象IDを確認する
 
-3. 対象IDを5組ずつのグループに分割
+3. 実行方式を選択
+   - 指定がなければ5組並列・5組バッチ
+   - ユーザーがコスト優先で直列を指定した場合は1組ずつ実行・10組バッチ
 
-4. グループごとに1組×5並列で起動
+4. 選択した方式で収集
    - 各サブ: §4 の収集手順を実施（終了ツアー掃除は不要、変化があった分のみ）
-   - 全完了後: artists.json の lastVerifiedAt を更新 → validate.py → commit & push
+   - 成功した各IDについて `data/artist/{id}.json` と `data/artists.json` の該当エントリを同期更新
+   - バッチ完了後: `validate.py` → `update_manifest.py` → 収集・validate成功済みIDだけ `python3 tools/check_updates.py --accept {id...}` → `data/artists.json`・対象JSON・`data/manifest.json`・必要なcacheをcommit & push
 
 5. 全グループ完了後:
-   python3 tools/update_manifest.py → commit & push
-   git add cache/source_hashes.json && git commit -m "update: source hash cache" && git push origin main
+   各バッチでmanifestを反映済みであることを確認する。最終確認で差分が出た場合のみ
+   python3 tools/update_manifest.py → `data/manifest.json` を同じcommitに含めてpushする。
+   `git add cache/source_hashes.json` に未反映差分がある場合は、対象ファイルとmanifestをまとめてcommit & pushする。
 ```
 
 **注意事項:**
 - `cache/source_hashes.json` は git 管理する（次回チェックの基準点）
+- 差分検出直後の新hashは `cache/source_hashes.pending.json`（git管理外）に保留される。収集・validateが失敗したIDは `--accept` せず、次回の再試行対象に残す
 - 公式サイトを更新していないアーティストは出力されないため、スキップして正しい
 - 公式サイトが存在しない（sourceUrl が null）アーティストは常に"変化あり"扱いとなる
 
@@ -736,15 +817,15 @@ Apple Music の公開ページの構造に依存しているため、Apple 側�
 #### /refresh-hot の手順
 1. 全 `data/artist/{id}.json` を読み込み、Hot tier アーティストを抽出
    - 判定: `lotteries[].entryEndAt` が今日から90日以内かつ未来のものが1件以上あるか
-2. 5組ずつのグループに分割し、グループごとに1組×5並列で起動
-3. グループごとに全完了後、メインが `artists.json` の `lastVerifiedAt` を更新 → validate → commit & push
-4. 全グループ完了後: `python3 tools/update_manifest.py` → commit & push
+2. 指定がなければ5組ずつのグループに分割し、グループごとに1組×5並列で起動。直列指定時は1組ずつ実行し、10組ごとにまとめる
+3. 各バッチ完了後、メインが `artists.json` の `lastVerifiedAt` を更新 → validate → `update_manifest.py` → `data/manifest.json` を同梱してcommit & push
+4. 最終確認でmanifest差分が出た場合のみ、manifestを更新して同じcommitに含める
 
 #### /refresh-all の手順
-1. 全アーティストを5組ずつのグループに分割し、グループごとに1組×5並列で起動
+1. 指定がなければ全アーティストを5組ずつのグループに分割し、グループごとに1組×5並列で起動。直列指定時は1組ずつ実行し、10組ごとにまとめる
    - 各サブ: §4 の収集手順 + 終了ツアーの掃除（§5.1）を実施
-2. グループごとに全完了後、メインが `artists.json` の `lastVerifiedAt` を更新 → validate → commit & push
-3. 全グループ完了後: `python3 tools/update_manifest.py` → commit & push
+2. 各バッチ完了後、メインが `artists.json` の `lastVerifiedAt` を更新 → validate → `update_manifest.py` → `data/manifest.json` を同梱してcommit & push
+3. 最終確認でmanifest差分が出た場合のみ、manifestを更新して同じcommitに含める
 
 #### アーティスト追加ペース（目安）
 - 月20〜30組バッチで `/add-artists` を実行
