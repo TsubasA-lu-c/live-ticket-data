@@ -90,7 +90,7 @@
     {
       "id": "ikimonogakari_angyar_2026_fukuoka_0718",
       "tourId": "ikimonogakari_angyar_2026",
-      "venue": "福岡サンパレス ホテル＆ホール",
+      "venue": "福岡サンパレス ホテル&ホール",
       "performanceAt": "2026-07-18T18:00:00+09:00",
       "doorOpenAt": "2026-07-18T17:00:00+09:00",
       "kind": "oneman",
@@ -198,7 +198,7 @@
     {
       "id": "ikimonogakari_angyar_2026_ehime_1011",
       "tourId": "ikimonogakari_angyar_2026",
-      "venue": "松山市民会館・大ホール",
+      "venue": "松山市民会館大ホール",
       "performanceAt": "2026-10-11T18:00:00+09:00",
       "doorOpenAt": "2026-10-11T17:00:00+09:00",
       "kind": "oneman",
@@ -354,7 +354,7 @@
     {
       "id": "ikimonogakari_angyar_2026_okinawa_0327",
       "tourId": "ikimonogakari_angyar_2026",
-      "venue": "沖縄コンベンションセンター 劇場棟",
+      "venue": "沖縄コンベンションセンター劇場棟",
       "performanceAt": "2027-03-27T18:00:00+09:00",
       "doorOpenAt": "2027-03-27T17:00:00+09:00",
       "kind": "oneman",
@@ -366,7 +366,7 @@
     {
       "id": "ikimonogakari_angyar_2026_ishikawa_0403",
       "tourId": "ikimonogakari_angyar_2026",
-      "venue": "本多の森 北電ホール",
+      "venue": "本多の森北電ホール",
       "performanceAt": "2027-04-03T18:00:00+09:00",
       "doorOpenAt": "2027-04-03T17:00:00+09:00",
       "kind": "oneman",
@@ -661,6 +661,54 @@
       "source": "system",
       "sourceUrl": "https://ikimonogakari.com/news/live/20260403-3",
       "lastVerifiedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_yamagata_0809",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "オフィシャルファンクラブ限定公式リセール（山形）",
+      "entryStartAt": "2026-07-26T12:00:00+09:00",
+      "entryEndAt": "2026-08-08T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_yamagata_0809"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-17T22:48:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_fc_resale_shiga_0829",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "オフィシャルファンクラブ限定公式リセール（滋賀）",
+      "entryStartAt": "2026-08-15T12:00:00+09:00",
+      "entryEndAt": "2026-08-28T23:59:00+09:00",
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_shiga_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260403-2",
+      "lastVerifiedAt": "2026-08-17T22:48:00+09:00"
+    },
+    {
+      "id": "ikimonogakari_angyar_2026_additional_seat_shiga_0829",
+      "tourId": "ikimonogakari_angyar_2026",
+      "type": "機材席開放に伴う追加席販売（先着）",
+      "entryStartAt": "2026-08-08T12:00:00+09:00",
+      "entryEndAt": null,
+      "resultAt": null,
+      "paymentStartAt": null,
+      "paymentEndAt": null,
+      "performanceIds": [
+        "ikimonogakari_angyar_2026_shiga_0829"
+      ],
+      "source": "system",
+      "sourceUrl": "https://ikimonogakari.com/news/live/20260807-1",
+      "lastVerifiedAt": "2026-08-17T22:50:00+09:00"
     }
   ],
   "appleMusicTracks": [
