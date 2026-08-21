@@ -1,6 +1,6 @@
 {
-  "version": 155,
-  "updatedAt": "2026-08-18T07:57:08+09:00",
+  "version": 156,
+  "updatedAt": "2026-08-21T17:20:06+09:00",
   "files": {
     "artists": {
       "hash": "feb5f1f2ef4b82f3"
@@ -14,7 +14,7 @@
       "hash": "4597744854d58a9a"
     },
     "mizuki_nana": {
-      "hash": "7e92c8c224c914d8"
+      "hash": "7e9fb904f2adf136"
     },
     "iris": {
       "hash": "9ed38edfa4a0fa03"
@@ -59,7 +59,7 @@
       "hash": "a4b856ceef547339"
     },
     "fujii_kaze": {
-      "hash": "9c60f723e49d0377"
+      "hash": "3cb0a5cc265c2722"
     },
     "lisa": {
       "hash": "e158b4cbac3d5d28"
