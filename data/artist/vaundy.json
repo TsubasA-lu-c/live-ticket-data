@@ -269,7 +269,8 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-26T00:00:00+09:00",
+      "eventStatus": "cancelled"
     },
     {
       "id": "vaundy_horo_2026_shanghai_1115",
@@ -281,7 +282,8 @@
       "eventName": null,
       "source": "system",
       "sourceUrl": "https://vaundy.jp/news/detail/11144",
-      "lastVerifiedAt": "2026-07-18T00:00:00+09:00"
+      "lastVerifiedAt": "2026-08-26T00:00:00+09:00",
+      "eventStatus": "cancelled"
     },
     {
       "id": "vaundy_japan_arena_2728_hyogo_0814",
