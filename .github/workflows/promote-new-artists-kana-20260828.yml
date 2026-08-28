@@ -168,7 +168,7 @@ jobs:
           data/manifest.json
           EOF
           )
-          actual=$(git diff --name-only -- data | sort)
+          actual=$( { git diff --name-only -- data; git ls-files --others --exclude-standard -- data; } | sort -u )
           printf '%s\n' "$actual"
           test "$actual" = "$(printf '%s\n' "$expected" | sort)"
           git diff --check -- data
@@ -185,5 +185,6 @@ jobs:
             data/artist/boynextdoor.json data/artist/saucy_dog.json \
             data/artist/ateez.json data/artist/niziu.json \
             data/artist/xg.json data/artist/nakajima_kento.json
+          git rm .github/workflows/promote-new-artists-kana-20260828.yml
           git commit -m 'release: add 10 artists and kana search readings'
           git push origin HEAD:release/new-artists-kana-20260828
