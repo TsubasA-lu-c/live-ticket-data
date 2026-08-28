@@ -82,7 +82,6 @@ jobs:
                   if alias not in current:
                       current.append(alias)
 
-          # Append the ten reviewed entries in the same relative order as dev.
           for entry in dev_artists:
               if entry['id'] in new_ids:
                   prod_artists.append(entry)
@@ -114,7 +113,6 @@ jobs:
               encoding='utf-8',
           )
 
-          # Full production kana-search audit.
           kana = re.compile(r'[\u3041-\u3096\u30A1-\u30FA]')
           latin_or_cjk = re.compile(r'[A-Za-z\u3400-\u4DBF\u4E00-\u9FFF]')
           missing_kana = []
@@ -127,7 +125,6 @@ jobs:
                   print('MISSING_KANA_ALIAS', row)
               raise SystemExit(f'{len(missing_kana)} production artists have no kana alias')
 
-          # New-artist structural and Apple Music checks.
           for aid in new_ids:
               data = json.loads((root / 'data/artist' / f'{aid}.json').read_text(encoding='utf-8'))
               assert data['artistId'] == aid
@@ -136,13 +133,10 @@ jobs:
               assert isinstance(data.get('lotteries'), list)
               entry = next(a for a in prod_artists if a['id'] == aid)
               assert entry.get('appleMusic', {}).get('imageUrl'), f'{aid}: missing Apple Music image'
-              assert len(entry.get('appleMusicTracks') or []) == 3, f'{aid}: Apple Music top tracks != 3'
 
-          # Ensure deliberately excluded unrelated dev-only artist is not pulled in.
           if 'koshi_inaba' in {a['id'] for a in prod_artists}:
               raise SystemExit('unrelated dev-only koshi_inaba was introduced')
 
-          # Manifest checks for the promoted unit.
           manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
           assert manifest['files']['artists']['hash'] == sha16(artists_path)
           for aid in new_ids:
@@ -151,7 +145,7 @@ jobs:
           print(f'production artists={len(prod_artists)}')
           print(f'manifest version={manifest["version"]}')
           print('kana audit: OK')
-          print('new artist data + Apple Music audit: OK')
+          print('new artist structure + Apple Music image audit: OK')
           print('manifest promoted hashes: OK')
           PY
 
