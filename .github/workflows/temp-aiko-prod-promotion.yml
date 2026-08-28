@@ -128,7 +128,7 @@ jobs:
           print(json.dumps({'artists': len(ids), 'aikoPerformances': 48, 'aikoLotteries': 26, 'appleMusicTracks': 3, 'manifestVersion': manifest['version']}, ensure_ascii=False))
           PY
 
-          changed="$(git diff --name-only | sort)"
+          changed="$(git status --porcelain | sed -E 's/^.. //' | sort)"
           expected="$(printf '%s\n' data/artist/aiko.json data/artists.json data/manifest.json | sort)"
           test "$changed" = "$expected" || { echo 'Unexpected production diff:'; echo "$changed"; exit 1; }
           git diff --check
