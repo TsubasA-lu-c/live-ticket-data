@@ -1,9 +1,9 @@
 {
-  "version": 160,
-  "updatedAt": "2026-08-27T23:12:42+09:00",
+  "version": 161,
+  "updatedAt": "2026-08-28T12:57:52+09:00",
   "files": {
     "artists": {
-      "hash": "feb5f1f2ef4b82f3"
+      "hash": "11bb928da0eaa839"
     }
   },
   "artists": {
@@ -309,6 +309,36 @@
     },
     "urashimasakatasen": {
       "hash": "4d48db5367fb1a2c"
+    },
+    "bullet_train": {
+      "hash": "414d5a7f727751c5"
+    },
+    "illit": {
+      "hash": "90238412d718a58b"
+    },
+    "one_n_only": {
+      "hash": "6db8b07ecd8c5e1a"
+    },
+    "candy_tune": {
+      "hash": "912cac188b81e88b"
+    },
+    "boynextdoor": {
+      "hash": "d8d9d7e569bb2f9e"
+    },
+    "saucy_dog": {
+      "hash": "a302feefec033629"
+    },
+    "ateez": {
+      "hash": "e49b8b3586308a99"
+    },
+    "niziu": {
+      "hash": "95675b5aa1156ea7"
+    },
+    "xg": {
+      "hash": "226fe4cd94f077da"
+    },
+    "nakajima_kento": {
+      "hash": "97d6d878a6204cb4"
     }
   }
 }
