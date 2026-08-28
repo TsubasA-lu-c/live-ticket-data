@@ -1,0 +1,60 @@
+name: Release Vaundy Shanghai cancellations 2026-08-28
+
+on:
+  push:
+    branches:
+      - release/vaundy-shanghai-cancelled-20260828
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: release/vaundy-shanghai-cancelled-20260828
+      - name: Apply Shanghai cancellations only
+        shell: python
+        run: |
+          import hashlib, json
+          from datetime import datetime
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          path = Path('data/artist/vaundy.json')
+          data = json.loads(path.read_text(encoding='utf-8'))
+          targets = {
+            'vaundy_horo_2026_shanghai_1114',
+            'vaundy_horo_2026_shanghai_1115',
+          }
+          found = set()
+          for p in data.get('performances', []):
+              if p.get('id') in targets:
+                  if p.get('eventStatus') is not None:
+                      raise SystemExit(f"unexpected existing eventStatus: {p['id']}={p.get('eventStatus')}")
+                  p['eventStatus'] = 'cancelled'
+                  p['lastVerifiedAt'] = '2026-08-26T00:00:00+09:00'
+                  found.add(p['id'])
+          if found != targets:
+              raise SystemExit(f'missing targets: {targets - found}')
+          path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          manifest_path = Path('data/manifest.json')
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          if manifest.get('version') != 163:
+              raise SystemExit(f"manifest baseline moved: {manifest.get('version')}")
+          manifest['artists']['vaundy']['hash'] = hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+          manifest['version'] = 164
+          manifest['updatedAt'] = datetime.now(ZoneInfo('Asia/Tokyo')).isoformat(timespec='seconds')
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+      - name: Commit production data only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artist/vaundy.json data/manifest.json
+          git diff --cached --quiet && exit 1
+          git commit -m "release: mark Vaundy Shanghai shows cancelled"
+          git push origin HEAD:release/vaundy-shanghai-cancelled-20260828
