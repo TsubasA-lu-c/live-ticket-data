@@ -103,6 +103,7 @@ jobs:
         run: |
           set -euo pipefail
           rm .github/workflows/tmp-promote-oishi-relations-production.yml
+          git add -N data/artist/oishi_masayoshi.json data/artist/masayoshi_oishi.json data/artist_relations.json
           changed="$(git diff --name-only | sort)"
           expected="$(printf '%s\n' \
             '.github/workflows/tmp-promote-oishi-relations-production.yml' \
