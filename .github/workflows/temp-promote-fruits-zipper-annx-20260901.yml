@@ -1,0 +1,136 @@
+name: Temporary FRUITS ZIPPER ANNX production promotion
+
+on:
+  push:
+    branches:
+      - release/fruits-zipper-annx-20260901
+    paths:
+      - '.github/workflows/temp-promote-fruits-zipper-annx-20260901.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout production work branch
+        uses: actions/checkout@v4
+        with:
+          ref: release/fruits-zipper-annx-20260901
+          fetch-depth: 0
+
+      - name: Apply exact Dev FRUITS ZIPPER data and regenerate production manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          prod_baseline='9fd7e538883467ce4bc45487b5432bd5ed34ba95'
+          dev_source='ca0452ee8f8d6d7f3b118b20ad51cd894a79ed67'
+          expected_old_hash='9593456140bb9199'
+          expected_new_hash='1142e4e65ffb09a2'
+          target_branch='release/fruits-zipper-annx-20260901'
+
+          echo '--- git status before ---'
+          git status --short
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "$prod_baseline" || {
+            echo '[ERROR] production main moved from audited baseline'
+            exit 1
+          }
+          if ! git diff --quiet "$prod_baseline..HEAD" -- data; then
+            echo '[ERROR] production work branch already contains data changes'
+            git diff --name-only "$prod_baseline..HEAD" -- data
+            exit 1
+          fi
+
+          actual_old_hash="$(python3 - <<'PY'
+          import hashlib
+          from pathlib import Path
+          print(hashlib.sha256(Path('data/artist/fruits_zipper.json').read_bytes()).hexdigest()[:16])
+          PY
+          )"
+          test "$actual_old_hash" = "$expected_old_hash" || {
+            echo "[ERROR] unexpected production FRUITS ZIPPER baseline hash: $actual_old_hash"
+            exit 1
+          }
+
+          dev="$RUNNER_TEMP/live-ticket-data-dev"
+          rm -rf "$dev"
+          git clone https://github.com/TsubasA-lu-c/live-ticket-data-dev.git "$dev"
+          git -C "$dev" checkout --detach "$dev_source"
+          test "$(git -C "$dev" rev-parse HEAD)" = "$dev_source"
+          test "$(git -C "$dev" rev-parse origin/main)" = "$dev_source" || {
+            echo '[ERROR] Dev main moved from approved source commit'
+            exit 1
+          }
+
+          dev_hash="$(python3 - "$dev/data/artist/fruits_zipper.json" <<'PY'
+          import hashlib, sys
+          from pathlib import Path
+          print(hashlib.sha256(Path(sys.argv[1]).read_bytes()).hexdigest()[:16])
+          PY
+          )"
+          test "$dev_hash" = "$expected_new_hash" || {
+            echo "[ERROR] unexpected approved Dev FRUITS ZIPPER hash: $dev_hash"
+            exit 1
+          }
+
+          cp "$dev/data/artist/fruits_zipper.json" data/artist/fruits_zipper.json
+
+          python3 - <<'PY'
+          import hashlib
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          data_dir = Path('data')
+          manifest_path = data_dir / 'manifest.json'
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          old_version = manifest.get('version', 0)
+          assert old_version == 178, old_version
+
+          def h16(path: Path) -> str:
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+
+          manifest['version'] = old_version + 1
+          manifest['updatedAt'] = datetime.now(timezone(timedelta(hours=9))).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = h16(data_dir / 'artists.json')
+          hashes = {p.stem: h16(p) for p in sorted((data_dir / 'artist').glob('*.json'))}
+          artists = manifest.setdefault('artists', {})
+          for aid, value in hashes.items():
+              artists.setdefault(aid, {})['hash'] = value
+          for aid in list(artists):
+              if aid not in hashes:
+                  del artists[aid]
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          PY
+
+          python3 - <<'PY'
+          import hashlib, json
+          from pathlib import Path
+          h = hashlib.sha256(Path('data/artist/fruits_zipper.json').read_bytes()).hexdigest()[:16]
+          m = json.loads(Path('data/manifest.json').read_text(encoding='utf-8'))
+          assert h == '1142e4e65ffb09a2', h
+          assert m['version'] == 179, m['version']
+          assert m['artists']['fruits_zipper']['hash'] == h
+          print('PRODUCTION_CANDIDATE_FRUITS_HASH=' + h)
+          print('PRODUCTION_CANDIDATE_MANIFEST_VERSION=' + str(m['version']))
+          PY
+
+          git diff --check
+          mapfile -t changed < <(git diff --name-only -- data)
+          printf '%s\n' "${changed[@]}"
+          test "${#changed[@]}" -eq 2
+          test "${changed[0]}" = 'data/artist/fruits_zipper.json'
+          test "${changed[1]}" = 'data/manifest.json'
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data/artist/fruits_zipper.json data/manifest.json
+          git diff --cached --check
+          git commit -m 'release: promote FRUITS ZIPPER ANNX Yokohama Arena'
+          git push origin "HEAD:${target_branch}"
+
+          echo '--- git status after ---'
+          git status --short
