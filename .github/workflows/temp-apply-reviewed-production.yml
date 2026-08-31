@@ -1,0 +1,70 @@
+name: Temporary apply reviewed production patch
+
+on:
+  push:
+    branches:
+      - promote/reviewed-live-updates-20260831
+    paths:
+      - '.github/reviewed-production-apply-trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout promotion branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify and apply validated production patch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          expected_main='a5e510fcf0b84291af030125f8ff8dddff2a6691'
+          expected_patch_sha='312e7d4ca15324296347d12253c3ad14c7a3f4f40a42e4da25cb392a29192615'
+          patch="$RUNNER_TEMP/reviewed-production-data.patch"
+
+          echo '--- status before ---'
+          git status --short
+          test -z "$(git status --porcelain)"
+
+          git fetch origin main
+          actual_main="$(git rev-parse origin/main)"
+          echo "production main=$actual_main"
+          test "$actual_main" = "$expected_main"
+
+          cat .github/reviewed-production-data.patch.gz.b64 \
+            | tr -d '\n' \
+            | base64 --decode \
+            | gunzip > "$patch"
+          actual_patch_sha="$(sha256sum "$patch" | awk '{print $1}')"
+          echo "patch sha256=$actual_patch_sha"
+          test "$actual_patch_sha" = "$expected_patch_sha"
+
+          git apply --check "$patch"
+          git apply "$patch"
+          git diff --check
+
+          mapfile -t changed < <(git diff --name-only)
+          printf '%s\n' "${changed[@]}"
+          test "${#changed[@]}" -eq 38
+          for path in "${changed[@]}"; do
+            case "$path" in
+              data/*) ;;
+              *) echo "[ERROR] non-data change: $path"; exit 1 ;;
+            esac
+          done
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- data
+          git commit -m 'release: promote reviewed 2026-08-30 live updates'
+          git push origin HEAD:promote/reviewed-live-updates-20260831
+
+          echo '--- status after ---'
+          git status --short
+          test -z "$(git status --porcelain)"
