@@ -27,6 +27,7 @@ jobs:
           expected_main='a5e510fcf0b84291af030125f8ff8dddff2a6691'
           expected_patch_sha='312e7d4ca15324296347d12253c3ad14c7a3f4f40a42e4da25cb392a29192615'
           patch="$RUNNER_TEMP/reviewed-production-data.patch"
+          encoded="$RUNNER_TEMP/reviewed-production-data.b64"
 
           echo '--- status before ---'
           git status --short
@@ -37,10 +38,16 @@ jobs:
           echo "production main=$actual_main"
           test "$actual_main" = "$expected_main"
 
-          cat .github/reviewed-production-data.patch.gz.b64 \
-            | tr -d '\n' \
-            | base64 --decode \
-            | gunzip > "$patch"
+          {
+            cat .github/reviewed-production-data-validated/chunk-00.txt
+            head -c 7000 .github/reviewed-production-data-validated/chunk-01.txt
+            cat .github/reviewed-production-data-validated/chunk-02.txt
+            cat .github/reviewed-production-data-validated/chunk-03.txt
+            cat .github/reviewed-production-data-validated/chunk-04.txt
+          } | tr -d '\n' > "$encoded"
+          test "$(wc -c < "$encoded" | tr -d ' ')" = '32156'
+          base64 --decode "$encoded" | gunzip > "$patch"
+
           actual_patch_sha="$(sha256sum "$patch" | awk '{print $1}')"
           echo "patch sha256=$actual_patch_sha"
           test "$actual_patch_sha" = "$expected_patch_sha"
