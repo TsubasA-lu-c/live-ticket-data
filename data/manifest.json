@@ -1,6 +1,6 @@
 {
-  "version": 180,
-  "updatedAt": "2026-09-01T23:19:11+09:00",
+  "version": 181,
+  "updatedAt": "2026-09-03T06:40:12+09:00",
   "files": {
     "artists": {
       "hash": "25b591cf28107706"
@@ -38,7 +38,7 @@
       "hash": "652668a652e52f00"
     },
     "hinatazaka46": {
-      "hash": "eb06554520276879"
+      "hash": "42f5a85b2792d3f7"
     },
     "aimyon": {
       "hash": "d7623feba3d45113"
