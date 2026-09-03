@@ -1,6 +1,6 @@
 {
-  "version": 184,
-  "updatedAt": "2026-09-03T17:26:08+09:00",
+  "version": 185,
+  "updatedAt": "2026-09-04T06:55:00+09:00",
   "files": {
     "artists": {
       "hash": "50e91d45fd506460"
@@ -8,7 +8,7 @@
   },
   "artists": {
     "golden_bomber": {
-      "hash": "07c98fb3a8b77780"
+      "hash": "6c146b602bac9ec1"
     },
     "yonezu_kenshi": {
       "hash": "4597744854d58a9a"
@@ -275,7 +275,7 @@
       "hash": "25b2e1dae5e1e149"
     },
     "shinee": {
-      "hash": "b08a6e3cfa2b97f3"
+      "hash": "746bd9c4061c4529"
     },
     "tomorrow_x_together": {
       "hash": "268603560d197c3d"
