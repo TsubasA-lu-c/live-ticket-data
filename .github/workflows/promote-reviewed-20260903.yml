@@ -39,7 +39,8 @@ jobs:
           git -C "$work/dev" fetch -q origin "$dev_baseline" "$dev_source"
           git -C "$work/dev" checkout -q "$dev_source"
 
-          files=(
+          # Files that must still match the reviewed Dev baseline exactly.
+          copy_files=(
             data/artists.json
             data/artist/ae_group.json
             data/artist/ateez.json
@@ -52,20 +53,18 @@ jobs:
             data/artist/jo1.json
             data/artist/kurayamisaka.json
             data/artist/macaroni_empitsu.json
-            data/artist/masayoshi_oishi.json
             data/artist/mazzel.json
             data/artist/milet.json
             data/artist/monaki.json
             data/artist/niziu.json
             data/artist/novelbright.json
-            data/artist/oishi_masayoshi.json
             data/artist/sakurazaka46.json
             data/artist/stray_kids.json
             data/artist/tomorrow_x_together.json
           )
 
-          echo '--- verify production target files still equal reviewed Dev baseline ---'
-          for path in "${files[@]}"; do
+          echo '--- verify non-Oishi production targets still equal reviewed Dev baseline ---'
+          for path in "${copy_files[@]}"; do
             base_file="$work/base-$(basename "$path")"
             git -C "$work/dev" show "$dev_baseline:$path" > "$base_file"
             if ! cmp -s "$path" "$base_file"; then
@@ -76,9 +75,101 @@ jobs:
           done
 
           echo '--- copy reviewed Dev source files ---'
-          for path in "${files[@]}"; do
+          for path in "${copy_files[@]}"; do
             cp "$work/dev/$path" "$path"
           done
+
+          # Production has newer, more accurate pre-existing Oishi alias data than the
+          # reviewed Dev baseline. Preserve all of it and upsert only this review's
+          # Yokoari entities from the validated Dev payload.
+          DEV_ROOT="$work/dev" python3 - <<'PY'
+          from __future__ import annotations
+          import copy
+          import json
+          import os
+          from pathlib import Path
+
+          prod_root = Path('.')
+          dev_root = Path(os.environ['DEV_ROOT'])
+          canonical_path = prod_root / 'data/artist/oishi_masayoshi.json'
+          alias_path = prod_root / 'data/artist/masayoshi_oishi.json'
+          dev_canonical_path = dev_root / 'data/artist/oishi_masayoshi.json'
+          dev_alias_path = dev_root / 'data/artist/masayoshi_oishi.json'
+
+          def load(path: Path):
+              return json.loads(path.read_text(encoding='utf-8'))
+
+          def write(path: Path, value):
+              path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          def upsert(items, incoming):
+              items = list(items or [])
+              index = {}
+              for i, item in enumerate(items):
+                  item_id = item.get('id') if isinstance(item, dict) else None
+                  if not isinstance(item_id, str) or not item_id:
+                      raise SystemExit('[ERROR] Oishi production entity without valid id')
+                  if item_id in index:
+                      raise SystemExit(f'[ERROR] duplicate Oishi production id: {item_id}')
+                  index[item_id] = i
+              for item in incoming:
+                  item_id = item['id']
+                  if item_id in index:
+                      items[index[item_id]] = copy.deepcopy(item)
+                  else:
+                      index[item_id] = len(items)
+                      items.append(copy.deepcopy(item))
+              return items
+
+          prod_canonical = load(canonical_path)
+          prod_alias = load(alias_path)
+          dev_canonical = load(dev_canonical_path)
+          dev_alias = load(dev_alias_path)
+
+          canonical_tid = 'oishi_masayoshi_oishi_yokoari_2027'
+          alias_tid = 'masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027'
+
+          # Preserve a projection of all pre-existing production entities so this
+          # promotion cannot regress unrelated Oishi corrections.
+          before_canonical = copy.deepcopy(prod_canonical)
+          before_alias = copy.deepcopy(prod_alias)
+
+          canonical_tours = [x for x in dev_canonical.get('tours', []) if x.get('id') == canonical_tid]
+          canonical_perfs = [x for x in dev_canonical.get('performances', []) if x.get('tourId') == canonical_tid]
+          canonical_lots = [x for x in dev_canonical.get('lotteries', []) if x.get('tourId') == canonical_tid]
+          alias_tours = [x for x in dev_alias.get('tours', []) if x.get('id') == alias_tid]
+          alias_perfs = [x for x in dev_alias.get('performances', []) if x.get('tourId') == alias_tid]
+          alias_lots = [x for x in dev_alias.get('lotteries', []) if x.get('tourId') == alias_tid]
+
+          if len(canonical_tours) != 1 or len(canonical_perfs) != 2 or not canonical_lots:
+              raise SystemExit('[ERROR] unexpected canonical Oishi Yokoari Dev payload')
+          if len(alias_tours) != 1 or len(alias_perfs) != 2 or len(alias_lots) != len(canonical_lots):
+              raise SystemExit('[ERROR] unexpected mirrored Oishi Yokoari Dev payload')
+          if any(not isinstance(x.get('relationMirror'), dict) for x in alias_perfs + alias_lots):
+              raise SystemExit('[ERROR] Oishi Yokoari mirror metadata missing')
+
+          prod_canonical['tours'] = upsert(prod_canonical.get('tours'), canonical_tours)
+          prod_canonical['performances'] = upsert(prod_canonical.get('performances'), canonical_perfs)
+          prod_canonical['lotteries'] = upsert(prod_canonical.get('lotteries'), canonical_lots)
+          prod_alias['tours'] = upsert(prod_alias.get('tours'), alias_tours)
+          prod_alias['performances'] = upsert(prod_alias.get('performances'), alias_perfs)
+          prod_alias['lotteries'] = upsert(prod_alias.get('lotteries'), alias_lots)
+
+          def strip_target(doc, tour_id):
+              result = copy.deepcopy(doc)
+              result['tours'] = [x for x in result.get('tours', []) if x.get('id') != tour_id]
+              result['performances'] = [x for x in result.get('performances', []) if x.get('tourId') != tour_id]
+              result['lotteries'] = [x for x in result.get('lotteries', []) if x.get('tourId') != tour_id]
+              return result
+
+          if strip_target(prod_canonical, canonical_tid) != strip_target(before_canonical, canonical_tid):
+              raise SystemExit('[ERROR] unrelated canonical Oishi production data changed')
+          if strip_target(prod_alias, alias_tid) != strip_target(before_alias, alias_tid):
+              raise SystemExit('[ERROR] unrelated Oishi alias production data changed')
+
+          write(canonical_path, prod_canonical)
+          write(alias_path, prod_alias)
+          PY
 
           mapfile -t pre_manifest_changed < <(git diff --name-only | sort)
           if [ "${#pre_manifest_changed[@]}" -ne 22 ]; then
@@ -94,8 +185,7 @@ jobs:
           from datetime import datetime, timezone, timedelta
           from pathlib import Path
 
-          root = Path('.')
-          data = root / 'data'
+          data = Path('data')
           artists_path = data / 'artists.json'
           artist_dir = data / 'artist'
           manifest_path = data / 'manifest.json'
@@ -120,7 +210,6 @@ jobs:
                   raise SystemExit(f'[ERROR] artistId mismatch: {path}')
               if aid not in registry_ids:
                   raise SystemExit(f'[ERROR] artist file missing from registry: {aid}')
-
               tours = doc.get('tours') or []
               perfs = doc.get('performances') or []
               lotteries = doc.get('lotteries') or []
@@ -130,7 +219,6 @@ jobs:
                       raise SystemExit(f'[ERROR] invalid {label} id in {aid}')
                   if len(ids) != len(set(ids)):
                       raise SystemExit(f'[ERROR] duplicate {label} id in {aid}')
-
               tour_ids = {x['id'] for x in tours}
               perf_ids = {x['id'] for x in perfs}
               for perf in perfs:
@@ -157,10 +245,10 @@ jobs:
           if not expected_bts.issubset({p['id'] for p in bts['performances']}):
               raise SystemExit('[ERROR] BTS Singapore normalized performance IDs missing')
 
-          oishi_alias = load(artist_dir / 'masayoshi_oishi.json')
-          prefix = 'masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027'
+          alias = load(artist_dir / 'masayoshi_oishi.json')
+          alias_tid = 'masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027'
           for collection in ('performances', 'lotteries'):
-              values = [x for x in oishi_alias.get(collection, []) if x.get('id', '').startswith(prefix)]
+              values = [x for x in alias.get(collection, []) if x.get('tourId') == alias_tid]
               if not values or any(not isinstance(x.get('relationMirror'), dict) for x in values):
                   raise SystemExit(f'[ERROR] Oishi relation metadata missing in {collection}')
 
@@ -187,7 +275,10 @@ jobs:
 
           expected="$work/expected.txt"
           actual="$work/actual.txt"
-          printf '%s\n' "${files[@]}" data/manifest.json | sort > "$expected"
+          printf '%s\n' "${copy_files[@]}" \
+            data/artist/oishi_masayoshi.json \
+            data/artist/masayoshi_oishi.json \
+            data/manifest.json | sort > "$expected"
           git diff --name-only | sort > "$actual"
           if ! diff -u "$expected" "$actual"; then
             echo '[ERROR] unexpected production diff'
@@ -201,7 +292,10 @@ jobs:
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- "${files[@]}" data/manifest.json
+          git add -- "${copy_files[@]}" \
+            data/artist/oishi_masayoshi.json \
+            data/artist/masayoshi_oishi.json \
+            data/manifest.json
           if git diff --cached --quiet; then
             echo '[ERROR] no production changes staged'
             exit 1
