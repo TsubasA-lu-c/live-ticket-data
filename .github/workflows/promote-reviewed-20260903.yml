@@ -1,0 +1,213 @@
+name: Promote reviewed 2026-09-03 data to production
+
+on:
+  push:
+    branches:
+      - chatgpt/promote-review-20260903
+    paths:
+      - '.github/workflows/promote-reviewed-20260903.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Verify baseline and promote reviewed Dev payload
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          prod_baseline='cdd505599870ee8eca34dd2e6a3f4d28da03e4e0'
+          dev_baseline='5140c90f3fcf64003e28aee191613d67104f41f8'
+          dev_source='acce772a2b6e75424d9da5e0c397dbd1783fc5a2'
+
+          echo '--- production status before ---'
+          git status --short
+          test "$(git rev-parse HEAD)" = "$prod_baseline"
+
+          work="$RUNNER_TEMP/promote-reviewed-20260903"
+          rm -rf "$work"
+          mkdir -p "$work"
+          git clone -q https://github.com/TsubasA-lu-c/live-ticket-data-dev.git "$work/dev"
+          git -C "$work/dev" fetch -q origin "$dev_baseline" "$dev_source"
+          git -C "$work/dev" checkout -q "$dev_source"
+
+          files=(
+            data/artists.json
+            data/artist/ae_group.json
+            data/artist/ateez.json
+            data/artist/bts.json
+            data/artist/cutie_street.json
+            data/artist/da_ice.json
+            data/artist/hitsuji_bungaku.json
+            data/artist/imp.json
+            data/artist/ini.json
+            data/artist/jo1.json
+            data/artist/kurayamisaka.json
+            data/artist/macaroni_empitsu.json
+            data/artist/masayoshi_oishi.json
+            data/artist/mazzel.json
+            data/artist/milet.json
+            data/artist/monaki.json
+            data/artist/niziu.json
+            data/artist/novelbright.json
+            data/artist/oishi_masayoshi.json
+            data/artist/sakurazaka46.json
+            data/artist/stray_kids.json
+            data/artist/tomorrow_x_together.json
+          )
+
+          echo '--- verify production target files still equal reviewed Dev baseline ---'
+          for path in "${files[@]}"; do
+            base_file="$work/base-$(basename "$path")"
+            git -C "$work/dev" show "$dev_baseline:$path" > "$base_file"
+            if ! cmp -s "$path" "$base_file"; then
+              echo "[ERROR] production diverged from reviewed baseline: $path"
+              diff -u "$base_file" "$path" | head -200 || true
+              exit 1
+            fi
+          done
+
+          echo '--- copy reviewed Dev source files ---'
+          for path in "${files[@]}"; do
+            cp "$work/dev/$path" "$path"
+          done
+
+          mapfile -t pre_manifest_changed < <(git diff --name-only | sort)
+          if [ "${#pre_manifest_changed[@]}" -ne 22 ]; then
+            echo "[ERROR] expected 22 changed source files before manifest, got ${#pre_manifest_changed[@]}"
+            printf '%s\n' "${pre_manifest_changed[@]}"
+            exit 1
+          fi
+
+          python3 - <<'PY'
+          from __future__ import annotations
+          import hashlib
+          import json
+          from datetime import datetime, timezone, timedelta
+          from pathlib import Path
+
+          root = Path('.')
+          data = root / 'data'
+          artists_path = data / 'artists.json'
+          artist_dir = data / 'artist'
+          manifest_path = data / 'manifest.json'
+
+          def load(path: Path):
+              return json.loads(path.read_text(encoding='utf-8'))
+
+          def hash16(path: Path) -> str:
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
+
+          registry = load(artists_path)
+          if not isinstance(registry, list):
+              raise SystemExit('[ERROR] artists.json root must be array')
+          registry_ids = [x.get('id') for x in registry if isinstance(x, dict)]
+          if len(registry_ids) != len(set(registry_ids)):
+              raise SystemExit('[ERROR] duplicate artist id in artists.json')
+
+          for path in sorted(artist_dir.glob('*.json')):
+              doc = load(path)
+              aid = path.stem
+              if not isinstance(doc, dict) or doc.get('artistId') != aid:
+                  raise SystemExit(f'[ERROR] artistId mismatch: {path}')
+              if aid not in registry_ids:
+                  raise SystemExit(f'[ERROR] artist file missing from registry: {aid}')
+
+              tours = doc.get('tours') or []
+              perfs = doc.get('performances') or []
+              lotteries = doc.get('lotteries') or []
+              for label, items in [('tour', tours), ('performance', perfs), ('lottery', lotteries)]:
+                  ids = [x.get('id') for x in items if isinstance(x, dict)]
+                  if len(ids) != len(items) or any(not isinstance(x, str) or not x for x in ids):
+                      raise SystemExit(f'[ERROR] invalid {label} id in {aid}')
+                  if len(ids) != len(set(ids)):
+                      raise SystemExit(f'[ERROR] duplicate {label} id in {aid}')
+
+              tour_ids = {x['id'] for x in tours}
+              perf_ids = {x['id'] for x in perfs}
+              for perf in perfs:
+                  if perf.get('tourId') not in tour_ids:
+                      raise SystemExit(f"[ERROR] unknown performance tourId: {aid}:{perf.get('id')}")
+              for lottery in lotteries:
+                  if lottery.get('tourId') not in tour_ids:
+                      raise SystemExit(f"[ERROR] unknown lottery tourId: {aid}:{lottery.get('id')}")
+                  refs = lottery.get('performanceIds')
+                  if refs is not None:
+                      if not isinstance(refs, list):
+                          raise SystemExit(f"[ERROR] performanceIds not array: {aid}:{lottery.get('id')}")
+                      missing = [pid for pid in refs if pid not in perf_ids]
+                      if missing:
+                          raise SystemExit(f"[ERROR] unknown performanceIds: {aid}:{lottery.get('id')}:{missing}")
+
+          bts = load(artist_dir / 'bts.json')
+          expected_bts = {
+              'bts_world_tour_arirang_singapore_2026_1217',
+              'bts_world_tour_arirang_singapore_2026_1219',
+              'bts_world_tour_arirang_singapore_2026_1220',
+              'bts_world_tour_arirang_singapore_2026_1222',
+          }
+          if not expected_bts.issubset({p['id'] for p in bts['performances']}):
+              raise SystemExit('[ERROR] BTS Singapore normalized performance IDs missing')
+
+          oishi_alias = load(artist_dir / 'masayoshi_oishi.json')
+          prefix = 'masayoshi_oishi__rel__oishi_masayoshi_oishi_yokoari_2027'
+          for collection in ('performances', 'lotteries'):
+              values = [x for x in oishi_alias.get(collection, []) if x.get('id', '').startswith(prefix)]
+              if not values or any(not isinstance(x.get('relationMirror'), dict) for x in values):
+                  raise SystemExit(f'[ERROR] Oishi relation metadata missing in {collection}')
+
+          manifest = load(manifest_path)
+          old_version = manifest.get('version')
+          if old_version != 183:
+              raise SystemExit(f'[ERROR] unexpected production manifest version: {old_version}')
+          manifest['version'] = old_version + 1
+          jst = timezone(timedelta(hours=9))
+          manifest['updatedAt'] = datetime.now(jst).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = hash16(artists_path)
+          hashes = {p.stem: hash16(p) for p in sorted(artist_dir.glob('*.json'))}
+          manifest.setdefault('artists', {})
+          for aid, digest in hashes.items():
+              manifest['artists'].setdefault(aid, {})['hash'] = digest
+          for aid in list(manifest['artists']):
+              if aid not in hashes:
+                  del manifest['artists'][aid]
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(f"manifest version: {old_version} -> {manifest['version']}")
+          PY
+
+          git diff --check
+
+          expected="$work/expected.txt"
+          actual="$work/actual.txt"
+          printf '%s\n' "${files[@]}" data/manifest.json | sort > "$expected"
+          git diff --name-only | sort > "$actual"
+          if ! diff -u "$expected" "$actual"; then
+            echo '[ERROR] unexpected production diff'
+            exit 1
+          fi
+
+          echo '--- production diff stat ---'
+          git diff --stat
+          echo '--- production status before commit ---'
+          git status --short
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- "${files[@]}" data/manifest.json
+          if git diff --cached --quiet; then
+            echo '[ERROR] no production changes staged'
+            exit 1
+          fi
+          git commit -m 'release: promote reviewed 2026-09-03 live ticket updates'
+          git push origin HEAD:main
+
+          echo '--- production status after ---'
+          git status --short
