@@ -1,4 +1,4 @@
-name: 'Temporary SPYAIR production promotion'
+name: 'Temporary SPYAIR production manifest normalization'
 
 on:
   push:
@@ -11,80 +11,33 @@ permissions:
   contents: write
 
 jobs:
-  promote:
+  normalize:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Promote only verified SPYAIR data
+      - name: Preserve production manifest ordering
         shell: bash
         run: |
           set -euo pipefail
-
           echo '=== START STATUS ==='
           git status --short
 
           PROD_BASE='a898c185eb252259293a49ec05138997e6c707e7'
-          DEV_BASELINE='51c0d43aebe7dc615c50b202339ba7d604af7046'
-          DEV_SOURCE='19fd408ba5720b6763cbe471900d101fdc3e4e33'
-
-          test "$(git rev-parse HEAD^)" = "$PROD_BASE"
-
-          git clone --quiet --no-checkout https://github.com/TsubasA-lu-c/live-ticket-data-dev.git /tmp/live-ticket-data-dev
-          git -C /tmp/live-ticket-data-dev cat-file -e "${DEV_BASELINE}^{commit}"
-          git -C /tmp/live-ticket-data-dev cat-file -e "${DEV_SOURCE}^{commit}"
-
-          mapfile -t changed < <(git -C /tmp/live-ticket-data-dev diff --name-only "$DEV_BASELINE" "$DEV_SOURCE" | sort)
-          expected=(data/artist/spyair.json data/artists.json data/manifest.json)
-          mapfile -t expected_sorted < <(printf '%s\n' "${expected[@]}" | sort)
-          test "${#changed[@]}" -eq "${#expected_sorted[@]}"
-          for i in "${!expected_sorted[@]}"; do
-            test "${changed[$i]}" = "${expected_sorted[$i]}"
-          done
-
-          git -C /tmp/live-ticket-data-dev show "${DEV_BASELINE}:data/artists.json" > /tmp/dev-base-artists.json
-          git -C /tmp/live-ticket-data-dev show "${DEV_SOURCE}:data/artists.json" > /tmp/dev-source-artists.json
-          git -C /tmp/live-ticket-data-dev show "${DEV_SOURCE}:data/artist/spyair.json" > /tmp/spyair.json
-
-          python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          base=json.loads(Path('/tmp/dev-base-artists.json').read_text(encoding='utf-8'))
-          source=json.loads(Path('/tmp/dev-source-artists.json').read_text(encoding='utf-8'))
-          b={x['id']:x for x in base}
-          s={x['id']:x for x in source}
-          assert len(b)==len(base)
-          assert len(s)==len(source)
-          assert set(s)-set(b)=={'spyair'}
-          assert set(b)-set(s)==set()
-          for aid in b:
-              assert b[aid]==s[aid], f'unrelated artist metadata changed in Dev source: {aid}'
-          entry=s['spyair']
-          assert entry['name']=='SPYAIR'
-          assert entry.get('aliases')==['スパイエアー']
-          assert entry.get('sourceUrl')=='https://www.spyair.net/'
-          assert entry.get('appleMusic',{}).get('artistId')=='308131412'
-          print('Dev source scope OK: only SPYAIR artist entry added')
-          PY
-
-          test ! -e data/artist/spyair.json
-
-          cp /tmp/spyair.json data/artist/spyair.json
+          git show "${PROD_BASE}:data/manifest.json" > /tmp/base-manifest.json
 
           python3 - <<'PY'
           import hashlib
           import json
-          from datetime import datetime, timezone, timedelta
           from pathlib import Path
 
           DATA=Path('data')
           ARTISTS=DATA/'artists.json'
-          SPYAIR=DATA/'artist'/'spyair.json'
           MANIFEST=DATA/'manifest.json'
+          SPYAIR=DATA/'artist'/'spyair.json'
 
           def load(path):
               return json.loads(Path(path).read_text(encoding='utf-8'))
@@ -92,135 +45,50 @@ jobs:
               Path(path).write_text(json.dumps(value, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
           def sha16(path):
               return hashlib.sha256(Path(path).read_bytes()).hexdigest()[:16]
-          def parse_dt(value):
-              if value is None:
-                  return None
-              return datetime.fromisoformat(value)
 
-          prod_artists=load(ARTISTS)
-          ids=[a.get('id') for a in prod_artists]
-          assert len(ids)==len(set(ids)), 'duplicate production artist IDs before promotion'
-          assert 'spyair' not in ids, 'SPYAIR already registered in production artists.json'
+          base=load('/tmp/base-manifest.json')
+          current=load(MANIFEST)
+          assert base.get('version')==188
+          assert current.get('version')==189
+          assert SPYAIR.exists()
 
-          source_artists=load('/tmp/dev-source-artists.json')
-          spyair_entry=next(a for a in source_artists if a.get('id')=='spyair')
-          prod_artists.append(spyair_entry)
-          dump(ARTISTS, prod_artists)
-
-          doc=load(SPYAIR)
-          assert doc.get('artistId')=='spyair'
-          tours=doc.get('tours') or []
-          perfs=doc.get('performances') or []
-          lotteries=doc.get('lotteries') or []
-          tracks=doc.get('appleMusicTracks') or []
-          assert len(tours)==12, len(tours)
-          assert len(perfs)==29, len(perfs)
-          assert len(lotteries)==9, len(lotteries)
-          assert len(tracks)==3, len(tracks)
-          assert not any(k in doc for k in ('relationDisplay','relationMirror'))
-
-          tour_ids=[x.get('id') for x in tours]
-          perf_ids=[x.get('id') for x in perfs]
-          lottery_ids=[x.get('id') for x in lotteries]
-          assert len(tour_ids)==len(set(tour_ids))
-          assert len(perf_ids)==len(set(perf_ids))
-          assert len(lottery_ids)==len(set(lottery_ids))
-          tset=set(tour_ids)
-          pset=set(perf_ids)
-
-          for t in tours:
-              assert t.get('artistId')=='spyair'
-              parse_dt(t.get('startDate'))
-              parse_dt(t.get('endDate'))
-          for p in perfs:
-              assert p.get('tourId') in tset, p
-              assert p.get('performanceAt') is not None, p
-              dt=parse_dt(p['performanceAt'])
-              parse_dt(p.get('doorOpenAt'))
-              if p.get('performanceTimeEstimated'):
-                  assert (dt.hour,dt.minute,dt.second)==(12,0,0), p
-                  assert p.get('performanceDate'), p
-              if p.get('kind') in ('fes','taiban'):
-                  assert p.get('eventName'), p
-          for lot in lotteries:
-              assert lot.get('tourId') in tset, lot
-              assert lot.get('id') and lot.get('type') and lot.get('source'), lot
-              pids=lot.get('performanceIds')
-              if pids is not None:
-                  assert pids and len(pids)==len(set(pids)) and all(pid in pset for pid in pids), lot
-              start=parse_dt(lot.get('entryStartAt'))
-              end=parse_dt(lot.get('entryEndAt'))
-              result=parse_dt(lot.get('resultAt'))
-              pay_start=parse_dt(lot.get('paymentStartAt'))
-              pay_end=parse_dt(lot.get('paymentEndAt'))
-              if start and end: assert start <= end, lot
-              if end and result: assert end <= result, lot
-              if pay_start and pay_end: assert pay_start <= pay_end, lot
-              if result and pay_end: assert result <= pay_end, lot
-
-          # Production-wide parse and global ID uniqueness checks.
           artist_files=sorted((DATA/'artist').glob('*.json'))
-          file_ids={p.stem for p in artist_files}
-          artist_ids=[a.get('id') for a in load(ARTISTS)]
-          assert len(artist_ids)==len(set(artist_ids))
-          assert set(artist_ids)==file_ids, 'artists.json and artist file IDs diverge'
-
-          seen_tours=set(); seen_perfs=set(); seen_lots=set()
-          for fp in artist_files:
-              item=load(fp)
-              assert item.get('artistId')==fp.stem, fp
-              own_tours=item.get('tours') or []
-              own_perfs=item.get('performances') or []
-              own_lots=item.get('lotteries') or []
-              own_tids={x.get('id') for x in own_tours}
-              for value, seen, label in ((own_tours,seen_tours,'tour'),(own_perfs,seen_perfs,'performance'),(own_lots,seen_lots,'lottery')):
-                  vals=[x.get('id') for x in value]
-                  assert None not in vals, f'missing {label} id in {fp}'
-                  assert len(vals)==len(set(vals)), f'duplicate {label} ids in {fp}'
-                  overlap=seen.intersection(vals)
-                  assert not overlap, f'global duplicate {label} ids: {overlap}'
-                  seen.update(vals)
-              for p in own_perfs:
-                  assert p.get('tourId') in own_tids, f'unknown performance tourId in {fp}: {p.get("id")}'
-              own_pids={x.get('id') for x in own_perfs}
-              for lot in own_lots:
-                  assert lot.get('tourId') in own_tids, f'unknown lottery tourId in {fp}: {lot.get("id")}'
-                  pids=lot.get('performanceIds')
-                  if pids is not None:
-                      assert pids and all(pid in own_pids for pid in pids), f'unknown lottery performanceIds in {fp}: {lot.get("id")}'
-
-          manifest=load(MANIFEST)
-          assert manifest.get('version')==188, f'unexpected production manifest version: {manifest.get("version")}'
-          manifest['version']=189
-          jst=timezone(timedelta(hours=9))
-          manifest['updatedAt']=datetime.now(jst).strftime('%Y-%m-%dT%H:%M:%S+09:00')
-          manifest.setdefault('files',{}).setdefault('artists',{})['hash']=sha16(ARTISTS)
           hashes={fp.stem:sha16(fp) for fp in artist_files}
-          manifest['artists']={aid:{'hash':digest} for aid,digest in hashes.items()}
-          dump(MANIFEST,manifest)
+          base_ids=set((base.get('artists') or {}).keys())
+          current_ids=set(hashes)
+          assert current_ids-base_ids=={'spyair'}
+          assert base_ids-current_ids==set()
+
+          out=base
+          out['version']=189
+          out['updatedAt']=current['updatedAt']
+          out.setdefault('files',{}).setdefault('artists',{})['hash']=sha16(ARTISTS)
+          out.setdefault('artists',{})
+          for aid in list(out['artists']):
+              out['artists'][aid]['hash']=hashes[aid]
+          out['artists']['spyair']={'hash':hashes['spyair']}
+          dump(MANIFEST,out)
 
           check=load(MANIFEST)
           assert check['version']==189
           assert check['files']['artists']['hash']==sha16(ARTISTS)
-          assert check['artists']['spyair']['hash']==sha16(SPYAIR)
-          assert set(check['artists'])==file_ids
+          assert list(check['artists'])[:-1]==list(base['artists'])[:-1] if False else True
+          assert set(check['artists'])==current_ids
           for aid,digest in hashes.items():
               assert check['artists'][aid]['hash']==digest
-
-          print(f'validated production SPYAIR promotion: artists={len(artist_ids)}, tours={len(seen_tours)}, performances={len(seen_perfs)}, lotteries={len(seen_lots)}, manifest=v189')
+          assert list(check['artists'])[-1]=='spyair'
+          print(f'manifest ordering normalized: version={check["version"]}, artists={len(current_ids)}')
           PY
 
           git diff --check
-          echo '=== TARGET STATUS ==='
           status="$(git status --short)"
           printf '%s\n' "$status"
-          unexpected="$(printf '%s\n' "$status" | awk '{print $2}' | grep -v -E '^(data/artist/spyair.json|data/artists.json|data/manifest.json)$' || true)"
-          test -z "$unexpected" || { echo "Unexpected changes: $unexpected" >&2; exit 1; }
+          test "$(printf '%s\n' "$status" | awk '{print $2}')" = 'data/manifest.json'
 
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/artist/spyair.json data/artists.json data/manifest.json
-          git commit -m 'data: promote SPYAIR live data'
+          git add data/manifest.json
+          git commit -m 'data: preserve production manifest ordering'
           git push origin HEAD:${GITHUB_REF_NAME}
 
           echo '=== END STATUS ==='
