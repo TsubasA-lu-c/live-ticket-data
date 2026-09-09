@@ -56,7 +56,7 @@ jobs:
           print('Fujii added lotteries:', sorted(added_lots))
           assert added_tours == {'fujii_kaze_piano_recital_2026'}
           assert added_perfs == {'fujii_kaze_piano_recital_2026_tokyo_1120', 'fujii_kaze_piano_recital_2026_tokyo_1121'}
-          assert added_lots == {'fujii_kaze_piano_recital_2026_general_lottery'}
+          assert added_lots == {'fujii_kaze_piano_recital_2026_general'}
           for section in ('tours','performances','lotteries'):
               p, d = by_id(f_prod[section]), by_id(f_dev[section])
               common = set(p) & set(d)
