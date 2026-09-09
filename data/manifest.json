@@ -1,6 +1,6 @@
 {
-  "version": 189,
-  "updatedAt": "2026-09-09T08:36:27+09:00",
+  "version": 190,
+  "updatedAt": "2026-09-10T08:31:01+09:00",
   "files": {
     "artists": {
       "hash": "42619f5e7818b694"
@@ -59,7 +59,7 @@
       "hash": "dde308cea8e55c52"
     },
     "fujii_kaze": {
-      "hash": "b8cc48f6156e4111"
+      "hash": "11a7a7f8d8c084ac"
     },
     "lisa": {
       "hash": "cb2f314dda69e786"
@@ -344,10 +344,10 @@
       "hash": "5fedfc7434269285"
     },
     "masayoshi_oishi": {
-      "hash": "87e7d474cd1c6d1f"
+      "hash": "27c54a96c652f233"
     },
     "oishi_masayoshi": {
-      "hash": "a9e96a9031646ffe"
+      "hash": "51878c7337c93975"
     },
     "spyair": {
       "hash": "2a80b66e5efb51ff"
