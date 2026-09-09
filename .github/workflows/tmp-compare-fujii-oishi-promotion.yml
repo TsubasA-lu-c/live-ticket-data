@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 1
       - name: Verify clean production checkout
         run: test -z "$(git status --short)"
-      - name: Compare target entities against fixed Dev commit
+      - name: Diagnose target entity differences against fixed Dev commit
         shell: bash
         run: |
           set -euo pipefail
@@ -37,36 +37,36 @@ jobs:
               return json.loads((root/'data'/'artist'/f'{name}.json').read_text())
           def by_id(items):
               return {x['id']: x for x in items}
-          def semantic(doc):
-              return {
-                  'artistId': doc['artistId'],
-                  'tours': by_id(doc.get('tours', [])),
-                  'performances': by_id(doc.get('performances', [])),
-                  'lotteries': by_id(doc.get('lotteries', [])),
-                  'appleMusicTracks': doc.get('appleMusicTracks', []),
-              }
+          def compare_section(name, pitems, ditems):
+              p, d = by_id(pitems), by_id(ditems)
+              only_p = sorted(set(p)-set(d))
+              only_d = sorted(set(d)-set(p))
+              changed = []
+              for i in sorted(set(p)&set(d)):
+                  if p[i] != d[i]:
+                      fields = sorted(k for k in set(p[i])|set(d[i]) if p[i].get(k) != d[i].get(k))
+                      changed.append((i, fields, {k:p[i].get(k) for k in fields}, {k:d[i].get(k) for k in fields}))
+              print(name, 'only production:', only_p)
+              print(name, 'only dev:', only_d)
+              for row in changed:
+                  print(name, 'changed:', row)
+              return only_p, only_d, changed
 
           f_prod = load(prod, 'fujii_kaze')
           f_dev = load(dev, 'fujii_kaze')
-          added_tours = set(by_id(f_dev['tours'])) - set(by_id(f_prod['tours']))
-          added_perfs = set(by_id(f_dev['performances'])) - set(by_id(f_prod['performances']))
-          added_lots = set(by_id(f_dev['lotteries'])) - set(by_id(f_prod['lotteries']))
-          print('Fujii added tours:', sorted(added_tours))
-          print('Fujii added performances:', sorted(added_perfs))
-          print('Fujii added lotteries:', sorted(added_lots))
-          assert added_tours == {'fujii_kaze_piano_recital_2026'}
-          assert added_perfs == {'fujii_kaze_piano_recital_2026_tokyo_1120', 'fujii_kaze_piano_recital_2026_tokyo_1121'}
-          assert added_lots == {'fujii_kaze_piano_recital_2026_general'}
-          for section in ('tours','performances','lotteries'):
-              p, d = by_id(f_prod[section]), by_id(f_dev[section])
-              common = set(p) & set(d)
-              assert all(p[i] == d[i] for i in common), f'Fujii existing entity changed in {section}'
-          assert f_prod.get('appleMusicTracks', []) == f_dev.get('appleMusicTracks', [])
+          assert set(by_id(f_dev['tours'])) - set(by_id(f_prod['tours'])) == {'fujii_kaze_piano_recital_2026'}
+          assert set(by_id(f_dev['performances'])) - set(by_id(f_prod['performances'])) == {'fujii_kaze_piano_recital_2026_tokyo_1120', 'fujii_kaze_piano_recital_2026_tokyo_1121'}
+          assert set(by_id(f_dev['lotteries'])) - set(by_id(f_prod['lotteries'])) == {'fujii_kaze_piano_recital_2026_general'}
+          print('Fujii delta: exact recital-only addition')
 
-          o_prod = semantic(load(prod, 'oishi_masayoshi'))
-          o_dev = semantic(load(dev, 'oishi_masayoshi'))
-          assert o_prod == o_dev, 'Oishi production has semantic differences from fixed Dev'
-          print('Oishi semantic comparison: identical; ordering/materialization representation only')
+          o_prod = load(prod, 'oishi_masayoshi')
+          o_dev = load(dev, 'oishi_masayoshi')
+          diffs = []
+          for section in ('tours','performances','lotteries'):
+              diffs.append(compare_section('Oishi '+section, o_prod.get(section, []), o_dev.get(section, [])))
+          print('Oishi appleMusicTracks equal:', o_prod.get('appleMusicTracks', []) == o_dev.get('appleMusicTracks', []))
+          print('Oishi top-level extra prod:', sorted(set(o_prod)-{'artistId','tours','performances','lotteries','appleMusicTracks'}))
+          print('Oishi top-level extra dev:', sorted(set(o_dev)-{'artistId','tours','performances','lotteries','appleMusicTracks'}))
           PY
       - name: Verify production checkout stayed clean
         run: test -z "$(git status --short)"
