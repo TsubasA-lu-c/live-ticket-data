@@ -1,4 +1,4 @@
-name: Temporary Fujii/Oishi production promotion audit
+name: One-shot Fujii/Oishi production promotion
 
 on:
   push:
@@ -8,91 +8,102 @@ on:
       - '.github/workflows/tmp-compare-fujii-oishi-promotion.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  audit:
+  promote:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
-      - name: Verify clean production checkout
-        run: test -z "$(git status --short)"
-      - name: Diagnose promotion delta against pinned Dev
+          ref: release/fujii-oishi-20260910
+          fetch-depth: 0
+
+      - name: Verify clean and pinned production base
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -z "$(git status --short)"
+          git fetch origin main
+          test "$(git rev-parse origin/main)" = "eea903de4e4c3504afd4168de7868253b329cfc1"
+
+      - name: Promote reviewed Dev payloads only
         shell: bash
         run: |
           set -euo pipefail
           dev="$RUNNER_TEMP/dev"
           git clone --depth=1 --branch main https://github.com/TsubasA-lu-c/live-ticket-data-dev.git "$dev"
           test "$(git -C "$dev" rev-parse HEAD)" = "aef22c24ee720bf52fc904129e6b77644393e2cc"
-          python3 - "$dev" <<'PY'
-          import json, sys
+
+          cp "$dev/data/artist/fujii_kaze.json" data/artist/fujii_kaze.json
+          cp "$dev/data/artist/oishi_masayoshi.json" data/artist/oishi_masayoshi.json
+          cp "$dev/data/artist/masayoshi_oishi.json" data/artist/masayoshi_oishi.json
+
+      - name: Rebuild production manifest from production data
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import hashlib, json
+          from datetime import datetime, timedelta, timezone
           from pathlib import Path
-          dev = Path(sys.argv[1]); prod = Path('.')
-          def load(root, name): return json.loads((root/'data'/'artist'/f'{name}.json').read_text())
-          def by_id(items): return {x['id']:x for x in items}
-          def compare(label, pdoc, ddoc):
-              out=[]
-              for section in ('tours','performances','lotteries'):
-                  p,d=by_id(pdoc.get(section,[])),by_id(ddoc.get(section,[]))
-                  only_p=sorted(set(p)-set(d)); only_d=sorted(set(d)-set(p))
-                  changed=[]
-                  for i in sorted(set(p)&set(d)):
-                      if p[i]!=d[i]:
-                          fields=sorted(k for k in set(p[i])|set(d[i]) if p[i].get(k)!=d[i].get(k))
-                          changed.append((i,fields))
-                  print(label, section, 'only_prod=', only_p)
-                  print(label, section, 'only_dev=', only_d)
-                  print(label, section, 'changed=', changed)
-                  out.append((section,only_p,only_d,changed))
-              print(label, 'appleMusicTracks equal=', pdoc.get('appleMusicTracks',[])==ddoc.get('appleMusicTracks',[]))
-              return out
 
-          fp,fd=load(prod,'fujii_kaze'),load(dev,'fujii_kaze')
-          assert set(by_id(fd['tours']))-set(by_id(fp['tours'])) == {'fujii_kaze_piano_recital_2026'}
-          assert set(by_id(fd['performances']))-set(by_id(fp['performances'])) == {'fujii_kaze_piano_recital_2026_tokyo_1120','fujii_kaze_piano_recital_2026_tokyo_1121'}
-          assert set(by_id(fd['lotteries']))-set(by_id(fp['lotteries'])) == {'fujii_kaze_piano_recital_2026_general'}
-          for sec in ('tours','performances','lotteries'):
-              p,d=by_id(fp[sec]),by_id(fd[sec])
-              assert not (set(p)-set(d))
-              assert all(p[i]==d[i] for i in set(p)&set(d))
-          assert fp.get('appleMusicTracks',[])==fd.get('appleMusicTracks',[])
-          print('FUJII: exact recital-only delta')
+          data = Path('data')
+          manifest_path = data / 'manifest.json'
+          manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+          def h16(path):
+              return hashlib.sha256(path.read_bytes()).hexdigest()[:16]
 
-          expected_oishi_extra={
-              'oishi_masayoshi_kariuta3_aichi_0919_cd_purchase',
-              'oishi_masayoshi_kariuta3_aichi_0919_club014_area',
-              'oishi_masayoshi_kariuta3_kanagawa_0830_cd_purchase',
-              'oishi_masayoshi_kariuta3_okayama_0905_cd_purchase',
-          }
-          expected_masayoshi_extra={'masayoshi_oishi__rel__'+x for x in expected_oishi_extra}
-          allowed_oishi_changed={
-              'oishi_masayoshi_kariuta3_aichi_0919',
-              'oishi_masayoshi_kariuta3_kanagawa_0830',
-              'oishi_masayoshi_kariuta3_okayama_0905',
-              'oishi_masayoshi_kariuta3_aichi_0919_20260919',
-              'oishi_masayoshi_kariuta3_kanagawa_0830_20260830',
-              'oishi_masayoshi_kariuta3_okayama_0905_20260905',
-          }
-          allowed_masayoshi_changed={'masayoshi_oishi__rel__'+x for x in allowed_oishi_changed}
-
-          for name, expected_extra, allowed_changed in [
-              ('oishi_masayoshi', expected_oishi_extra, allowed_oishi_changed),
-              ('masayoshi_oishi', expected_masayoshi_extra, allowed_masayoshi_changed),
-          ]:
-              pdoc,ddoc=load(prod,name),load(dev,name)
-              diffs=compare(name,pdoc,ddoc)
-              seen_extra=set(); seen_changed=set()
-              for section,only_p,only_d,changed in diffs:
-                  assert not only_p, f'{name}: production-only ids in {section}: {only_p}'
-                  seen_extra.update(only_d)
-                  seen_changed.update(i for i,_ in changed)
-              assert seen_extra == expected_extra, (name,'unexpected dev-only ids',seen_extra^expected_extra)
-              assert seen_changed == allowed_changed, (name,'unexpected changed ids',seen_changed^allowed_changed)
-              assert pdoc.get('appleMusicTracks',[])==ddoc.get('appleMusicTracks',[])
-              print(name, 'delta is exactly reviewed Kariuta III correction/mirror set plus ordering')
+          old_version = int(manifest.get('version', 0))
+          manifest['version'] = old_version + 1
+          jst = timezone(timedelta(hours=9))
+          manifest['updatedAt'] = datetime.now(jst).strftime('%Y-%m-%dT%H:%M:%S+09:00')
+          manifest.setdefault('files', {}).setdefault('artists', {})['hash'] = h16(data / 'artists.json')
+          entries = manifest.setdefault('artists', {})
+          paths = sorted((data / 'artist').glob('*.json'))
+          existing = {p.stem for p in paths}
+          for p in paths:
+              entries.setdefault(p.stem, {})['hash'] = h16(p)
+          for aid in list(entries):
+              if aid not in existing:
+                  del entries[aid]
+          manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print(f"manifest version: {old_version} -> {manifest['version']}")
+          print('updatedAt:', manifest['updatedAt'])
           PY
-      - name: Verify production checkout stayed clean
-        run: test -z "$(git status --short)"
+
+      - name: Guard production diff
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check
+          echo "Generated diff:"
+          git status --short
+          unexpected=$(git status --short | grep -vE 'data/artist/(fujii_kaze|oishi_masayoshi|masayoshi_oishi)\.json|data/manifest\.json' || true)
+          if [ -n "$unexpected" ]; then
+            echo "Unexpected generated paths:"
+            echo "$unexpected"
+            exit 1
+          fi
+          for p in data/artist/fujii_kaze.json data/artist/oishi_masayoshi.json data/artist/masayoshi_oishi.json data/manifest.json; do
+            if git diff --quiet -- "$p"; then
+              echo "Expected change missing: $p" >&2
+              exit 1
+            fi
+          done
+
+      - name: Commit production candidate and remove one-shot workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/artist/fujii_kaze.json data/artist/oishi_masayoshi.json data/artist/masayoshi_oishi.json data/manifest.json
+          git rm .github/workflows/tmp-compare-fujii-oishi-promotion.yml
+          expected=$(printf '%s\n' .github/workflows/tmp-compare-fujii-oishi-promotion.yml data/artist/fujii_kaze.json data/artist/masayoshi_oishi.json data/artist/oishi_masayoshi.json data/manifest.json | sort)
+          actual=$(git diff --cached --name-only | sort)
+          test "$actual" = "$expected"
+          git commit -m "release: promote Fujii Kaze recital and Oishi reviewed fixes"
+          git push origin HEAD:release/fujii-oishi-20260910
+          test -z "$(git status --short)"
