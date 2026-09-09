@@ -1,0 +1,72 @@
+name: Temporary Fujii/Oishi production promotion audit
+
+on:
+  push:
+    branches:
+      - release/fujii-oishi-20260910
+    paths:
+      - '.github/workflows/tmp-compare-fujii-oishi-promotion.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Verify clean production checkout
+        run: test -z "$(git status --short)"
+      - name: Compare target entities against fixed Dev commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          dev="$RUNNER_TEMP/dev"
+          git clone --depth=1 --branch main https://github.com/TsubasA-lu-c/live-ticket-data-dev.git "$dev"
+          test "$(git -C "$dev" rev-parse HEAD)" = "aef22c24ee720bf52fc904129e6b77644393e2cc"
+          python3 - "$dev" <<'PY'
+          import json, sys
+          from pathlib import Path
+          dev = Path(sys.argv[1])
+          prod = Path('.')
+
+          def load(root, name):
+              return json.loads((root/'data'/'artist'/f'{name}.json').read_text())
+          def by_id(items):
+              return {x['id']: x for x in items}
+          def semantic(doc):
+              return {
+                  'artistId': doc['artistId'],
+                  'tours': by_id(doc.get('tours', [])),
+                  'performances': by_id(doc.get('performances', [])),
+                  'lotteries': by_id(doc.get('lotteries', [])),
+                  'appleMusicTracks': doc.get('appleMusicTracks', []),
+              }
+
+          f_prod = load(prod, 'fujii_kaze')
+          f_dev = load(dev, 'fujii_kaze')
+          added_tours = set(by_id(f_dev['tours'])) - set(by_id(f_prod['tours']))
+          added_perfs = set(by_id(f_dev['performances'])) - set(by_id(f_prod['performances']))
+          added_lots = set(by_id(f_dev['lotteries'])) - set(by_id(f_prod['lotteries']))
+          print('Fujii added tours:', sorted(added_tours))
+          print('Fujii added performances:', sorted(added_perfs))
+          print('Fujii added lotteries:', sorted(added_lots))
+          assert added_tours == {'fujii_kaze_piano_recital_2026'}
+          assert added_perfs == {'fujii_kaze_piano_recital_2026_tokyo_1120', 'fujii_kaze_piano_recital_2026_tokyo_1121'}
+          assert added_lots == {'fujii_kaze_piano_recital_2026_general_lottery'}
+          for section in ('tours','performances','lotteries'):
+              p, d = by_id(f_prod[section]), by_id(f_dev[section])
+              common = set(p) & set(d)
+              assert all(p[i] == d[i] for i in common), f'Fujii existing entity changed in {section}'
+          assert f_prod.get('appleMusicTracks', []) == f_dev.get('appleMusicTracks', [])
+
+          o_prod = semantic(load(prod, 'oishi_masayoshi'))
+          o_dev = semantic(load(dev, 'oishi_masayoshi'))
+          assert o_prod == o_dev, 'Oishi production has semantic differences from fixed Dev'
+          print('Oishi semantic comparison: identical; ordering/materialization representation only')
+          PY
+      - name: Verify production checkout stayed clean
+        run: test -z "$(git status --short)"
