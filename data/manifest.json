@@ -1,6 +1,6 @@
 {
-  "version": 202,
-  "updatedAt": "2026-10-17T19:00:00+09:00",
+  "version": 203,
+  "updatedAt": "2026-10-17T21:14:23+09:00",
   "files": {
     "artists": {
       "hash": "21a354d4e21d214a"
@@ -74,7 +74,7 @@
       "hash": "2a61a065a55a9d68"
     },
     "sixtones": {
-      "hash": "56aa0bd954b531f3"
+      "hash": "49718f4540cacbc0"
     },
     "snow_man": {
       "hash": "4f88220999476f1e"
@@ -224,7 +224,7 @@
       "hash": "92d3f7b197f3363c"
     },
     "jo1": {
-      "hash": "0bd2cc4e2126137b"
+      "hash": "3afb758ffd0dee1f"
     },
     "kroi": {
       "hash": "06461ea8b7e03afd"
